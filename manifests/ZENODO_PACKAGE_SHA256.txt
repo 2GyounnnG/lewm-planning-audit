@@ -1,9 +1,8 @@
-# SHA-256 for Zenodo v1.1 upload files
-# code_v1.1.zip is the exact v1.1 tagged tree; this post-tag list avoids a self-referential archive hash.
-# The local code_v1.0.zip and its Git tag are preserved; it is superseded in the Zenodo draft.
-ebcac929a78936f98c581fb5e1dd1f78cb28afca4bb73eb6999bf93806f68e20  README_ZENODO.md
-7e279ade8306aa4cc71a54b001595d03cc3010cec9318304f62c00d24bffb680  code_v1.1.zip
-253d0bb3e183733925b7c0d712b4ddaacc5fee3f8cd41699c5b1d0ce3893e59b  sealed_tables.zip
+# SHA-256 for the W9 / v1.1 dataset upload
+# code_v1.1.zip is the exact W9 follow-up commit 0fb3ce136cdecea082004b2c3b9f40cda9466fae; the original v1.1 tag is preserved.
+9aeb8196d0177b9d84f3b6f1189ad076289d7841728f76a41dfd97ec07588f89  README_ZENODO.md
+2bbed27a083d189956e8e06269a25f94674f059baaca58f34c9f7bf8d3f93318  code_v1.1.zip
+d32b5c710c8c44a903e6163514bc138a0769938bbb36cc719938bf230d57d005  sealed_tables.zip
 34153ec28ca41cc5d799358fbd39550b4078a98e891738dae34019e7d9d4c99f  protocols_and_preregistration.zip
 dcee0f2245ab48edc1f9e918c376786a9d0bd751db138cf0aa737d8e989aff96  raw_results_R10.tar.gz
 aabdf2a2a865e4e1e0a0faed962276dc0c3742fb1489605c37426b1bd67415fe  case_manifests.zip
@@ -11,5 +10,5 @@ aabdf2a2a865e4e1e0a0faed962276dc0c3742fb1489605c37426b1bd67415fe  case_manifests
 f6bc22b7381cc91687a0b5c0db244affd0e0617a049b06c71bef597e7ce75ae8  raw_results_R6_R7.tar.gz
 c3e73038be5430636552f4e1aeee967e83b1f9f31eb09a2020380c5ecebbbc16  raw_results_R8.tar.gz
 0aaaedef568f5412a18172305799c8a4ae792c5ed8209fa5639e485df37fdb2d  refit_checkpoints.tar
-204ecff9a842482c10e777e82c808d702cf2655ea81f6321fe5c8d78aa540950  MANIFEST.sha256
-d4bf425cbc82f2eeac6a9963a1e8be29fa31d34fd7d9beaa6de42d2e1e9f45fb  MANIFEST.md5
+0c05f37f6762fa08f4f540563220ae35a279b73446df1a9d457f8b3590970279  MANIFEST.sha256
+1e64764114d158779b2dd52a21c1e000ada2d39ec7b9df6213ae85120907f18a  MANIFEST.md5
