@@ -20,7 +20,7 @@ Code and sealed tables for **“Better Predictors, Not Better Plans: Auditing Pl
 ## Upstream pins and hardware
 
 - `le-wm`: commit `8edfeb336732b5f3ce7b8b210d0ba370a09e2cac`.
-- `stable-worldmodel`: commit `63988116d34cde56aea1240d5e58eb158ac67dc0`.
+- `stable-worldmodel`: commit `abdced49809d5eae38e24b27dc7b635c502c4812`.
 - Execution hardware: vast.ai, 8 × RTX 5090.
 
 Code is released under the MIT License. The data and tables prepared for Zenodo are intended for CC BY 4.0. The Zenodo DOI will be filled in by the author after reservation.
