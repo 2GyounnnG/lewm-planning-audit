@@ -11,3 +11,14 @@ repository-code: "https://github.com/2GyounnnG/lewm-planning-audit"
 license: MIT
 version: "1.1"
 date-released: 2026-10-04
+preferred-citation:
+  type: article
+  title: "Better Predictors, Not Necessarily Better Plans: Auditing Planning Bottlenecks in a JEPA World Model"
+  authors:
+    - family-names: Wang
+      given-names: Ruiqi
+      affiliation: "Department of Physics, University of California San Diego"
+      orcid: "https://orcid.org/0009-0005-4942-5821"
+  doi: "10.5281/zenodo.23144572"
+  year: 2026
+  notes: preprint

@@ -1,6 +1,6 @@
-# SHA-256 for the W9 / v1.1 dataset upload
-# code_v1.1.zip is the exact W9 follow-up commit 0fb3ce136cdecea082004b2c3b9f40cda9466fae; the original v1.1 tag is preserved.
-9aeb8196d0177b9d84f3b6f1189ad076289d7841728f76a41dfd97ec07588f89  README_ZENODO.md
+# SHA-256 for W9 / v1.1 dataset files after adding the preprint DOI
+# Code archive commit: 0fb3ce136cdecea082004b2c3b9f40cda9466fae; original v1.1 tag unchanged.
+101fe6dece7f8247f2090e97e488c08e754a9e46b38cbbc5ce47a0a1f6606bbb  README_ZENODO.md
 2bbed27a083d189956e8e06269a25f94674f059baaca58f34c9f7bf8d3f93318  code_v1.1.zip
 d32b5c710c8c44a903e6163514bc138a0769938bbb36cc719938bf230d57d005  sealed_tables.zip
 34153ec28ca41cc5d799358fbd39550b4078a98e891738dae34019e7d9d4c99f  protocols_and_preregistration.zip
@@ -10,5 +10,5 @@ aabdf2a2a865e4e1e0a0faed962276dc0c3742fb1489605c37426b1bd67415fe  case_manifests
 f6bc22b7381cc91687a0b5c0db244affd0e0617a049b06c71bef597e7ce75ae8  raw_results_R6_R7.tar.gz
 c3e73038be5430636552f4e1aeee967e83b1f9f31eb09a2020380c5ecebbbc16  raw_results_R8.tar.gz
 0aaaedef568f5412a18172305799c8a4ae792c5ed8209fa5639e485df37fdb2d  refit_checkpoints.tar
-0c05f37f6762fa08f4f540563220ae35a279b73446df1a9d457f8b3590970279  MANIFEST.sha256
-1e64764114d158779b2dd52a21c1e000ada2d39ec7b9df6213ae85120907f18a  MANIFEST.md5
+9d787af92420b5569dc093db9c276575be8cf3661735ccd8a75f0c70a4018146  MANIFEST.sha256
+600833668dfa6697dee7dea1ca40af33e807340bbbf5d73658284f7becd573d8  MANIFEST.md5
