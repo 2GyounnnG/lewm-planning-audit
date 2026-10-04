@@ -1,3 +1,11 @@
-# Zenodo package SHA-256 list
-# code_v1.0.zip is omitted because it is an exact archive of the v1.0 tree
-# including this file; its SHA is recorded in zenodo_upload/MANIFEST.sha256.
+# SHA-256 for prepared Zenodo packages
+# code_v1.0.zip is the exact archive of the GitHub v1.0 tag; the list below is resolved after that tag was created.
+eaad8e07d3c4fd73916726e85f7707177dc1be6ddec4b7ba45cb58bf4ef0e521  README_ZENODO.md
+aabdf2a2a865e4e1e0a0faed962276dc0c3742fb1489605c37426b1bd67415fe  case_manifests.zip
+005283dd8b7d3cc91d61dbc237d814e0cb5ec1d36ea303f4092372c573bf4547  code_v1.0.zip
+7562148ca5e13eeeb22379b62c8d6350daf25c074006c64419fb8a83f61d7b0c  protocols_and_preregistration.zip
+345e16b28c9d364fa4352d8817bd9ce0ac2744cfc8c056174fa6ba3b3c60cbd9  raw_results_R3_R5.tar.gz
+f6bc22b7381cc91687a0b5c0db244affd0e0617a049b06c71bef597e7ce75ae8  raw_results_R6_R7.tar.gz
+c3e73038be5430636552f4e1aeee967e83b1f9f31eb09a2020380c5ecebbbc16  raw_results_R8.tar.gz
+0aaaedef568f5412a18172305799c8a4ae792c5ed8209fa5639e485df37fdb2d  refit_checkpoints.tar
+3fae4c2cea78e3cfb28908e0dd6704592ffb216fc6a07ae11da0fb97dc80013e  sealed_tables.zip
