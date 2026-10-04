@@ -1,0 +1,1109 @@
+/workspace/r10/shared_data/r3/source/swm_compat/stable_worldmodel/envs/__init__.py:215: UserWarning: ale-py not found; ALE/* envs are unavailable. Install with: pip install 'stable-worldmodel[env]' or pip install ale-py.
+  from stable_worldmodel.envs import ale  # noqa: F401
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.6702 seconds
+CEM solve time: 1.1979 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1402 seconds
+CEM solve time: 1.1444 seconds
+{"completed": 1, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2363 seconds
+CEM solve time: 1.2100 seconds
+{"completed": 2, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3486 seconds
+CEM solve time: 1.2091 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2102 seconds
+CEM solve time: 1.2160 seconds
+{"completed": 3, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2242 seconds
+CEM solve time: 1.2209 seconds
+{"completed": 4, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2591 seconds
+CEM solve time: 1.1976 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2178 seconds
+CEM solve time: 1.1988 seconds
+{"completed": 5, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1997 seconds
+CEM solve time: 1.2486 seconds
+{"completed": 6, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2361 seconds
+CEM solve time: 1.2711 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2637 seconds
+CEM solve time: 1.2480 seconds
+{"completed": 7, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2256 seconds
+CEM solve time: 1.2448 seconds
+{"completed": 8, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2148 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1855 seconds
+{"completed": 9, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2292 seconds
+{"completed": 10, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2927 seconds
+CEM solve time: 1.2227 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2597 seconds
+CEM solve time: 1.2798 seconds
+{"completed": 11, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2193 seconds
+CEM solve time: 1.2889 seconds
+{"completed": 12, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2186 seconds
+CEM solve time: 1.2782 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2664 seconds
+CEM solve time: 1.2450 seconds
+{"completed": 13, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2323 seconds
+CEM solve time: 1.2530 seconds
+{"completed": 14, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2686 seconds
+CEM solve time: 1.2460 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2188 seconds
+CEM solve time: 1.3137 seconds
+{"completed": 15, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2668 seconds
+CEM solve time: 1.2453 seconds
+{"completed": 16, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2501 seconds
+CEM solve time: 1.2731 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2264 seconds
+CEM solve time: 1.2063 seconds
+{"completed": 17, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2277 seconds
+CEM solve time: 1.2280 seconds
+{"completed": 18, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1961 seconds
+CEM solve time: 1.2379 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2451 seconds
+CEM solve time: 1.2596 seconds
+{"completed": 19, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1723 seconds
+CEM solve time: 1.3317 seconds
+{"completed": 20, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2667 seconds
+CEM solve time: 1.3028 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2602 seconds
+CEM solve time: 1.2603 seconds
+{"completed": 21, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2201 seconds
+CEM solve time: 1.2545 seconds
+{"completed": 22, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1956 seconds
+CEM solve time: 1.2565 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2103 seconds
+CEM solve time: 1.2087 seconds
+{"completed": 23, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2337 seconds
+CEM solve time: 1.1848 seconds
+{"completed": 24, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2412 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1558 seconds
+{"completed": 25, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2005 seconds
+{"completed": 26, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2287 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2649 seconds
+{"completed": 27, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2222 seconds
+{"completed": 28, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2059 seconds
+CEM solve time: 1.2847 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2631 seconds
+CEM solve time: 1.2645 seconds
+{"completed": 29, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3128 seconds
+CEM solve time: 1.3131 seconds
+{"completed": 30, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2584 seconds
+CEM solve time: 1.2081 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2628 seconds
+CEM solve time: 1.2665 seconds
+{"completed": 31, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2606 seconds
+CEM solve time: 1.2296 seconds
+{"completed": 32, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2675 seconds
+CEM solve time: 1.2148 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1919 seconds
+CEM solve time: 1.1570 seconds
+{"completed": 33, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1915 seconds
+CEM solve time: 1.2608 seconds
+{"completed": 34, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2371 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2407 seconds
+{"completed": 35, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2199 seconds
+{"completed": 36, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2581 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2355 seconds
+{"completed": 37, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2743 seconds
+{"completed": 38, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2811 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2498 seconds
+{"completed": 39, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2832 seconds
+{"completed": 40, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "H0", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2195 seconds
+CEM solve time: 1.2114 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1870 seconds
+CEM solve time: 1.1874 seconds
+{"completed": 41, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2635 seconds
+CEM solve time: 1.2151 seconds
+{"completed": 42, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "H0", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2250 seconds
+CEM solve time: 1.1855 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2617 seconds
+CEM solve time: 1.2840 seconds
+{"completed": 43, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2456 seconds
+CEM solve time: 1.2425 seconds
+{"completed": 44, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2478 seconds
+CEM solve time: 1.2115 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3008 seconds
+CEM solve time: 1.2927 seconds
+{"completed": 45, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2841 seconds
+CEM solve time: 1.2482 seconds
+{"completed": 46, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2657 seconds
+CEM solve time: 1.2571 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2533 seconds
+CEM solve time: 1.2114 seconds
+{"completed": 47, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2581 seconds
+CEM solve time: 1.3094 seconds
+{"completed": 48, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2722 seconds
+CEM solve time: 1.2632 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2622 seconds
+CEM solve time: 1.2420 seconds
+{"completed": 49, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2551 seconds
+CEM solve time: 1.2781 seconds
+{"completed": 50, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2855 seconds
+CEM solve time: 1.2967 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2752 seconds
+CEM solve time: 1.3160 seconds
+{"completed": 51, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2565 seconds
+CEM solve time: 1.2702 seconds
+{"completed": 52, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2802 seconds
+CEM solve time: 1.2867 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3267 seconds
+CEM solve time: 1.2427 seconds
+{"completed": 53, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3209 seconds
+CEM solve time: 1.2384 seconds
+{"completed": 54, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2225 seconds
+CEM solve time: 1.2150 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2900 seconds
+CEM solve time: 1.2233 seconds
+{"completed": 55, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2495 seconds
+CEM solve time: 1.2474 seconds
+{"completed": 56, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2635 seconds
+CEM solve time: 1.2256 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3243 seconds
+CEM solve time: 1.2942 seconds
+{"completed": 57, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3270 seconds
+CEM solve time: 1.2763 seconds
+{"completed": 58, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2952 seconds
+CEM solve time: 1.2255 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2497 seconds
+CEM solve time: 1.2422 seconds
+{"completed": 59, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2176 seconds
+CEM solve time: 1.2698 seconds
+{"completed": 60, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2540 seconds
+CEM solve time: 1.2983 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2357 seconds
+CEM solve time: 1.2871 seconds
+{"completed": 61, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2564 seconds
+CEM solve time: 1.2763 seconds
+{"completed": 62, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2600 seconds
+CEM solve time: 1.2846 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2322 seconds
+CEM solve time: 1.3021 seconds
+{"completed": 63, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2235 seconds
+CEM solve time: 1.2960 seconds
+{"completed": 64, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2557 seconds
+CEM solve time: 1.2613 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2509 seconds
+CEM solve time: 1.2855 seconds
+{"completed": 65, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2623 seconds
+CEM solve time: 1.2728 seconds
+{"completed": 66, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2694 seconds
+CEM solve time: 1.2292 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2832 seconds
+CEM solve time: 1.2580 seconds
+{"completed": 67, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2746 seconds
+CEM solve time: 1.2830 seconds
+{"completed": 68, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2974 seconds
+CEM solve time: 1.2604 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2674 seconds
+CEM solve time: 1.2913 seconds
+{"completed": 69, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3276 seconds
+CEM solve time: 1.3159 seconds
+{"completed": 70, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3794 seconds
+CEM solve time: 1.3451 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3104 seconds
+CEM solve time: 1.2965 seconds
+{"completed": 71, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3014 seconds
+CEM solve time: 1.3219 seconds
+{"completed": 72, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2958 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3193 seconds
+{"completed": 73, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3203 seconds
+{"completed": 74, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3045 seconds
+CEM solve time: 1.2398 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3294 seconds
+CEM solve time: 1.2634 seconds
+{"completed": 75, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3439 seconds
+CEM solve time: 1.2803 seconds
+{"completed": 76, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3136 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1875 seconds
+{"completed": 77, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2846 seconds
+{"completed": 78, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2672 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2894 seconds
+{"completed": 79, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2865 seconds
+{"completed": 80, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2735 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2967 seconds
+{"completed": 81, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2639 seconds
+{"completed": 82, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3000 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2688 seconds
+{"completed": 83, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2814 seconds
+{"completed": 84, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103201", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3401 seconds
+CEM solve time: 1.2445 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2699 seconds
+CEM solve time: 1.2205 seconds
+{"completed": 85, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2798 seconds
+CEM solve time: 1.2890 seconds
+{"completed": 86, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3151 seconds
+CEM solve time: 1.2976 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3032 seconds
+CEM solve time: 1.2865 seconds
+{"completed": 87, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2958 seconds
+CEM solve time: 1.2656 seconds
+{"completed": 88, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2667 seconds
+CEM solve time: 1.2330 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2832 seconds
+CEM solve time: 1.2849 seconds
+{"completed": 89, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3251 seconds
+CEM solve time: 1.3396 seconds
+{"completed": 90, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2589 seconds
+CEM solve time: 1.2848 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2593 seconds
+CEM solve time: 1.3231 seconds
+{"completed": 91, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2774 seconds
+CEM solve time: 1.3124 seconds
+{"completed": 92, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3206 seconds
+CEM solve time: 1.3142 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3164 seconds
+CEM solve time: 1.2449 seconds
+{"completed": 93, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2925 seconds
+CEM solve time: 1.2766 seconds
+{"completed": 94, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3279 seconds
+CEM solve time: 1.2459 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3133 seconds
+CEM solve time: 1.2527 seconds
+{"completed": 95, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3184 seconds
+CEM solve time: 1.2736 seconds
+{"completed": 96, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3226 seconds
+CEM solve time: 1.2728 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2689 seconds
+CEM solve time: 1.2939 seconds
+{"completed": 97, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2633 seconds
+CEM solve time: 1.2734 seconds
+{"completed": 98, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2369 seconds
+CEM solve time: 1.2884 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2955 seconds
+CEM solve time: 1.3344 seconds
+{"completed": 99, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2565 seconds
+CEM solve time: 1.3387 seconds
+{"completed": 100, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2637 seconds
+CEM solve time: 1.2809 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2784 seconds
+CEM solve time: 1.2848 seconds
+{"completed": 101, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2466 seconds
+CEM solve time: 1.2832 seconds
+{"completed": 102, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2584 seconds
+CEM solve time: 1.3067 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2905 seconds
+CEM solve time: 1.2851 seconds
+{"completed": 103, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2575 seconds
+CEM solve time: 1.2365 seconds
+{"completed": 104, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2872 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2901 seconds
+{"completed": 105, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2798 seconds
+{"completed": 106, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2811 seconds
+CEM solve time: 1.2817 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2858 seconds
+CEM solve time: 1.2655 seconds
+{"completed": 107, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2268 seconds
+CEM solve time: 1.3107 seconds
+{"completed": 108, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2626 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2922 seconds
+{"completed": 109, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3083 seconds
+{"completed": 110, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2635 seconds
+CEM solve time: 1.2965 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2987 seconds
+CEM solve time: 1.2745 seconds
+{"completed": 111, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2856 seconds
+CEM solve time: 1.2433 seconds
+{"completed": 112, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2058 seconds
+CEM solve time: 1.2877 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2464 seconds
+CEM solve time: 1.2932 seconds
+{"completed": 113, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3183 seconds
+CEM solve time: 1.3260 seconds
+{"completed": 114, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2972 seconds
+CEM solve time: 1.2917 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3091 seconds
+CEM solve time: 1.2702 seconds
+{"completed": 115, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3119 seconds
+CEM solve time: 1.2781 seconds
+{"completed": 116, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2912 seconds
+CEM solve time: 1.2946 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2680 seconds
+CEM solve time: 1.2777 seconds
+{"completed": 117, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2227 seconds
+CEM solve time: 1.2941 seconds
+{"completed": 118, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2882 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3033 seconds
+{"completed": 119, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3009 seconds
+{"completed": 120, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2820 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3112 seconds
+{"completed": 121, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2557 seconds
+{"completed": 122, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3315 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2519 seconds
+{"completed": 123, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3132 seconds
+{"completed": 124, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2389 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3239 seconds
+{"completed": 125, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.3043 seconds
+{"completed": 126, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103202", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2555 seconds
+CEM solve time: 1.2841 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2787 seconds
+CEM solve time: 1.2973 seconds
+{"completed": 127, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2696 seconds
+CEM solve time: 1.2689 seconds
+{"completed": 128, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2070 seconds
+CEM solve time: 1.2381 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2306 seconds
+CEM solve time: 1.2539 seconds
+{"completed": 129, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2236 seconds
+CEM solve time: 1.2597 seconds
+{"completed": 130, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2285 seconds
+CEM solve time: 1.2329 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2175 seconds
+CEM solve time: 1.2279 seconds
+{"completed": 131, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2258 seconds
+CEM solve time: 1.2225 seconds
+{"completed": 132, "missing": 0, "case": "R6_reacher_01140d82262ee0be1b888afa", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2026 seconds
+CEM solve time: 1.2193 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2064 seconds
+CEM solve time: 1.1979 seconds
+{"completed": 133, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2005 seconds
+CEM solve time: 1.1952 seconds
+{"completed": 134, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2078 seconds
+CEM solve time: 1.2298 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2249 seconds
+CEM solve time: 1.2211 seconds
+{"completed": 135, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2198 seconds
+CEM solve time: 1.1997 seconds
+{"completed": 136, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2214 seconds
+CEM solve time: 1.2116 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2236 seconds
+CEM solve time: 1.2520 seconds
+{"completed": 137, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2196 seconds
+CEM solve time: 1.2373 seconds
+{"completed": 138, "missing": 0, "case": "R6_reacher_02b5a054bf782ce2a8682ef0", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2018 seconds
+CEM solve time: 1.2061 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2191 seconds
+CEM solve time: 1.2509 seconds
+{"completed": 139, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2116 seconds
+CEM solve time: 1.2175 seconds
+{"completed": 140, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2145 seconds
+CEM solve time: 1.2158 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2038 seconds
+CEM solve time: 1.2369 seconds
+{"completed": 141, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1994 seconds
+CEM solve time: 1.2333 seconds
+{"completed": 142, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2337 seconds
+CEM solve time: 1.2662 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.2146 seconds
+CEM solve time: 1.2653 seconds
+{"completed": 143, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1104 seconds
+CEM solve time: 1.1199 seconds
+{"completed": 144, "missing": 0, "case": "R6_reacher_042b78b7f94ed6c85b84ad7b", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1000 seconds
+CEM solve time: 1.1112 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1071 seconds
+CEM solve time: 1.1104 seconds
+{"completed": 145, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.0940 seconds
+CEM solve time: 1.1264 seconds
+{"completed": 146, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1107 seconds
+CEM solve time: 1.1273 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1137 seconds
+CEM solve time: 1.1080 seconds
+{"completed": 147, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1121 seconds
+CEM solve time: 1.1325 seconds
+{"completed": 148, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1173 seconds
+CEM solve time: 1.1050 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1167 seconds
+CEM solve time: 1.1045 seconds
+{"completed": 149, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1016 seconds
+CEM solve time: 1.1107 seconds
+{"completed": 150, "missing": 0, "case": "R6_reacher_05d9adfbb7fea330209f9d6e", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1022 seconds
+CEM solve time: 1.1060 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1011 seconds
+CEM solve time: 1.1081 seconds
+{"completed": 151, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.0966 seconds
+CEM solve time: 1.1141 seconds
+{"completed": 152, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1057 seconds
+CEM solve time: 1.1083 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1023 seconds
+CEM solve time: 1.1061 seconds
+{"completed": 153, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1001 seconds
+CEM solve time: 1.1134 seconds
+{"completed": 154, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1011 seconds
+CEM solve time: 1.1061 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.0994 seconds
+CEM solve time: 1.1050 seconds
+{"completed": 155, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1084 seconds
+CEM solve time: 1.1155 seconds
+{"completed": 156, "missing": 0, "case": "R6_reacher_07d8ede95622d173c866dc15", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1051 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1213 seconds
+{"completed": 157, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1008 seconds
+{"completed": 158, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1004 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1005 seconds
+{"completed": 159, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1035 seconds
+{"completed": 160, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1036 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.0984 seconds
+{"completed": 161, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1061 seconds
+{"completed": 162, "missing": 0, "case": "R6_reacher_092eb479cf3e133d57041497", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.0990 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1201 seconds
+{"completed": 163, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1007 seconds
+{"completed": 164, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1080 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.0955 seconds
+{"completed": 165, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1074 seconds
+{"completed": 166, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_1", "mode": "REPEAT3_REALACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1011 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1022 seconds
+{"completed": 167, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REAL3_NULLACT"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1018 seconds
+{"completed": 168, "missing": 0, "case": "R6_reacher_0ab3257343137f1e2ae074cc", "arm": "REFIT_103203", "stream": "R4_ALT_CEM_2", "mode": "REPEAT3_REALACT"}

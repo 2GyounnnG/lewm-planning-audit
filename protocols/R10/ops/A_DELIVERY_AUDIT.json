@@ -1,0 +1,8 @@
+{
+  "module": "A",
+  "status": "PASS",
+  "raw_complete_receipts": 600,
+  "first_plan_pairs_bitwise_equal": 300,
+  "report_files_verified": 4,
+  "statistics_check": "See A_INDEPENDENT_ANALYSIS_CHECK.json"
+}

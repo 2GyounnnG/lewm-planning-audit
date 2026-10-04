@@ -1,0 +1,57 @@
+/workspace/r10/swm_a/stable_worldmodel/envs/__init__.py:215: UserWarning: ale-py not found; ALE/* envs are unavailable. Install with: pip install 'stable-worldmodel[env]' or pip install ale-py.
+  from stable_worldmodel.envs import ale  # noqa: F401
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.1222 seconds
+CEM solve time: 0.6381 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.7557 seconds
+Traceback (most recent call last):
+  File "/workspace/r10/code/r10/module_a_runner.py", line 200, in <module>
+    main()
+  File "/workspace/r10/code/r10/module_a_runner.py", line 194, in main
+    three = run_case(model, receipt, entry, a.assets, base / "HISTORY3", stream, 3, a.phase, first)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/code/r10/module_a_runner.py", line 147, in run_case
+    metrics = world.evaluate(dataset=view, episodes_idx=[case["source_episode_idx"]],
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/swm_a/stable_worldmodel/world/world.py", line 244, in evaluate
+    return self._evaluate_from_dataset(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/swm_a/stable_worldmodel/world/world.py", line 626, in _evaluate_from_dataset
+    self._run(max_steps=eval_budget, mode=mode, on_step=on_step)
+  File "/workspace/r10/swm_a/stable_worldmodel/world/world.py", line 388, in _run
+    for env_idx, ep_count in self._run_iter(
+                             ^^^^^^^^^^^^^^^
+  File "/workspace/r10/swm_a/stable_worldmodel/world/world.py", line 435, in _run_iter
+    actions = self._get_actions()
+              ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/swm_a/stable_worldmodel/world/world.py", line 482, in _get_actions
+    return self.policy.get_action(self.infos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/code/r10/module_a_runner.py", line 127, in get_action
+    return super().get_action(info, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/shared_data/r3/r3/planning.py", line 244, in get_action
+    action = self.official_policy.get_action(planner_observation(info), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/swm_a/stable_worldmodel/policy.py", line 497, in get_action
+    outputs = self.solver(sliced, init_action=sliced_init)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/swm_a/stable_worldmodel/planning/solver/cem.py", line 95, in __call__
+    return self.solve(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/code/r10/module_a_runner.py", line 106, in solve
+    output = original_solve(info, init_action=init_action)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/env_a/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/swm_a/stable_worldmodel/planning/solver/cem.py", line 215, in solve
+    costs = self.cost.get_cost(expanded_infos, candidates)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/code/r10/module_a_runner.py", line 84, in get_cost
+    assert np.array_equal(expected, actual), "Executed action history mismatch"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Executed action history mismatch

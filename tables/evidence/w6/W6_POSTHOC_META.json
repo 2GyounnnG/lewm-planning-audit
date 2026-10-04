@@ -1,0 +1,61 @@
+{
+  "reacher_original": {
+    "source": "evidence/r5/REAL_HISTORY_REPLANNING_RAW.csv",
+    "source_sha256": "a76a8f7b42e0dcf11fb95533a4011989c7779dc0cb7f52af650e3310dd52f756",
+    "cases": 100,
+    "cells": 2400,
+    "bootstrap_label": "W6_CASE_BOOTSTRAP/reacher_original"
+  },
+  "reacher_fresh_history_set": {
+    "source": "evidence/r6/R6_RAW_VALUES.csv",
+    "source_sha256": "017f3d9fd2d9a85b93e47ab3cc950180288362dbd1e3ce8b59b2970d6744d7c6",
+    "cases": 100,
+    "cells": 2400,
+    "bootstrap_label": "W6_CASE_BOOTSTRAP/reacher_fresh_history_set"
+  },
+  "pusht_original": {
+    "source": "evidence/r5/REAL_HISTORY_REPLANNING_RAW.csv",
+    "source_sha256": "a76a8f7b42e0dcf11fb95533a4011989c7779dc0cb7f52af650e3310dd52f756",
+    "cases": 100,
+    "cells": 2400,
+    "bootstrap_label": "W6_CASE_BOOTSTRAP/pusht_original"
+  },
+  "reacher_fresh_refit_set": {
+    "source": "evidence/r8/m2/R8_M2_REACHER_RAW_VALUES.csv",
+    "source_sha256": "f6724b6e76ad139299201d0d348b1b22a5923d2b1f2c256211d8e4961284e8d9",
+    "cases": 100,
+    "cells": 1200,
+    "bootstrap_label": "W6_CASE_BOOTSTRAP/reacher_fresh_refit_set"
+  },
+  "pusht_fresh_refit_set": {
+    "source": "evidence/r8/m2/R8_M2_PUSHT_RAW_VALUES.csv",
+    "source_sha256": "1464b710f7a4c4dd8c6a44c52201a9babfbeedf5afd6c98969f1855aa7600469",
+    "cases": 100,
+    "cells": 1200,
+    "bootstrap_label": "W6_CASE_BOOTSTRAP/pusht_fresh_refit_set"
+  },
+  "reacher_pooled": {
+    "bootstrap_label": "W6_POOLED/reacher",
+    "strata": [
+      "reacher_original",
+      "reacher_fresh_history_set",
+      "reacher_fresh_refit_set"
+    ]
+  },
+  "pusht_pooled": {
+    "bootstrap_label": "W6_POOLED/pusht",
+    "strata": [
+      "pusht_original",
+      "pusht_fresh_refit_set"
+    ]
+  },
+  "script_sha256": "62f53f6fa4af5e5bfdc63378eca36070eee476f6bafc7c41b3797bf8c63cae3c",
+  "replicates": 5000,
+  "quantity_key": {
+    "official_0/refit_0": "single-frame success",
+    "official_1/refit_1": "real-history success",
+    "contrast_h": "refit minus official at history h",
+    "gain_*": "real minus single for that predictor",
+    "interaction": "contrast_1 - contrast_0 = gain_refit - gain_official"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "sample": "pusht_fresh_refit_set_family",
+    "cases": 100,
+    "families": 44,
+    "estimate_pp": 2.89,
+    "case_ci": [
+      -0.89,
+      6.56
+    ],
+    "family_ci": [
+      -0.94,
+      6.47
+    ]
+  },
+  {
+    "sample": "pusht_m4_oracle_family",
+    "cases": 100,
+    "families": 37,
+    "estimate_pp": 8.33,
+    "case_ci": [
+      4.33,
+      13.0
+    ],
+    "family_ci": [
+      4.0,
+      13.92
+    ]
+  }
+]

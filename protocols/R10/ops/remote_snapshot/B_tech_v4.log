@@ -1,0 +1,158 @@
+/workspace/r10/shared_data/r3/source/swm_compat/stable_worldmodel/envs/__init__.py:215: UserWarning: ale-py not found; ALE/* envs are unavailable. Install with: pip install 'stable-worldmodel[env]' or pip install ale-py.
+  from stable_worldmodel.envs import ale  # noqa: F401
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 2.0362 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5929 seconds
+{"completed": 1, "missing": 0, "case": "R8_tworoom_003c28579b58245c0c254088", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5811 seconds
+{"completed": 1, "missing": 1, "case": "R8_tworoom_00475b9743bd99184577e0e2", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5768 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 2, "missing": 1, "case": "R8_tworoom_00508c7292fddf7be63a8708", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.6170 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 3, "missing": 1, "case": "R8_tworoom_005aa86707a07a874aa9a029", "arm": "H0", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5892 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 4, "missing": 1, "case": "R8_tworoom_003c28579b58245c0c254088", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5795 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 5, "missing": 1, "case": "R8_tworoom_00475b9743bd99184577e0e2", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5795 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.6082 seconds
+{"completed": 6, "missing": 1, "case": "R8_tworoom_00508c7292fddf7be63a8708", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5886 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 7, "missing": 1, "case": "R8_tworoom_005aa86707a07a874aa9a029", "arm": "REFIT_103201", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5862 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 8, "missing": 1, "case": "R8_tworoom_003c28579b58245c0c254088", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5809 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 9, "missing": 1, "case": "R8_tworoom_00475b9743bd99184577e0e2", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5980 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 10, "missing": 1, "case": "R8_tworoom_00508c7292fddf7be63a8708", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5827 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 11, "missing": 1, "case": "R8_tworoom_005aa86707a07a874aa9a029", "arm": "REFIT_103202", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5977 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 12, "missing": 1, "case": "R8_tworoom_003c28579b58245c0c254088", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5864 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 13, "missing": 1, "case": "R8_tworoom_00475b9743bd99184577e0e2", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+CEM solve time: 1.5855 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 14, "missing": 1, "case": "R8_tworoom_00508c7292fddf7be63a8708", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `reset()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+CEM solve time: 1.5878 seconds
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/utils/passive_env_checker.py:129: UserWarning: [33mWARN: The obs returned by the `step()` method was expecting a numpy array, actual type: <class 'torch.Tensor'>[0m
+  logger.warn(
+/workspace/r10/env_old/lib/python3.12/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+  gym.logger.warn("Casting input x to numpy array.")
+{"completed": 15, "missing": 1, "case": "R8_tworoom_005aa86707a07a874aa9a029", "arm": "REFIT_103203", "stream": "R3_ORIGINAL", "mode": "H_REAL3_REPLAN"}

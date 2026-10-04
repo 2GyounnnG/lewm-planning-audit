@@ -1,0 +1,113 @@
+{
+  "version": "R8_FIX_F1_RECEIPT_V1",
+  "status": "COMPLETE",
+  "evidence_label": "R8_FIX_F1_CORRECTED_E2",
+  "created_utc": "2026-10-04T05:55:30.765199+00:00",
+  "inputs": {
+    "R6": {
+      "root": "/workspace/r6/reacher/raw/FORMAL",
+      "rows": 2400,
+      "cases": 100
+    },
+    "U1": {
+      "root": "/workspace/r8/raw/U1/FORMAL",
+      "rows": 2400,
+      "cases": 100
+    },
+    "R7": {
+      "root": "/workspace/r7/raw/reacher/FORMAL",
+      "rows": 2400,
+      "cases": 100
+    },
+    "U2": {
+      "root": "/workspace/r8/raw/U2/FORMAL",
+      "rows": 2400,
+      "cases": 100
+    }
+  },
+  "pairs": [
+    {
+      "unit": "offset25_R6_minus_U1",
+      "budget50_dataset": "R6",
+      "budget100_dataset": "U1",
+      "cases": 100,
+      "n_history_rows_per_case": 12,
+      "history_effect_definition": "mean_{4 models x 3 streams}[H_REAL3_REPLAN success - H_POLICY success]",
+      "corrected_E2_definition": "budget50_history_effect - budget100_history_effect",
+      "label": "M1_OFFSET25_E2",
+      "corrected_bootstrap": {
+        "point": 0.12833333333333333,
+        "ci95_low": 0.09916666666666667,
+        "ci95_high": 0.15916666666666668,
+        "bootstrap": 5000,
+        "bootstrap_seed_rule": "SHA256(\"R8_CASE_BOOTSTRAP_20261004/M1_OFFSET25_E2\")[:8] big-endian",
+        "bootstrap_seed_uint64": 12329422961079285741,
+        "n_cases": 100,
+        "indices_sha256": "dd0ffa53c8a94d444ad0e231f2dd4e3c60c58e907cc21150f4e461681a7c60f4"
+      },
+      "original_descriptive_bootstrap": {
+        "point": -0.022500000000000006,
+        "ci95_low": -0.03333333333333333,
+        "ci95_high": -0.012500000000000004,
+        "bootstrap": 5000,
+        "bootstrap_seed_rule": "SHA256(\"R8_CASE_BOOTSTRAP_20261004/M1_OFFSET25_E2\")[:8] big-endian",
+        "bootstrap_seed_uint64": 12329422961079285741,
+        "n_cases": 100,
+        "indices_sha256": "dd0ffa53c8a94d444ad0e231f2dd4e3c60c58e907cc21150f4e461681a7c60f4"
+      },
+      "original_sealed_row": {
+        "old_endpoint": "E2_budget50_minus_budget100",
+        "old_point": -0.022500000000000006
+      }
+    },
+    {
+      "unit": "offset50_U2_minus_R7",
+      "budget50_dataset": "U2",
+      "budget100_dataset": "R7",
+      "cases": 100,
+      "n_history_rows_per_case": 12,
+      "history_effect_definition": "mean_{4 models x 3 streams}[H_REAL3_REPLAN success - H_POLICY success]",
+      "corrected_E2_definition": "budget50_history_effect - budget100_history_effect",
+      "label": "M1_OFFSET50_E2",
+      "corrected_bootstrap": {
+        "point": 0.1,
+        "ci95_low": 0.07416666666666667,
+        "ci95_high": 0.12750000000000003,
+        "bootstrap": 5000,
+        "bootstrap_seed_rule": "SHA256(\"R8_CASE_BOOTSTRAP_20261004/M1_OFFSET50_E2\")[:8] big-endian",
+        "bootstrap_seed_uint64": 10880059258607764511,
+        "n_cases": 100,
+        "indices_sha256": "b105080a26f4bf24aac246a649597736c849bbd317c71183ebbceaeda986f5fc"
+      },
+      "original_descriptive_bootstrap": {
+        "point": -0.025833333333333333,
+        "ci95_low": -0.04,
+        "ci95_high": -0.01416666666666667,
+        "bootstrap": 5000,
+        "bootstrap_seed_rule": "SHA256(\"R8_CASE_BOOTSTRAP_20261004/M1_OFFSET50_E2\")[:8] big-endian",
+        "bootstrap_seed_uint64": 10880059258607764511,
+        "n_cases": 100,
+        "indices_sha256": "b105080a26f4bf24aac246a649597736c849bbd317c71183ebbceaeda986f5fc"
+      },
+      "original_sealed_row": {
+        "old_endpoint": "E2_budget50_minus_budget100",
+        "old_point": -0.025833333333333333
+      }
+    }
+  ],
+  "self_check": {
+    "offset25": {
+      "e1_difference_from_exact_case_means": 0.12833333333333333,
+      "computed": 0.12833333333333333,
+      "difference": 0.0,
+      "rounded_protocol_expression": "0.136667 - 0.008333"
+    },
+    "offset50": {
+      "e1_difference_from_exact_case_means": 0.1,
+      "computed": 0.1,
+      "difference": 0.0,
+      "rounded_protocol_expression": "0.110833 - 0.010833"
+    }
+  },
+  "original_files_untouched": true
+}

@@ -1,0 +1,476 @@
+{
+  "schema": "R8_FIX_F2_TECH_GATE_V1",
+  "evidence_label": "R8_FIX_F2_TECH",
+  "phase": "TECH",
+  "case_count": 1,
+  "result_count": 12,
+  "second_plan_count": 8,
+  "perturbation_amplitude": 0.01,
+  "cached_rollout_output_includes_initial": false,
+  "slice": "pred[0,2:4]",
+  "raw_alignment": [
+    15,
+    20,
+    25
+  ],
+  "gates": {
+    "G1_context_exact_and_predicted_differs_from_true": true,
+    "G2_second_plan_differs_H_REAL3": true,
+    "G3_fixed_1e-2_perturbation_changes_plan": true,
+    "G4_first_plan_bitwise_equal_official_R6": true
+  },
+  "l2_min": [
+    4.557539939880371,
+    4.708530902862549
+  ],
+  "l2_max": [
+    6.134581089019775,
+    6.202406883239746
+  ],
+  "first_plan_bitwise_equal_count": 12,
+  "second_plan_different_count": 8,
+  "perturbation_changed_count": 8,
+  "records": [
+    {
+      "path": "/workspace/r8_fix/f2/TECH/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/H0/PRED_PAST/result.json",
+      "arm": "H0",
+      "stream": "R3_ORIGINAL",
+      "replan_calls": 2,
+      "second": {
+        "replan_index": 1,
+        "anchor_raw": 25,
+        "seed_uint64": 10378005555162080895,
+        "observed_history_frames": 3,
+        "status": "COMPLETE",
+        "history_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "history_action_raw_start": 15,
+        "history_action_raw_end": 25,
+        "future_macro_horizon": 5,
+        "predicted_terminal_raw": 50,
+        "cem_candidate_shape": [
+          1,
+          300,
+          5,
+          10
+        ],
+        "predicted_context_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "cached_rollout_output_includes_initial": false,
+        "cached_rollout_pred_slice": "pred[0,2:4]",
+        "predicted_context_l2_vs_true": [
+          5.437645435333252,
+          5.944601058959961
+        ],
+        "predicted_context_shape": [
+          1,
+          3,
+          192
+        ],
+        "perturbation_l2": 0.017320508137345314,
+        "perturbation_plan_changed": true,
+        "elite_mean_costs": [
+          3.071709394454956
+        ],
+        "returned_plan_sha256": "4c12cc1ee5819d5377f5336636daf1abe9dbbf44568541a067d1fe2d75b8c994",
+        "vs_hreal3_second_plan": {
+          "status": "DIFFERENT",
+          "bitwise_equal": false
+        },
+        "synchronized_wall_seconds": 1.3492471630161162
+      }
+    },
+    {
+      "path": "/workspace/r8_fix/f2/TECH/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/REFIT_103201/PRED_PAST/result.json",
+      "arm": "REFIT_103201",
+      "stream": "R3_ORIGINAL",
+      "replan_calls": 2,
+      "second": {
+        "replan_index": 1,
+        "anchor_raw": 25,
+        "seed_uint64": 10378005555162080895,
+        "observed_history_frames": 3,
+        "status": "COMPLETE",
+        "history_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "history_action_raw_start": 15,
+        "history_action_raw_end": 25,
+        "future_macro_horizon": 5,
+        "predicted_terminal_raw": 50,
+        "cem_candidate_shape": [
+          1,
+          300,
+          5,
+          10
+        ],
+        "predicted_context_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "cached_rollout_output_includes_initial": false,
+        "cached_rollout_pred_slice": "pred[0,2:4]",
+        "predicted_context_l2_vs_true": [
+          5.554862022399902,
+          5.451618671417236
+        ],
+        "predicted_context_shape": [
+          1,
+          3,
+          192
+        ],
+        "perturbation_l2": 0.017320508137345314,
+        "perturbation_plan_changed": true,
+        "elite_mean_costs": [
+          2.671048164367676
+        ],
+        "returned_plan_sha256": "4493d0dad54c4cbe66dbe2e11c850cf68430400dfd8a844e93933e50a0935f6b",
+        "vs_hreal3_second_plan": {
+          "status": "DIFFERENT",
+          "bitwise_equal": false
+        },
+        "synchronized_wall_seconds": 1.3121819520019926
+      }
+    },
+    {
+      "path": "/workspace/r8_fix/f2/TECH/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/REFIT_103202/PRED_PAST/result.json",
+      "arm": "REFIT_103202",
+      "stream": "R3_ORIGINAL",
+      "replan_calls": 2,
+      "second": {
+        "replan_index": 1,
+        "anchor_raw": 25,
+        "seed_uint64": 10378005555162080895,
+        "observed_history_frames": 3,
+        "status": "COMPLETE",
+        "history_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "history_action_raw_start": 15,
+        "history_action_raw_end": 25,
+        "future_macro_horizon": 5,
+        "predicted_terminal_raw": 50,
+        "cem_candidate_shape": [
+          1,
+          300,
+          5,
+          10
+        ],
+        "predicted_context_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "cached_rollout_output_includes_initial": false,
+        "cached_rollout_pred_slice": "pred[0,2:4]",
+        "predicted_context_l2_vs_true": [
+          5.442281246185303,
+          5.679775714874268
+        ],
+        "predicted_context_shape": [
+          1,
+          3,
+          192
+        ],
+        "perturbation_l2": 0.017320508137345314,
+        "perturbation_plan_changed": true,
+        "elite_mean_costs": [
+          2.8773539066314697
+        ],
+        "returned_plan_sha256": "ed3d7520e548fbc46c743d764f164b2f8eee36bbd5b7c5efb58b49cd7cf8545d",
+        "vs_hreal3_second_plan": {
+          "status": "DIFFERENT",
+          "bitwise_equal": false
+        },
+        "synchronized_wall_seconds": 1.3122501669859048
+      }
+    },
+    {
+      "path": "/workspace/r8_fix/f2/TECH/R4_ALT_CEM_1/R6_reacher_005a9d4fafe8239392288119/REFIT_103201/PRED_PAST/result.json",
+      "arm": "REFIT_103201",
+      "stream": "R4_ALT_CEM_1",
+      "replan_calls": 2,
+      "second": {
+        "replan_index": 1,
+        "anchor_raw": 25,
+        "seed_uint64": 5707267063407858667,
+        "observed_history_frames": 3,
+        "status": "COMPLETE",
+        "history_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "history_action_raw_start": 15,
+        "history_action_raw_end": 25,
+        "future_macro_horizon": 5,
+        "predicted_terminal_raw": 50,
+        "cem_candidate_shape": [
+          1,
+          300,
+          5,
+          10
+        ],
+        "predicted_context_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "cached_rollout_output_includes_initial": false,
+        "cached_rollout_pred_slice": "pred[0,2:4]",
+        "predicted_context_l2_vs_true": [
+          4.557539939880371,
+          4.708530902862549
+        ],
+        "predicted_context_shape": [
+          1,
+          3,
+          192
+        ],
+        "perturbation_l2": 0.017320508137345314,
+        "perturbation_plan_changed": true,
+        "elite_mean_costs": [
+          2.437361478805542
+        ],
+        "returned_plan_sha256": "66b3f94956d1337a8aa170d0a699ac7662bf756852d834d34322bf8554aa25bb",
+        "vs_hreal3_second_plan": {
+          "status": "DIFFERENT",
+          "bitwise_equal": false
+        },
+        "synchronized_wall_seconds": 1.3119555189914536
+      }
+    },
+    {
+      "path": "/workspace/r8_fix/f2/TECH/R4_ALT_CEM_1/R6_reacher_005a9d4fafe8239392288119/REFIT_103203/PRED_PAST/result.json",
+      "arm": "REFIT_103203",
+      "stream": "R4_ALT_CEM_1",
+      "replan_calls": 2,
+      "second": {
+        "replan_index": 1,
+        "anchor_raw": 25,
+        "seed_uint64": 5707267063407858667,
+        "observed_history_frames": 3,
+        "status": "COMPLETE",
+        "history_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "history_action_raw_start": 15,
+        "history_action_raw_end": 25,
+        "future_macro_horizon": 5,
+        "predicted_terminal_raw": 50,
+        "cem_candidate_shape": [
+          1,
+          300,
+          5,
+          10
+        ],
+        "predicted_context_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "cached_rollout_output_includes_initial": false,
+        "cached_rollout_pred_slice": "pred[0,2:4]",
+        "predicted_context_l2_vs_true": [
+          5.864402770996094,
+          5.908556938171387
+        ],
+        "predicted_context_shape": [
+          1,
+          3,
+          192
+        ],
+        "perturbation_l2": 0.017320508137345314,
+        "perturbation_plan_changed": true,
+        "elite_mean_costs": [
+          2.6973726749420166
+        ],
+        "returned_plan_sha256": "5dc095140194317acce7b341641b540d216b9fc3d2cc0634e85ea663bc17b020",
+        "vs_hreal3_second_plan": {
+          "status": "DIFFERENT",
+          "bitwise_equal": false
+        },
+        "synchronized_wall_seconds": 1.3145713689737022
+      }
+    },
+    {
+      "path": "/workspace/r8_fix/f2/TECH/R4_ALT_CEM_2/R6_reacher_005a9d4fafe8239392288119/H0/PRED_PAST/result.json",
+      "arm": "H0",
+      "stream": "R4_ALT_CEM_2",
+      "replan_calls": 2,
+      "second": {
+        "replan_index": 1,
+        "anchor_raw": 25,
+        "seed_uint64": 6995537964821320832,
+        "observed_history_frames": 3,
+        "status": "COMPLETE",
+        "history_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "history_action_raw_start": 15,
+        "history_action_raw_end": 25,
+        "future_macro_horizon": 5,
+        "predicted_terminal_raw": 50,
+        "cem_candidate_shape": [
+          1,
+          300,
+          5,
+          10
+        ],
+        "predicted_context_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "cached_rollout_output_includes_initial": false,
+        "cached_rollout_pred_slice": "pred[0,2:4]",
+        "predicted_context_l2_vs_true": [
+          5.425937652587891,
+          5.929110527038574
+        ],
+        "predicted_context_shape": [
+          1,
+          3,
+          192
+        ],
+        "perturbation_l2": 0.017320508137345314,
+        "perturbation_plan_changed": true,
+        "elite_mean_costs": [
+          4.58693790435791
+        ],
+        "returned_plan_sha256": "643b0814e0ee2b57ea3420179c9d5e13d2caffcf8aaaa19045b4cacaf82fa918",
+        "vs_hreal3_second_plan": {
+          "status": "DIFFERENT",
+          "bitwise_equal": false
+        },
+        "synchronized_wall_seconds": 1.3093781049828976
+      }
+    },
+    {
+      "path": "/workspace/r8_fix/f2/TECH/R4_ALT_CEM_2/R6_reacher_005a9d4fafe8239392288119/REFIT_103201/PRED_PAST/result.json",
+      "arm": "REFIT_103201",
+      "stream": "R4_ALT_CEM_2",
+      "replan_calls": 2,
+      "second": {
+        "replan_index": 1,
+        "anchor_raw": 25,
+        "seed_uint64": 6995537964821320832,
+        "observed_history_frames": 3,
+        "status": "COMPLETE",
+        "history_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "history_action_raw_start": 15,
+        "history_action_raw_end": 25,
+        "future_macro_horizon": 5,
+        "predicted_terminal_raw": 50,
+        "cem_candidate_shape": [
+          1,
+          300,
+          5,
+          10
+        ],
+        "predicted_context_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "cached_rollout_output_includes_initial": false,
+        "cached_rollout_pred_slice": "pred[0,2:4]",
+        "predicted_context_l2_vs_true": [
+          5.933966159820557,
+          5.780331134796143
+        ],
+        "predicted_context_shape": [
+          1,
+          3,
+          192
+        ],
+        "perturbation_l2": 0.017320508137345314,
+        "perturbation_plan_changed": true,
+        "elite_mean_costs": [
+          2.7040367126464844
+        ],
+        "returned_plan_sha256": "c43ed163897156ccbd7ea0dedf107d23fb69dc5be6eb3e663c129d0a11852b5f",
+        "vs_hreal3_second_plan": {
+          "status": "DIFFERENT",
+          "bitwise_equal": false
+        },
+        "synchronized_wall_seconds": 1.3132241620041896
+      }
+    },
+    {
+      "path": "/workspace/r8_fix/f2/TECH/R4_ALT_CEM_2/R6_reacher_005a9d4fafe8239392288119/REFIT_103203/PRED_PAST/result.json",
+      "arm": "REFIT_103203",
+      "stream": "R4_ALT_CEM_2",
+      "replan_calls": 2,
+      "second": {
+        "replan_index": 1,
+        "anchor_raw": 25,
+        "seed_uint64": 6995537964821320832,
+        "observed_history_frames": 3,
+        "status": "COMPLETE",
+        "history_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "history_action_raw_start": 15,
+        "history_action_raw_end": 25,
+        "future_macro_horizon": 5,
+        "predicted_terminal_raw": 50,
+        "cem_candidate_shape": [
+          1,
+          300,
+          5,
+          10
+        ],
+        "predicted_context_raw_indices": [
+          15,
+          20,
+          25
+        ],
+        "cached_rollout_output_includes_initial": false,
+        "cached_rollout_pred_slice": "pred[0,2:4]",
+        "predicted_context_l2_vs_true": [
+          6.134581089019775,
+          6.202406883239746
+        ],
+        "predicted_context_shape": [
+          1,
+          3,
+          192
+        ],
+        "perturbation_l2": 0.017320508137345314,
+        "perturbation_plan_changed": true,
+        "elite_mean_costs": [
+          2.807102680206299
+        ],
+        "returned_plan_sha256": "09924ec4b1881d4acc21162edfc29ba84e55368453d2eb94331371eb33084276",
+        "vs_hreal3_second_plan": {
+          "status": "DIFFERENT",
+          "bitwise_equal": false
+        },
+        "synchronized_wall_seconds": 1.3131515340064652
+      }
+    }
+  ],
+  "all_gates_pass": true
+}

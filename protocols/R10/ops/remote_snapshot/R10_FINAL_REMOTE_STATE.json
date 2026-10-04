@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-04T17:03:43.979328+00:00",
+  "supervisor": "caddy                            RUNNING   pid 909, uptime 2:44:19\ncron                             RUNNING   pid 910, uptime 2:44:19\ninstance_portal                  RUNNING   pid 911, uptime 2:44:19\njupyter                          EXITED    Oct 04 02:19 PM\npyworker                         EXITED    Oct 04 02:19 PM\nr10-a                            EXITED    Oct 04 03:59 PM\nr10-b                            EXITED    Oct 04 04:31 PM\nr10-c                            EXITED    Oct 04 05:03 PM\nr10-d                            EXITED    Oct 04 04:48 PM\nsyncthing                        RUNNING   pid 916, uptime 2:44:19\ntensorboard                      RUNNING   pid 917, uptime 2:44:19\ntunnel_manager                   RUNNING   pid 921, uptime 2:44:19\n",
+  "gpu": "0, NVIDIA GeForce RTX 4090, 1 MiB, 0 %\n1, NVIDIA GeForce RTX 4090, 1 MiB, 0 %\n2, NVIDIA GeForce RTX 4090, 1 MiB, 0 %\n3, NVIDIA GeForce RTX 4090, 1 MiB, 0 %\n4, NVIDIA GeForce RTX 4090, 1 MiB, 0 %\n5, NVIDIA GeForce RTX 4090, 1 MiB, 0 %\n6, NVIDIA GeForce RTX 4090, 1 MiB, 0 %\n7, NVIDIA GeForce RTX 4090, 1 MiB, 0 %\n",
+  "compute_processes": "",
+  "auto_stopped_instance": false
+}

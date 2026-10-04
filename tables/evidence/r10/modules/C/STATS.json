@@ -1,0 +1,27 @@
+{
+  "module": "C",
+  "planned": 1200,
+  "delivered": 1200,
+  "delivery_rate": 1.0,
+  "first_plan_equal": 1200,
+  "endpoints": [
+    {
+      "endpoint": "E_C",
+      "point": -0.0016666666666666668,
+      "ci95_low": -0.009999999999999998,
+      "ci95_high": 0.005833333333333333,
+      "label": "未检出",
+      "complete_cases": 100,
+      "bootstrap_seed_uint64": 13518632667698493276
+    }
+  ],
+  "prediction": "未检出",
+  "prediction_consistent": true,
+  "technical_missing": 0,
+  "invalid_first_plan": 0,
+  "training_updates": 0,
+  "fresh_controls_delivered": 1200,
+  "total_new_planned": 2400,
+  "total_new_delivered": 2400,
+  "descriptive_control_drift": 0.0008333333333333334
+}

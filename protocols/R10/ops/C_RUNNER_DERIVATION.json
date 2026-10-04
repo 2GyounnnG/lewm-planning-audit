@@ -1,0 +1,10 @@
+{
+  "source_sha256": "48cf5d364ae431f027dc2d486f3102817699c620325fc00ca6e923b4fc5abdc9",
+  "derived_sha256": "c0df171a3ca70501fac58eece586a8812f0d6adcb3fc631ebb5c3f979b6c3617",
+  "changes": [
+    "Bind actual filename in identity",
+    "Replace per-worker Cube delivery check with global launcher check",
+    "Record technical missing history when fresh control has no first plan, so global delivery gate counts it"
+  ],
+  "planning_math_changed": false
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "R8_FIX_F2_VALIDATION_RECEIPT_V1",
+  "status": "COMPLETE_WITH_GATE_FAIL",
+  "created_utc": "2026-10-04T07:09:35Z",
+  "strict_gate": {
+    "path": "/workspace/r8_fix/f2_validation/ops/TECH_GATE_ZHAT_ONLY.json",
+    "status": "FAIL",
+    "entry_context_assertion": "PASS before perturbation gate failure (no ACTUAL_PREDICT_CONTEXT_MISMATCH raised)",
+    "z_t_unchanged": true,
+    "zhat_only_1e-2_plan_changed": false,
+    "formal_status": "POSTHOC_AFTER_TECH_FAIL / INVALID_TECH_GATE",
+    "formal_not_rerun": true
+  },
+  "verified_raw_table": {
+    "path": "/workspace/r8_fix/f2_validation/reports/M3_V3_RAW_VALUES_VERIFIED.csv",
+    "bytes": 331167,
+    "sha256": "ce2ce8ea27a78e0d8639c1f549bb7e544aa44bbfea90d1a1d37c22380a4d7d86"
+  },
+  "artifact_correction": {
+    "path": "/workspace/r8_fix/f2_validation/reports/RAW_VALUES_ARTIFACT_CORRECTION.json",
+    "bytes": 457,
+    "sha256": "f4a84fff25acd9cd3682da6db130c039917ca621ebac2792aa35507cfa18e696"
+  },
+  "gate": {
+    "path": "/workspace/r8_fix/f2_validation/ops/TECH_GATE_ZHAT_ONLY.json",
+    "bytes": 1060,
+    "sha256": "1b55790051fc028e082be16cfaa6aefa069463eb025cfc3c1ed62451819de30b"
+  },
+  "tech_log": {
+    "path": "/workspace/r8_fix/f2_validation/ops/TECH.log",
+    "bytes": 4278,
+    "sha256": "bd2ddce166d6729c6a3a88a1761fb0b8cf5300348e4f700804f43d387a40916c"
+  },
+  "original_f2_seal_modified": false,
+  "files": [
+    {
+      "path": "/workspace/r8_fix/f2_validation/TECH/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/H0/PRED_PAST/attempt_000/FAILURE.json",
+      "bytes": 2082,
+      "sha256": "090d7fd0a888b0c5459c4ae7982c44be76ec52512397856ba6088894311a0a0f"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/TECH/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/H0/PRED_PAST/attempt_000/STARTED.json",
+      "bytes": 5323,
+      "sha256": "4891397830062fba2ffe51796d35873c7e6a6de67c641f0bed2f69e34e498df4"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/TECH/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/H0/PRED_PAST/case.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/code/__pycache__/m3_context.cpython-312.pyc",
+      "bytes": 2844,
+      "sha256": "9acfb9fb2dc42e86026b70e186bb6593cbbfaa82fa2ae8e1606d50e40a548dd3"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/code/context.py",
+      "bytes": 3363,
+      "sha256": "e64cfec6f00f32efa09f1941c4b278f910e76dd666a9ac6f2feb0b428204a94f"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/code/m3_context.py",
+      "bytes": 1969,
+      "sha256": "d77c56593c313f794268690cb2a4332687b263b0a88ee9613d90967e267deaa2"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/code/r8_m3_fix_validate.py",
+      "bytes": 28675,
+      "sha256": "b298c6987627fd9aee75124c0744fc95b1213d0764524bfd8fbb62a6f33f5014"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/ops/TECH.log",
+      "bytes": 4278,
+      "sha256": "bd2ddce166d6729c6a3a88a1761fb0b8cf5300348e4f700804f43d387a40916c"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/ops/TECH.pid",
+      "bytes": 7,
+      "sha256": "4cc4569d471babbf3d71b9f43e479dc8e42058db8b9a74868da78746cda6c293"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/ops/TECH_CASE.json",
+      "bytes": 2054,
+      "sha256": "339de3c4f5b0dd4ad3740c9a157c371b357f4883367b8afe8d2229a9a893542e"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/ops/TECH_GATE_STRICT.json",
+      "bytes": 1385,
+      "sha256": "66260d1edf91412437ddef7ea923b654321fd805dfcd21263c9a04b91f842295"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/ops/TECH_GATE_ZHAT_ONLY.json",
+      "bytes": 1060,
+      "sha256": "1b55790051fc028e082be16cfaa6aefa069463eb025cfc3c1ed62451819de30b"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/reports/M3_V3_RAW_VALUES_VERIFIED.csv",
+      "bytes": 331167,
+      "sha256": "ce2ce8ea27a78e0d8639c1f549bb7e544aa44bbfea90d1a1d37c22380a4d7d86"
+    },
+    {
+      "path": "/workspace/r8_fix/f2_validation/reports/RAW_VALUES_ARTIFACT_CORRECTION.json",
+      "bytes": 457,
+      "sha256": "f4a84fff25acd9cd3682da6db130c039917ca621ebac2792aa35507cfa18e696"
+    }
+  ]
+}

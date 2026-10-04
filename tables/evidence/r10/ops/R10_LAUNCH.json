@@ -1,0 +1,47 @@
+{
+  "version": "R10_LAUNCH_V1",
+  "recorded_at_utc": "2026-10-04T14:30:38Z",
+  "instance": {
+    "provider": "Vast.ai",
+    "container_id": "54158902",
+    "public_ip": "8.17.147.26",
+    "ssh_port": 43418,
+    "workspace": "/workspace",
+    "workspace_is_volume": false
+  },
+  "gpu": {
+    "count": 8,
+    "model": "NVIDIA GeForce RTX 4090",
+    "memory_mib_by_index": [24564, 24564, 24564, 24564, 23028, 23028, 24564, 24564],
+    "driver_version": "610.57.04",
+    "cuda_umd_version": "13.3",
+    "cuda_toolkit": "12.8",
+    "nvidia_smi_command": "nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv,noheader",
+    "nvidia_smi_output": [
+      "NVIDIA GeForce RTX 4090, 24564 MiB, 610.57.04",
+      "NVIDIA GeForce RTX 4090, 24564 MiB, 610.57.04",
+      "NVIDIA GeForce RTX 4090, 24564 MiB, 610.57.04",
+      "NVIDIA GeForce RTX 4090, 24564 MiB, 610.57.04",
+      "NVIDIA GeForce RTX 4090, 23028 MiB, 610.57.04",
+      "NVIDIA GeForce RTX 4090, 23028 MiB, 610.57.04",
+      "NVIDIA GeForce RTX 4090, 24564 MiB, 610.57.04",
+      "NVIDIA GeForce RTX 4090, 24564 MiB, 610.57.04"
+    ],
+    "utilization_percent_at_recording": 0
+  },
+  "software": {
+    "python_environment": "/venv/main",
+    "torch": "2.11.0+cu128",
+    "torch_cuda": "12.8",
+    "torch_cuda_available": true,
+    "torch_device_count": 8,
+    "git": "2.43.0"
+  },
+  "controls": {
+    "automatic_rental": false,
+    "automatic_destroy": false,
+    "formal_experiment_started": false,
+    "training": false,
+    "fine_tuning": false
+  }
+}

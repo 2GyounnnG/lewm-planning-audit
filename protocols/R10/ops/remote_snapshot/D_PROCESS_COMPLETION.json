@@ -1,0 +1,70 @@
+{
+  "started_unix": 1791131774.7731462,
+  "workers": [
+    {
+      "worker": 0,
+      "exit_code": 0
+    },
+    {
+      "worker": 1,
+      "exit_code": 0
+    },
+    {
+      "worker": 2,
+      "exit_code": 0
+    },
+    {
+      "worker": 3,
+      "exit_code": 0
+    },
+    {
+      "worker": 4,
+      "exit_code": 0
+    },
+    {
+      "worker": 5,
+      "exit_code": 0
+    },
+    {
+      "worker": 6,
+      "exit_code": 0
+    },
+    {
+      "worker": 7,
+      "exit_code": 0
+    },
+    {
+      "worker": 8,
+      "exit_code": 0
+    },
+    {
+      "worker": 9,
+      "exit_code": 0
+    },
+    {
+      "worker": 10,
+      "exit_code": 0
+    },
+    {
+      "worker": 11,
+      "exit_code": 0
+    },
+    {
+      "worker": 12,
+      "exit_code": 0
+    },
+    {
+      "worker": 13,
+      "exit_code": 0
+    },
+    {
+      "worker": 14,
+      "exit_code": 0
+    },
+    {
+      "worker": 15,
+      "exit_code": 0
+    }
+  ],
+  "finished_unix": 1791132511.5716836
+}

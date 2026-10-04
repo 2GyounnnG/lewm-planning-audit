@@ -1,0 +1,29 @@
+{
+  "version": "R10_C_TECH_PREREG_V1",
+  "phase": "TECH",
+  "module": "C",
+  "task": "cube",
+  "created_utc": "2026-10-04T16:18:17.461326+00:00",
+  "execution_code_sha256": {
+    "old_history_runner.py": "48cf5d364ae431f027dc2d486f3102817699c620325fc00ca6e923b4fc5abdc9",
+    "history_context.py": "884edbe9910512f0cb712b4e7cebafc7f765eb80bb9b9b3efd2de62756ca0491",
+    "cube_reset.py": "73185cb84599947d799678a443895ad5686ac98e23cb2309cc1a6d5c70befd9e",
+    "cube_tech.py": "90ae4643cf665afb5dc95c17e4f4975a29af8fde05910a4e355f8db367831fa6"
+  },
+  "manifest_sha256": "f727e00d1191e3b5a7bca72408f9dcbec875b14e46f8a9d0c27823d55f2612b1",
+  "baseline_sha256": "685f9a76d9ff54c65cd26bfd721d51f7164670f90e9d87fa4434e75fafea971c",
+  "plans_sha256": "ff9ff4f583900c5c387f457c805008837cbc8c83cccaa69be274e24255a6bf08",
+  "case_order": [
+    "R3_cube_1101d4201283e29ee46f39bf",
+    "R3_cube_b88a1fe063d59243d0348494",
+    "R3_cube_01236e4718a13c4efda5fec6",
+    "R3_cube_0cdc9957290d081de2f41cff"
+  ],
+  "optimizer_updates": 0,
+  "primary_gate": "BITWISE_EQUAL first plan; exact5 future blocks; dynamic action dimension from checkpoint",
+  "technical_only": true,
+  "planned_technical_trajectories": 8,
+  "comparison": "Four original TECH case/model pairs; fresh same-host single-frame controls; sealed C1 difference descriptive",
+  "fresh_paired_controls": true,
+  "source": "Exact initial/goal endpoint snapshots; no synthetic intermediate frames; World only reads first/last; online history entirely real"
+}

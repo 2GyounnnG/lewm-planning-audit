@@ -1,0 +1,22 @@
+{
+  "native_A_library_first_call": "One real frame and no action history, per pinned639 source; doc padding claim not enforced",
+  "A_probe_fix": "Preserve environment action dtype before normalization; raw executed values exact; no tolerance relaxation",
+  "B_environment_fix": "Restore pinned Lance/Arrow dependencies; x1.core.policy settings; full strict base identity for fixed refits",
+  "B_seed_fix": "Exact x1.evaluate namespace derivation used for TwoRoom/Cube; R4 helper originally rejected task names",
+  "B_control_amendment": {
+    "reason": "Original R8 single-frame runner with identical model digest reproduces same9.5367431640625e-07 first-plan drift from sealed old control",
+    "response": "Uniform fresh same-host single-frame controls for all1200 pairs, preregistered before formal; no threshold relaxation",
+    "prereg_sha256": "0861476f2067e29988648354b440ec3aafdf930d6fecb2c784dd7c5b894ee18c"
+  },
+  "optimizer_updates": 0,
+  "prior_round_files_changed": false,
+  "D_control_amendment": {
+    "reason": "Two intervention TECH arms shared one cross-host pair drift of5.364418029785156e-07;30/32 passed old-reference gate",
+    "response": "Uniform fresh same-host controls for all1200 pairs;new TECH32/32 passed;no tolerance relaxation",
+    "prereg_sha256": "617511c09abbd5b9a5d00f416f0d50e8671516532c444eace9cd4cc49a0b5396"
+  },
+  "C_control_amendment": {
+    "response": "Uniform fresh same-host controls for all1200 pairs, preregistered before formal based on B/D drift;Cube TECH4/4 also matches sealedC1 exactly",
+    "prereg_sha256": "9c17325eb85b37880106f45af6761f1b269fa673a56d713b36693440e108a2a9"
+  }
+}

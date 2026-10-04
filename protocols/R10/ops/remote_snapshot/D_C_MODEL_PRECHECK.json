@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "task": "reacher",
+      "arm": "H0",
+      "model_sha256": "5d79fc6e322b3c21a92bd52ee746f74c35101a1359ffa58459dab5fa70d3744e",
+      "macro_action_dim": 10,
+      "raw_action_dim": 2,
+      "finite": true
+    },
+    {
+      "task": "reacher",
+      "arm": "REFIT_103201",
+      "model_sha256": "6936bed45536ca2c2fec2c078f7313ff2d3d0079980135cf4df5b09d2250f0e1",
+      "macro_action_dim": 10,
+      "raw_action_dim": 2,
+      "finite": true
+    },
+    {
+      "task": "reacher",
+      "arm": "REFIT_103202",
+      "model_sha256": "7a66b91aa5373b42faf4f56946a7c9b6c51468bbe1e453f58b4920debb4c9dd5",
+      "macro_action_dim": 10,
+      "raw_action_dim": 2,
+      "finite": true
+    },
+    {
+      "task": "reacher",
+      "arm": "REFIT_103203",
+      "model_sha256": "f4e33f34a2b0eef1a7138a513b64eeb1c4a9b7b01dd9e810af3b931178246fd0",
+      "macro_action_dim": 10,
+      "raw_action_dim": 2,
+      "finite": true
+    },
+    {
+      "task": "cube",
+      "arm": "H0",
+      "model_sha256": "26c5d7323fb31940225a8a4d8d8f34d56e39495a95992b8e0c8f4d01b8accaf1",
+      "macro_action_dim": 25,
+      "raw_action_dim": 5,
+      "finite": true
+    },
+    {
+      "task": "cube",
+      "arm": "REFIT_103201",
+      "model_sha256": "2c7a7dbae8b6751ac877f5e683ba5fcca1604f00a74322d8563db07c95859236",
+      "macro_action_dim": 25,
+      "raw_action_dim": 5,
+      "finite": true
+    },
+    {
+      "task": "cube",
+      "arm": "REFIT_103202",
+      "model_sha256": "c83d5fc979c50a1cddb3a385471bf2d30c19c1de2837d8828d476d5a08dda9c9",
+      "macro_action_dim": 25,
+      "raw_action_dim": 5,
+      "finite": true
+    },
+    {
+      "task": "cube",
+      "arm": "REFIT_103203",
+      "model_sha256": "7739fb325dbe7d7972c2298de02b444880bcaef64b7b5642d7af44e296481bb8",
+      "macro_action_dim": 25,
+      "raw_action_dim": 5,
+      "finite": true
+    }
+  ]
+}

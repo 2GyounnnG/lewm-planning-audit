@@ -1,0 +1,35 @@
+{
+  "version": "R10_A_TECH0_PREREG_V2",
+  "created_utc": "2026-10-04T15:51:56.475061+00:00",
+  "purpose": "Technical gates only; excludes formal outcome inference",
+  "cases": [
+    "R3_reacher_9fa19bfa7865e6d007460378",
+    "R3_reacher_82447389bac1df5a10bf69a1",
+    "R3_reacher_38a495df8dbd4b90551cda69",
+    "R3_reacher_f604de23b888fac3453ce650"
+  ],
+  "stream": "R3_ORIGINAL",
+  "model": "H0",
+  "history_len": [
+    1,
+    3
+  ],
+  "new_trajectories": 8,
+  "code_sha256": {
+    "module_a_runner.py": "b0d1005fd0048c3cd01d0f7e0005b343117af88519741e9337c81fb418cb51ae",
+    "check_module_a_strict.py": "cb87c8c3c814e0bde276c51be9c246a1c22fe46861a8a767d7bfbc0739bc1a2d"
+  },
+  "manifest_sha256": "9c5e11c5e4601107526adbd02e3d940d5055699cc81c77abafe0f79a95412a18",
+  "gates": [
+    "native 639 LeWM strict load of all original weight keys",
+    "history1 vs history3 first returned plan bitwise equality",
+    "first plan one real frame and no action_history, as pinned source actually implements",
+    "second plan real frames 15,20,25 and normalized executed actions 15:25; five future blocks"
+  ],
+  "cross_version_comparison": "compare first plans and success with sealed R4 abdced reference; report differences, not a hard gate",
+  "missing_data": "technical missing remains missing, no zero filling",
+  "training_updates": 0,
+  "previous_attempt": "Preserved attempt1; action-history instrumentation assertion failed before second solve; no formal results",
+  "amendment": "Observe raw action at policy input; assert exactly equal to executed commands before normalization. Normalize using native environment buffer dtype; preserve legacy probe max error. No library/solver/model change.",
+  "output_root": "/workspace/r10/module_a_tech_v2"
+}

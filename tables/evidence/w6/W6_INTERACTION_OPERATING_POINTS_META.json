@@ -1,0 +1,28 @@
+{
+  "reacher_U1_budget100_offset25": {
+    "source": "evidence/r8/reports/R8_M1_U1_RAW_VALUES.csv",
+    "task_filter": null,
+    "source_sha256": "89c0a3bf259b7cc1ba873669ebc34f8daec7b96653bd299da9760653afcb7b90",
+    "cases": 100
+  },
+  "reacher_U2_budget50_offset50": {
+    "source": "evidence/r8/reports/R8_M1_U2_RAW_VALUES.csv",
+    "task_filter": null,
+    "source_sha256": "dca2628f0ed575ed75bc5fe394be98db116fecdd6d6985ef9a418fb942807cc2",
+    "cases": 100
+  },
+  "reacher_stress_budget100_offset50": {
+    "source": "evidence/r7/reports/A_RAW_VALUES.csv",
+    "task_filter": "reacher",
+    "source_sha256": "9eb928b5b00105a0e0653dea2a5e289a80abfd2c22f8f0d313562b208ad40350",
+    "cases": 100
+  },
+  "pusht_stress_budget100_offset50": {
+    "source": "evidence/r7/reports/A_RAW_VALUES.csv",
+    "task_filter": "pusht",
+    "source_sha256": "9eb928b5b00105a0e0653dea2a5e289a80abfd2c22f8f0d313562b208ad40350",
+    "cases": 100
+  },
+  "script_sha256": "e56e74192405991c46eeef4b66302fba6081d304998dcc1292d9b8bf7f293a25",
+  "replicates": 5000
+}

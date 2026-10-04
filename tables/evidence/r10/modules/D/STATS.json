@@ -1,0 +1,40 @@
+{
+  "module": "D",
+  "planned": 2400,
+  "delivered": 2400,
+  "delivery_rate": 1.0,
+  "first_plan_equal": 2400,
+  "endpoints": [
+    {
+      "endpoint": "E_D1",
+      "point": -0.0024999999999999996,
+      "ci95_low": -0.02,
+      "ci95_high": 0.01583333333333333,
+      "label": "未检出",
+      "complete_cases": 100,
+      "bootstrap_seed_uint64": 16617765835082839825
+    },
+    {
+      "endpoint": "E_D2",
+      "point": 0.11583333333333334,
+      "ci95_low": 0.085,
+      "ci95_high": 0.14750000000000002,
+      "label": "提高",
+      "complete_cases": 100,
+      "bootstrap_seed_uint64": 5079463862983296358
+    }
+  ],
+  "prediction": "不预设方向",
+  "prediction_consistent": null,
+  "technical_missing": 0,
+  "invalid_first_plan": 0,
+  "training_updates": 0,
+  "fresh_controls_delivered": 1200,
+  "total_new_planned": 3600,
+  "total_new_delivered": 3600,
+  "descriptive_control_drift": 0.0,
+  "descriptive_difference_from_real3_13_7pp": {
+    "E_D1": -0.1395,
+    "E_D2": -0.021166666666666667
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "R8_FIX_F2_VALIDATION_RECEIPT_V1",
+  "status": "COMPLETE_WITH_GATE_FAIL",
+  "created_utc": "2026-10-04T07:09:35Z",
+  "strict_gate": {
+    "path": "/workspace/r8_fix/f2_validation/ops/TECH_GATE_ZHAT_ONLY.json",
+    "status": "FAIL",
+    "entry_context_assertion": "PASS before perturbation gate failure (no ACTUAL_PREDICT_CONTEXT_MISMATCH raised)",
+    "z_t_unchanged": true,
+    "zhat_only_1e-2_plan_changed": false,
+    "formal_status": "POSTHOC_AFTER_TECH_FAIL / INVALID_TECH_GATE",
+    "formal_not_rerun": true
+  },
+  "verified_raw_table": {
+    "path": "/workspace/r8_fix/f2_validation/reports/M3_V3_RAW_VALUES_VERIFIED.csv",
+    "bytes": 331167,
+    "sha256": "ce2ce8ea27a78e0d8639c1f549bb7e544aa44bbfea90d1a1d37c22380a4d7d86"
+  },
+  "artifact_correction": {
+    "path": "/workspace/r8_fix/f2_validation/reports/RAW_VALUES_ARTIFACT_CORRECTION.json",
+    "bytes": 457,
+    "sha256": "f4a84fff25acd9cd3682da6db130c039917ca621ebac2792aa35507cfa18e696"
+  },
+  "gate": {
+    "path": "/workspace/r8_fix/f2_validation/ops/TECH_GATE_ZHAT_ONLY.json",
+    "bytes": 1060,
+    "sha256": "1b55790051fc028e082be16cfaa6aefa069463eb025cfc3c1ed62451819de30b"
+  },
+  "tech_log": {
+    "path": "/workspace/r8_fix/f2_validation/ops/TECH.log",
+    "bytes": 4278,
+    "sha256": "bd2ddce166d6729c6a3a88a1761fb0b8cf5300348e4f700804f43d387a40916c"
+  },
+  "original_f2_seal_modified": false
+}

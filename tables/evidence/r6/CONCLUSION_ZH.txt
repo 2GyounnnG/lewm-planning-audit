@@ -1,0 +1,5 @@
+新 case 100 个，2,400 条闭环全部完成，标签 PREREGISTERED_FRESH_CASE_REPLICATION。
+主终点 H_REAL3_REPLAN−H_POLICY = 0.136667，95% CI [0.105833, 0.169167]。
+复现判定：区间下限 > 0，PASS。
+首段计划逐对逐位一致；两 arm 均独立重跑，未复用闭环。
+无新增训练、调参或结果驱动的 case/model/stream 选择。

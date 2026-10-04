@@ -1,0 +1,37 @@
+{
+  "updated_utc": "2026-10-04T17:05:05.718989+00:00",
+  "status": "SEALED",
+  "modules": {
+    "A": {
+      "status": "SEALED",
+      "new_trajectories": 600,
+      "first_plan_pairs_bitwise_equal": 300,
+      "all_workers_exit_zero": true,
+      "runtime_seconds": 131.516854763031
+    },
+    "B": {
+      "status": "SEALED",
+      "new_trajectories": 2400,
+      "first_plan_pairs_bitwise_equal": 1200,
+      "all_workers_exit_zero": true,
+      "runtime_seconds": 803.1351747512817
+    },
+    "D": {
+      "status": "SEALED",
+      "new_trajectories": 3600,
+      "first_plan_pairs_bitwise_equal": 2400,
+      "all_workers_exit_zero": true,
+      "runtime_seconds": 736.7985374927521
+    },
+    "C": {
+      "status": "SEALED",
+      "new_trajectories": 2400,
+      "first_plan_pairs_bitwise_equal": 1200,
+      "all_workers_exit_zero": true,
+      "runtime_seconds": 753.070431470871
+    }
+  },
+  "training_updates": 0,
+  "instance_auto_stop": false,
+  "instance_auto_destroy": false
+}

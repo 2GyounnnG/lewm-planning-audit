@@ -1,0 +1,707 @@
+{
+  "schema": "R8_FIX_F2_CONTEXT_AUDIT_V1",
+  "read_only": true,
+  "samples": {
+    "REAL2": {
+      "n_sampled": 20,
+      "expected_history_raw_indices": [
+        20,
+        25
+      ],
+      "pass": true,
+      "checks": [
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_004a2bdf27d8bfceafa73467/H0/REAL2/result.json",
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_004a2bdf27d8bfceafa73467/REFIT_103201/REAL2/result.json",
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_004a2bdf27d8bfceafa73467/REFIT_103202/REAL2/result.json",
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_004a2bdf27d8bfceafa73467/REFIT_103203/REAL2/result.json",
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103203",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/H0/REAL2/result.json",
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/REFIT_103201/REAL2/result.json",
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/REFIT_103202/REAL2/result.json",
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_01140d82262ee0be1b888afa/H0/REAL2/result.json",
+          "case_id": "R6_reacher_01140d82262ee0be1b888afa",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_01140d82262ee0be1b888afa/REFIT_103201/REAL2/result.json",
+          "case_id": "R6_reacher_01140d82262ee0be1b888afa",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_01140d82262ee0be1b888afa/REFIT_103202/REAL2/result.json",
+          "case_id": "R6_reacher_01140d82262ee0be1b888afa",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_01140d82262ee0be1b888afa/REFIT_103203/REAL2/result.json",
+          "case_id": "R6_reacher_01140d82262ee0be1b888afa",
+          "arm": "REFIT_103203",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_011ea9fb18f79bb320718d2e/REFIT_103202/REAL2/result.json",
+          "case_id": "R6_reacher_011ea9fb18f79bb320718d2e",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_012dddba11ae750296fdc988/REFIT_103202/REAL2/result.json",
+          "case_id": "R6_reacher_012dddba11ae750296fdc988",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_01376a746a41e9e26d1e8b2e/H0/REAL2/result.json",
+          "case_id": "R6_reacher_01376a746a41e9e26d1e8b2e",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_0184346c125528018922c654/H0/REAL2/result.json",
+          "case_id": "R6_reacher_0184346c125528018922c654",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_0184346c125528018922c654/REFIT_103201/REAL2/result.json",
+          "case_id": "R6_reacher_0184346c125528018922c654",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_0184346c125528018922c654/REFIT_103202/REAL2/result.json",
+          "case_id": "R6_reacher_0184346c125528018922c654",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_0184346c125528018922c654/REFIT_103203/REAL2/result.json",
+          "case_id": "R6_reacher_0184346c125528018922c654",
+          "arm": "REFIT_103203",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_0192eda575e790d45853b4a8/H0/REAL2/result.json",
+          "case_id": "R6_reacher_0192eda575e790d45853b4a8",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REAL2/R3_ORIGINAL/R6_reacher_0192eda575e790d45853b4a8/REFIT_103202/REAL2/result.json",
+          "case_id": "R6_reacher_0192eda575e790d45853b4a8",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "observed_history_frames": 2,
+          "design_expected": [
+            20,
+            25
+          ],
+          "pass": true
+        }
+      ]
+    },
+    "REPEAT3": {
+      "n_sampled": 20,
+      "expected_history_raw_indices": [
+        25,
+        25,
+        25
+      ],
+      "pass": true,
+      "checks": [
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_004a2bdf27d8bfceafa73467/H0/REPEAT3/result.json",
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_004a2bdf27d8bfceafa73467/REFIT_103201/REPEAT3/result.json",
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_004a2bdf27d8bfceafa73467/REFIT_103202/REPEAT3/result.json",
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_004a2bdf27d8bfceafa73467/REFIT_103203/REPEAT3/result.json",
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103203",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/H0/REPEAT3/result.json",
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/REFIT_103201/REPEAT3/result.json",
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_005a9d4fafe8239392288119/REFIT_103202/REPEAT3/result.json",
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_01140d82262ee0be1b888afa/H0/REPEAT3/result.json",
+          "case_id": "R6_reacher_01140d82262ee0be1b888afa",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_01140d82262ee0be1b888afa/REFIT_103201/REPEAT3/result.json",
+          "case_id": "R6_reacher_01140d82262ee0be1b888afa",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_01140d82262ee0be1b888afa/REFIT_103202/REPEAT3/result.json",
+          "case_id": "R6_reacher_01140d82262ee0be1b888afa",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_01140d82262ee0be1b888afa/REFIT_103203/REPEAT3/result.json",
+          "case_id": "R6_reacher_01140d82262ee0be1b888afa",
+          "arm": "REFIT_103203",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_011ea9fb18f79bb320718d2e/REFIT_103202/REPEAT3/result.json",
+          "case_id": "R6_reacher_011ea9fb18f79bb320718d2e",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_012dddba11ae750296fdc988/REFIT_103202/REPEAT3/result.json",
+          "case_id": "R6_reacher_012dddba11ae750296fdc988",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_01376a746a41e9e26d1e8b2e/H0/REPEAT3/result.json",
+          "case_id": "R6_reacher_01376a746a41e9e26d1e8b2e",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_0184346c125528018922c654/H0/REPEAT3/result.json",
+          "case_id": "R6_reacher_0184346c125528018922c654",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_0184346c125528018922c654/REFIT_103201/REPEAT3/result.json",
+          "case_id": "R6_reacher_0184346c125528018922c654",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_0184346c125528018922c654/REFIT_103202/REPEAT3/result.json",
+          "case_id": "R6_reacher_0184346c125528018922c654",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_0184346c125528018922c654/REFIT_103203/REPEAT3/result.json",
+          "case_id": "R6_reacher_0184346c125528018922c654",
+          "arm": "REFIT_103203",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_0192eda575e790d45853b4a8/H0/REPEAT3/result.json",
+          "case_id": "R6_reacher_0192eda575e790d45853b4a8",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        },
+        {
+          "path": "/workspace/r8/raw/M3/FORMAL/REPEAT3/R3_ORIGINAL/R6_reacher_0192eda575e790d45853b4a8/REFIT_103202/REPEAT3/result.json",
+          "case_id": "R6_reacher_0192eda575e790d45853b4a8",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "observed_history_frames": 3,
+          "design_expected": [
+            25,
+            25,
+            25
+          ],
+          "pass": true
+        }
+      ]
+    }
+  }
+}

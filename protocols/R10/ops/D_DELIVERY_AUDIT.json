@@ -1,0 +1,39 @@
+{
+  "module": "D",
+  "status": "PASS",
+  "raw_complete_receipts": 3600,
+  "first_plan_pairs_bitwise_equal": 2400,
+  "report_files_verified": 5,
+  "rows": 3600,
+  "endpoints": [
+    {
+      "endpoint": "E_D1",
+      "cases": 100,
+      "point": -0.0024999999999999996,
+      "ci95": [
+        -0.02,
+        0.01583333333333333
+      ],
+      "label": "未检出"
+    },
+    {
+      "endpoint": "E_D2",
+      "cases": 100,
+      "point": 0.11583333333333334,
+      "ci95": [
+        0.085,
+        0.14750000000000002
+      ],
+      "label": "提高"
+    }
+  ],
+  "success_counts": {
+    "H_POLICY": 1006,
+    "REAL3_NULLACT": 1003,
+    "REPEAT3_REALACT": 1145
+  },
+  "status_counts": {
+    "FRESH_PAIRED_CONTROL": 1200,
+    "COMPLETE": 2400
+  }
+}

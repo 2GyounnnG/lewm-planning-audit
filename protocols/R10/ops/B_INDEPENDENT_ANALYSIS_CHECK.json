@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "rows": 2400,
+  "point": -0.004166666666666667,
+  "ci95": [
+    -0.010833333333333332,
+    0.0008333333333333333
+  ],
+  "control_successes": 980,
+  "history_successes": 975,
+  "case_unit": 100
+}

@@ -1,0 +1,15 @@
+/workspace/r10/shared_data/r3/source/swm_compat/stable_worldmodel/envs/__init__.py:215: UserWarning: ale-py not found; ALE/* envs are unavailable. Install with: pip install 'stable-worldmodel[env]' or pip install ale-py.
+  from stable_worldmodel.envs import ale  # noqa: F401
+Traceback (most recent call last):
+  File "/workspace/r10/code/r10/old_history_runner.py", line 175, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/r10/code/r10/old_history_runner.py", line 168, in main
+    ok=run(model,scaler,a.task,entry,a.assets,folder,arm,stream,mode,plans[ref['plan_index']],ref,a.phase,prereg_sha)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/code/r10/old_history_runner.py", line 88, in run
+    solver=Solver(model=Cost(model,timer),device=next(model.parameters()).device,seed=replan_seed(task,case['case_id'],0,stream),**planning.CEM_CONFIG)
+                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/r10/r4_v23_execution/r4/common.py", line 34, in replan_seed
+    raise ValueError('Invalid fixed planning random-stream identity')
+ValueError: Invalid fixed planning random-stream identity

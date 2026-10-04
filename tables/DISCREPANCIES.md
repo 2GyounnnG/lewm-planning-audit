@@ -47,3 +47,15 @@ Metadata discrepancies retained for audit:
 - "The refit does improve prediction on states that the planner visits" had no planner-visited-state source in the ledger; it is replaced by the supported statement that the refit improves prediction under the deployed single-frame query, with numbers in Section 5.
 - Table 4 used the three-frame h=5 diagnostic for PushT (1.3%); under the W3 reconciliation rule the deployment-query value (4.2%) is used when discussing the planner interface.
 - Tables 2 and 3 previously mixed design labels (primary, fresh, stress, operating-point) with evidence labels; they now use the Section 3.3 evidence levels. The primary refit checks are named in the Table 2 caption.
+
+## W5 correction (2026-10-04)
+
+- TwoRoom history setting: earlier drafts said TwoRoom used an archived one-frame training configuration, so its three-frame readout was "the same one-frame computation". The R5 query code (`r5_execution/h1a/run.py`) forms both queries for every task with a three-frame window, and the TwoRoom errors differ slightly (h=5 ratio 1.013; `H2_TWOROOM_CONDITION.json`). The training-history claim for TwoRoom was not traceable to a sealed source, so it was removed; only the measured ratio is reported.
+
+
+## W6 corrections (2026-10-04)
+
+- stable-worldmodel version: `refs.bib` cited commit 63988116 (22 September 2026) as the audited version. Run identities in R4, R5 and R8 (`swm_commit` in STARTED.json) and the R3 compatibility manifest (`swm_compat_source_manifest.json`, `r3/planning.py` SWM_REVISION) record abdced49 (20 May 2026). The reference now cites abdced49. This matters because the library's multi-frame history option (commit accd0a1, 24 July 2026) postdates the version used; the history arm used its own adapter on LeWM's rollout.
+- Pooled Reacher refit contrast: an intermediate draft reported 4.2 after rounding 4.148 twice (4.148 -> 4.15 -> 4.2); the value is 4.1.
+- Fresh-set reuse: the history set was reused by the mechanism comparison, the full-history extension and the budget-100 operating point, and the stress set by the offset-50 operating point. The previous wording ("unused in earlier rounds") is replaced by "not used by any case set drawn before them", and the reuse is stated.
+- Not a data error but a reporting gap: the history-set single-frame refit contrast (+4.7 [+0.4, +9.1]) lies in the sealed R6 raw values but was not reported in W5; it is now in Table 2 together with the pooled estimate.

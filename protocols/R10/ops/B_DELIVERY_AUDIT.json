@@ -1,0 +1,28 @@
+{
+  "module": "B",
+  "status": "PASS",
+  "raw_complete_receipts": 2400,
+  "first_plan_pairs_bitwise_equal": 1200,
+  "report_files_verified": 5,
+  "rows": 2400,
+  "endpoints": [
+    {
+      "endpoint": "E_B",
+      "cases": 100,
+      "point": -0.004166666666666667,
+      "ci95": [
+        -0.010833333333333332,
+        0.0008333333333333333
+      ],
+      "label": "未检出"
+    }
+  ],
+  "success_counts": {
+    "H_POLICY": 980,
+    "H_REAL3_REPLAN": 975
+  },
+  "status_counts": {
+    "FRESH_PAIRED_CONTROL": 1200,
+    "COMPLETE": 1200
+  }
+}

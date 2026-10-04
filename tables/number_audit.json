@@ -1,0 +1,87 @@
+{
+  "manuscript_files": [
+    "main.tex",
+    "sections/01_introduction.tex",
+    "sections/02_related.tex",
+    "sections/03_protocol.tex",
+    "sections/04_better_predictors.tex",
+    "sections/05_query_regime.tex",
+    "sections/06_replanning.tex",
+    "sections/07_ranking.tex",
+    "sections/08_discussion.tex",
+    "sections/09_supplement.tex",
+    "tables/table1_protocol.tex",
+    "tables/table2_main.tex",
+    "tables/table3_replanning.tex"
+  ],
+  "numeric_tokens_total": 707,
+  "numeric_tokens_matched_to_claim_evidence": 699,
+  "numeric_tokens_unmatched": 8,
+  "matched_fraction": 0.9887,
+  "unmatched_occurrences": [
+    {
+      "file": "main.tex",
+      "line": 13,
+      "token": "0.07",
+      "normalized": "0.07",
+      "matched_claim_ids": []
+    },
+    {
+      "file": "main.tex",
+      "line": 24,
+      "token": "9500",
+      "normalized": "9500",
+      "matched_claim_ids": []
+    },
+    {
+      "file": "main.tex",
+      "line": 26,
+      "token": "92093",
+      "normalized": "92093",
+      "matched_claim_ids": []
+    },
+    {
+      "file": "sections/03_protocol.tex",
+      "line": 18,
+      "token": "-6",
+      "normalized": "-6",
+      "matched_claim_ids": []
+    },
+    {
+      "file": "sections/08_discussion.tex",
+      "line": 20,
+      "token": "0.21",
+      "normalized": "0.21",
+      "matched_claim_ids": []
+    },
+    {
+      "file": "sections/08_discussion.tex",
+      "line": 20,
+      "token": "0.15",
+      "normalized": "0.15",
+      "matched_claim_ids": []
+    },
+    {
+      "file": "sections/09_supplement.tex",
+      "line": 40,
+      "token": "-6",
+      "normalized": "-6",
+      "matched_claim_ids": []
+    },
+    {
+      "file": "sections/09_supplement.tex",
+      "line": 66,
+      "token": "-6",
+      "normalized": "-6",
+      "matched_claim_ids": []
+    }
+  ],
+  "unique_unmatched_tokens": [
+    "-6",
+    "0.07",
+    "0.15",
+    "0.21",
+    "9500",
+    "92093"
+  ]
+}

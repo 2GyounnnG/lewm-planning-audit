@@ -1,0 +1,311 @@
+/workspace/r10/swm_a/stable_worldmodel/envs/__init__.py:215: UserWarning: ale-py not found; ALE/* envs are unavailable. Install with: pip install 'stable-worldmodel[env]' or pip install ale-py.
+  from stable_worldmodel.envs import ale  # noqa: F401
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 1.0391 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6835 seconds
+{"case_id": "R6_reacher_005a9d4fafe8239392288119", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 2713568249645417520, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "2efec73ac47cdc2402d7073620da2cf7527fda459d890937d8b25b327e93c74c", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6424 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6910 seconds
+{"case_id": "R6_reacher_005a9d4fafe8239392288119", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 12587066478306444508, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "1dce6641f7df21396cb9066c0c59aec43b63f7160b2bd040a693630492da0ac2", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6649 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6475 seconds
+{"case_id": "R6_reacher_005a9d4fafe8239392288119", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 4554225252767897912, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "0449218eaf5e29246b64f05a1da417daba86c949c03f8eaedf4792c570aac636", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6728 seconds
+CEM solve time: 0.6494 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6766 seconds
+CEM solve time: 0.6649 seconds
+{"case_id": "R6_reacher_01a369b2316f5e495d770946", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 12257333803188269302, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "115beaf1547ccc7b3deb40c8ead506c70af0d845de50b8a12f9245bad79fa10a", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 17450448138518826412, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "5c06b76d19b9782b3591e931767e839441021be6dd16c8a160d1c810b25f7453"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6610 seconds
+CEM solve time: 0.6489 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6523 seconds
+CEM solve time: 0.6473 seconds
+{"case_id": "R6_reacher_01a369b2316f5e495d770946", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 3750576261941192899, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "c7ba042f5bf63ca13bd386850f9e88feb4ca5b285a6a1833db715196290d4c0d", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 8465403452382216196, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "2841844c9b772b2dec8001fe28d3be31c58b3e65ca7ca98245a135d58c61d60b"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6706 seconds
+CEM solve time: 0.6482 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6427 seconds
+CEM solve time: 0.6485 seconds
+{"case_id": "R6_reacher_01a369b2316f5e495d770946", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 4241266424025658510, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "e2834302f62e4de70f40fb321c7a89cc0ce5b7d08b043c450b421642548e9863", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 5765118616243642100, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "2e20d989fc61b6e0a952b4e639ca7e6d07615dfb0676d660db122e7b039518f2"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6500 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6473 seconds
+{"case_id": "R6_reacher_027fb56ab9bbb246ba323f0b", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 3647486489123467069, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "a7372ab06091371f1aa58f9baed8012db2a887338b9dbecb3b0454730cd48475", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6588 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6557 seconds
+{"case_id": "R6_reacher_027fb56ab9bbb246ba323f0b", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 7675834178909888661, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "a7ff80b101fbc9c90666cf90cc68b6fd16b4d52b4bae9fc6df984f3675fe5a49", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6641 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6581 seconds
+{"case_id": "R6_reacher_027fb56ab9bbb246ba323f0b", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 11977961668836524040, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "2c120dfb42b898801cde2ad9a666f209c29ad846c15dc2b9664a7b3e7f79dd80", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6405 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6701 seconds
+{"case_id": "R6_reacher_035bff63e5e604a5c077f9b3", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 5424841892825131359, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "fb0c6bf277a6d9b03cc159687bec67979b91672d7bf168aebe874a00ac5ccd6c", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6448 seconds
+CEM solve time: 0.6733 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6583 seconds
+CEM solve time: 0.7108 seconds
+{"case_id": "R6_reacher_035bff63e5e604a5c077f9b3", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 6584047715287866761, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "2c46ad8b8e9467d1a47d98ff7953c7fb4e3510df338488822ab42b41fda47069", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 17817257817324889611, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "c1e3b7c07837c7a22685b4a93324e35f1bc73f632ceaa063d2dc16e9c3fa0b81"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6867 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6730 seconds
+{"case_id": "R6_reacher_035bff63e5e604a5c077f9b3", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 2098122894707851906, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "b7b338b95c8608a866458de6c9e23c79a5ebf624cc5d957efa8b3c0846d47408", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6544 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6740 seconds
+{"case_id": "R6_reacher_0415eab85414f31fa3d57a99", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 9168605149608627534, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "9386c8ed29a3fb7fa29023ab23a6b4aab81ac4ad11a8d689aee416f9a265b21e", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6464 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6528 seconds
+{"case_id": "R6_reacher_0415eab85414f31fa3d57a99", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 18197201327382121229, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "4ed1e0f0a0ce66f2705cd756b82636e32f3acd0ef9f4b06faccfadafc31c4976", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6494 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6606 seconds
+{"case_id": "R6_reacher_0415eab85414f31fa3d57a99", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 2533716990478030314, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "f2cfcb9404383ecbe78268198ffe633a005a7d05b365649322cfda8d3e6e783e", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6645 seconds
+CEM solve time: 0.6481 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6659 seconds
+CEM solve time: 0.6461 seconds
+{"case_id": "R6_reacher_048aa37b1e1d985113bcef99", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 2541218099879949334, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "6609815a8e87bc75a62326f69dccac8071535348b5b40f08341a92fde62a256a", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 6871462629927594494, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "8796005661a817a085a4ac2607d82195c90d577cc510a95481e1b7eb0278bb3c"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6827 seconds
+CEM solve time: 0.6461 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6712 seconds
+CEM solve time: 0.6512 seconds
+{"case_id": "R6_reacher_048aa37b1e1d985113bcef99", "stream": "R4_ALT_CEM_1", "history1": 0, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 4405787390316225633, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "530c4f435518756c3d72e48f5c626efdb430697f776c1ce7633f1a2d1fbddab3", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 8983905345354523681, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 5.960464477539063e-08, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "cbe751d755b90f346ee9c2fa44fe1b002e3f4bd62b9051c3ed8a5a32ae25a3f5"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6552 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6448 seconds
+{"case_id": "R6_reacher_048aa37b1e1d985113bcef99", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 6012287902242786680, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "db8bc2351d75137ba569eeaedec4ffc3d9bb9bc5953a86b34b8d949917bcce12", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6723 seconds
+CEM solve time: 0.6521 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6592 seconds
+CEM solve time: 0.6454 seconds
+{"case_id": "R6_reacher_05b7debf402e51340c75b891", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 5424373344430811911, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "bcedadcef0457071e52039ab722d1e13dfb2c37df058aac9ee706a7a50980b96", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 10244155045598104179, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 5.960464477539063e-08, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "e8bdfef661ff77a81bc90af38114da04b8d309e6d00e9934f53fb1b7e4d80a8c"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6565 seconds
+CEM solve time: 0.6477 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6557 seconds
+CEM solve time: 0.6579 seconds
+{"case_id": "R6_reacher_05b7debf402e51340c75b891", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 1288260854148201207, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "eb82251e0a174e47948226083502aa9674b054ab8e3bf6b6c0ce1ecaa9b71bc1", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 5987067914642537321, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 5.960464477539063e-08, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "60ceea0afc7d7f54b74a8ca67ccfdd62d2b735f785a130d370136ba8888d8258"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6600 seconds
+CEM solve time: 0.6501 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6630 seconds
+CEM solve time: 0.6498 seconds
+{"case_id": "R6_reacher_05b7debf402e51340c75b891", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 7432475407149727966, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "44f1887068f7bb634fa52efc3076461b387a5c588466aaaa70648696c55b1f14", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 12212752482006732145, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "6a45151c366a796d27d8ffe84389724bbe69983ad99b9cc2f6e633d662296678"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6600 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6414 seconds
+{"case_id": "R6_reacher_06f31f0ed66595d668f795d6", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 4852321313635829421, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "994722e4bbee17553da65190c53c72e1cefc045db1a3ba442234f65dd43f03c6", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6810 seconds
+CEM solve time: 0.6395 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6613 seconds
+CEM solve time: 0.6432 seconds
+{"case_id": "R6_reacher_06f31f0ed66595d668f795d6", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 12396689393206726136, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "9e417cf378d1d28f79939a7689ec88c475beb9fe3b3a75ae26e4717e484d83a7", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 1229411077874454813, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 5.960464477539063e-08, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "0ffb4674df415b58b0716dd4e62c05836da6bac5fd9c8686965740f00b8ae10a"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6643 seconds
+CEM solve time: 0.6459 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6546 seconds
+CEM solve time: 0.6451 seconds
+{"case_id": "R6_reacher_06f31f0ed66595d668f795d6", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 13372511884135008040, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "b2cdb28e2a03ce6618a414cf0b91e3077203138f09cf5aa4e64286fb8298e431", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 934521614901193156, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "31071a5d49250161738b5b2340d1620d2133f11430b838dd5a89d82b9a5d2081"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6527 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6454 seconds
+{"case_id": "R6_reacher_07d217105efcc8943612bd1b", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 3018137719067480999, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "d25506abe30854f3f818a877a59d4962f1d7c0a9a1737afa88f2fa669b923e16", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6588 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6510 seconds
+{"case_id": "R6_reacher_07d217105efcc8943612bd1b", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 187728455233969508, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "01c84b6e1e9ad1ec730ec4d9b5f1cd9c90fed3d3778e1c7077cbd97c7cc9d34f", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6761 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6503 seconds
+{"case_id": "R6_reacher_07d217105efcc8943612bd1b", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 6485622091284223357, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "6eb9e7d1e0ae57ae98916c6c9dbb9c72865f79c24879c84540883d22442c4744", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6737 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6402 seconds
+{"case_id": "R6_reacher_08adec0f89aa2befc53c51f6", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 4129444302861341700, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "c6ca9ba92d844af6f3f355cecb29a141e7f2c0abfa23f3a97160661f42393374", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6443 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6528 seconds
+{"case_id": "R6_reacher_08adec0f89aa2befc53c51f6", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 1364904545359685915, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "ee290767ae1eb95ca9726b04f6c855a7cf49cb6b51f01c6cc391c643aa15ea55", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6471 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6565 seconds
+{"case_id": "R6_reacher_08adec0f89aa2befc53c51f6", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 9150498424672827051, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "8bc2c075881365330a75fac1e67dc7784cee0a2bdd53d6b8d9803457a3a56e75", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6656 seconds
+CEM solve time: 0.6513 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6603 seconds
+CEM solve time: 0.6508 seconds
+{"case_id": "R6_reacher_0913f64b7826936e467d91e6", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 5474328333086382237, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "0f211073aefa6a6059f1f28c98c187e0f369066f1a83ad227fe236ee72d16d4d", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 11982452273977238090, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "37aed9eac5d9733a826e5ca37961eaae7e1fe0df78685517209000970af00ba4"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6449 seconds
+CEM solve time: 0.6643 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.8582 seconds
+CEM solve time: 0.6596 seconds
+{"case_id": "R6_reacher_0913f64b7826936e467d91e6", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 8072560709823548212, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "61034642b6d22e7928ec6e51e5d973a48087ed366e7b3562ba43caf4bf7bfd61", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 6436328769884082389, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "7d39880e7b0c5e22785f1cb83900772657b17a1df21de54b3a991eacbf3414e6"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6531 seconds
+CEM solve time: 0.6577 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6502 seconds
+CEM solve time: 0.6566 seconds
+{"case_id": "R6_reacher_0913f64b7826936e467d91e6", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 13576592947672518678, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "5a7fb6c090758bb292f60a1ac8340456bc36d61f207daa90a108574a4a632d53", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 14079121967888843775, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "d59b843f2dabed8017f6d3b65b148fabb89bc35c1a61deee7adc225f9802e2d4"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6971 seconds
+CEM solve time: 0.6541 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6441 seconds
+CEM solve time: 0.6636 seconds
+{"case_id": "R6_reacher_09cf773ec6c44d3a53bda2cc", "stream": "R3_ORIGINAL", "history1": 0, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 10738944109630957597, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "968fe46672d8340f9fceea0a43fff5cbcdd4707523765b3f2dedce68aaf1253a", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 2912362211871369887, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "eb55fc584f204cff43fb8766b2e7b500039330cb589271c3eb84d044ce8533b7"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6634 seconds
+CEM solve time: 0.6615 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6432 seconds
+CEM solve time: 0.6675 seconds
+{"case_id": "R6_reacher_09cf773ec6c44d3a53bda2cc", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 1683469908720718831, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "f6264509b1121389af4b780d48d6871bf0a246ba38df5f30e91771851fc2dcd0", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 2811753839169034570, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 1.1920928955078125e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "e2b7188614764d04f5850990ece5457bd6e315ba8180efb0c5b7a5846f6757ac"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6441 seconds
+CEM solve time: 0.6654 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6417 seconds
+CEM solve time: 0.6628 seconds
+{"case_id": "R6_reacher_09cf773ec6c44d3a53bda2cc", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 14442400993918957868, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "09893f239f47362c50f5c7aaa0e9ad796e2e8c0da17e4b7975aab035a09e7775", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 16289293971413119033, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 5.960464477539063e-08, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "75e537af5c58a15a8d77317464c1bd9e9a9252f7eb09d2056a564e3ab0b2dfdf"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6356 seconds
+CEM solve time: 0.6611 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6496 seconds
+CEM solve time: 0.6607 seconds
+{"case_id": "R6_reacher_0ab0d3473481dc3b32839a68", "stream": "R3_ORIGINAL", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 10440122489785328480, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "f1f5c74e3e21fd4ce677b8d2209d25eabba35865d7e6d39f403185ee5e87c8cc", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}, {"replan_index": 1, "anchor_raw": 25, "seed_uint64": 7439083974295720868, "model_pixels_shape": [1, 300, 3, 3, 224, 224], "model_action_history_shape": [1, 300, 2, 10], "candidate_shape": [1, 300, 5, 10], "emitted_action_dtype": "float32", "observed_action_dtype": "float64", "action_history_max_abs_difference": 0.0, "previous_probe_max_abs_difference": 2.384185791015625e-07, "history_raw_indices": [15, 20, 25], "real_actions_verified": true, "real_pixels_verified": true, "plan_sha256": "7146b104bf3037fbf18ff7d79e4f1ff01c75b8f97160aca1f7592b6d5fb55d50"}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6549 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6472 seconds
+{"case_id": "R6_reacher_0ab0d3473481dc3b32839a68", "stream": "R4_ALT_CEM_1", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 15305478693179907924, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "edfe4536d3ab88db913add3946f142db294ba0422d53dd6fa99d125694006156", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6480 seconds
+/workspace/r10/env_a/lib/python3.12/site-packages/gymnasium/envs/registration.py:729: UserWarning: [33mWARN: The environment is being initialised with render_mode='rgb_array' that is not in the possible render_modes ([]).[0m
+  logger.warn(
+CEM solve time: 0.6519 seconds
+{"case_id": "R6_reacher_0ab0d3473481dc3b32839a68", "stream": "R4_ALT_CEM_2", "history1": 1, "history3": 1, "replans3": [{"replan_index": 0, "anchor_raw": 0, "seed_uint64": 1613998012232816729, "model_pixels_shape": [1, 300, 1, 3, 224, 224], "model_action_history_shape": null, "candidate_shape": [1, 300, 5, 10], "warmup": "ONE_REAL_FRAME_NO_ACTION_HISTORY", "plan_sha256": "f9cfeee1b2b2b9140d1c2657d291d523c702179cd8752e36750641562a6e7a14", "first_plan_bitwise_equal": true, "first_plan_max_abs_difference": 0.0}]}

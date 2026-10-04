@@ -1,0 +1,15 @@
+{
+  "status": "NATIVE_MODULE_A_STRICT_LOAD_PASS",
+  "swm_revision": "63988116d34cde56aea1240d5e58eb158ac67dc0",
+  "swm_file": "/workspace/r10/swm_a/stable_worldmodel/__init__.py",
+  "model_class": "stable_worldmodel.wm.lewm.lewm.LeWM",
+  "weights_sha256": "eb70b1fd5409f8f81875d62f5ee5a20dd220a3128a477de66b5760f475f0f469",
+  "config_sha256": "2564086e961e7b5c7c04dffc451091115b389a590645ff19653c64fd0bc16e09",
+  "state_dict_keys": 303,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "torch": "2.8.0+cu128",
+  "cuda_available": true,
+  "trajectories_started": 0,
+  "optimizer_updates": 0
+}

@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "bytes": 471409,
+      "case": {
+        "case_id": "R6_reacher_005a9d4fafe8239392288119",
+        "construction_rule": "R3 CASE EVAL construction: R3_CASE_START_20261002 hash legal planning start, goal=start+25 raw, R3_OPEN_LOOP_ANCHOR_20261002 fallback",
+        "episode_id": "reacher:85a7dddfa1801302:4083",
+        "episode_sha256": "b4b669c025be69c00e7def47179d97b1f0a2f69a7abd4de63fd40580bd89fd2b",
+        "family_id": null,
+        "goal_offset_raw": 25,
+        "goal_raw_index": 182,
+        "length": 201,
+        "open_loop_anchor_raw": 157,
+        "open_loop_anchor_relation": "SAME_AS_PLANNING_START",
+        "open_loop_target_raw": {
+          "1": 162,
+          "2": 167,
+          "5": 182
+        },
+        "open_loop_window_start_raw": 147,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R6_FRESH/reacher/\"+episode_id) ascending",
+        "selection_sha256": "005a9d4fafe82393922881198731fda75541b7663b61513de152ba4e80aa3ca0",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 4083,
+        "source_seed": null,
+        "start_raw_index": 157,
+        "task": "reacher",
+        "unit": "U1"
+      },
+      "file": "R6_reacher_005a9d4fafe8239392288119.npz",
+      "path": "/workspace/r8/assets/U1/R6_reacher_005a9d4fafe8239392288119.npz",
+      "reference_root": "/workspace/r6/reacher",
+      "sha256": "851d8feb66609f487791c6b84b3910051768d9008c4820d9c673d2f48585ce65",
+      "unit": "U1"
+    }
+  ]
+}

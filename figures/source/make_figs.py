@@ -135,6 +135,13 @@ m4_main_df = pd.read_csv(M4_MAIN_PATH)
 m4_secondary_df = pd.read_csv(M4_SECONDARY_PATH)
 m4_raw_df = pd.read_csv(M4_RAW_PATH)
 r7_a_df = pd.read_csv(R7 / "reports" / "A_MAIN_TABLE.csv")
+W6_PATH = ROOT / "evidence" / "w6" / "W6_POSTHOC_TABLE.csv"
+w6_df = pd.read_csv(W6_PATH)
+R10_PATH = ROOT / "evidence" / "r10" / "R10_MAIN_TABLE.csv"
+r10_df = pd.read_csv(R10_PATH)
+def r10(endpoint):
+    rr = r10_df[r10_df.endpoint == endpoint].iloc[0]
+    return float(rr.point_pp), float(rr.ci95_low_pp), float(rr.ci95_high_pp)
 
 # Fresh-case endpoint: case means across all model/stream pairs, followed by
 # the preregistered case bootstrap.  This re-expresses the sealed calculation
@@ -222,8 +229,13 @@ FOREST.append(("Change the predictor", "Refit − official, real-history replann
 add_hist("Official predictor", "H0", HIST)
 add_hist("Refit predictor", RH_REFIT_ARM, HIST)
 FOREST.append(("Change the history (real − single)", "Fresh cases, preregistered", *R6_ENDPOINT, HIST, True))
+# R10 module A: the planning library's own history option (official predictor, history set).
+FOREST.append(("Change the history (real − single)", "Library option, history_len 3 − 1", *r10("E_A1"), HIST, False))
 rr = row(hist_df, task="pusht", metric="success_difference_REAL3_minus_POLICY", arm=RH_REFIT_ARM, stream="MEAN_OF_THREE_STREAMS_WITHIN_CASE")
-FOREST.append(("Control task", "PushT: real − single, refit", 100*float(rr.estimate), 100*float(rr.conditional95_low), 100*float(rr.conditional95_high), OFFICIAL, True))
+FOREST.append(("Control tasks", "PushT: real − single, refit", 100*float(rr.estimate), 100*float(rr.conditional95_low), 100*float(rr.conditional95_high), OFFICIAL, True))
+# R10 modules B and C: TwoRoom and Cube real-history replanning on the fresh refit sets.
+FOREST.append(("Control tasks", "TwoRoom: real − single, four predictors", *r10("E_B"), OFFICIAL, True))
+FOREST.append(("Control tasks", "Cube: real − single, four predictors", *r10("E_C"), OFFICIAL, True))
 
 STREAMS = {}
 for arm, name, marker in [("H0", "Official", "o"), (RH_REFIT_ARM, "Refit (mean)", "s")]:
@@ -267,6 +279,10 @@ for task, endpoint, label in [("reacher", "fixed_three_refit_mean_minus_H0", "Re
                               ("cube", "fixed_three_refit_mean_minus_H0", "Cube · fresh")]:
     rr = row(r8_main_df, module="M2", task=task, endpoint=endpoint)
     FOREST2.append((label, 100*float(rr.point), 100*float(rr.ci95_low), 100*float(rr.ci95_high), REFIT))
+# W6 post hoc pool of the three Reacher case sets (single-frame query, three
+# streams), read from the W6 table produced by scripts/w6_posthoc.py.
+_pool = w6_df[w6_df["sample"].str.startswith("reacher_pooled") & (w6_df["quantity"] == "contrast_0")].iloc[0]
+FOREST2.append(("Reacher · 3 sets pooled", float(_pool.estimate_pp), float(_pool.ci95_low_pp), float(_pool.ci95_high_pp), REFIT))
 for task, label in [("reacher", "Reacher · stress"), ("pusht", "PushT · stress")]:
     rr = r7_a_df[(r7_a_df.endpoint == "P2") & (r7_a_df.task == task)].iloc[0]
     FOREST2.append((label, 100*float(rr.point), 100*float(rr.ci95_low), 100*float(rr.ci95_high), REFIT))
@@ -308,8 +324,10 @@ def fig2():
     yy = np.arange(len(FOREST2))[::-1]
     for yi, (lab, d, lo, hi, col) in zip(yy, FOREST2):
         filled = ("original" in lab or "fresh" in lab)
+        pooled = "pooled" in lab
         b.plot([lo, hi], [yi, yi], color=col, lw=1.1, solid_capstyle="round")
-        b.scatter(d, yi, s=18, facecolor=col if filled else "white", edgecolor=col, linewidth=0.9, zorder=3)
+        b.scatter(d, yi, s=16 if pooled else 18, marker="D" if pooled else "o",
+                  facecolor=col if filled else "white", edgecolor=col, linewidth=0.9, zorder=3)
     b.axvline(0, color=INK2, lw=0.7)
     # The fresh-case history contrast is a reference band; it is not a
     # predictor effect and is shown only to keep the scale interpretable.
@@ -389,6 +407,9 @@ for label, point, low, high, col, filled in [
         # M5 rows are in the V2 main table and labelled descriptive.
         rr = row(r8_main_df, module="M5", task="reacher", endpoint=point)
     FOREST.append(("Mechanism / protocol", label, 100*float(rr.point), 100*float(rr.ci95_low), 100*float(rr.ci95_high), col, filled))
+# R10 module D: the two components of real history, unpaired (preregistered).
+FOREST.append(("Mechanism / protocol", "Real frames, null actions − single frame", *r10("E_D1"), HIST, False))
+FOREST.append(("Mechanism / protocol", "Current-frame copies, real actions − single frame", *r10("E_D2"), HIST, False))
 # Operating-point E1 rows are read from the sealed summaries above.  The two
 # corrected E2 rows are read directly from the R8-FIX table and are plotted as
 # open markers so the estimate is visibly distinct from E1.
@@ -410,9 +431,9 @@ for _, _rr in _e2.iterrows():
 
 # ---------------------------------------------------------------- Figure 4
 def fig4():
-    fig = plt.figure(figsize=(W, 4.2))
-    gs_top = fig.add_gridspec(1, 1, left=0.405, right=0.90, top=0.95, bottom=0.555)
-    gs_bot = fig.add_gridspec(1, 2, left=0.095, right=0.985, top=0.375, bottom=0.075,
+    fig = plt.figure(figsize=(W, 5.3))
+    gs_top = fig.add_gridspec(1, 1, left=0.425, right=0.90, top=0.965, bottom=0.46)
+    gs_bot = fig.add_gridspec(1, 2, left=0.095, right=0.985, top=0.31, bottom=0.06,
                               width_ratios=[1.0, 1.3], wspace=0.30)
     a = fig.add_subplot(gs_top[0, 0])
     b, c = fig.add_subplot(gs_bot[0, 0]), fig.add_subplot(gs_bot[0, 1])
@@ -542,7 +563,7 @@ def fig5():
 
 if __name__ == "__main__":
     fig2(); fig3(); fig4(); fig5()
-    src = [FT_PATH, H3_PATH, PROBE_PATH, RH_PATH, ATTR_PATH, R6_RAW_PATH, R6_STATS_PATH, R8_MAIN_PATH, R8_SECONDARY_PATH, R8_E2_FIX_PATH, M4_MAIN_PATH, M4_SECONDARY_PATH, M4_RAW_PATH]
+    src = [FT_PATH, H3_PATH, PROBE_PATH, RH_PATH, ATTR_PATH, R6_RAW_PATH, R6_STATS_PATH, R8_MAIN_PATH, R8_SECONDARY_PATH, R8_E2_FIX_PATH, M4_MAIN_PATH, M4_SECONDARY_PATH, M4_RAW_PATH, W6_PATH, R10_PATH]
     lines = ["# Figure source registration", "", "Deterministic plots from sealed local evidence; no new experiments.", ""]
     for p in src:
         h = hashlib.sha256(p.read_bytes()).hexdigest()

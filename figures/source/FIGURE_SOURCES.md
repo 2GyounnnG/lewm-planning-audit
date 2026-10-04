@@ -15,3 +15,5 @@ Deterministic plots from sealed local evidence; no new experiments.
 - `evidence/r8/m4/M4_MAIN_TABLE.csv` — SHA256 `9ff42367830f701ba507178d0c2824db82021971f6a6ecc74f7a3e3ca3a9989d`
 - `evidence/r8/m4/M4_SECONDARY_TABLE.csv` — SHA256 `559dd25712347fa9749550d7d66cd98e9ccbf151b2d11f7878f13bb1fa587614`
 - `evidence/r8/m4/M4_ALL_RAW_VALUES.csv` — SHA256 `292bcada4a48807cfc896532dcd1a5c071fc5292a8a024ade503e89bca72a9fe`
+- `evidence/w6/W6_POSTHOC_TABLE.csv` — SHA256 `65f837398a8853c9f75518bdba5513dac661972ea1fa3e91c1207f77d2f007e4`
+- `evidence/r10/R10_MAIN_TABLE.csv` — SHA256 `fc8c2a3dbfbce4a494333193fca2549bc6922ad7f61bd6c874cc5db69f3aae04`

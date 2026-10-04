@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "independent_case_difference_and_sequential_bootstrap_verified": true,
+  "case_count": 100,
+  "history1_successes": 254,
+  "history3_successes": 290,
+  "denominator_per_arm": 300,
+  "point": 0.11999999999999998,
+  "ci95": [
+    0.07666666666666666,
+    0.16666666666666663
+  ]
+}

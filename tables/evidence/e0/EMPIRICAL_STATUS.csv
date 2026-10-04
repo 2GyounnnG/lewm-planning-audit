@@ -1,0 +1,11 @@
+hypothesis,status,evidence_and_scope
+A1,MIXED,16/24 seed checks; 5/8 worlds all seeds; universal claim NOT_SUPPORTED_IN_TESTED_RANGE
+A2,MIXED,21/24 method-world checks; both methods 9/12 worlds
+A3,SUPPORTED_WITH_ASSUMPTIONS,6/6 checks in two predefined weak OBS worlds
+B1,MIXED,3/3 geometry thresholds; only 1/3 combined gap-ratio thresholds
+C1_SM_B,NOT_SUPPORTED_IN_TESTED_RANGE,5/12 worlds pass; universal condition fails
+C1_SMX_B,NOT_SUPPORTED_IN_TESTED_RANGE,7/12 worlds pass; universal condition fails
+C2_SM_B,SUPPORTED_WITH_ASSUMPTIONS,2/12 worlds; all three seed directions; finite exploratory design
+C2_SMX_B,NOT_SUPPORTED_IN_TESTED_RANGE,1/12 worlds; fewer than two required
+PRIMARY_POSITIVE_RISK_INTERACTION,NOT_SUPPORTED_IN_TESTED_RANGE,All three main-setting point estimates negative; one seed conditional CI crosses zero
+POST_SMOKE_EXPLORATORY_RULE,NOT_SUPPORTED_IN_TESTED_RANGE,"7/12 selections correct, below legacy 10/12 target; not independent validation"

@@ -1,0 +1,38 @@
+{
+  "started_unix": 1791130658.3083375,
+  "workers": [
+    {
+      "worker": 0,
+      "exit_code": 0
+    },
+    {
+      "worker": 1,
+      "exit_code": 0
+    },
+    {
+      "worker": 2,
+      "exit_code": 0
+    },
+    {
+      "worker": 3,
+      "exit_code": 0
+    },
+    {
+      "worker": 4,
+      "exit_code": 0
+    },
+    {
+      "worker": 5,
+      "exit_code": 0
+    },
+    {
+      "worker": 6,
+      "exit_code": 0
+    },
+    {
+      "worker": 7,
+      "exit_code": 0
+    }
+  ],
+  "finished_unix": 1791131461.4435122
+}

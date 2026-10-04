@@ -1,0 +1,26 @@
+{
+  "module": "C",
+  "prereg_sha256": "9c17325eb85b37880106f45af6761f1b269fa673a56d713b36693440e108a2a9",
+  "files": {
+    "CONCLUSION_ZH.txt": {
+      "bytes": 458,
+      "sha256": "c7960b9be5d384cbcadfb91fc66e0417c8de22c90915fd26d007e39e3c2039cc"
+    },
+    "MAIN_TABLE.csv": {
+      "bytes": 184,
+      "sha256": "b6575904df1086dc65d812a1c7ce79d8d2a605b1807293e29d1e55166437f585"
+    },
+    "RAW_VALUES.csv": {
+      "bytes": 462857,
+      "sha256": "33b0400dbee0777481fd58ce43b6cb12cab71e7c8b7f62ab1b69dd09b88ceb96"
+    },
+    "SECONDARY_TABLE.csv": {
+      "bytes": 228,
+      "sha256": "3fcadc940b40c51bc8dcdf786b56cf164c15a5ca1a08cc23a585fdb30f811a3c"
+    },
+    "STATS.json": {
+      "bytes": 691,
+      "sha256": "569a76a1aea3af7419e143fff553901ed24c2d5d6b4bf645dbea39749e4ebc45"
+    }
+  }
+}

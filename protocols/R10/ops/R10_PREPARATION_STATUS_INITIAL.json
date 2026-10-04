@@ -1,0 +1,60 @@
+{
+  "version": "R10_PREPARATION_STATUS_V1",
+  "status": "REMOTE_WORK_BLOCKED_BY_APPLICATION_NETWORK_PERMISSION",
+  "remote_root": "/workspace/r10",
+  "formal_trajectories_started": 0,
+  "tech_trajectories_started": 0,
+  "training_updates": 0,
+  "instance_shutdown_by_agent": false,
+  "completed": {
+    "gpu_inventory": "8 RTX 4090; inventory is in R10_LAUNCH.json",
+    "transfers": [
+      "R3 source, state, r3 Python package, selected manifests",
+      "PushT and Reacher official weights and six fixed refit checkpoints",
+      "U1 assets: 100 files; M2 assets: 400 files",
+      "R6/R8 execution code, R4 package, selected case-selection/window manifests"
+    ],
+    "checkpoint_directory_correction": "Moved train children into shared_data/r3/artifacts/train",
+    "verified_local_remote_sha256": {
+      "official/reacher/weights.pt": "eb70b1fd5409f8f81875d62f5ee5a20dd220a3128a477de66b5760f475f0f469",
+      "artifacts/train/R3_reacher_PRED_REFIT_s103201/checkpoint_30000.pt": "d1ead9f1ef483ae372ad60138c334e74571c91b274fcc61581da62b91a343bd1"
+    },
+    "swm_checkout": "/workspace/r10/swm_a",
+    "swm_head": "63988116d34cde56aea1240d5e58eb158ac67dc0",
+    "old_jepa_strict_load": "PASS: 303 state_dict keys; this does not validate the native 639 LeWM class"
+  },
+  "environment": {
+    "main_environment": "/venv/main",
+    "main_torch": "2.11.0+cu128",
+    "module_a_environment": "/workspace/r10/venv_a",
+    "module_a_python": "3.11.16",
+    "module_a_torch": "2.14.1+cu130",
+    "module_a_torchvision": "0.29.1",
+    "module_a_transformers": "4.50.3",
+    "module_a_mujoco": "3.14.0",
+    "caveats": [
+      "uv selected Python 3.11, not the main environment Python 3.12; installed a separate Torch/CUDA wheel set",
+      "Initial Transformers 5.18.0 broke checkpoint key names; 4.50.3 passed strict loading with the old fixed JEPA",
+      "Runtime dependencies must be audited/pinned against prior receipts before formal execution; Mujoco 3.14 exceeds the SWM env extra bound of <3.12",
+      "Full pip freeze receipts have not been captured"
+    ]
+  },
+  "source_findings": [
+    "639 native WorldModelPolicy requests one real frame at the first plan for a single environment, and omits action_history. The prompt's repeated-frame warm-up expectation does not match this source.",
+    "At later replans the native policy provides up to three real frames and two executed action blocks; this still needs a runtime shape check.",
+    "The native 639 LeWM rollout and ShootingCostEvaluator are needed to consume action_history; the old R3 JEPA strict-load pass alone is insufficient."
+  ],
+  "next_steps": [
+    "Restore application network permission before any remote commands",
+    "Audit and pin runtime dependencies; capture pip freeze for both relevant environments",
+    "Run code/check_module_a_strict.py to validate the native 639 LeWM constructors and strict weight loading",
+    "Locate all four TECH case assets and sealed old-version references; do not substitute formal R6 cases",
+    "Implement and seal the preregistration and analysis code before formal trajectories",
+    "Run TECH0 shape/first-plan checks, then only launch formal work if its gates pass"
+  ],
+  "approval_events": [
+    "User approved source/weight/asset/manifest/code transfer",
+    "Prompt and launch-metadata upload was rejected as outside that transfer approval; both remain local",
+    "Last native-model SSH check was not executed: automatic review could not complete because application network permission was revoked"
+  ]
+}
