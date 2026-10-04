@@ -23,4 +23,4 @@ Code and sealed tables for **“Better Predictors, Not Better Plans: Auditing Pl
 - `stable-worldmodel`: commit `abdced49809d5eae38e24b27dc7b635c502c4812`.
 - Execution hardware: vast.ai, 8 × RTX 5090.
 
-Code is released under the MIT License. The data and tables prepared for Zenodo are intended for CC BY 4.0. The Zenodo DOI will be filled in by the author after reservation.
+Code is released under the MIT License. The data and tables prepared for Zenodo are intended for CC BY 4.0. The reserved Zenodo DOI is `10.5281/zenodo.23134310`.
