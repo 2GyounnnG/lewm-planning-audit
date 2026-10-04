@@ -1,0 +1,633 @@
+{
+  "version": "R8_FIX_F2_INDEPENDENT_STATS_V1",
+  "generated_utc": "2026-10-04T06:45:00.192199+00:00",
+  "formal_rows": 1200,
+  "main_H_REAL3_minus_PRED_PAST": {
+    "point": 0.008333333333333337,
+    "ci95_low": 5.551115123125783e-18,
+    "ci95_high": 0.01666666666666667,
+    "bootstrap": 5000,
+    "seed_uint64": 13348898508186752825,
+    "indices_sha256": "134a0606e3f032e37b3cddbb692ac31aaac97fa9595b0ea1d93a81282e56c8d4",
+    "n_cases": 100
+  },
+  "secondary_PRED_PAST_minus_H_POLICY": {
+    "point": 0.12833333333333333,
+    "ci95_low": 0.09833333333333333,
+    "ci95_high": 0.16,
+    "bootstrap": 5000,
+    "seed_uint64": 9486253961397756373,
+    "indices_sha256": "000053430d0c1786a272d8a9c6b76ee2df1f4250719831836a67efd42d127489",
+    "n_cases": 100
+  },
+  "flips": {
+    "failure_to_success": 176,
+    "success_to_failure": 22,
+    "n": 1200
+  },
+  "second_plan_difference": {
+    "n_replanned": 694,
+    "n_different": 694,
+    "ratio": 1.0
+  },
+  "design_checks": {
+    "REAL2": {
+      "n": 20,
+      "all_match": false,
+      "records": [
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "H0",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "H0",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103201",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103201",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103202",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103202",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103203",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103203",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103203",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "H0",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": null,
+          "expected": [
+            20,
+            25
+          ],
+          "matches": false
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "H0",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103201",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103201",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            20,
+            25
+          ],
+          "expected": [
+            20,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103202",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": null,
+          "expected": [
+            20,
+            25
+          ],
+          "matches": false
+        }
+      ]
+    },
+    "REPEAT3": {
+      "n": 20,
+      "all_match": false,
+      "records": [
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "H0",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "H0",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103201",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103201",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103202",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103202",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103203",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103203",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_004a2bdf27d8bfceafa73467",
+          "arm": "REFIT_103203",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "H0",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "H0",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": null,
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": false
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "H0",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103201",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103201",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103201",
+          "stream": "R4_ALT_CEM_2",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103202",
+          "stream": "R3_ORIGINAL",
+          "history_raw_indices": [
+            25,
+            25,
+            25
+          ],
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": true
+        },
+        {
+          "case_id": "R6_reacher_005a9d4fafe8239392288119",
+          "arm": "REFIT_103202",
+          "stream": "R4_ALT_CEM_1",
+          "history_raw_indices": null,
+          "expected": [
+            25,
+            25,
+            25
+          ],
+          "matches": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-03T22:43:21.705445+08:00",
+  "direct_issue": "one x2 code transfer aborted with SSH MAC verification error; no verification bypass",
+  "proxy_issue": "two rsync sessions aborted connection reset; partial files retained",
+  "recovery": "secure direct ControlMaster with aes128-gcm, host key pinned; per-line hash verification required",
+  "owners": {
+    "R3_R4": "r4_runner",
+    "E0_X2": "x2_runner",
+    "X1": "x1_adapter"
+  }
+}

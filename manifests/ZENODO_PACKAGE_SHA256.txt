@@ -1,0 +1,3 @@
+# Zenodo package SHA-256 list
+# code_v1.0.zip is omitted because it is an exact archive of the v1.0 tree
+# including this file; its SHA is recorded in zenodo_upload/MANIFEST.sha256.

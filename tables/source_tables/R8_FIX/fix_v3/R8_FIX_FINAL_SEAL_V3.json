@@ -1,0 +1,20 @@
+{
+  "schema": "R8_FIX_FINAL_SEAL_V3",
+  "status": "SEALED_WITH_F2_TECH_FAIL",
+  "evidence_label": "R8_FIX_V3",
+  "original_seals_untouched": true,
+  "files": {
+    "fix_v3/reports/R8_MAIN_TABLE_V3.csv": "7eb07a610de5e38343735d289346c9d849dd98c794d9e2e973f285ff2d3c4245",
+    "fix_v3/reports/R8_SECONDARY_TABLE_V3.csv": "0b005cf8b3b1eb7f3bc3f347e650ea00679c91ef2f9d60d4024eb96286f7c5f1",
+    "fix_v3/reports/R8_CORRECTIONS.md": "af912b64f0305ffac4f713a89df15c143f665ad4177fb7e3feb913fd64927a0c",
+    "fix_v3/reports/R8_FIX_STATUS_V3.json": "07cbecb6b4fb13ef7c7f3edce15556361e33ccc6ecbdfe64a6db462ef183e666",
+    "fix_v3/reports/R8_FIX_CONCLUSIONS_V3.txt": "3994fa4b4a53947475dfbee352e799e916dc057a69a4e99fff0c73245b98fc58",
+    "remote_sync/fix/f1/R8_M1_E2_SEAL.json": "a7bf852bcc10e43c2a8d0399037506a9a5fc61a6f27c4db6c25fd90c46b1f2d4",
+    "remote_sync/fix/f2/reports/M3_V3_SEAL.json": "f59dba80d05048297f347de41d87e6a9d899c8c423991e3cbde79091bd5b6a7a",
+    "remote_sync/fix/f2_validation/ops/TECH_GATE_ZHAT_ONLY.json": "1b55790051fc028e082be16cfaa6aefa069463eb025cfc3c1ed62451819de30b",
+    "remote_sync/fix/f2_validation/ops/VALIDATION_RECEIPT.json": "e6dcabc0d833febc4b2db1e18672d6c138e7c80930e7ee76a3f091f6229dff99",
+    "remote_sync/fix/f2_validation/reports/M3_V3_RAW_VALUES_VERIFIED.csv": "ce2ce8ea27a78e0d8639c1f549bb7e544aa44bbfea90d1a1d37c22380a4d7d86",
+    "fix_sync/M6_ASSETS_VERIFY.json": "0159b05077cdb99c6b13d5193cad252e742c323d7c499ef0a788388147244ead"
+  },
+  "generated_utc": "2026-10-04T07:40:39.665495+00:00"
+}

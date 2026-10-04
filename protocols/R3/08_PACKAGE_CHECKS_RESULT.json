@@ -1,0 +1,7 @@
+{
+  "scope": "PACKAGE_CONTRACTS_ONLY_NOT_REMOTE_OR_SCIENTIFIC_TESTS",
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "passed": true
+}

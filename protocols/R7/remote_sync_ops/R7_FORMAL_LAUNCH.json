@@ -1,0 +1,17 @@
+{
+  "version": "R7_FORMAL_LAUNCH_V1",
+  "evidence_label": "PREREGISTERED_STRESS_TEST_FRESH_CASES",
+  "tasks": {
+    "reacher": {"formal_cases": 100, "trajectories": 2400, "workers": 4, "gpus": [0, 1, 2, 3], "goal_offset_raw": 50, "budget_raw": 100, "max_replans": 3},
+    "pusht": {"formal_cases": 100, "trajectories": 2400, "workers": 4, "gpus": [4, 5, 6, 7], "goal_offset_raw": 50, "budget_raw": 100, "max_replans": 3}
+  },
+  "arms": ["H0", "REFIT_103201", "REFIT_103202", "REFIT_103203"],
+  "streams": ["R3_ORIGINAL", "R4_ALT_CEM_1", "R4_ALT_CEM_2"],
+  "history_conditions": ["H_POLICY", "H_REAL3_REPLAN"],
+  "world_model_optimizer_updates": 0,
+  "checkpoint_selection": "fixed final 30000 update checkpoints; no result-based selection",
+  "randomness": "fixed preregistered case/stream/replan seeds",
+  "r4_r5_r6_interrupted": false,
+  "automatic_rental": false,
+  "automatic_destroy": false
+}

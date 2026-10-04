@@ -1,0 +1,111 @@
+{
+  "version": "R5_CONTINUATION_AND_H3X_AUTHORIZATION_V1",
+  "recorded_utc": "2026-10-03T17:25:23.915897+00:00",
+  "authority": "Direct human user message; supersedes initial-only interpretation of the startup-order insertion",
+  "original_R5_full_scope_continues": true,
+  "initial_stage_scope_was_start_order_not_limit": true,
+  "preserve_sealed_files": true,
+  "primary_root": "/workspace/r5",
+  "do_not_modify_R4": true,
+  "launch_order": [
+    "C1_AND_H2_IMMEDIATE_PRIORITY",
+    "H3X_TECH_THEN_THREE_SPARE_GPUS",
+    "C2_AFTER_C1_AND_H2_MAIN_DELIVERY"
+  ],
+  "C1": {
+    "case_count": 100,
+    "arms": [
+      "H0",
+      "REFIT_103201",
+      "REFIT_103202",
+      "REFIT_103203"
+    ],
+    "closed_loop_runs": 400,
+    "protocol": "R5 section2, sealed C0 contract"
+  },
+  "H2": {
+    "reacher_closed_loop_runs": 1200,
+    "pusht_closed_loop_runs": 1200,
+    "tworoom": "NOT_TRIGGERED_DO_NOT_RUN",
+    "reuse_R4_S3_controls_only_after_implementation_match": true,
+    "on_mismatch": "Rerun controls per R5 section6"
+  },
+  "H3": {
+    "preset_trigger": "NOT_TRIGGERED",
+    "updated_interpretation": "未触发，触发量不具区分力",
+    "original_measurements_unchanged": true
+  },
+  "H3X": {
+    "label": "H3X_EXPLORATORY_AFTER_TRIGGER_DEFECT",
+    "authorization": "Explicit exploratory exception, independent of the preset trigger",
+    "task": "reacher",
+    "seeds": [
+      103201,
+      103202,
+      103203
+    ],
+    "updates_per_seed": 30000,
+    "checkpoint": "FINAL_30000_ALL3_SEEDS",
+    "trainable": [
+      "predictor",
+      "pred_proj"
+    ],
+    "all_other_training_settings": "Exactly R3, with only R5 section3.4 context-matched autoregressive change",
+    "TECH": [
+      "Gradient through autoregressive rollout",
+      "Encoder/projector/action_encoder and BN parameters/buffers frozen hashes unchanged"
+    ],
+    "open_loop_history": [
+      "H_POLICY",
+      "H_REAL3"
+    ],
+    "horizons": [
+      1,
+      2,
+      5
+    ],
+    "closed_loop_runs": 900,
+    "closed_loop_runs_regardless_of_open_loop_result": true,
+    "uses_only_spare_GPUs_after_C1_H2_needs": "3 GPU simultaneously, never preempt or slow C1/H2",
+    "exclude_from_preset_labels": true
+  },
+  "C2": {
+    "closed_loop_runs": 800,
+    "gated_by": "C1 and H2 main results delivered"
+  },
+  "resource_allocation_initial": {
+    "C1": {
+      "GPU": [
+        6,
+        7
+      ],
+      "CPU": "80-111"
+    },
+    "H2": {
+      "GPU": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "CPU": "0-79"
+    },
+    "H3X_TECH": {
+      "GPU_available": [
+        4,
+        5
+      ],
+      "CPU": "112-159"
+    },
+    "H3X_formal": "Wait for third naturally released GPU; no displacement"
+  },
+  "forbidden": [
+    "Automatic GPU rental",
+    "Automatic destroy",
+    "Outcome-driven seed/checkpoint/random-stream selection"
+  ],
+  "main_merge": "After C1,H1a,H1b,H2 completed, R5 section5; H3X separate exploratory table",
+  "world_model_formal_update_budget_H3X": 90000,
+  "new_closed_loop_planned": 4500,
+  "historical_initial_stage_manifest_note": "The initial-stage snapshot and readiness record preserve the earlier state/interpretation, and are not a limit on this authorization."
+}

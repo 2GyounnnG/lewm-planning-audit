@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "evidence_label": "R8_FRESH_CASE_REPLICATION",
+  "tasks": {
+    "cube": {
+      "rows": 1200,
+      "cases": 100,
+      "complete": 1200,
+      "bad": 0
+    },
+    "tworoom": {
+      "rows": 1200,
+      "cases": 100,
+      "complete": 1200,
+      "bad": 0
+    }
+  },
+  "main_table": "MAIN_TABLE.csv"
+}

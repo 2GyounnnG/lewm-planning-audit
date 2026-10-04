@@ -1,0 +1,35 @@
+{
+  "status": "COMPLETE",
+  "models": 324,
+  "arms": 12,
+  "horizons": [
+    1,
+    8,
+    16
+  ],
+  "raw_rows": 11664,
+  "main_rows": 3888,
+  "coverage_updates_and_arithmetic_verified": true,
+  "inputs": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_STATUS.json",
+      "bytes": 186,
+      "sha256": "c9880281efa440de5ab8bfcc7179bb5af35f3b9bed2d8520392b193bda78fdbf"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_ALL_RAW_VALUES.csv",
+      "bytes": 2178956,
+      "sha256": "96689f3bcfa411158d652fb0d173ca4893fefdc8cb90f768399659ea5eb794ac"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_MAIN_TABLE.csv",
+      "bytes": 305784,
+      "sha256": "8821c6a8dc4e97001daebbec387e64eabd6b4e7fdf89e1dd74db4de7aa5be214"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_SCOPE_DIFFERENCES.csv",
+      "bytes": 929076,
+      "sha256": "acf4a3446c6697a84cc6b8a171e4f260e8cd3142a4ef88307514ec2760cf3e63"
+    }
+  ]
+}

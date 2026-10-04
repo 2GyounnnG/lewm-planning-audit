@@ -1,0 +1,21 @@
+{
+  "status": "R2P1_DELIVERY_CPU_GATE_AND_SEAL_VERIFIED",
+  "items": {
+    "RELEASE_GATE.json": {
+      "path": "/Volumes/MyProj/r2p1_frozen_structured_dynamics/recovery/RELEASE_GATE.json",
+      "bytes": 33057,
+      "sha256": "ccdcc5cfb870a5f7eda2897b2c0c9e17098c9a698bfe3ee4b4a6a2efb77280c5",
+      "external_device": 16777237
+    },
+    "RELEASE_GATE_SEAL.json": {
+      "path": "/Volumes/MyProj/r2p1_frozen_structured_dynamics/recovery/RELEASE_GATE_SEAL.json",
+      "bytes": 373,
+      "sha256": "d82ebe3a33f2ded6509b063c3696c07762bba6b8abeb1ce46f067ec0982b25e6",
+      "external_device": 16777237
+    }
+  },
+  "R2_gate_status": "R2P1_READY_FOR_USER_RELEASE",
+  "R3_dependency_on_G1_scientific_model": false,
+  "old_artifacts_protected": true,
+  "instance_retained_for_R3": true
+}

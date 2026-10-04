@@ -1,0 +1,10 @@
+{
+  "schema": "R8_FIX_F2_ARTIFACT_CORRECTION_V1",
+  "status": "PASS",
+  "rows": 1200,
+  "all_row_identity_path_sha_match": true,
+  "invalid_artifact": "/workspace/r8_fix/f2/reports/M3_V3_RAW_VALUES.csv",
+  "reason": "Old raw CSV used stale loop variable f for result_path and result_sha256; numeric rows correct; sealed original retained.",
+  "replacement": "/workspace/r8_fix/f2_validation/reports/M3_V3_RAW_VALUES_VERIFIED.csv",
+  "seal_modified": false
+}

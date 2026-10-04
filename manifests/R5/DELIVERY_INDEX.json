@@ -1,0 +1,182 @@
+{
+  "version": "R5_INITIAL_STAGE_DELIVERY_V1",
+  "utc": "2026-10-03T17:19:23.261388+00:00",
+  "primary_root": "/workspace/r5",
+  "evidence_label": "POST_R4_SUPPLEMENT_ON_KNOWN_EVALUATION_CASES",
+  "stage_scope": [
+    "C0",
+    "H1a",
+    "H1b"
+  ],
+  "world_model_new_updates": 0,
+  "H1b_probe_fits_counted_separately": true,
+  "modules": {
+    "C0": {
+      "status": "DELIVERED",
+      "files": [
+        {
+          "path": "/workspace/r5/C0/C_A_A_RAW_TABLE.csv",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c0/reports/C_A_A_RAW_TABLE.csv",
+          "bytes": 6291,
+          "sha256": "2b83b42abec97595f5912cfcabb1fd5412dd0db50f9d3696fe17dc06733a852a"
+        },
+        {
+          "path": "/workspace/r5/C0/C0_GATE.json",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c0/reports/C0_GATE.json",
+          "bytes": 2571,
+          "sha256": "26886571c474c25e3a9fc02ed6cca18f8aac1a0bc6c89a687ed740564056c8f5"
+        },
+        {
+          "path": "/workspace/r5/C0/CONCLUSION_ZH.txt",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c0/reports/CONCLUSION_ZH.txt",
+          "bytes": 525,
+          "sha256": "ac8b27a44c95e8e046945cc403738193af0efeab5919323d55575308c01757da"
+        }
+      ],
+      "conclusions": [
+        "C0 通过 C-A/A：4 个固定 TECH、8 次独立复位，104 个配对时间点/8,204 字段比较全部逐位一致。",
+        "200 个技术 raw 步的完整状态、控制器状态及渲染均一致；容差未放宽。",
+        "数据源起点 block 位置/四元数偏差为 0；渲染像素 MAE 为 0.0982–0.1936（0–255尺度），仅报告。",
+        "初始化另记 32 次 mj_step/800 个物理子步；技术动作 5,000 个子步；CEM 与新增神经训练均为 0。",
+        "标签 CUBE_OFFICIAL_RESET_SYMMETRIC_NONEXACT；C1/C2 未启动。"
+      ],
+      "recovery": {
+        "status": "SEALED_C0_PASS",
+        "seal": {
+          "path": "/workspace/r5/C0/RECOVERY_SEAL.json",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c0/recovery/RECOVERY_SEAL.json",
+          "bytes": 35599,
+          "sha256": "11f6611f7f4b9bb60498dcf8bfa1f159cb64c89b6cf630c1759d9242198adafc"
+        }
+      }
+    },
+    "H1a": {
+      "status": "DELIVERED",
+      "files": [
+        {
+          "path": "/workspace/r5/H1a/combined/HISTORY_CONDITION_4TASK_RAW.csv",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1a/reports/HISTORY_CONDITION_4TASK_RAW.csv",
+          "bytes": 3364913,
+          "sha256": "1ff8f0396ccdf1ab0abb679087895e71998c969a769510b17097bfa483d47281"
+        },
+        {
+          "path": "/workspace/r5/H1a/combined/HISTORY_CONDITION_4TASK_TABLE.csv",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1a/reports/HISTORY_CONDITION_4TASK_TABLE.csv",
+          "bytes": 81458,
+          "sha256": "02adc09003fd81a4e72955cd08ca6953787f190bbdd548830113d10e2c3862a5"
+        },
+        {
+          "path": "/workspace/r5/H1a/combined/CONCLUSION_ZH.txt",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1a/reports/CONCLUSION_ZH.txt",
+          "bytes": 684,
+          "sha256": "6041d425ebbaf09f6b961dcc02c69a326a8718bf95c5282ebdd00a676f21cb40"
+        }
+      ],
+      "conclusions": [
+        "H1a 四任务 9,600 行原值、276 行汇总已完成；独立配对与 family bootstrap 复算通过，世界模型更新 0。",
+        "h5 下 Reacher 的 H0 MSE：H_POLICY 0.11806012，H_REAL3 0.01976002；固定三 refit 相对改进为 12.77% 与 89.74%，前者没有消失。",
+        "h5 下 TwoRoom 的 H0 REAL3/POLICY=1.01303，未达到 H2 的 ≤0.5 条件；两种历史下 refit 相对改进均约 90.7%。",
+        "h5 下 Cube 的 refit 相对改进为 31.81%（POLICY）与 51.40%（REAL3）；PushT 的估计区间包含 0，不能解释为等效。",
+        "独立 CPU 恢复按原容差检查 1,536,000 个预测坐标，TwoRoom 12 个超限、Cube 0 个；失败保留，不改变正式 GPU 原值。"
+      ],
+      "recovery": {
+        "status": "COMPLETE_WITH_CPU_TOLERANCE_FAILURE",
+        "seal": {
+          "path": "/workspace/r5/H1a/RECOVERY_SEAL.json",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1a/recovery/RECOVERY_SEAL.json",
+          "bytes": 1607342,
+          "sha256": "690d7ea8a2926e5f1865b2f51b706b13dcb303ae78afe7a992871a4b62b71785"
+        }
+      }
+    },
+    "H1b": {
+      "status": "DELIVERED",
+      "files": [
+        {
+          "path": "/workspace/r5/H1b/reports/main/H1B_ALL_RAW_VALUES.csv",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/main/H1B_ALL_RAW_VALUES.csv",
+          "bytes": 43886224,
+          "sha256": "3c942cda6c26d5bb67543fdfc95cff3641f529039e97475bdf0c91f545ef61fe"
+        },
+        {
+          "path": "/workspace/r5/H1b/reports/main/SINGLE_FRAME_INFORMATION_TABLE.csv",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/main/SINGLE_FRAME_INFORMATION_TABLE.csv",
+          "bytes": 183919,
+          "sha256": "d78137939cf6f37decf6b39a85a63567c80c4d82392da850258eafc03379122b"
+        },
+        {
+          "path": "/workspace/r5/H1b/reports/main/H1B_PER_SEED_SUMMARY.csv",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/main/H1B_PER_SEED_SUMMARY.csv",
+          "bytes": 103430,
+          "sha256": "feee60186ce817a3ad6e8ba6d62675641d8a192a8ef47fb85d7fc519405ecdec"
+        },
+        {
+          "path": "/workspace/r5/H1b/reports/main/H1B_LEWM_COMPARISON.csv",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/main/H1B_LEWM_COMPARISON.csv",
+          "bytes": 90559,
+          "sha256": "7b25f2ac67e0e10457d70658abf34359172fea3485cba6f399c7cb8be6981789"
+        },
+        {
+          "path": "/workspace/r5/H1b/reports/main/H3_MEASUREMENT_ONLY.json",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/main/H3_MEASUREMENT_ONLY.json",
+          "bytes": 3383,
+          "sha256": "cbe14405057b6d2ea8cacb5a5414745c3b54086e989724b4fcc03ec53545e803"
+        },
+        {
+          "path": "/workspace/r5/H1b/reports/main/MEASUREMENT_UPDATE_LEDGER.json",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/main/MEASUREMENT_UPDATE_LEDGER.json",
+          "bytes": 46438,
+          "sha256": "8682e163997a4e3de7a4574db746c1318e95cd2c3dfc67719d97db5d155dd74e"
+        },
+        {
+          "path": "/workspace/r5/H1b/reports/main/CONCLUSION_ZH.txt",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/main/CONCLUSION_ZH.txt",
+          "bytes": 652,
+          "sha256": "c97b13d07bf3f14e55dfdab03a8275348ed43221793c8345c0ebe1ddc650d347"
+        }
+      ],
+      "conclusions": [
+        "四任务完成40个ridge与96个MLP拟合：445行主统计、59200行原值，三seed全部保留并按误差取均值。",
+        "Reacher两个速度分量的MLP R²由单帧−0.0011/−0.0034升至三帧0.4977/0.1848；这是本组测量探针的结果。",
+        "Reacher h=1/2/5最佳单帧MSE为0.122531/0.277151/0.578360，均未达到0.5倍固定三refit阈值，H3条件0/3满足，未启动H3。",
+        "TwoRoom无记录速度标签；Cube qpos为包含旋转的广义配置，不能全部解释为笛卡尔位置。",
+        "正式测量MLP187200步、CPU TECH200步，世界模型更新0；区间为已知EVAL的未校正条件区间，探针性能不是信息论极限。"
+      ],
+      "fits": 136,
+      "raw_rows": 59200,
+      "summary_rows": 445,
+      "world_model_updates": 0,
+      "measurement_updates": 187400,
+      "H3_condition_met": false,
+      "recovery": {
+        "status": "COMPLETE_LOCAL_RECOVERY_AND_CPU_REEVALUATION",
+        "seal": {
+          "path": "/workspace/r5/H1b/H1B_RECOVERY_SEAL.json",
+          "local_mirror": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/H1B_RECOVERY_SEAL.json",
+          "bytes": 393283,
+          "sha256": "1eaefdfd27782bb11e84570dadb716d44f1e10a74a734710eb62fd51dad039b0"
+        },
+        "total_probes": 136,
+        "saved_EVAL_case_model_cells": 13600,
+        "scope": "All selected probes on all saved100 EVAL anchors; cross-platform differences reported, no post-result tolerance added, no new optimizer or world-model updates."
+      }
+    }
+  },
+  "not_started": [
+    "C1",
+    "H2",
+    "C2"
+  ],
+  "not_triggered": [
+    "H3",
+    "H2_TwoRoom"
+  ],
+  "initial_scientific_stage_complete": true,
+  "all_R5_complete": false,
+  "initial_stage_recovery_complete": true,
+  "strict_cpu_gate_passed": false,
+  "strict_cpu_gate_failure_modules": [
+    "H1a"
+  ],
+  "release_gate": "HOLD"
+}

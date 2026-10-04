@@ -1,0 +1,64 @@
+{
+  "version": "R6_FORMAL_LAUNCH_V1",
+  "evidence_label": "PREREGISTERED_FRESH_CASE_REPLICATION",
+  "started_utc": "2026-10-03T22:44:23.838608+00:00",
+  "case_selection_sha256": "d4af1a42f64ad6b4ce86d6ef30ec6a959ca16dac759346b108c25e5bc0a45501",
+  "case_count": 100,
+  "planned_trajectories": 2400,
+  "models": [
+    "H0",
+    "REFIT_103201",
+    "REFIT_103202",
+    "REFIT_103203"
+  ],
+  "streams": [
+    "R3_ORIGINAL",
+    "R4_ALT_CEM_1",
+    "R4_ALT_CEM_2"
+  ],
+  "history_conditions": [
+    "H_POLICY",
+    "H_REAL3_REPLAN"
+  ],
+  "formal_world_model_updates": 0,
+  "workers": 8,
+  "pids": [
+    113463,
+    113464,
+    113465,
+    113466,
+    113467,
+    113468,
+    113469,
+    113470
+  ],
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "cpu_ranges": [
+    "0-19",
+    "20-39",
+    "40-59",
+    "60-79",
+    "80-99",
+    "100-119",
+    "120-139",
+    "140-159"
+  ],
+  "code_sha256": {
+    "r6_runner.py": "f775164c1c4d7cbc85117fab4318513d7b6ae44987f8877347cb41c2a761ff47",
+    "context.py": "b8aad3e0626fe0e44a1eaac8840d112d05eeb91c0d9291036c2acde1df00006c",
+    "export_fresh.py": "e490da146dc89a8414f8bb9ddd52520abc5d232ef65ad21a570b21b1c24597d2"
+  },
+  "R4_R5_processes_interrupted": false,
+  "automatic_destroy": false,
+  "automatic_rental": false,
+  "first_plan_pair_gate": "Every H_REAL3 result checks exact first plan against same-case/model/stream H_POLICY result; mismatch aborts that result."
+}

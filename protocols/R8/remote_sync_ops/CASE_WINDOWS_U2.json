@@ -1,0 +1,4214 @@
+{
+  "budget_raw": 50,
+  "cases": [
+    {
+      "bytes": 946547,
+      "case": {
+        "case_id": "R7_reacher_008f95b1d93de778a42bc06d",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2411",
+        "episode_sha256": "fc8b000fdfb801924b52356f0d7e26791739e21af996efeba193775eb333702b",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 103,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "008f95b1d93de778a42bc06dde6107bc57bf3e4cfb1d593ac1c7703980207f0d",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2411,
+        "source_seed": null,
+        "start_raw_index": 53,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_008f95b1d93de778a42bc06d.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_008f95b1d93de778a42bc06d.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "e8b6fa68f8eb1fecf0d7db9a07c9d077042742f1326f9d265e4f5de087402cbf",
+      "unit": "U2"
+    },
+    {
+      "bytes": 924960,
+      "case": {
+        "case_id": "R7_reacher_00978606ef467b72992b6d55",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:6514",
+        "episode_sha256": "f4552c1c383703d94b7a41ae8d9ada93a3a6321d9e4050142fde0a51eb7bb28b",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 174,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "00978606ef467b72992b6d553ae433e544721493a41032858cacb6290405d7b9",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 6514,
+        "source_seed": null,
+        "start_raw_index": 124,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_00978606ef467b72992b6d55.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_00978606ef467b72992b6d55.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "b459e7e6c26785ebbf3e9916dcec9bb4558e8acac8d912e383c395e9954d1af2",
+      "unit": "U2"
+    },
+    {
+      "bytes": 923652,
+      "case": {
+        "case_id": "R7_reacher_00f305b4af31fc3e03fe530d",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2311",
+        "episode_sha256": "1c27b4d8bc8ae447899c5e6178e03f9f2b622af23dab9cf61e0c31498313be36",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 193,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "00f305b4af31fc3e03fe530d436340b0e16c0e897151735642517e8a96c4904d",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2311,
+        "source_seed": null,
+        "start_raw_index": 143,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_00f305b4af31fc3e03fe530d.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_00f305b4af31fc3e03fe530d.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "a3c4617804df8aff91f2f03f54b9bd0be963ab442f13bf7b1a63aaa81cddeb9d",
+      "unit": "U2"
+    },
+    {
+      "bytes": 908559,
+      "case": {
+        "case_id": "R7_reacher_013cbf60956462066fdfc1af",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5374",
+        "episode_sha256": "c875349f14eb10e9b86094ef1074a364fbb639353905f6f354b8f4eb94dd6d47",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 79,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "013cbf60956462066fdfc1af3bd147a3d78cbd16e6f126d051ba78bc48d6ca2d",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5374,
+        "source_seed": null,
+        "start_raw_index": 29,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_013cbf60956462066fdfc1af.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_013cbf60956462066fdfc1af.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "2f242665b53180ea5e5a4e40e99d70100dd7337da13dc97820882d3b2cb4ce10",
+      "unit": "U2"
+    },
+    {
+      "bytes": 928794,
+      "case": {
+        "case_id": "R7_reacher_014e68add07a685a9ce0ab2e",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:9728",
+        "episode_sha256": "6546f8d77881bc3940fed13ef13277d5fadba4a80883664f6635b34cdc5acf79",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 91,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "014e68add07a685a9ce0ab2eda2add7bd76c8d3554932b3494c978085fa0392d",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 9728,
+        "source_seed": null,
+        "start_raw_index": 41,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_014e68add07a685a9ce0ab2e.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_014e68add07a685a9ce0ab2e.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "b088b551dc4d5f65cd902de0ce59c68a90a646763b0a66c7d0cdc38a102e90b5",
+      "unit": "U2"
+    },
+    {
+      "bytes": 933854,
+      "case": {
+        "case_id": "R7_reacher_01c790ba2fdea50edb4b2a74",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3375",
+        "episode_sha256": "16f6c94763346f294f6653d29cae4bf025dd85f92b8a32307cbcdab19b046f51",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 150,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "01c790ba2fdea50edb4b2a7454da6b53ec26eb8858fe6d60b3d928dd54507b72",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3375,
+        "source_seed": null,
+        "start_raw_index": 100,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_01c790ba2fdea50edb4b2a74.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_01c790ba2fdea50edb4b2a74.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "cda3bd3432e89094b491c022487587a8f68dd1b4112db80794904d348c291380",
+      "unit": "U2"
+    },
+    {
+      "bytes": 940895,
+      "case": {
+        "case_id": "R7_reacher_01cc5ff8b1d16bc9b6b96cf2",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:9885",
+        "episode_sha256": "d793a90acfeb27690051e5c91002b7b9500c166945f2d9e77140a1bf335a286f",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 108,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "01cc5ff8b1d16bc9b6b96cf2f18cf85ddb122aef514066b00921f4f46c66ffb8",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 9885,
+        "source_seed": null,
+        "start_raw_index": 58,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_01cc5ff8b1d16bc9b6b96cf2.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_01cc5ff8b1d16bc9b6b96cf2.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "f42cc6a2739af2ecac8ef055d53d92f43d170fc98b9a45156ba47121180100be",
+      "unit": "U2"
+    },
+    {
+      "bytes": 909306,
+      "case": {
+        "case_id": "R7_reacher_01d25c55458ab04e22aa2bf6",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5911",
+        "episode_sha256": "10b3a73035e0aa05c3f321a3acc913ad4240fee84e3cdf7cf3881680948775d9",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 119,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "01d25c55458ab04e22aa2bf6ecad0f96e3ca190a27cbe6c5e6abea4f85223e54",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5911,
+        "source_seed": null,
+        "start_raw_index": 69,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_01d25c55458ab04e22aa2bf6.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_01d25c55458ab04e22aa2bf6.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "293d5f8e82880e0339f4b871b57d5881b5378ed7df1c6e4a3cf1b89c3db63198",
+      "unit": "U2"
+    },
+    {
+      "bytes": 908518,
+      "case": {
+        "case_id": "R7_reacher_01ec1493e75ef3c5c63b6669",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5643",
+        "episode_sha256": "6d162dfb252e98a89998818f3dd72affa18e691d2c2599eea0955902c924781c",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 94,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "01ec1493e75ef3c5c63b6669a06ec3995546e9635ffdac9136b0e3de18b8d0b1",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5643,
+        "source_seed": null,
+        "start_raw_index": 44,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_01ec1493e75ef3c5c63b6669.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_01ec1493e75ef3c5c63b6669.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "5e56711b5a7d372b2d31a5a58c9d61bbd1f7867e45c3084742f34795f03b6ba6",
+      "unit": "U2"
+    },
+    {
+      "bytes": 934848,
+      "case": {
+        "case_id": "R7_reacher_020a0a776f6f5e79819a3c41",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5036",
+        "episode_sha256": "a9adc710d7dc29befac7d3d5e2f267741634b46ff85742eb894d70b4067218be",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 94,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "020a0a776f6f5e79819a3c41c95277cf5d16120b4f51f06aaf152dc09627bac8",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5036,
+        "source_seed": null,
+        "start_raw_index": 44,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_020a0a776f6f5e79819a3c41.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_020a0a776f6f5e79819a3c41.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "25f84b91963ce35ad137f456ef572d0bb9fc643e100f5f47f7fafbc4a4ca3a5e",
+      "unit": "U2"
+    },
+    {
+      "bytes": 938175,
+      "case": {
+        "case_id": "R7_reacher_021f9cd8e41133fd462e3638",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:8648",
+        "episode_sha256": "49e734d612c892f7965893848d1cbf2e5177738b3fa9d58358a1393a24b32c40",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 71,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "021f9cd8e41133fd462e36380d87b68a73e6aef5acea5e9e198fb539f3be9126",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 8648,
+        "source_seed": null,
+        "start_raw_index": 21,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_021f9cd8e41133fd462e3638.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_021f9cd8e41133fd462e3638.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "43cdc548495fd60e22877a64a1b0ffce4720b6af062a5f97ca9183c1b516d3c1",
+      "unit": "U2"
+    },
+    {
+      "bytes": 915679,
+      "case": {
+        "case_id": "R7_reacher_021ff8567d6024f5963f0795",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3496",
+        "episode_sha256": "fb779694a1e3f77c62429bc29075fcf284a064794cb4b8b615f04b131bc2ce22",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 102,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "021ff8567d6024f5963f0795f3ada1cc806a2b925e004351274038fdb4e36c48",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3496,
+        "source_seed": null,
+        "start_raw_index": 52,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_021ff8567d6024f5963f0795.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_021ff8567d6024f5963f0795.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "d3bc79ef00546d6885b12a0d33acdf7e9cc2b92b5f500614eda9a989f7f6baf6",
+      "unit": "U2"
+    },
+    {
+      "bytes": 937027,
+      "case": {
+        "case_id": "R7_reacher_023527d5586a631ddd2cbb0e",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:8620",
+        "episode_sha256": "7261834d690663b2c75702e6bac5e4463d14f5fd740415994162201b25ed8c0d",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 81,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "023527d5586a631ddd2cbb0e4047f00950f1a7979550a93b3c74699fa810c03e",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 8620,
+        "source_seed": null,
+        "start_raw_index": 31,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_023527d5586a631ddd2cbb0e.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_023527d5586a631ddd2cbb0e.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "0f2d3dc8df0a6f9c384dc5c6159360879b6d549decd3a1f23ac453aef7de9390",
+      "unit": "U2"
+    },
+    {
+      "bytes": 928201,
+      "case": {
+        "case_id": "R7_reacher_023a7fd828db2fa2206ae22b",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3062",
+        "episode_sha256": "56d90a5818b9b8bf3fd3afbb29bf6155b6bb7a1b83a01e7d2941d028c406b82b",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 195,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "023a7fd828db2fa2206ae22bf17d74ed3103fd87f62961eba1ff596189de9837",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3062,
+        "source_seed": null,
+        "start_raw_index": 145,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_023a7fd828db2fa2206ae22b.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_023a7fd828db2fa2206ae22b.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "f700a271c738bd6a4040dcb1a20a7cd014f2a7118f9d286f5f5aedb00c7cefd6",
+      "unit": "U2"
+    },
+    {
+      "bytes": 922139,
+      "case": {
+        "case_id": "R7_reacher_024715fb0f5dd4f7563d0093",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2224",
+        "episode_sha256": "0d30f63660fc1d34588fa640f7e6edd6b2cde792fcde028795ccfe333f28cbc3",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 158,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "024715fb0f5dd4f7563d00938acd4129caf6800162248b5b43d199a2b2ae90af",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2224,
+        "source_seed": null,
+        "start_raw_index": 108,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_024715fb0f5dd4f7563d0093.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_024715fb0f5dd4f7563d0093.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "163f68a702f82d47f5f92941c02d2656fd5723e875468ad3dd48e343f51a66f5",
+      "unit": "U2"
+    },
+    {
+      "bytes": 925488,
+      "case": {
+        "case_id": "R7_reacher_0251414687209abdec0af3ac",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:4640",
+        "episode_sha256": "a7c405d0d35326eaa7fdcd1319fb38123390e655b2db911a40ad05dd29b22e23",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 124,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0251414687209abdec0af3ac833e6414acac6d120f1768cf398a6ff68fa085d7",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 4640,
+        "source_seed": null,
+        "start_raw_index": 74,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0251414687209abdec0af3ac.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0251414687209abdec0af3ac.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "c108ab9265fee7bdf2587bff0a5b4fc0cb6b0c58862f67faaedf42694417f7fd",
+      "unit": "U2"
+    },
+    {
+      "bytes": 920757,
+      "case": {
+        "case_id": "R7_reacher_025955892be565d2fcb8a634",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3431",
+        "episode_sha256": "2108806f4769e7fbe8e57e8abb695d85777e149aab6492a20578d4f9182898f9",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 96,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "025955892be565d2fcb8a634f8269b30f73353448f05e84891b0b5940cfd2c14",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3431,
+        "source_seed": null,
+        "start_raw_index": 46,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_025955892be565d2fcb8a634.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_025955892be565d2fcb8a634.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "e5eaffe39f7c85e3dde25c3297307fa08971b036f32c87732a2aeddd94561ac9",
+      "unit": "U2"
+    },
+    {
+      "bytes": 937933,
+      "case": {
+        "case_id": "R7_reacher_02c60c13cfde97ec24dd9ef2",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3816",
+        "episode_sha256": "1e8c8cda6647c3689fcbd88bf3ec395a6378ed0d58961175f88805add698c9e6",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 76,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "02c60c13cfde97ec24dd9ef205732e04ca93cf904f32c93cebb9f10a0749e62e",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3816,
+        "source_seed": null,
+        "start_raw_index": 26,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_02c60c13cfde97ec24dd9ef2.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_02c60c13cfde97ec24dd9ef2.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "2fe993e05bf58765405432e806ef94fd27a12afda8743c926939475952967996",
+      "unit": "U2"
+    },
+    {
+      "bytes": 933225,
+      "case": {
+        "case_id": "R7_reacher_02c7239ee67434d110ec03a2",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:6380",
+        "episode_sha256": "0a09a830f963c92010b801a85facab2969f7e10ac1c3cc3f6abaa7cb5d788a52",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 154,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "02c7239ee67434d110ec03a234977a074524582c2f5ab541b1b94e4c4e7f847f",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 6380,
+        "source_seed": null,
+        "start_raw_index": 104,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_02c7239ee67434d110ec03a2.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_02c7239ee67434d110ec03a2.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "af53b3f3a3240228afbe00f72d38d8b6b136abb3edc179bfc5dbc210f09cb8e7",
+      "unit": "U2"
+    },
+    {
+      "bytes": 921556,
+      "case": {
+        "case_id": "R7_reacher_02e9be49d4a6a295101ee83c",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:9519",
+        "episode_sha256": "9541f68451dac36f9420fce6b0eaf4438ccda4dbae945c68e155e565ebd6f1e1",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 106,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "02e9be49d4a6a295101ee83c7829620943deee496846e1fdacf07299e5c92b66",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 9519,
+        "source_seed": null,
+        "start_raw_index": 56,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_02e9be49d4a6a295101ee83c.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_02e9be49d4a6a295101ee83c.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "c6461bd66b662222ea3a8e804a904d10a4b290a07b9ca3e841256829f621dc67",
+      "unit": "U2"
+    },
+    {
+      "bytes": 936537,
+      "case": {
+        "case_id": "R7_reacher_031195204e84c4c07afa09d5",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:966",
+        "episode_sha256": "0833f743fc7877af0154645e270809b0d1c66779f1a739f9a0b800e1876a1234",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 133,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "031195204e84c4c07afa09d5d05246c5ea7095420cfb4c24473002f4987933cb",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 966,
+        "source_seed": null,
+        "start_raw_index": 83,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_031195204e84c4c07afa09d5.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_031195204e84c4c07afa09d5.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "c8f586b538518547fc543eb2a9a6bc5da2e6e80681c9ffba81129773e8774403",
+      "unit": "U2"
+    },
+    {
+      "bytes": 927085,
+      "case": {
+        "case_id": "R7_reacher_03255417e1d4513d1108fd3a",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:4683",
+        "episode_sha256": "c5cdb81d64b625eeeeb453f537d9e3a98e1c9fa1d9c10df0ee3a6f1f58d5a206",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 172,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "03255417e1d4513d1108fd3a74d03ccccbdf33cb86220a09c52207678f78a490",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 4683,
+        "source_seed": null,
+        "start_raw_index": 122,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_03255417e1d4513d1108fd3a.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_03255417e1d4513d1108fd3a.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "f1e659e3635f1e1933be1c1268040cf839dd0093f54ac3e7f423caa70c732639",
+      "unit": "U2"
+    },
+    {
+      "bytes": 937848,
+      "case": {
+        "case_id": "R7_reacher_033e36ba48b99505a70a2733",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2248",
+        "episode_sha256": "3b9c8c681475fa1d14a041d3c143b2aca6476d5a02b367bacaea582cc6a96b16",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 122,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "033e36ba48b99505a70a27336627a87442a3202b4e296db0e2b5b2ec59c5ee6c",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2248,
+        "source_seed": null,
+        "start_raw_index": 72,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_033e36ba48b99505a70a2733.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_033e36ba48b99505a70a2733.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "b82e20c2cba4780efed3356255b75a01148ff32010251ab5dfcfbac7c2a10b30",
+      "unit": "U2"
+    },
+    {
+      "bytes": 937052,
+      "case": {
+        "case_id": "R7_reacher_036589b3e0d4de80d1515bc8",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2870",
+        "episode_sha256": "49fc8ce9c92be2df902111d1b0218415f8db8f5441ba7f89fd0cd01470e23017",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 153,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "036589b3e0d4de80d1515bc846a84a065ae0e4e81560433d53f677df56c73dbd",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2870,
+        "source_seed": null,
+        "start_raw_index": 103,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_036589b3e0d4de80d1515bc8.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_036589b3e0d4de80d1515bc8.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "889d61483c07b10e19facd2421b355a01ec73daa548a451500a768456bf2eb96",
+      "unit": "U2"
+    },
+    {
+      "bytes": 922187,
+      "case": {
+        "case_id": "R7_reacher_037522941d964ab6ed37de34",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:6438",
+        "episode_sha256": "469704ec6a5b10ce25751b38561cba2bce6ae2dc7e50e1f267922cdf09fa27d9",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 146,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "037522941d964ab6ed37de34809efa4c5f3e15806e42dfa86b3177d33c3cbb52",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 6438,
+        "source_seed": null,
+        "start_raw_index": 96,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_037522941d964ab6ed37de34.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_037522941d964ab6ed37de34.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "8eabcafce2fd33c799eb4625bb71735aa55d1346ff14f36676830e9ba20dd7e4",
+      "unit": "U2"
+    },
+    {
+      "bytes": 917662,
+      "case": {
+        "case_id": "R7_reacher_0390b2a392a7b00a1f4afea6",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2318",
+        "episode_sha256": "0a9e03b2445651d09a01617ea27670ddbaf28f3cfe8e1bc36ec4eb6cf2d7e005",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 84,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0390b2a392a7b00a1f4afea6da2cf46f148ad31119da0cf839c10e2ba74fd352",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2318,
+        "source_seed": null,
+        "start_raw_index": 34,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0390b2a392a7b00a1f4afea6.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0390b2a392a7b00a1f4afea6.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "07654b57aba43e1379f1086c03669b266df959833ee295d7a9e9e755b8fb39e8",
+      "unit": "U2"
+    },
+    {
+      "bytes": 945172,
+      "case": {
+        "case_id": "R7_reacher_03a9ed0809bf62bd07c16d19",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:4498",
+        "episode_sha256": "d99119b6b828827f9477b7e59c1968f2790170677e50073695b64f77a7c64ae7",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 116,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "03a9ed0809bf62bd07c16d1962dea37cbe7bb012ac30f2a23fe8ff19bcde2160",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 4498,
+        "source_seed": null,
+        "start_raw_index": 66,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_03a9ed0809bf62bd07c16d19.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_03a9ed0809bf62bd07c16d19.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "1cc440b186d181c7b12e7e3745d0821de667d22f39bff079118b070aa36effc7",
+      "unit": "U2"
+    },
+    {
+      "bytes": 922751,
+      "case": {
+        "case_id": "R7_reacher_03b4bef1b58913d750063fce",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:427",
+        "episode_sha256": "cd96d033c4128cf90985b78774ce8ebdd63c7604a93749a8577b06928e5c7b8d",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 117,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "03b4bef1b58913d750063fce93a18a44c7695dd63c1c0d2c453492a6aad13a88",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 427,
+        "source_seed": null,
+        "start_raw_index": 67,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_03b4bef1b58913d750063fce.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_03b4bef1b58913d750063fce.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "2b803b29633062f5fc93eaec6152b1c4483109f3fe78a360be89c548b4f3b9ea",
+      "unit": "U2"
+    },
+    {
+      "bytes": 916821,
+      "case": {
+        "case_id": "R7_reacher_03ecda3a05e76a4f563cf671",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5019",
+        "episode_sha256": "8741819936fc7445cc1930f86ece20b9eab194e789b44776523d535d0211d610",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 161,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "03ecda3a05e76a4f563cf6717f5170c991d3df258d7f8f157439426cf4be215b",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5019,
+        "source_seed": null,
+        "start_raw_index": 111,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_03ecda3a05e76a4f563cf671.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_03ecda3a05e76a4f563cf671.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "0d989b1028bc9dfbb4482732aa07d26f841f0e5ca6c2085486b05a252e6aa9d4",
+      "unit": "U2"
+    },
+    {
+      "bytes": 935949,
+      "case": {
+        "case_id": "R7_reacher_040b25f9677d0e1ccdb0e4cc",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3776",
+        "episode_sha256": "5d9c1e2f5f569ae380e58dae24c60c2cd7ea3a73baa0d3087041cb89469f37f3",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 66,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "040b25f9677d0e1ccdb0e4cc73d3d61c5ef85747955c726dd93ef28da422434e",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3776,
+        "source_seed": null,
+        "start_raw_index": 16,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_040b25f9677d0e1ccdb0e4cc.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_040b25f9677d0e1ccdb0e4cc.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "367dbc9859a555996e1f0f194f7299b5729aa65f736ec0427c7ae5c7b33a4482",
+      "unit": "U2"
+    },
+    {
+      "bytes": 919351,
+      "case": {
+        "case_id": "R7_reacher_0423a64d9591299c54983b67",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:1462",
+        "episode_sha256": "96ebb7335fd47f6b1c907e15c8d03c3ed63becb37888b3a1ec4adca5112f3933",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 115,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0423a64d9591299c54983b67e9840fc9bd8b6e763d61625342efe3007ceb9b39",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 1462,
+        "source_seed": null,
+        "start_raw_index": 65,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0423a64d9591299c54983b67.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0423a64d9591299c54983b67.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "d497813f81bc7022734d619be6a257d3f250e8f7f9d7f9c97fa77dba1a290ae1",
+      "unit": "U2"
+    },
+    {
+      "bytes": 935083,
+      "case": {
+        "case_id": "R7_reacher_0431130e729d007c61187420",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:6303",
+        "episode_sha256": "afe3429d9857efb3878d250cca1610fab31795e4fb4139517a5da164067f5563",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 182,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0431130e729d007c611874207660811e1cebeb32fba787e524aeddc6bcc7f603",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 6303,
+        "source_seed": null,
+        "start_raw_index": 132,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0431130e729d007c61187420.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0431130e729d007c61187420.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "e4a55cf6584f05f988a97c7b05a00051ccd188a58c1678cdf533df611a1cdab1",
+      "unit": "U2"
+    },
+    {
+      "bytes": 940066,
+      "case": {
+        "case_id": "R7_reacher_043421bcb346e629cb2b6a82",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:7295",
+        "episode_sha256": "7ac0936a8e1dbc2bb1e30df1b28486e6624fb1d0e52ceaaf29986d6dd6d759be",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 196,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "043421bcb346e629cb2b6a82abd9991aebd66f8aea96775a8860577a2d785a6a",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 7295,
+        "source_seed": null,
+        "start_raw_index": 146,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_043421bcb346e629cb2b6a82.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_043421bcb346e629cb2b6a82.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "c04b3db4bb2006f3bd692b0dbcc54f10ef557959cb95ffe1321635f4194a9bc7",
+      "unit": "U2"
+    },
+    {
+      "bytes": 924772,
+      "case": {
+        "case_id": "R7_reacher_0438f6bb2a68f4310ad18d5c",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:9332",
+        "episode_sha256": "8f3caa1adc37b924e6544acc25c62bff15c9a074c49eabd15899b87063643c26",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 200,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0438f6bb2a68f4310ad18d5c49b5bd68ec09882615cf8c3ed5292821e297fddb",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 9332,
+        "source_seed": null,
+        "start_raw_index": 150,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0438f6bb2a68f4310ad18d5c.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0438f6bb2a68f4310ad18d5c.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "fb93e66367a25eb5928524c99ec6c501701545c307ca5562c2c6993a7bc0a5c5",
+      "unit": "U2"
+    },
+    {
+      "bytes": 920323,
+      "case": {
+        "case_id": "R7_reacher_0462c1af8cf9ea9e8ecef06e",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:6934",
+        "episode_sha256": "6a4fb4edfab4ba1901dd66c2d24f30caee2306c62ab3453088c2e31ba307ddfa",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 56,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0462c1af8cf9ea9e8ecef06e4a00dac4d89ef037dffb03543764c3f7f1ea4253",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 6934,
+        "source_seed": null,
+        "start_raw_index": 6,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0462c1af8cf9ea9e8ecef06e.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0462c1af8cf9ea9e8ecef06e.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "13028a7392b3d5466851fc96a8b110bd66fe3489ddad7c8eee2f3a4b010c966e",
+      "unit": "U2"
+    },
+    {
+      "bytes": 921546,
+      "case": {
+        "case_id": "R7_reacher_04681629d10145a11ceeee7c",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2218",
+        "episode_sha256": "e96eb273d619da63e766192b17e61195a6c6c3679aaed0ca171acb504e1aefc3",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 63,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "04681629d10145a11ceeee7cb18ac48dbab11e565b5c1326631f85e1a0abd36d",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2218,
+        "source_seed": null,
+        "start_raw_index": 13,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_04681629d10145a11ceeee7c.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_04681629d10145a11ceeee7c.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "728c317c1d0f790466cc8429df84fcc177dbb8df96ae4f5994023d87f553ed83",
+      "unit": "U2"
+    },
+    {
+      "bytes": 940000,
+      "case": {
+        "case_id": "R7_reacher_046b890bfd78232068401303",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5510",
+        "episode_sha256": "5dc4631e91d263208e5fdbe80217191b68155bac915114a1c99cf9df529f2dfb",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 170,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "046b890bfd782320684013031765a62e9b5ae034c7142fe8be05883e66339559",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5510,
+        "source_seed": null,
+        "start_raw_index": 120,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_046b890bfd78232068401303.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_046b890bfd78232068401303.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "0fc7bf592b6aa78881c68705f167c42bef74bd9e3cb360c27bd250108bf950f1",
+      "unit": "U2"
+    },
+    {
+      "bytes": 933955,
+      "case": {
+        "case_id": "R7_reacher_04877d0344ffb1a50c07d287",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3344",
+        "episode_sha256": "5d1fe8fff8594ff8ddfbc6da24a837a94e0e93addb4e4668b3d9c5797e75c741",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 174,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "04877d0344ffb1a50c07d287945352d4f68b7852fb40a1bada35a7baed8b5bf3",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3344,
+        "source_seed": null,
+        "start_raw_index": 124,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_04877d0344ffb1a50c07d287.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_04877d0344ffb1a50c07d287.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "b0e1c566c02bfda5c98a3900edceefc11941bd93baaf3e61f3a7bcd0fe731f53",
+      "unit": "U2"
+    },
+    {
+      "bytes": 945181,
+      "case": {
+        "case_id": "R7_reacher_049c7d5324e885cdbcd5e248",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:7688",
+        "episode_sha256": "9cfa271165b13f96af7ea5c02dc64fd9eca6fded125764d321fc7074f5f0b0d5",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 161,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "049c7d5324e885cdbcd5e24845f567f582c14fbc446a87a767c0a9c28b2b82a6",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 7688,
+        "source_seed": null,
+        "start_raw_index": 111,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_049c7d5324e885cdbcd5e248.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_049c7d5324e885cdbcd5e248.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "828650118152b289800a831f1e61c9ce17e733692d1c0801415ce9dcec8293e5",
+      "unit": "U2"
+    },
+    {
+      "bytes": 915577,
+      "case": {
+        "case_id": "R7_reacher_04e9a63134673481d7c3f891",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5955",
+        "episode_sha256": "feeebe676b02d2ff52e193f080f5ae41a877432ded1348e398386a3f42c75879",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 192,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "04e9a63134673481d7c3f8913ccbf347d19cc2b7a19d259c1ed2ccc8ae7bbcd0",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5955,
+        "source_seed": null,
+        "start_raw_index": 142,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_04e9a63134673481d7c3f891.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_04e9a63134673481d7c3f891.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "97d0529cb6a126679914359a81fbd5eb4b1ada9a77bd8514e724b1f3cdfbb79c",
+      "unit": "U2"
+    },
+    {
+      "bytes": 918671,
+      "case": {
+        "case_id": "R7_reacher_04ff0c9a650582de1c4a6801",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:8398",
+        "episode_sha256": "abacbb5493a0bb221b7b7a590ca8debc904fd39a225ee763878ddabea83619e3",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 143,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "04ff0c9a650582de1c4a680192c45a498d67bfc8533f903008ce745355e96e49",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 8398,
+        "source_seed": null,
+        "start_raw_index": 93,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_04ff0c9a650582de1c4a6801.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_04ff0c9a650582de1c4a6801.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "23ba06e695410037aefcdedba4b8ed8bae988091bfd04a6a8d04542030e032b9",
+      "unit": "U2"
+    },
+    {
+      "bytes": 940151,
+      "case": {
+        "case_id": "R7_reacher_051f43b4892efc8bb1983dea",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:7926",
+        "episode_sha256": "811a3f4986567480dc323a711c2cb0ef121e55fbfdf3e40a3bc3ac60b2be69b4",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 171,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "051f43b4892efc8bb1983dea9849f68bf49bf4a440305c9da618bc5967057b30",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 7926,
+        "source_seed": null,
+        "start_raw_index": 121,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_051f43b4892efc8bb1983dea.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_051f43b4892efc8bb1983dea.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "03e510777ddf761f42603db9d3bedd8224e50fad884038c690bbc1c0f5f85125",
+      "unit": "U2"
+    },
+    {
+      "bytes": 931944,
+      "case": {
+        "case_id": "R7_reacher_057827bb1d14ded81f53fc86",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5100",
+        "episode_sha256": "4159092aa468227f5d1945d95650bede26972dee9f0a2e90030ed58a4b41211f",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 149,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "057827bb1d14ded81f53fc866a824dd8fa5a6542fb055f8a432fd56a886b8529",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5100,
+        "source_seed": null,
+        "start_raw_index": 99,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_057827bb1d14ded81f53fc86.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_057827bb1d14ded81f53fc86.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "1520cd6574860f8636cbebbdf045dcf5463f64133bb1864346a71ce3cfeac309",
+      "unit": "U2"
+    },
+    {
+      "bytes": 925730,
+      "case": {
+        "case_id": "R7_reacher_059bc657814769b65dced153",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:4636",
+        "episode_sha256": "bd725478ec4843b549c0066d2509f8fa663d4a79195597544b9faa4539c2df3d",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 164,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "059bc657814769b65dced153caaf3d400df0d5307513e2c79a5de199d574663d",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 4636,
+        "source_seed": null,
+        "start_raw_index": 114,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_059bc657814769b65dced153.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_059bc657814769b65dced153.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "41dc63759f27bc369b1768f61335053802a197aa51895963fa374bc7e7145897",
+      "unit": "U2"
+    },
+    {
+      "bytes": 928894,
+      "case": {
+        "case_id": "R7_reacher_059ed10af59f11ac08a80827",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:690",
+        "episode_sha256": "d00e6e772fd7c4bb0ebad309a69e233fccf40f83ab3f23ffe975d7dfe3e80c86",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 92,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "059ed10af59f11ac08a8082752dcaec03e91f115f5dadfa5ca243b5c6a184316",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 690,
+        "source_seed": null,
+        "start_raw_index": 42,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_059ed10af59f11ac08a80827.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_059ed10af59f11ac08a80827.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "96cd98bac7bdac8d7503ead481a17e604a4eae22e62e7072ce4bc81c9cc91e14",
+      "unit": "U2"
+    },
+    {
+      "bytes": 928378,
+      "case": {
+        "case_id": "R7_reacher_05c134f2ffe1627d297d0c61",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:8772",
+        "episode_sha256": "910cd4abb4626d5ab466d929c7f033e58eab453622ba2d181647bc70d64ba0fd",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 115,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "05c134f2ffe1627d297d0c61bfb83665a9a62e8b17eecc303e19d3db448a2fbc",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 8772,
+        "source_seed": null,
+        "start_raw_index": 65,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_05c134f2ffe1627d297d0c61.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_05c134f2ffe1627d297d0c61.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "b4eb6ac59946dbf28c58b4229323d96853477643202ced5a6cd194e96f1777ee",
+      "unit": "U2"
+    },
+    {
+      "bytes": 940691,
+      "case": {
+        "case_id": "R7_reacher_05c317a498c172704c19643b",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:1349",
+        "episode_sha256": "eed6d38e33f67d35a6777565a06922408540629d170369a361deff5aa806a577",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 191,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "05c317a498c172704c19643bd03df9ea130d6622308aad6006f9e5a0f6176468",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 1349,
+        "source_seed": null,
+        "start_raw_index": 141,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_05c317a498c172704c19643b.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_05c317a498c172704c19643b.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "bd6310a84c463f1ba676e407a603b63d00d821319dd5f3442dbc1aebba6fd61a",
+      "unit": "U2"
+    },
+    {
+      "bytes": 934921,
+      "case": {
+        "case_id": "R7_reacher_05de9032849239e8bac0fafd",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:4995",
+        "episode_sha256": "a0f02cd3f32d9bdbfee4c36e5a98b2d51f66cfdae24ad0bef56dbd6c11ac4c33",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 91,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "05de9032849239e8bac0fafdae4badfc2f4012c00588762e6a4dca943f7fce38",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 4995,
+        "source_seed": null,
+        "start_raw_index": 41,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_05de9032849239e8bac0fafd.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_05de9032849239e8bac0fafd.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "c12a33281b3b00ab9c98067490bd3a97e70a4fc6df5011718054974629df1cca",
+      "unit": "U2"
+    },
+    {
+      "bytes": 926961,
+      "case": {
+        "case_id": "R7_reacher_05df119fb6138625a0a37191",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:6776",
+        "episode_sha256": "07e5bb89d9a06a8255cec194419b51b93e9380e35cc2e8e63e99886c846551ab",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 82,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "05df119fb6138625a0a371912c5b2b492f83d8c6180399bb9b3f210344307b8c",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 6776,
+        "source_seed": null,
+        "start_raw_index": 32,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_05df119fb6138625a0a37191.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_05df119fb6138625a0a37191.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "fdd1f2ef9296f7d0c7a90c22017940af4f466e084e9dd8a94dd6025546102e8d",
+      "unit": "U2"
+    },
+    {
+      "bytes": 918892,
+      "case": {
+        "case_id": "R7_reacher_05e92b020fc50822c0c12f3b",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:4196",
+        "episode_sha256": "affb67b18e076eff402cf14d05f88667f2522679ee9df40899b20c07c803e970",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 76,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "05e92b020fc50822c0c12f3bef5b9fb6aa10ae77e767b34e9593fd044f617f30",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 4196,
+        "source_seed": null,
+        "start_raw_index": 26,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_05e92b020fc50822c0c12f3b.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_05e92b020fc50822c0c12f3b.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "b3e4256d2df94a65fe049600ece40fb1e577ab3bd7417b512018882827b4a319",
+      "unit": "U2"
+    },
+    {
+      "bytes": 938091,
+      "case": {
+        "case_id": "R7_reacher_05f022aec309dcba9454a525",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:7192",
+        "episode_sha256": "8f917c75459ee1ce6d3285e5be73a22671a08b6bdba0c50fce0600519f485889",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 75,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "05f022aec309dcba9454a525e2211869e47f68577dd2a7b74efd31ae70c492c5",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 7192,
+        "source_seed": null,
+        "start_raw_index": 25,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_05f022aec309dcba9454a525.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_05f022aec309dcba9454a525.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "3fa5985dfff90795c70475e55a3185c515f732071129860b78ca325552c97953",
+      "unit": "U2"
+    },
+    {
+      "bytes": 945714,
+      "case": {
+        "case_id": "R7_reacher_0608e39229f7b074b4363cd4",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:9738",
+        "episode_sha256": "16ee3f28b1e3b68baad7a40c07596e976b35f39a686d0d58742e1c4c4be7df9e",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 192,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0608e39229f7b074b4363cd41cd81a13718d3a325265b84be8bc318b4a2806a1",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 9738,
+        "source_seed": null,
+        "start_raw_index": 142,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0608e39229f7b074b4363cd4.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0608e39229f7b074b4363cd4.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "3f13f0110d7481f914b18373465cf3c8b2d888af33b6f3f0281af50d7f611e42",
+      "unit": "U2"
+    },
+    {
+      "bytes": 923409,
+      "case": {
+        "case_id": "R7_reacher_06200874c5af9d79af2100be",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3845",
+        "episode_sha256": "84e460fcd3a0f221b79a1b859b567984f9f5b28058cfb6b7722100c4d4910f39",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 124,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "06200874c5af9d79af2100be3ea71566b28181e14767606e11067a6b5056a042",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3845,
+        "source_seed": null,
+        "start_raw_index": 74,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_06200874c5af9d79af2100be.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_06200874c5af9d79af2100be.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "794adaa8a2f60b458281c8cb7c1b8cdef95c5c3e20a91cf086a379ccbdb59c47",
+      "unit": "U2"
+    },
+    {
+      "bytes": 936450,
+      "case": {
+        "case_id": "R7_reacher_063459913c0305ccd3f60afa",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2692",
+        "episode_sha256": "aeb464d4202585bb9f6048ddd457138f58f31d1143a6ef2127764bb4e40cc900",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 117,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "063459913c0305ccd3f60afadc24c53da778ace832bb971a9cbb2772bcedd7b1",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2692,
+        "source_seed": null,
+        "start_raw_index": 67,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_063459913c0305ccd3f60afa.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_063459913c0305ccd3f60afa.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "9486f31bd3c7a3c101f90e819c2c0cb6373ce966ad1cd64e1cd6d1003afbdca4",
+      "unit": "U2"
+    },
+    {
+      "bytes": 924348,
+      "case": {
+        "case_id": "R7_reacher_0674938c9fc1b380174d04fe",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:8561",
+        "episode_sha256": "b121fffb3eb28b475884574576ec20dd96eddee86201651f360ef665b04802ed",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 179,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0674938c9fc1b380174d04fefac457e0c4cde5bb7aa25f8ee0902ace79e49e8b",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 8561,
+        "source_seed": null,
+        "start_raw_index": 129,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0674938c9fc1b380174d04fe.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0674938c9fc1b380174d04fe.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "c1570c7fcfc9b7e57f4db63a30e8f06c9c147884d1d8f889d6c72410f12354e0",
+      "unit": "U2"
+    },
+    {
+      "bytes": 925574,
+      "case": {
+        "case_id": "R7_reacher_06774fd5fe12fc1973fe987c",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5362",
+        "episode_sha256": "ff937b2b4f2e1d16469f6be14d5e19281f32103195108fdc8f69441c868af069",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 51,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "06774fd5fe12fc1973fe987c4f73a8454c4b738617ca0f57d54ea0112c01b40a",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5362,
+        "source_seed": null,
+        "start_raw_index": 1,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_06774fd5fe12fc1973fe987c.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_06774fd5fe12fc1973fe987c.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "b43a19cea6d6d058a43c0829e0bf7c5f372b0de51d88df8209d0a68f98dc04c4",
+      "unit": "U2"
+    },
+    {
+      "bytes": 918548,
+      "case": {
+        "case_id": "R7_reacher_06b144735881214d90095fd0",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:8381",
+        "episode_sha256": "4abd4cc929e3aee956d16d3e91aac0761cbe42d20d41d4b0db874379019b979c",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 77,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "06b144735881214d90095fd0bec76b97a9716acd2106016ff2c0249d8f9500d3",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 8381,
+        "source_seed": null,
+        "start_raw_index": 27,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_06b144735881214d90095fd0.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_06b144735881214d90095fd0.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "68d6347fd6616999553f0f9ff4a304ae1da90121ec63918e1d55d9df6bce385c",
+      "unit": "U2"
+    },
+    {
+      "bytes": 926020,
+      "case": {
+        "case_id": "R7_reacher_06b5d01da6ad1123e8a53b2c",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:7240",
+        "episode_sha256": "5333fb889abceab60d3f2e812762dc6574ea9b31c670187cb55213db228c9b95",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 135,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "06b5d01da6ad1123e8a53b2c2849d7b07be734a96a417ccd58019edb1889c798",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 7240,
+        "source_seed": null,
+        "start_raw_index": 85,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_06b5d01da6ad1123e8a53b2c.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_06b5d01da6ad1123e8a53b2c.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "8846895e42a59ee0e9f3214183af534d8a0fdf38208bce9889a5b6b0d4c218eb",
+      "unit": "U2"
+    },
+    {
+      "bytes": 931890,
+      "case": {
+        "case_id": "R7_reacher_06cc25fafe84bfd8e09d6e56",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3640",
+        "episode_sha256": "ad523b5b3de2b3960ec5757a8135f0fba3f0537d1dc43a3290a6e6ad3894a7a6",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 53,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "06cc25fafe84bfd8e09d6e562d55be6cb8405a0ffc28cc3c160f05a62b731880",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3640,
+        "source_seed": null,
+        "start_raw_index": 3,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_06cc25fafe84bfd8e09d6e56.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_06cc25fafe84bfd8e09d6e56.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "9d823a236a567bf5fa45cbd3636472f82d56c858dd091760f947e51745e3ac75",
+      "unit": "U2"
+    },
+    {
+      "bytes": 933244,
+      "case": {
+        "case_id": "R7_reacher_06dba88f07b7ee1091cf5829",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:1137",
+        "episode_sha256": "1f5f43678f10027dc5487cbd48e7e551a2955a0bb622e112fae17c3a0ecf2562",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 186,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "06dba88f07b7ee1091cf58296cde61f7d61b85a4ba581ba8fe005ea404f82b38",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 1137,
+        "source_seed": null,
+        "start_raw_index": 136,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_06dba88f07b7ee1091cf5829.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_06dba88f07b7ee1091cf5829.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "7ca0e85b6a39dafabecefa8bdbf116f31f9d68fb71f1b61e2a23aa908e9242cd",
+      "unit": "U2"
+    },
+    {
+      "bytes": 937195,
+      "case": {
+        "case_id": "R7_reacher_06e1d84d51ee115d0d462044",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:7891",
+        "episode_sha256": "dbebd862e7aff52fdead61d039722117597b66e411741d01394b24b202aabb3b",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 67,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "06e1d84d51ee115d0d46204484fff7a89efe879061e7f7d25f87848031e1eaa6",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 7891,
+        "source_seed": null,
+        "start_raw_index": 17,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_06e1d84d51ee115d0d462044.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_06e1d84d51ee115d0d462044.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "815c8ecff5244f304f9e0f3bae93e80abc539fbb72cbdc43be551a7a9bf35bc7",
+      "unit": "U2"
+    },
+    {
+      "bytes": 926167,
+      "case": {
+        "case_id": "R7_reacher_06eb6fae1bc0e3eb4179fc5a",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:180",
+        "episode_sha256": "e0c5a545844410ad3aca6e55815c2771788518aab2a6bc475efb8c0b2e960be9",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 139,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "06eb6fae1bc0e3eb4179fc5adf2666271ee9397f7416c1912f7794de75724c23",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 180,
+        "source_seed": null,
+        "start_raw_index": 89,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_06eb6fae1bc0e3eb4179fc5a.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_06eb6fae1bc0e3eb4179fc5a.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "c941f39384db6656e160d942500ffa4dcf4a04b80e490fcfec0154440e0c566d",
+      "unit": "U2"
+    },
+    {
+      "bytes": 925032,
+      "case": {
+        "case_id": "R7_reacher_0700d42c34bd5b934ca4bb9f",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2293",
+        "episode_sha256": "32d95234ae3e0aa1d2d0b10843e3e74f8677c3e2764aac37a1d4ce9ce5cf5b40",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 115,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0700d42c34bd5b934ca4bb9fd4d49efc06fb102bca19306e15c4a53a5b4eb9f2",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2293,
+        "source_seed": null,
+        "start_raw_index": 65,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0700d42c34bd5b934ca4bb9f.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0700d42c34bd5b934ca4bb9f.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "e9af289881e03a7cf41accc279a703f69cfc88958f69b8327c79ddb0e5256ef4",
+      "unit": "U2"
+    },
+    {
+      "bytes": 914422,
+      "case": {
+        "case_id": "R7_reacher_07048d8eb1dd80dbb3b35586",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:943",
+        "episode_sha256": "2c92d7caf6b808562b90d01bafc7d2f799d9069922649e6423f68db6e36cc661",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 145,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "07048d8eb1dd80dbb3b3558657ae2033999562f8891f3253c74558681ca8dd8e",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 943,
+        "source_seed": null,
+        "start_raw_index": 95,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_07048d8eb1dd80dbb3b35586.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_07048d8eb1dd80dbb3b35586.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "d38877bcc92bfa8d13e8c36a7bb5916c0128bfb5b7d294401d0e9ec7b6d869bf",
+      "unit": "U2"
+    },
+    {
+      "bytes": 938282,
+      "case": {
+        "case_id": "R7_reacher_072587bc998f92f0f7fb630f",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:8737",
+        "episode_sha256": "67df7c8c7dc250247704f50d18b5aa3b4e058af9b789743e03fc8b73a05b3395",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 88,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "072587bc998f92f0f7fb630f0586030df1f5079a22856e0c82c79f5008a5d94a",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 8737,
+        "source_seed": null,
+        "start_raw_index": 38,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_072587bc998f92f0f7fb630f.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_072587bc998f92f0f7fb630f.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "f69fbc3fec217a08a274538a451d9b4d8a447fe242e1ee05b28e675c300a6de4",
+      "unit": "U2"
+    },
+    {
+      "bytes": 922330,
+      "case": {
+        "case_id": "R7_reacher_073be01f1b2587a8da9a34ca",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2065",
+        "episode_sha256": "2744e00310b900b35e63a33bce79439f35b49e5f9144703780329bc4c154643e",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 132,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "073be01f1b2587a8da9a34ca7cfe2c7be2614b7c181cd708d4c13e2c67e14b1b",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2065,
+        "source_seed": null,
+        "start_raw_index": 82,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_073be01f1b2587a8da9a34ca.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_073be01f1b2587a8da9a34ca.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "ef016ac4b0ea25aa0d12cfb6a58cc2d80dc17c69658e8489cb86c3feb43f2a42",
+      "unit": "U2"
+    },
+    {
+      "bytes": 925753,
+      "case": {
+        "case_id": "R7_reacher_077732a8e0d0c587d1825f44",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:1291",
+        "episode_sha256": "1687ccd7180db49d60d2ef55fdca88f1e55bbd47e585d18208d7193255ea8b8c",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 111,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "077732a8e0d0c587d1825f44d621b11ebb83bc064a26dae99479cd99121dd938",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 1291,
+        "source_seed": null,
+        "start_raw_index": 61,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_077732a8e0d0c587d1825f44.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_077732a8e0d0c587d1825f44.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "a1bd1f4e15893bbfd634c23e3efddc7107d409931b84932203ee19de046548e6",
+      "unit": "U2"
+    },
+    {
+      "bytes": 933139,
+      "case": {
+        "case_id": "R7_reacher_07905259134654234591eab4",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2300",
+        "episode_sha256": "95c206d3e7589766a2b5b614af614a4b091f39512483f524cd529302e092a93a",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 196,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "07905259134654234591eab4987536ba355b189a6a7f7c7140e4368414897ea7",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2300,
+        "source_seed": null,
+        "start_raw_index": 146,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_07905259134654234591eab4.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_07905259134654234591eab4.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "87ed55f21e786ca5addd909b7e84684aa6e1a5cf4c81a6e5a1e43248016f4707",
+      "unit": "U2"
+    },
+    {
+      "bytes": 937353,
+      "case": {
+        "case_id": "R7_reacher_07e921840cb9bd668708fcd1",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:1975",
+        "episode_sha256": "a4f07ea3aef39be36cbb5f9bb8e8afd7ee39ae2c769acf821f792722b3a913f0",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 56,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "07e921840cb9bd668708fcd132d3c5666cc36c2cd9e3a21e514c697c577736bf",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 1975,
+        "source_seed": null,
+        "start_raw_index": 6,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_07e921840cb9bd668708fcd1.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_07e921840cb9bd668708fcd1.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "73c578df925b3afeaee58101e41b386a11ba01de738a4d914ed65d5c969f6a28",
+      "unit": "U2"
+    },
+    {
+      "bytes": 925285,
+      "case": {
+        "case_id": "R7_reacher_07f68e2d5cb2f23fe923e07e",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3690",
+        "episode_sha256": "29daeff5e8be9ec6ec4ec126975427586ef3ef2d96b0da43452e6bab6a688bca",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 136,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "07f68e2d5cb2f23fe923e07eb2dee1970162d649ad7b3e58ca0077ba97296dfb",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3690,
+        "source_seed": null,
+        "start_raw_index": 86,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_07f68e2d5cb2f23fe923e07e.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_07f68e2d5cb2f23fe923e07e.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "9fbdd00494f74932ed944106a7369204349775a08e7720c986a661a97b73b0cd",
+      "unit": "U2"
+    },
+    {
+      "bytes": 925352,
+      "case": {
+        "case_id": "R7_reacher_0831e45db3d8c9636a0030a8",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:9794",
+        "episode_sha256": "847f4e3b7c9b754349af39aa863eda98214469c2d11d3383f3c846cab6095f69",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 73,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0831e45db3d8c9636a0030a8f64f2f599beec695293dcf03a9a7f00ddb0b499e",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 9794,
+        "source_seed": null,
+        "start_raw_index": 23,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0831e45db3d8c9636a0030a8.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0831e45db3d8c9636a0030a8.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "98224e9692173df73be701d7db9739821d28506bd204f73466a90e39538d481c",
+      "unit": "U2"
+    },
+    {
+      "bytes": 921717,
+      "case": {
+        "case_id": "R7_reacher_085bbe99c2028f22c4b2f1f3",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5002",
+        "episode_sha256": "bea7d481b54db00f798fec8ceaa790ee897c58a1e17eb2c3bbbaf0c62b1de41e",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 105,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "085bbe99c2028f22c4b2f1f3558d141f18e149f63d1050559e00494d28ae787d",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5002,
+        "source_seed": null,
+        "start_raw_index": 55,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_085bbe99c2028f22c4b2f1f3.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_085bbe99c2028f22c4b2f1f3.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "f8a5fc74cbdd11714e92418f8e24b42ed39da2052aa0eea3fc9050757fba3850",
+      "unit": "U2"
+    },
+    {
+      "bytes": 948873,
+      "case": {
+        "case_id": "R7_reacher_086c4c72d05daa815c90a325",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:642",
+        "episode_sha256": "97850fd814ef5c57fc902d2503813c127d8b32581275a4520a6d7d49ade467a4",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 110,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "086c4c72d05daa815c90a325b15b6194a6b2071064bbf3d6d84a531ab063f1d1",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 642,
+        "source_seed": null,
+        "start_raw_index": 60,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_086c4c72d05daa815c90a325.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_086c4c72d05daa815c90a325.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "04df0931bf1d89c9af475d81aaabf1d74ed68c62e49e13165997d25d866f35f2",
+      "unit": "U2"
+    },
+    {
+      "bytes": 934548,
+      "case": {
+        "case_id": "R7_reacher_08791dbc55a1c860a9fcba72",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5677",
+        "episode_sha256": "40fe7fe85e89cca7d77f916ceaf3529f6520ec352842b362b841a417a877f59c",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 132,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "08791dbc55a1c860a9fcba728f10eac51ead4a277ec5fcff54921d7056024d5e",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5677,
+        "source_seed": null,
+        "start_raw_index": 82,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_08791dbc55a1c860a9fcba72.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_08791dbc55a1c860a9fcba72.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "3c57d25844c0933f74cc5be90f36b913bd8695c5f61b7ddbd33f28964052883b",
+      "unit": "U2"
+    },
+    {
+      "bytes": 932214,
+      "case": {
+        "case_id": "R7_reacher_087fee4764439c4165778372",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3434",
+        "episode_sha256": "3885ef9b0c076c1ac5a850956f677a4396ab45ea4a33f7736eaee5b41587d8dd",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 58,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "087fee4764439c4165778372d70883be1be0ccf02918a6c912449806da6a6be8",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3434,
+        "source_seed": null,
+        "start_raw_index": 8,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_087fee4764439c4165778372.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_087fee4764439c4165778372.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "ab71d7c16a038f3898b89e33255a17bc97b8b6367ff5f5d68b524c9656463fd9",
+      "unit": "U2"
+    },
+    {
+      "bytes": 939476,
+      "case": {
+        "case_id": "R7_reacher_088b36543d147c4483ceca92",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:3958",
+        "episode_sha256": "8500d60c5e659c27a63be5e3d59eb6b06c4a39a9c68985df7292646fc3130802",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 140,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "088b36543d147c4483ceca92b17463173ab98e91583636f6a87c36f4c08f43ab",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 3958,
+        "source_seed": null,
+        "start_raw_index": 90,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_088b36543d147c4483ceca92.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_088b36543d147c4483ceca92.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "44ca23444cc8223adff08fdbd4d7c1ca5cfa18edf84690cca747a3aec4222d4a",
+      "unit": "U2"
+    },
+    {
+      "bytes": 939454,
+      "case": {
+        "case_id": "R7_reacher_0898ef8542627f588c43c97e",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:7516",
+        "episode_sha256": "93966adfbe930f621efec128358603ff9cc49a8a6bc46add30ff0483c467f411",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 97,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0898ef8542627f588c43c97e99be4522cb45644dafeab68c72410ca272256d81",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 7516,
+        "source_seed": null,
+        "start_raw_index": 47,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0898ef8542627f588c43c97e.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0898ef8542627f588c43c97e.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "6a2c211a581dddcd690092ed56fcdcd7f5d50b71bb741847b6f228bf8862a416",
+      "unit": "U2"
+    },
+    {
+      "bytes": 917464,
+      "case": {
+        "case_id": "R7_reacher_089ca956064f6abdcc5b00c4",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:850",
+        "episode_sha256": "1658399232477c45f271d2fd860728dfbe16fbcfbe20e7b5cad41182e6cd0610",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 175,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "089ca956064f6abdcc5b00c42812e86ec2bdc418a5f52b6ebe8e1b21462a98de",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 850,
+        "source_seed": null,
+        "start_raw_index": 125,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_089ca956064f6abdcc5b00c4.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_089ca956064f6abdcc5b00c4.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "10eb67a71f6eb9fb5843a1cdf4a368d2edb91e55d7eaee6a2b91624ffd947b72",
+      "unit": "U2"
+    },
+    {
+      "bytes": 933598,
+      "case": {
+        "case_id": "R7_reacher_08b002f2f2231aebe40703c4",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2197",
+        "episode_sha256": "54201fecaf6cbe76c232a84441bff51d38a1ff6f9461ef8b925311482e99dcbe",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 52,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "08b002f2f2231aebe40703c4a7df4980c663756b22d8ce9742625e94b7b45d36",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2197,
+        "source_seed": null,
+        "start_raw_index": 2,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_08b002f2f2231aebe40703c4.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_08b002f2f2231aebe40703c4.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "9876ec50ce70e15d680f92214a74ec11b1e98f61d777a3429afcf31c88cb7f11",
+      "unit": "U2"
+    },
+    {
+      "bytes": 920081,
+      "case": {
+        "case_id": "R7_reacher_08b6bb3c0a0b1b10e1f1ed3a",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:9199",
+        "episode_sha256": "ecd5e8edaef5c8756a488811e88c5a6f412ef020a7da6df9def9aede79b81753",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 122,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "08b6bb3c0a0b1b10e1f1ed3ad864e39ea2f313c3a46529b8280861b936f48ae8",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 9199,
+        "source_seed": null,
+        "start_raw_index": 72,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_08b6bb3c0a0b1b10e1f1ed3a.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_08b6bb3c0a0b1b10e1f1ed3a.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "9f0b64c1c0dd834fc74d34ec708798a733d80e082d2c4376f9ea4b8738b8237e",
+      "unit": "U2"
+    },
+    {
+      "bytes": 938267,
+      "case": {
+        "case_id": "R7_reacher_08bc83b318e508c81fca4627",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:9936",
+        "episode_sha256": "86706f2c939c263dbe4c117262e3dabd38b66142123e92c17572598be627e5e4",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 174,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "08bc83b318e508c81fca4627062450291701f7fd7e7c402138534dba7bc001ab",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 9936,
+        "source_seed": null,
+        "start_raw_index": 124,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_08bc83b318e508c81fca4627.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_08bc83b318e508c81fca4627.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "57abeede1e06fb999d283415a499067c88f388b00a3dadca2a95e4879cdebe00",
+      "unit": "U2"
+    },
+    {
+      "bytes": 925071,
+      "case": {
+        "case_id": "R7_reacher_08d1c4ab87ecc0d2ce5c0af5",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:5920",
+        "episode_sha256": "6114b9e7dd46d751bf83227d8603b7dc4276bd874068e3df5d2a1946a3b410d8",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 145,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "08d1c4ab87ecc0d2ce5c0af5120b4a7c845c96daf7f27ee539d9fb7ebae676f6",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 5920,
+        "source_seed": null,
+        "start_raw_index": 95,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_08d1c4ab87ecc0d2ce5c0af5.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_08d1c4ab87ecc0d2ce5c0af5.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "18d03d1119666c81330f2ca8309b0eaebcaa61c0f42414bb3c6ab25225f1a471",
+      "unit": "U2"
+    },
+    {
+      "bytes": 918641,
+      "case": {
+        "case_id": "R7_reacher_08df79c04682c5e1c9699ea6",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:1538",
+        "episode_sha256": "b7c2b9a4434fc421ddc76c8d1aa69864ec655bc97efe366268638c6359474551",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 175,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "08df79c04682c5e1c9699ea6205a8faeeea71fbbf1e0e96e7670f2b13afd03d8",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 1538,
+        "source_seed": null,
+        "start_raw_index": 125,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_08df79c04682c5e1c9699ea6.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_08df79c04682c5e1c9699ea6.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "7f843fe2478e5cb60d98ef4a80a15b495dd7bef8b209c4e2807d18065867079d",
+      "unit": "U2"
+    },
+    {
+      "bytes": 916768,
+      "case": {
+        "case_id": "R7_reacher_08fc09b71294c5eaa37fe053",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:4192",
+        "episode_sha256": "d1a788397b0e5054da4b545378a29d719321a564cafa1afb93e11659458f0a27",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 184,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "08fc09b71294c5eaa37fe05317423e7c62d9c9254b5e0d2ae6c8c24c21d57ed9",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 4192,
+        "source_seed": null,
+        "start_raw_index": 134,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_08fc09b71294c5eaa37fe053.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_08fc09b71294c5eaa37fe053.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "09ed7a8192e0f61bc0c30ce05f45eec0a393d345e32bda3463b0b6933e5a29ad",
+      "unit": "U2"
+    },
+    {
+      "bytes": 944151,
+      "case": {
+        "case_id": "R7_reacher_091ccb5d4011f535188486f5",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:6059",
+        "episode_sha256": "2828f076f9bb518b0fb32aef8d567a52e43dcddb3529e7c76b979e8765998509",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 171,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "091ccb5d4011f535188486f5a934ee46eed28abd1b87bf656994036699c52eb9",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 6059,
+        "source_seed": null,
+        "start_raw_index": 121,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_091ccb5d4011f535188486f5.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_091ccb5d4011f535188486f5.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "2f11767e0196831050f091cd943df9f314b6164086abdc59caffbad4ce50af6c",
+      "unit": "U2"
+    },
+    {
+      "bytes": 936917,
+      "case": {
+        "case_id": "R7_reacher_09259855026d6f58fbb4bfa3",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:910",
+        "episode_sha256": "34118a07bb49c0831d96002123c3adb6ebc588823807dfcdb4f816a9f21008eb",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 131,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "09259855026d6f58fbb4bfa36bc3501f3446684cb17e9489c7b592f406a0a29b",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 910,
+        "source_seed": null,
+        "start_raw_index": 81,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_09259855026d6f58fbb4bfa3.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_09259855026d6f58fbb4bfa3.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "28d01896f53eb818993df7de8be358e669e053020182e3451d2639752c00e326",
+      "unit": "U2"
+    },
+    {
+      "bytes": 917153,
+      "case": {
+        "case_id": "R7_reacher_09556a74785e2e4e22db9270",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:7207",
+        "episode_sha256": "35a81c6acddeb08e0bf3e62a99f2ebf797fe9772178cc1f94404e60c37003a86",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 194,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "09556a74785e2e4e22db92709de5bf71f6cab726c153ad5573acbc8cc06e4bd7",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 7207,
+        "source_seed": null,
+        "start_raw_index": 144,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_09556a74785e2e4e22db9270.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_09556a74785e2e4e22db9270.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "e137e19156cf7c55667537b414adb0527a6f8cd230a11fe19e4bf62844c7f2a0",
+      "unit": "U2"
+    },
+    {
+      "bytes": 924848,
+      "case": {
+        "case_id": "R7_reacher_09672a546ecc9cd8836e6f36",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:4508",
+        "episode_sha256": "3bef90c782524201a197e90c4e4ec59fb0e37926a38777cf159b7c8ee87594cd",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 112,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "09672a546ecc9cd8836e6f36dca1cca2bfcfa52f808c1ca8d309bef37b489184",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 4508,
+        "source_seed": null,
+        "start_raw_index": 62,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_09672a546ecc9cd8836e6f36.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_09672a546ecc9cd8836e6f36.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "ba343284e2cc98ecb6766a8081a25fde9af43407b0aa2e4b85ec54b7b74e00a5",
+      "unit": "U2"
+    },
+    {
+      "bytes": 913162,
+      "case": {
+        "case_id": "R7_reacher_09a47861d324c4e18bb27656",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:4294",
+        "episode_sha256": "d3a225fa6803cb1c20ee146613a14dce6ea1db9b6630303e03bcd9992ccab042",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 168,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "09a47861d324c4e18bb27656ceecb91f8f7af73ef115353dc84c4cc58bcd0442",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 4294,
+        "source_seed": null,
+        "start_raw_index": 118,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_09a47861d324c4e18bb27656.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_09a47861d324c4e18bb27656.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "8cd2a8905cd2f8ac2a159e42dd8757737f0788fbb1c7a6f1ca1f45b530f81530",
+      "unit": "U2"
+    },
+    {
+      "bytes": 922521,
+      "case": {
+        "case_id": "R7_reacher_09c5603a7991e4c9b46a1bef",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:7725",
+        "episode_sha256": "8a023b598adb958e584ca33daa3ca3c56c24ce3843ea2a1a7b1e6081b0e843ec",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 68,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "09c5603a7991e4c9b46a1bef3a6b1ba485a6a5f59b4a7854d8bb82dc1ba9ca32",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 7725,
+        "source_seed": null,
+        "start_raw_index": 18,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_09c5603a7991e4c9b46a1bef.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_09c5603a7991e4c9b46a1bef.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "32fdb5b1e861e9757d8227d28948182a42d5a45f481c126baec6c24d7e797a09",
+      "unit": "U2"
+    },
+    {
+      "bytes": 923147,
+      "case": {
+        "case_id": "R7_reacher_09da30f4c789c1a93d39016e",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:9235",
+        "episode_sha256": "bbf97efd0b84ee8bcc4914f242a901613166d5ee60c2d44967fb7fe1c1632e23",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 121,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "09da30f4c789c1a93d39016e7c1186f50b91b284db0eacb358df03d7115a2704",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 9235,
+        "source_seed": null,
+        "start_raw_index": 71,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_09da30f4c789c1a93d39016e.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_09da30f4c789c1a93d39016e.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "4dbda48954fef2767e48d0f8c7d7975afa9e0bff9944eb2e027fd86a13520d0b",
+      "unit": "U2"
+    },
+    {
+      "bytes": 907273,
+      "case": {
+        "case_id": "R7_reacher_09de8c6be6909b99d19eda26",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:2349",
+        "episode_sha256": "86b3db9120d1c83366884cc6fc458e1a7e649c79ccd5747e0c429e4d2c7d8c8f",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 174,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "09de8c6be6909b99d19eda269a13f0681a3aab438ffec5fd542d9a5795d58a39",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 2349,
+        "source_seed": null,
+        "start_raw_index": 124,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_09de8c6be6909b99d19eda26.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_09de8c6be6909b99d19eda26.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "d0c6ce2f17522c67187614398618d05dad9ea6dfcedb5428bdee47dbadcbadd2",
+      "unit": "U2"
+    },
+    {
+      "bytes": 936859,
+      "case": {
+        "case_id": "R7_reacher_09e0272740f157016da6f4c2",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:1650",
+        "episode_sha256": "9021712b92e667176a100d848527f168fd51dd054df4ca223c6ca80fafb99ff5",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 54,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "09e0272740f157016da6f4c267c592537d7e1723c224241947fec7a826bdd445",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 1650,
+        "source_seed": null,
+        "start_raw_index": 4,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_09e0272740f157016da6f4c2.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_09e0272740f157016da6f4c2.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "3c68a89d9a2ae6792339523fd23ce22bbb551f7234233cbc1501346cd74604dd",
+      "unit": "U2"
+    },
+    {
+      "bytes": 914195,
+      "case": {
+        "case_id": "R7_reacher_0a586d622d11a2001b814ccf",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:7599",
+        "episode_sha256": "15e46bb7f8a7dbadadb2fe14726b142a4edd0b51dfbb991dab7cdfc8411e2701",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 105,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0a586d622d11a2001b814ccf4c2c26a1c559cd4c4632da8db0106502fadbd205",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 7599,
+        "source_seed": null,
+        "start_raw_index": 55,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0a586d622d11a2001b814ccf.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0a586d622d11a2001b814ccf.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "8a65d82ed708ba1d5a4eb74848c14f43f8883d130575f9cef0b641ece1787ce1",
+      "unit": "U2"
+    },
+    {
+      "bytes": 940876,
+      "case": {
+        "case_id": "R7_reacher_0a62a34ae820f9440c1f6773",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:130",
+        "episode_sha256": "d8c17fc7674f90a52e891890bfa7d801d88ce17bde2c016bc5c857f71b90698c",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 177,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0a62a34ae820f9440c1f6773da8b94c0830ac2ce9ab45ae268127c69477cdc12",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 130,
+        "source_seed": null,
+        "start_raw_index": 127,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0a62a34ae820f9440c1f6773.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0a62a34ae820f9440c1f6773.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "589fd78037ed89509d9f4f4ce48c2b55324564cc5b09b4dba6c5370f3a4812c9",
+      "unit": "U2"
+    },
+    {
+      "bytes": 933160,
+      "case": {
+        "case_id": "R7_reacher_0a7092c7dff7225532cf04b5",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:6502",
+        "episode_sha256": "5e83500e160ca9efa552adfcede510d03650fd470a5bbd9572deb54ecc534e18",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 104,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0a7092c7dff7225532cf04b5f680df0e31d9b5e219ac5f8fbd818e66185c3f6e",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 6502,
+        "source_seed": null,
+        "start_raw_index": 54,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0a7092c7dff7225532cf04b5.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0a7092c7dff7225532cf04b5.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "740ab58eda1766c7c16046a74ba61cae08eea70129a7c6803c8c6eac3605eb92",
+      "unit": "U2"
+    },
+    {
+      "bytes": 955994,
+      "case": {
+        "case_id": "R7_reacher_0a9eb0622d96e0949ad35106",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:441",
+        "episode_sha256": "172631360e40d75e9a8d08e853f6be7da0f846fcf7294a84086f4a9a0f38f3c2",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 181,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0a9eb0622d96e0949ad3510614bf91d18ff7ccfbafef5e7814ce9b496503ded9",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 441,
+        "source_seed": null,
+        "start_raw_index": 131,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0a9eb0622d96e0949ad35106.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0a9eb0622d96e0949ad35106.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "3f5f90e5806cbde305471af0c03f00337a2ad285eefd340bb848502436b81882",
+      "unit": "U2"
+    },
+    {
+      "bytes": 927632,
+      "case": {
+        "case_id": "R7_reacher_0ad48b70d7fa4db6f6b5c8a3",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:6741",
+        "episode_sha256": "c2cde37b470626a5c358e65caacf80192da7bf8131bfbe362146747df2cb2ed4",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 112,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0ad48b70d7fa4db6f6b5c8a36a1d5f6013973a8e8a538bbb832001df392ee36f",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 6741,
+        "source_seed": null,
+        "start_raw_index": 62,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0ad48b70d7fa4db6f6b5c8a3.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0ad48b70d7fa4db6f6b5c8a3.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "7cfc060c6d013c0f476f2abf6acb3adab855f4b6993aa17e46cf70adb62d373e",
+      "unit": "U2"
+    },
+    {
+      "bytes": 935692,
+      "case": {
+        "case_id": "R7_reacher_0ae787fe84f6e2a36330fd57",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:9756",
+        "episode_sha256": "1e821e73981fcd044a5b038f060027504e36926c931881df7485dc1b285109b5",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 59,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0ae787fe84f6e2a36330fd574c7c94c62c9b3a70ec956e346211845490bd6ec7",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 9756,
+        "source_seed": null,
+        "start_raw_index": 9,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0ae787fe84f6e2a36330fd57.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0ae787fe84f6e2a36330fd57.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "998a35c9a35de42868b65e81a763cfabb67469464227ab1f76f4043a70d2763d",
+      "unit": "U2"
+    },
+    {
+      "bytes": 923287,
+      "case": {
+        "case_id": "R7_reacher_0ae7ef175277c110c11348f6",
+        "construction_rule": "R3 metadata case start hash, target offset 50 raw, legal source window",
+        "episode_id": "reacher:85a7dddfa1801302:892",
+        "episode_sha256": "8c8de50253f11f6eed394f4c087fed7549f3d915359970c75ce7840090514956",
+        "family_id": null,
+        "goal_offset_raw": 50,
+        "goal_raw_index": 98,
+        "length": 201,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "reset_seed": 0,
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "role": "EVAL",
+        "selection_rule": "sha256(\"R7_LONG/reacher/\"+episode_id) ascending",
+        "selection_sha256": "0ae7ef175277c110c11348f66e623e2207483f51f294f6191c6199398cabaf62",
+        "selection_used_model_outputs": false,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "source_episode_idx": 892,
+        "source_seed": null,
+        "start_raw_index": 48,
+        "task": "reacher",
+        "unit": "U2"
+      },
+      "file": "R7_reacher_0ae7ef175277c110c11348f6.npz",
+      "path": "/workspace/r8/assets/U2/R7_reacher_0ae7ef175277c110c11348f6.npz",
+      "reference_root": "/workspace/r7",
+      "sha256": "e97c91ba07e5c2039f686fdd3648f77a3dec2eb0425af78926ab867d29018dc4",
+      "unit": "U2"
+    }
+  ],
+  "evidence_label": "PREREGISTERED_BUDGET_DECOMPOSITION",
+  "goal_offset_raw": 50,
+  "max_replans": 1,
+  "planned_formal_trajectories": 2400,
+  "selection_used_model_outputs": false,
+  "source_reference": "R7",
+  "task": "reacher",
+  "unit": "U2",
+  "version": "R8_PREREGISTERED_BUDGET_DECOMPOSITION_V1"
+}

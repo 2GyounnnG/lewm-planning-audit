@@ -1,0 +1,29 @@
+{
+  "status": "SYNTHETIC_HELPER_CHECKS_PASS_NOT_REAL_ACCEPTANCE",
+  "checked_at": "2026-10-02T18:02:01.171805+00:00",
+  "tests_passed": 21,
+  "source_sha256": {
+    "scripts/final_acceptance.py": "46493cb587ac2959173ed8282d09619fb0e86e53627640b27e87d721296eb3d5",
+    "tests/test_final_acceptance.py": "6863a016bb70d68f848e46ab2d42eba163cb4c7fdbb6de5899804b68737aec19"
+  },
+  "runtime": "Python3.12 / torch2.8.0 / numpy2.3.5 CPU",
+  "scope": [
+    "path/device rejection",
+    "exact SHA and bytes",
+    "uncertain technical upper-bound accounting",
+    "transition exposure reconstruction",
+    "saved cache slices/TRAIN moments",
+    "trajectory raw success/goal-error consistency",
+    "paired case/family bootstrap and resealed-tamper rejection",
+    "16 synthetic reset trials and14 comparison reconstruction",
+    "failed release preserves evidence and creates no gate",
+    "Reacher task-specific12same-seed and2cross-seed saved comparisons, permitting only frozen point-task diagnostic differences"
+  ],
+  "optimizer_updates": 0,
+  "official_model_weight_loads": 0,
+  "new_real_state_reads": 0,
+  "GPU_calls": 0,
+  "SSH_connections": 0,
+  "real_external_release_gate_executed": false,
+  "command": "python tests/test_final_acceptance.py"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "SEALED_WITH_CPU_RECOVERY_FAILURE",
+  "protocol": "R4-v2.3",
+  "sealed_utc": "2026-10-03T16:45:41.808567+00:00",
+  "recovery_manifest": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/RECOVERY_MANIFEST.json",
+    "bytes": 16660716,
+    "sha256": "28f4020a1c4b2433ef7ea5efb5376a115a2b9d8e4542a5518b583e48cd3a96a6"
+  },
+  "release_gate": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/RELEASE_GATE.json",
+    "bytes": 3883,
+    "sha256": "572e250ef249766ead4d1d215b5e9b6262a8ae639af2dbf757c9822fc5388622"
+  },
+  "main_and_secondary_are_separate_immutable_deliveries": true,
+  "instance_destroyed": false
+}

@@ -1,0 +1,82 @@
+{
+  "status": "INFRASTRUCTURE_FAILURE",
+  "error_type": "RuntimeError",
+  "error": "TECH perturbation did not change plan",
+  "executed_raw_steps": 25,
+  "replans": [
+    {
+      "replan_index": 0,
+      "anchor_raw": 0,
+      "seed_uint64": 2713568249645417520,
+      "observed_history_frames": 1,
+      "status": "COMPLETE",
+      "history_raw_indices": [
+        0
+      ],
+      "history_action_raw_start": 0,
+      "history_action_raw_end": 0,
+      "future_macro_horizon": 5,
+      "predicted_terminal_raw": 25,
+      "cem_candidate_shape": [
+        1,
+        300,
+        5,
+        10
+      ],
+      "elite_mean_costs": [
+        3.3319404125213623
+      ],
+      "returned_plan_sha256": "e6d00b74f1d4a4966b775c0de5702eb2f99322abaa0234a068bcef25b70a85a8",
+      "cross_unit_first_plan_check": {
+        "status": "BITWISE_EQUAL",
+        "max_abs_difference": 0.0,
+        "reference": "R6"
+      },
+      "synchronized_wall_seconds": 0.8177231469890103
+    },
+    {
+      "replan_index": 1,
+      "anchor_raw": 25,
+      "seed_uint64": 10378005555162080895,
+      "observed_history_frames": 3,
+      "status": "STARTED",
+      "history_raw_indices": [
+        15,
+        20,
+        25
+      ],
+      "history_action_raw_start": 15,
+      "history_action_raw_end": 25,
+      "future_macro_horizon": 5,
+      "predicted_terminal_raw": 50,
+      "cem_candidate_shape": [
+        1,
+        300,
+        5,
+        10
+      ],
+      "predicted_context_raw_indices": [
+        15,
+        20,
+        25
+      ],
+      "cached_rollout_output_includes_initial": false,
+      "cached_rollout_pred_slice": "pred[0,2:4]",
+      "predicted_context_l2_vs_true": [
+        5.437645435333252,
+        5.944601058959961
+      ],
+      "predicted_context_shape": [
+        1,
+        3,
+        192
+      ],
+      "perturbation_l2": 0.01414213515818119,
+      "perturbation_plan_changed": false,
+      "perturbation_zhat_only": true,
+      "z_t_bitwise_unchanged": true,
+      "actual_predict_context_asserted": true,
+      "synchronized_wall_seconds": 0.9116014640021604
+    }
+  ]
+}

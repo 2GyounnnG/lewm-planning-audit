@@ -1,0 +1,51 @@
+{
+  "as_of_utc": "2026-10-03T15:56:29.186714+00:00",
+  "timezone": "Asia/Shanghai",
+  "main_results_estimate_local": [
+    "2026-10-04T00:20:00+08:00",
+    "2026-10-04T00:40:00+08:00"
+  ],
+  "all_including_second_batch_and_recovery_local": [
+    "2026-10-04T00:45:00+08:00",
+    "2026-10-04T01:30:00+08:00"
+  ],
+  "line_remaining_minutes": {
+    "x1_cube_offline_main": [
+      25,
+      40
+    ],
+    "main_merge_after_cube": [
+      1,
+      5
+    ],
+    "second_batch_after_main": [
+      15,
+      35
+    ]
+  },
+  "critical_path": "Cube fixed3x30k predictor refits and source-trajectory open-loop evaluation; then permitted second batch",
+  "not_deadline": true,
+  "uncertainties": [
+    "Cube full formal update throughput estimate based on early actual updates",
+    "Minimum recovery package transfer bandwidth variable",
+    "No Cube closed-loop estimate: frozen exact reset gate failed"
+  ],
+  "SIM_CEM": "Not scheduled: measured serial P90 estimate exceeds <=2h condition; theoretical parallel speedup not treated as measured throughput",
+  "line_progress": {
+    "r4_pusht": "MAIN_COMPLETE_LOCAL_INDEPENDENT_RECOMPUTATION_PASS",
+    "r4_reacher": "MAIN_COMPLETE_WITH_FIXED_HORIZON_TECHNICAL_LIMITATIONS_LOCAL_INDEPENDENT_RECOMPUTATION_PASS",
+    "x1_tworoom": "MAIN_COMPLETE_LOCAL_ARITHMETIC_AND_SOURCE_SEALS_PASS",
+    "x1_cube": "THREE_FORMAL_REFITS_RUNNING; OPEN_LOOP_NEXT; CLOSED_LOOP_TECHNICALLY_UNEVALUABLE_UNDER_FROZEN_RESET_PROTOCOL",
+    "x2": "MAIN_COMPLETE_LOCAL_FULL_COVERAGE_AND_ARITHMETIC_PASS"
+  },
+  "recovery_progress": {
+    "X2_PRED_CONT": "ALL324_CPU_RESTORATION_PASS",
+    "R4": "Small-table packages first, lossless state/statistical subsets; full reduced trajectory bundles continue"
+  },
+  "updated_utc": "2026-10-03T16:31:04.677770+00:00",
+  "main_batch": "DELIVERED",
+  "secondary_batch": "DELIVERED",
+  "remaining_critical_path": "X1_Cube archive, original strict CPU recovery check, TwoRoom additional trajectory archive, root file verification/seal",
+  "final_archive_report_eta_Asia_Shanghai": "2026-10-04 00:50–01:05",
+  "release_gate": "HOLD: TwoRoom original CPU tolerance failed on two platforms; no tolerance change"
+}

@@ -1,0 +1,286 @@
+{
+  "status": "ENGINEERING_READINESS_ONLY_NOT_SECOND_BATCH",
+  "no_new_simulation": true,
+  "rows": [
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_1b18096f65582dde46b89f9f",
+      "source_raw_steps": 24,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_31b21893c0f1aac28ab8021e",
+      "source_raw_steps": 22,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_e9ad56a3f2a26bbfba8ec8af",
+      "source_raw_steps": 24,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_e09767b57864046b7cf06d33",
+      "source_raw_steps": 24,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_11659cb74e70647ee65adbe4",
+      "source_raw_steps": 23,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_a0c1be26c51be6bc9da67160",
+      "source_raw_steps": 19,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_9d0c6cbb6e2ec4b4f4e8858f",
+      "source_raw_steps": 24,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_28ac9111487aa56d2ad73b8c",
+      "source_raw_steps": 50,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_dc50074e9ec3c2c00440ab6e",
+      "source_raw_steps": 22,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_20b5cb6f32d7e90a9e3e3c58",
+      "source_raw_steps": 50,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_f96b798a632653a77548e631",
+      "source_raw_steps": 21,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_daf1645e61c8c0d1f3945a87",
+      "source_raw_steps": 24,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_c810ae1483f15123173f6fd4",
+      "source_raw_steps": 22,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_09d5f1eca9dc5a4c28cf3674",
+      "source_raw_steps": 25,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_5c9e318ef5d0b21ed4c7aa80",
+      "source_raw_steps": 24,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_4e31ff2a59d37e1703212e0b",
+      "source_raw_steps": 24,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_8e221410300bba4359e57166",
+      "source_raw_steps": 30,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_cb5ae8e208399914f87b37d6",
+      "source_raw_steps": 23,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_ebbd0e40e9102ae47af76ad7",
+      "source_raw_steps": 49,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "pusht",
+      "case_id": "R3_pusht_ca9570676c02d5e4692fac64",
+      "source_raw_steps": 25,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_2b1605c757025d16771855cd",
+      "source_raw_steps": 25,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_aa19e4ff8c803eccffc04674",
+      "source_raw_steps": 38,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_db1aac2a2839b94c8cf3e963",
+      "source_raw_steps": 34,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_cda870d3e512d2eb34471d9e",
+      "source_raw_steps": 50,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_3687a037d77056bca1ad3a86",
+      "source_raw_steps": 24,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_0651ebd394a43de70c9b7ad0",
+      "source_raw_steps": 37,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_2ae169997e13b18afc7243d3",
+      "source_raw_steps": 21,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_6cba7a43faf319ebfe282ca1",
+      "source_raw_steps": 36,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_8f94a57dc057ae3fea063566",
+      "source_raw_steps": 48,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_ee3aa3dea1bccfc0c0400c77",
+      "source_raw_steps": 50,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_fa467774affd316a6db90f90",
+      "source_raw_steps": 23,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_3ebb7b8846f0d4e4c5337f68",
+      "source_raw_steps": 38,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_227dcc9361770465dc9ba143",
+      "source_raw_steps": 16,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_4d092e8fde355972772dfa7e",
+      "source_raw_steps": 50,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_b2b5f6290d54abd4e830fc73",
+      "source_raw_steps": 25,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_ed2a6ac159bdefdd8698e966",
+      "source_raw_steps": 25,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_10754410887eb77f72ae018e",
+      "source_raw_steps": 50,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_43bed550bc7c733bb23002e3",
+      "source_raw_steps": 50,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_25281ce20ac4c1a4e13bfe64",
+      "source_raw_steps": 25,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    },
+    {
+      "task": "reacher",
+      "case_id": "R3_reacher_51856009f99570a92446d05a",
+      "source_raw_steps": 24,
+      "has_observed_prefix10": true,
+      "secondary_executed": false
+    }
+  ]
+}

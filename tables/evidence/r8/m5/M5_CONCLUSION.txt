@@ -1,0 +1,5 @@
+M5 FULL_HISTORY：89/100 R6 case 具备起点前至少10 raw 记录；11 个按预注册前缀条件排除。
+完成 1068 条（4 模型×3 流×89 case），无基础设施错误；证据标签 PROTOCOL_EXTENSION。
+FULL_HISTORY−H_POLICY：0.1292，95% bootstrap [0.0918, 0.1676]。
+FULL_HISTORY−H_REAL3_REPLAN：-0.0047，95% bootstrap [-0.0234, 0.0131]。
+差值仅作协议扩展描述，不并入官方主结果。

@@ -1,0 +1,627 @@
+{
+  "version": "R7_TECH_GATE_V1",
+  "evidence_label": "PREREGISTERED_STRESS_TEST_FRESH_CASES",
+  "task": "reacher",
+  "status": "PASS",
+  "tech_cases": 4,
+  "trajectories": 8,
+  "expected_trajectories": 8,
+  "problems": [],
+  "optimizer_updates": 0,
+  "rows": [
+    {
+      "status": "COMPLETE",
+      "identity_sha256": "531253335ed3cd49ed281cc5489f3a1903766fdf06d49a486af30fe5fc3c49bd",
+      "task": "reacher",
+      "case_id": "R7_reacher_00346d2e9ff711d7bcdf7e99",
+      "family_id": null,
+      "arm": "H0",
+      "stream": "R3_ORIGINAL",
+      "success": 1,
+      "method_failure": null,
+      "executed_raw_steps": 23,
+      "replan_calls": 1,
+      "replans": [
+        {
+          "replan_index": 0,
+          "anchor_raw": 0,
+          "seed_uint64": 14355254237165728348,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            0
+          ],
+          "history_action_raw_start": 0,
+          "history_action_raw_end": 0,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 25,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            4.329676628112793
+          ],
+          "returned_plan_sha256": "b1adb1305c4d9d6e3140d885859d82eab164b23233ad58728896d1f860037557",
+          "synchronized_wall_seconds": 0.9894951599999331
+        }
+      ],
+      "attempts": 1,
+      "optimizer_updates": 0,
+      "wall_seconds": 1.8831058760115411,
+      "evidence_scope": "R7_PREREGISTERED_STRESS_TEST_FRESH_CASES",
+      "logged_observations": 24,
+      "history": "H_POLICY",
+      "entered_replanning": false,
+      "control_source": "R7_PAIRED_ARM",
+      "paired_first_plan_checked": false
+    },
+    {
+      "status": "COMPLETE",
+      "identity_sha256": "97c0e20cc84ab6bfa7b7a25ee14295cc9436c4b74e89ed8fb4012ff4015dc298",
+      "task": "reacher",
+      "case_id": "R7_reacher_00346d2e9ff711d7bcdf7e99",
+      "family_id": null,
+      "arm": "H0",
+      "stream": "R3_ORIGINAL",
+      "success": 1,
+      "method_failure": null,
+      "executed_raw_steps": 23,
+      "replan_calls": 1,
+      "replans": [
+        {
+          "replan_index": 0,
+          "anchor_raw": 0,
+          "seed_uint64": 14355254237165728348,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            0
+          ],
+          "history_action_raw_start": 0,
+          "history_action_raw_end": 0,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 25,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            4.329676628112793
+          ],
+          "returned_plan_sha256": "b1adb1305c4d9d6e3140d885859d82eab164b23233ad58728896d1f860037557",
+          "paired_first_plan_check": {
+            "status": "BITWISE_EQUAL",
+            "max_abs_difference": 0.0
+          },
+          "synchronized_wall_seconds": 0.4875030189868994
+        }
+      ],
+      "attempts": 1,
+      "optimizer_updates": 0,
+      "wall_seconds": 0.8538530599907972,
+      "evidence_scope": "R7_PREREGISTERED_STRESS_TEST_FRESH_CASES",
+      "logged_observations": 24,
+      "history": "H_REAL3_REPLAN",
+      "entered_replanning": false,
+      "control_source": "R7_PAIRED_ARM",
+      "paired_first_plan_checked": true
+    },
+    {
+      "status": "COMPLETE",
+      "identity_sha256": "4b837be91102c32560559d441ffbd5835a7fe650bc526c65ce0381b7aa100faf",
+      "task": "reacher",
+      "case_id": "R7_reacher_004d18d5623341e53104eff8",
+      "family_id": null,
+      "arm": "H0",
+      "stream": "R3_ORIGINAL",
+      "success": 1,
+      "method_failure": null,
+      "executed_raw_steps": 90,
+      "replan_calls": 4,
+      "replans": [
+        {
+          "replan_index": 0,
+          "anchor_raw": 0,
+          "seed_uint64": 9526528617941178754,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            0
+          ],
+          "history_action_raw_start": 0,
+          "history_action_raw_end": 0,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 25,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            4.98826265335083
+          ],
+          "returned_plan_sha256": "fc746cd8f457e2a41a1a0a948d286252cd2f94eabe4bd85f8cbd41eb264a9c6b",
+          "synchronized_wall_seconds": 0.48717539399513043
+        },
+        {
+          "replan_index": 1,
+          "anchor_raw": 25,
+          "seed_uint64": 12496295155562077332,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            25
+          ],
+          "history_action_raw_start": 15,
+          "history_action_raw_end": 25,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 50,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            5.133728504180908
+          ],
+          "returned_plan_sha256": "ac13d917ca4f2d95fc8897866b77f7c7aa9fb5f1fef7be2a626a457f956a6d88",
+          "synchronized_wall_seconds": 0.48682955201365985
+        },
+        {
+          "replan_index": 2,
+          "anchor_raw": 50,
+          "seed_uint64": 12602349686927332108,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            50
+          ],
+          "history_action_raw_start": 40,
+          "history_action_raw_end": 50,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 75,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            4.025142192840576
+          ],
+          "returned_plan_sha256": "089c06a2b01e31229c8b38ad961f5d3c0f8c2f29b8666d9c5e7a65162a4e26a8",
+          "synchronized_wall_seconds": 0.48881908200564794
+        },
+        {
+          "replan_index": 3,
+          "anchor_raw": 75,
+          "seed_uint64": 2644541287847205698,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            75
+          ],
+          "history_action_raw_start": 65,
+          "history_action_raw_end": 75,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 100,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            3.091679573059082
+          ],
+          "returned_plan_sha256": "8f8b908c5daec7a49a82bc1cb4717688834f4f64e8216930f62a35ea87f6d9b9",
+          "synchronized_wall_seconds": 0.4885961420077365
+        }
+      ],
+      "attempts": 1,
+      "optimizer_updates": 0,
+      "wall_seconds": 2.5991864259995054,
+      "evidence_scope": "R7_PREREGISTERED_STRESS_TEST_FRESH_CASES",
+      "logged_observations": 91,
+      "history": "H_POLICY",
+      "entered_replanning": true,
+      "control_source": "R7_PAIRED_ARM",
+      "paired_first_plan_checked": false
+    },
+    {
+      "status": "COMPLETE",
+      "identity_sha256": "b37ea52067f271641d1e30e8e6f2efa04876af6ed1f7fb9336fc6fec1749d0a6",
+      "task": "reacher",
+      "case_id": "R7_reacher_004d18d5623341e53104eff8",
+      "family_id": null,
+      "arm": "H0",
+      "stream": "R3_ORIGINAL",
+      "success": 1,
+      "method_failure": null,
+      "executed_raw_steps": 50,
+      "replan_calls": 2,
+      "replans": [
+        {
+          "replan_index": 0,
+          "anchor_raw": 0,
+          "seed_uint64": 9526528617941178754,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            0
+          ],
+          "history_action_raw_start": 0,
+          "history_action_raw_end": 0,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 25,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            4.98826265335083
+          ],
+          "returned_plan_sha256": "fc746cd8f457e2a41a1a0a948d286252cd2f94eabe4bd85f8cbd41eb264a9c6b",
+          "paired_first_plan_check": {
+            "status": "BITWISE_EQUAL",
+            "max_abs_difference": 0.0
+          },
+          "synchronized_wall_seconds": 0.48722201801138
+        },
+        {
+          "replan_index": 1,
+          "anchor_raw": 25,
+          "seed_uint64": 12496295155562077332,
+          "observed_history_frames": 3,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            15,
+            20,
+            25
+          ],
+          "history_action_raw_start": 15,
+          "history_action_raw_end": 25,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 50,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            4.564122676849365
+          ],
+          "returned_plan_sha256": "a4a1a9f06ce2c92045c344afe82933f21891bc4f20ac0631610f37c4a9ff732c",
+          "synchronized_wall_seconds": 0.5118682899919804
+        }
+      ],
+      "attempts": 1,
+      "optimizer_updates": 0,
+      "wall_seconds": 1.4342147940187715,
+      "evidence_scope": "R7_PREREGISTERED_STRESS_TEST_FRESH_CASES",
+      "logged_observations": 51,
+      "history": "H_REAL3_REPLAN",
+      "entered_replanning": true,
+      "control_source": "R7_PAIRED_ARM",
+      "paired_first_plan_checked": true
+    },
+    {
+      "status": "COMPLETE",
+      "identity_sha256": "3da81d781ccb139cbac7327346ed63d19562562003181324bec1d0d4bd10c74f",
+      "task": "reacher",
+      "case_id": "R7_reacher_007b8f4aaf1ee69cf2659d57",
+      "family_id": null,
+      "arm": "H0",
+      "stream": "R3_ORIGINAL",
+      "success": 1,
+      "method_failure": null,
+      "executed_raw_steps": 50,
+      "replan_calls": 2,
+      "replans": [
+        {
+          "replan_index": 0,
+          "anchor_raw": 0,
+          "seed_uint64": 11379500921519314379,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            0
+          ],
+          "history_action_raw_start": 0,
+          "history_action_raw_end": 0,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 25,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            1.8218634128570557
+          ],
+          "returned_plan_sha256": "03cc2d608751d37f1ffea5a37542457de8fb433e3f13e2f8843a8e954b31ffed",
+          "synchronized_wall_seconds": 0.48705155300558545
+        },
+        {
+          "replan_index": 1,
+          "anchor_raw": 25,
+          "seed_uint64": 3078549028970844310,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            25
+          ],
+          "history_action_raw_start": 15,
+          "history_action_raw_end": 25,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 50,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            1.4535919427871704
+          ],
+          "returned_plan_sha256": "fcbfae65a4878318d25481929a71e278e97021ef03bb5e982e9872b60402d76f",
+          "synchronized_wall_seconds": 0.48624645097879693
+        }
+      ],
+      "attempts": 1,
+      "optimizer_updates": 0,
+      "wall_seconds": 1.4198876259906683,
+      "evidence_scope": "R7_PREREGISTERED_STRESS_TEST_FRESH_CASES",
+      "logged_observations": 51,
+      "history": "H_POLICY",
+      "entered_replanning": true,
+      "control_source": "R7_PAIRED_ARM",
+      "paired_first_plan_checked": false
+    },
+    {
+      "status": "COMPLETE",
+      "identity_sha256": "50387ccf44dc77226e0f246dacc556571145b8816931d37def0525f5a29716de",
+      "task": "reacher",
+      "case_id": "R7_reacher_007b8f4aaf1ee69cf2659d57",
+      "family_id": null,
+      "arm": "H0",
+      "stream": "R3_ORIGINAL",
+      "success": 1,
+      "method_failure": null,
+      "executed_raw_steps": 50,
+      "replan_calls": 2,
+      "replans": [
+        {
+          "replan_index": 0,
+          "anchor_raw": 0,
+          "seed_uint64": 11379500921519314379,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            0
+          ],
+          "history_action_raw_start": 0,
+          "history_action_raw_end": 0,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 25,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            1.8218634128570557
+          ],
+          "returned_plan_sha256": "03cc2d608751d37f1ffea5a37542457de8fb433e3f13e2f8843a8e954b31ffed",
+          "paired_first_plan_check": {
+            "status": "BITWISE_EQUAL",
+            "max_abs_difference": 0.0
+          },
+          "synchronized_wall_seconds": 0.48723213898483664
+        },
+        {
+          "replan_index": 1,
+          "anchor_raw": 25,
+          "seed_uint64": 3078549028970844310,
+          "observed_history_frames": 3,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            15,
+            20,
+            25
+          ],
+          "history_action_raw_start": 15,
+          "history_action_raw_end": 25,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 50,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            1.2387691736221313
+          ],
+          "returned_plan_sha256": "96cf322b9c80d46cf17222cda08e0a1f0175544c0ac22d144102aa4fed11f708",
+          "synchronized_wall_seconds": 0.508875130006345
+        }
+      ],
+      "attempts": 1,
+      "optimizer_updates": 0,
+      "wall_seconds": 1.4814773010148201,
+      "evidence_scope": "R7_PREREGISTERED_STRESS_TEST_FRESH_CASES",
+      "logged_observations": 51,
+      "history": "H_REAL3_REPLAN",
+      "entered_replanning": true,
+      "control_source": "R7_PAIRED_ARM",
+      "paired_first_plan_checked": true
+    },
+    {
+      "status": "COMPLETE",
+      "identity_sha256": "81e9ad9822a8fff803b4a6ba93d823b993a13232bceaef76c125c9688f3d5dce",
+      "task": "reacher",
+      "case_id": "R7_reacher_0084461724c5a04e482680fd",
+      "family_id": null,
+      "arm": "H0",
+      "stream": "R3_ORIGINAL",
+      "success": 1,
+      "method_failure": null,
+      "executed_raw_steps": 27,
+      "replan_calls": 2,
+      "replans": [
+        {
+          "replan_index": 0,
+          "anchor_raw": 0,
+          "seed_uint64": 10409205080865499375,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            0
+          ],
+          "history_action_raw_start": 0,
+          "history_action_raw_end": 0,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 25,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            3.0347235202789307
+          ],
+          "returned_plan_sha256": "e2d94ca86a03ed9400315fb4060690819364c77aa9f4cec6d41000e21a124f2f",
+          "synchronized_wall_seconds": 0.48714691400527954
+        },
+        {
+          "replan_index": 1,
+          "anchor_raw": 25,
+          "seed_uint64": 2629585182668016143,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            25
+          ],
+          "history_action_raw_start": 15,
+          "history_action_raw_end": 25,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 50,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            3.2547507286071777
+          ],
+          "returned_plan_sha256": "14f6a99f667761c3af6c46e318f5831d1780645153c19a2c2b3bff55f428b048",
+          "synchronized_wall_seconds": 0.48580150300404057
+        }
+      ],
+      "attempts": 1,
+      "optimizer_updates": 0,
+      "wall_seconds": 1.2948168060102034,
+      "evidence_scope": "R7_PREREGISTERED_STRESS_TEST_FRESH_CASES",
+      "logged_observations": 28,
+      "history": "H_POLICY",
+      "entered_replanning": true,
+      "control_source": "R7_PAIRED_ARM",
+      "paired_first_plan_checked": false
+    },
+    {
+      "status": "COMPLETE",
+      "identity_sha256": "c1275a1b27d17eaf6b7ce06191a16ca6577b149b5c40f991abbffd50650c8776",
+      "task": "reacher",
+      "case_id": "R7_reacher_0084461724c5a04e482680fd",
+      "family_id": null,
+      "arm": "H0",
+      "stream": "R3_ORIGINAL",
+      "success": 1,
+      "method_failure": null,
+      "executed_raw_steps": 49,
+      "replan_calls": 2,
+      "replans": [
+        {
+          "replan_index": 0,
+          "anchor_raw": 0,
+          "seed_uint64": 10409205080865499375,
+          "observed_history_frames": 1,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            0
+          ],
+          "history_action_raw_start": 0,
+          "history_action_raw_end": 0,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 25,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            3.0347235202789307
+          ],
+          "returned_plan_sha256": "e2d94ca86a03ed9400315fb4060690819364c77aa9f4cec6d41000e21a124f2f",
+          "paired_first_plan_check": {
+            "status": "BITWISE_EQUAL",
+            "max_abs_difference": 0.0
+          },
+          "synchronized_wall_seconds": 0.486332753993338
+        },
+        {
+          "replan_index": 1,
+          "anchor_raw": 25,
+          "seed_uint64": 2629585182668016143,
+          "observed_history_frames": 3,
+          "status": "COMPLETE",
+          "history_raw_indices": [
+            15,
+            20,
+            25
+          ],
+          "history_action_raw_start": 15,
+          "history_action_raw_end": 25,
+          "future_macro_horizon": 5,
+          "predicted_terminal_raw": 50,
+          "cem_candidate_shape": [
+            1,
+            300,
+            5,
+            10
+          ],
+          "elite_mean_costs": [
+            3.4308855533599854
+          ],
+          "returned_plan_sha256": "d5a596b1da90618dbf4c5042c11ff880e48555b580473b95e92d6ab1d72e0716",
+          "synchronized_wall_seconds": 0.5098259150108788
+        }
+      ],
+      "attempts": 1,
+      "optimizer_updates": 0,
+      "wall_seconds": 1.4260980320104863,
+      "evidence_scope": "R7_PREREGISTERED_STRESS_TEST_FRESH_CASES",
+      "logged_observations": 50,
+      "history": "H_REAL3_REPLAN",
+      "entered_replanning": true,
+      "control_source": "R7_PAIRED_ARM",
+      "paired_first_plan_checked": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": "R8_M5_STATS_V1",
+  "evidence_label": "PROTOCOL_EXTENSION",
+  "eligible_cases": 89,
+  "excluded_cases": 11,
+  "expected_rows": 1068,
+  "observed_rows": 1068,
+  "errors": [],
+  "endpoints": [
+    {
+      "endpoint": "FULL_HISTORY - H_POLICY",
+      "n_cases": 89,
+      "mean_case_diff": 0.12921348314606743,
+      "ci95_low": 0.09176029962546815,
+      "ci95_high": 0.16760299625468167,
+      "label": "\u63cf\u8ff0\u6027"
+    },
+    {
+      "endpoint": "FULL_HISTORY - H_REAL3_REPLAN",
+      "n_cases": 89,
+      "mean_case_diff": -0.00468164794007491,
+      "ci95_low": -0.023408239700374537,
+      "ci95_high": 0.013108614232209732,
+      "label": "\u63cf\u8ff0\u6027"
+    },
+    {
+      "endpoint": "FULL_HISTORY overall",
+      "value": 0.9672284644194756
+    },
+    {
+      "endpoint": "H_POLICY matched overall",
+      "value": 0.8380149812734082
+    },
+    {
+      "endpoint": "H_REAL3_REPLAN matched overall",
+      "value": 0.9719101123595506
+    }
+  ]
+}

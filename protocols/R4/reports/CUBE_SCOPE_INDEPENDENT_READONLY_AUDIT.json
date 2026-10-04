@@ -1,0 +1,69 @@
+{
+  "version": "R4_AGENT_READ_ONLY_CUBE_SCOPE_AUDIT_V1",
+  "decision": "AGREE_WITH_PRESERVED_CLOSED_LOOP_TECHNICAL_LIMITATION_AND_OFFLINE_CONTINUATION",
+  "new_trials": 0,
+  "code_changes": 0,
+  "tolerance_changes": 0,
+  "findings": [
+    "X1 v2.3 inherits R3 protocol; X1 frozen contract requires explicit source seed or successful separate TECH reset receipt.",
+    "reset.py requires exact finite physical/controller state, one-step outcomes and render equality across tested seeds, repeats and official/adapter paths; failed ctrl/warmstart and post-step qpos/qvel satisfy its pre-existing blocking condition.",
+    "Pinned Cube.reset accepts seed but sends seed=None to variation reset and omits seed from super().reset; this is a source-level seed propagation defect, not proof that every observed difference has that sole cause.",
+    "Official Cube evaluation callables restore only qpos/qvel and target pose; adding control/warmstart restoration or seed forwarding changes the frozen environment/adapter. Equal render pixels do not establish the frozen physical-state equivalence.",
+    "Cache, separate128 TECH updates, fixed3x30000 predictor/pred_proj refits and h1/2/5 source-trajectory open-loop evaluation do not require simulator reset fallback and can continue under the original data/model freezes.",
+    "Closed-loop performance must remain technically unevaluable rather than algorithm failure or zero success. This conclusion is scoped to the current fixed interface and exact gate; it is not a claim Cube cannot be evaluated under a separately authorized revised protocol."
+  ],
+  "observed_nonzero_max_abs": {
+    "after:qacc_warmstart": 0.00024436119099757736,
+    "after:qpos": 1.41430237128419e-07,
+    "after:qvel": 8.935555825401176e-06,
+    "before:ctrl": 255.0,
+    "before:qacc_warmstart": 209.6476289332083
+  },
+  "evidence": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reset.py",
+      "bytes": 7765,
+      "sha256": "0e35faf63fe88c4bc5106fa2c87020ed5b40ebbdc8c21bcc17b0b88ebebf5dae"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/offline_cube.py",
+      "bytes": 3725,
+      "sha256": "01ee626def4cf5783e3fbd94bb3e3427c5e19ff1348c88673bcd00470c3d4f32"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RESET_DIAGNOSTIC/RESET_FALLBACK.json",
+      "bytes": 35661,
+      "sha256": "ed309cef38b9ed8cc4924ad2353a903e268cc8e3b4f222d32c87b891c7fa6eb3"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RESET_DIAGNOSTIC/DIAGNOSTIC.json",
+      "bytes": 467,
+      "sha256": "407be0dff7cf024f27f4a7cf2140ca82de3e44b8c627fe1251de3353acc74e6d"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RESET_DIAGNOSTIC/CALLS_AND_FIRST_DIFFERENCE.json",
+      "bytes": 2754,
+      "sha256": "8773e7c13837ce1bf9c485cabc2b5be31e1c8a98e3df470375f177e361fc1467"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RESET_DIAGNOSTIC/NONZERO_DIFFERENCES.csv",
+      "bytes": 8607,
+      "sha256": "ee342e8a3ffea1d64ced57eb6aceff155d31c9b6f2e3a0c7c9cddbd8418b50a7"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RESET_DIAGNOSTIC/OFFICIAL_CUBE_EVAL.yaml",
+      "bytes": 1129,
+      "sha256": "9d75b9740a13d4e80538010cbd20cb3bf3fa6185bef48814412e1cb3189308e0"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r3_official_lewm_predictor_refit/source/swm_compat/stable_worldmodel/envs/ogbench/cube_env.py",
+      "bytes": 69156,
+      "sha256": "143e5e81f424ff7a4d7fdde287dee88b722c09082a6fc9e68721839788e94c19"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r3_official_lewm_predictor_refit/scripts/validate_reset_fallback.py",
+      "bytes": 27707,
+      "sha256": "002c09aa9825ec4d317356cb606f6590a36e0692df5263d048f656582b06ea6b"
+    }
+  ]
+}

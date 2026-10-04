@@ -1,0 +1,9 @@
+{
+  "A": "ops/R7_SEAL_A.json",
+  "A_sha256": "49529444511bc8ed0ae24bad331e1b9f7155d16ede52bacfa8f46cac0e6a40d7",
+  "B": "ops/R7_SEAL_B.json",
+  "B_sha256": "eae55ad61165687f28c03365eabd605e403a885ab6c2c03d0d8dd0081e361c06",
+  "destroy": "not performed",
+  "remote_root": "/workspace/r7",
+  "status": "SEALED"
+}

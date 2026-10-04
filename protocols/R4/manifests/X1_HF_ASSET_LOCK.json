@@ -1,0 +1,134 @@
+[
+  {
+    "task": "tworooms",
+    "kind": "models",
+    "revision": "77adaae0bc31deab21c93740d1f8bb947cd0bdec",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size": 1519,
+        "lfs": null,
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b"
+      },
+      {
+        "path": "README.md",
+        "size": 182,
+        "lfs": null,
+        "oid": "80a306f427b8ca04d848487ecf76b3f51f74ca0a"
+      },
+      {
+        "path": "config.json",
+        "size": 1313,
+        "lfs": null,
+        "oid": "2e534ee5c6286721c0ef967e24bddbfde482abf9"
+      },
+      {
+        "path": "weights.pt",
+        "size": 72290849,
+        "lfs": {
+          "oid": "566f223624ea4bfb39dbfe6ae731198dd6ea73b7b8919fed6b1ecafca810f7dd",
+          "size": 72290849,
+          "pointerSize": 133
+        },
+        "oid": "9b54ae48e20d583be3bb66b78ad90c437258a261"
+      }
+    ],
+    "bytes": 72293863
+  },
+  {
+    "task": "tworooms",
+    "kind": "datasets",
+    "revision": "6903a2de048b13819d812da0b4dd661290bc01e4",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size": 2504,
+        "lfs": null,
+        "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a"
+      },
+      {
+        "path": "README.md",
+        "size": 136,
+        "lfs": null,
+        "oid": "e92820d0de188586e8ac4583fcafef7beed43259"
+      },
+      {
+        "path": "tworoom.tar.zst",
+        "size": 3425937909,
+        "lfs": {
+          "oid": "494b1a02f0765cd9a0d9daf1786c419ced1009977fc45d01e3158932f8d080ca",
+          "size": 3425937909,
+          "pointerSize": 135
+        },
+        "oid": "11f454189ed821d5de0efac54eabc22e30da9b9a"
+      }
+    ],
+    "bytes": 3425940549
+  },
+  {
+    "task": "cube",
+    "kind": "models",
+    "revision": "b0747c5002e86d2ce8f3cd8178004b97524c587d",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size": 1519,
+        "lfs": null,
+        "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b"
+      },
+      {
+        "path": "README.md",
+        "size": 167,
+        "lfs": null,
+        "oid": "222ac499578bbd24d51e5045c79a77b0d8a5be8e"
+      },
+      {
+        "path": "config.json",
+        "size": 1313,
+        "lfs": null,
+        "oid": "f9a946cdc87e3f7139de9e8eecccc2a436007425"
+      },
+      {
+        "path": "weights.pt",
+        "size": 72291425,
+        "lfs": {
+          "oid": "2839a907362f403f9136383016e91774373a295d958ae75121791f22a9fddf89",
+          "size": 72291425,
+          "pointerSize": 133
+        },
+        "oid": "d349bccc09fca264183262592f997a4c7bf156f1"
+      }
+    ],
+    "bytes": 72294424
+  },
+  {
+    "task": "cube",
+    "kind": "datasets",
+    "revision": "02a19a67a0dc8c9d6215f89c19e0a597691e152a",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size": 2504,
+        "lfs": null,
+        "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a"
+      },
+      {
+        "path": "README.md",
+        "size": 143,
+        "lfs": null,
+        "oid": "77ca56fb39d72b07ae0a891d9c63a96c483da646"
+      },
+      {
+        "path": "cube_single_expert.tar.zst",
+        "size": 46184624478,
+        "lfs": {
+          "oid": "3725d6a01abd492164441ef0a27e588f52b94a118fab56b96987b1a34a6c2600",
+          "size": 46184624478,
+          "pointerSize": 136
+        },
+        "oid": "01e3f03328086b91750f474872e03428f4d63e9a"
+      }
+    ],
+    "bytes": 46184627125
+  }
+]

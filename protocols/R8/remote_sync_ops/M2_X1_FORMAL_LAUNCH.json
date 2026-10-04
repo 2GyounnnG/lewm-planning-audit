@@ -1,0 +1,31 @@
+{
+  "status": "STARTED",
+  "version": "R8_M2_X1_FRESH_CASE_REPLICATION_V1",
+  "evidence_label": "R8_FRESH_CASE_REPLICATION",
+  "pids": {
+    "M2_cube_H0": "204925",
+    "M2_cube_REFIT_103201": "204926",
+    "M2_cube_REFIT_103202": "204927",
+    "M2_cube_REFIT_103203": "204928",
+    "M2_tworoom_H0": "204929",
+    "M2_tworoom_REFIT_103201": "204930",
+    "M2_tworoom_REFIT_103202": "204931",
+    "M2_tworoom_REFIT_103203": "204932"
+  },
+  "gpu_map": {
+    "cube_H0": 0,
+    "cube_REFIT_103201": 1,
+    "cube_REFIT_103202": 2,
+    "cube_REFIT_103203": 3,
+    "tworoom_H0": 4,
+    "tworoom_REFIT_103201": 5,
+    "tworoom_REFIT_103202": 6,
+    "tworoom_REFIT_103203": 7
+  },
+  "cases_per_task": 100,
+  "arms": 4,
+  "streams": 3,
+  "planned_rows_per_task": 1200,
+  "optimizer_updates": 0,
+  "utc": 1791084249.178339
+}

@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "statistical_checks": {
+    "H2_reacher": {
+      "status": "PASS",
+      "task": "reacher",
+      "paired_raw_rows": 1200,
+      "summary_rows": 132,
+      "case_mean_rows": 2000,
+      "transition_rows": 20,
+      "max_absolute_numeric_difference": 0.0,
+      "module_status_sha256": "fd4766587eb8836a563faa1dbdcda7a7aec07a291239cdbaee2c231502aa3744",
+      "statistics_sha256": "e110a936b19622a659812f6b1b1d01a82245fc83ac2381434762dd3a5ae3320b",
+      "audit_code_sha256": "fa7a9f329a1789ab90b640fcb3cdfcd2867011449ff75d8107a94b2c230b9e8e",
+      "new_physics_trajectories": 0,
+      "new_optimizer_updates": 0,
+      "scope": "All delivered paired raw rows, model/stream means within case, case/family bootstrap intervals and transitions; no new simulation or model inference"
+    },
+    "H2_pusht": {
+      "status": "PASS",
+      "task": "pusht",
+      "paired_raw_rows": 1200,
+      "summary_rows": 132,
+      "case_mean_rows": 2000,
+      "transition_rows": 20,
+      "max_absolute_numeric_difference": 2.220446049250313e-16,
+      "module_status_sha256": "7328766fcd6655145556d79b83982a2bbd81b4d92d8e737750ff016f764d845f",
+      "statistics_sha256": "e110a936b19622a659812f6b1b1d01a82245fc83ac2381434762dd3a5ae3320b",
+      "audit_code_sha256": "fa7a9f329a1789ab90b640fcb3cdfcd2867011449ff75d8107a94b2c230b9e8e",
+      "new_physics_trajectories": 0,
+      "new_optimizer_updates": 0,
+      "scope": "All delivered paired raw rows, model/stream means within case, case/family bootstrap intervals and transitions; no new simulation or model inference"
+    }
+  },
+  "source_code_sha256": "e1f23e432a577400ca1cbb51bfb3a6b02466e7c41fb24ff6bd16d5f5ca5a2657",
+  "scope": "All H2 paired statistics; H3X and C2 also checked when included. H1a/H1b unchanged sealed table SHA verified; C1 coverage/source values preserved by the merge.",
+  "new_optimizer_updates": 0,
+  "new_simulation": 0,
+  "source_files_changed": false,
+  "utc": "2026-10-03T18:21:05.073517+00:00",
+  "published_main_reproduction": [
+    {
+      "name": "FOUR_TASK_ALL_RAW_VALUES_V2.csv",
+      "rows": 8000,
+      "all_values_and_source_SHA_identical": true,
+      "only_source_location_metadata_can_differ": true
+    },
+    {
+      "name": "FOUR_TASK_MAIN_TABLE_V2.csv",
+      "rows": 80,
+      "all_values_and_source_SHA_identical": true,
+      "only_source_location_metadata_can_differ": true
+    },
+    {
+      "name": "HISTORY_CONDITION_4TASK_TABLE.csv",
+      "rows": 276,
+      "all_values_and_source_SHA_identical": true,
+      "only_source_location_metadata_can_differ": true
+    },
+    {
+      "name": "R4_CUBE_PREVIOUSLY_UNEVALUABLE_ROWS.csv",
+      "rows": 5,
+      "all_values_and_source_SHA_identical": true,
+      "only_source_location_metadata_can_differ": true
+    },
+    {
+      "name": "REAL_HISTORY_REPLANNING_RAW.csv",
+      "rows": 2400,
+      "all_values_and_source_SHA_identical": true,
+      "only_source_location_metadata_can_differ": true
+    },
+    {
+      "name": "REAL_HISTORY_REPLANNING_TABLE.csv",
+      "rows": 264,
+      "all_values_and_source_SHA_identical": true,
+      "only_source_location_metadata_can_differ": true
+    },
+    {
+      "name": "SINGLE_FRAME_INFORMATION_TABLE.csv",
+      "rows": 445,
+      "all_values_and_source_SHA_identical": true,
+      "only_source_location_metadata_can_differ": true
+    }
+  ]
+}

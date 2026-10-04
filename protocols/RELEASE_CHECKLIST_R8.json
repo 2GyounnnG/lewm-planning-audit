@@ -1,0 +1,69 @@
+{
+  "version": "R8_RELEASE_CHECKLIST_V1",
+  "generated_utc": "2026-10-04T05:14:01.870472+00:00",
+  "remote_root": "/workspace/r8",
+  "local_root": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync",
+  "local_available": [
+    {
+      "name": "code",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/code",
+      "local_exists": true
+    },
+    {
+      "name": "m4",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/m4",
+      "local_exists": true
+    },
+    {
+      "name": "m5",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/m5",
+      "local_exists": true
+    },
+    {
+      "name": "m6",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/m6",
+      "local_exists": true
+    },
+    {
+      "name": "m6_make_stats.py",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/m6_make_stats.py",
+      "local_exists": true
+    },
+    {
+      "name": "ops",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/ops",
+      "local_exists": true
+    },
+    {
+      "name": "raw",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/raw",
+      "local_exists": true
+    },
+    {
+      "name": "reports",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/reports",
+      "local_exists": true
+    }
+  ],
+  "remote_only_or_retained": [
+    {
+      "remote_path": "/workspace/r8/assets",
+      "reason": "input assets intentionally excluded from result return; retained remotely"
+    },
+    {
+      "remote_path": "/workspace/r8/m6/assets",
+      "reason": "M6 input assets intentionally excluded from result return; M6 seal and all result artifacts are local"
+    },
+    {
+      "remote_path": "/workspace/r8",
+      "reason": "remote original evidence remains retained; no destroy executed"
+    }
+  ],
+  "verification_file": "/Users/richwang/Documents/ChatGPT/热/r8_execution/R8_LOCAL_VERIFY.json",
+  "verification_summary": {
+    "checked": 11303,
+    "matched": 11303,
+    "bad": 0
+  },
+  "destroy_executed": false
+}

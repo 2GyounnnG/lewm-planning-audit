@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE",
+  "tasks": [
+    "pusht",
+    "reacher"
+  ],
+  "raw_rows": 4000,
+  "main_rows": 40,
+  "case_coverage_verified": true,
+  "observed_and_derived_rows_distinguished": true,
+  "within_case_and_main_arithmetic_verified": true,
+  "inputs": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r3_reference/MAIN_TABLE.csv",
+      "bytes": 9138,
+      "sha256": "6a8676b9d8105649c3088616080c6aa6511a526088e2d10d74272287aff1c2f1"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r3_reference/ALL_RAW_VALUES.csv",
+      "bytes": 1063160,
+      "sha256": "e14c03290005e93324d8186ce9136ecd1485260c9fea4722315a55dacba9c275"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r3_reference/MODULE_STATUS.json",
+      "bytes": 2906,
+      "sha256": "7f95e2332dd7ecaa768ed35b16b1d10ecd9847f5ce0eb81919377234db22c604"
+    }
+  ]
+}

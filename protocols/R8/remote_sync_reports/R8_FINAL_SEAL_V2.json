@@ -1,0 +1,14 @@
+{
+  "version": "R8_FINAL_SEAL_V2",
+  "evidence": "R8_COMPLETE_ALL_AUTHORIZED_MODULES",
+  "files": {
+    "reports/R8_MAIN_TABLE_V2.csv": "85cfcedfce47ba33e24d3f7dcb844e82f4ae7a3daa7b5dc96c2480061991f265",
+    "reports/R8_SECONDARY_TABLE_V2.csv": "a193e398ee63d9fb527d28dfda29767f549729ac63ea0989411c47bc12860d7f",
+    "reports/R8_FINAL_STATUS_V2.json": "2c6771c8e1b7348e35bb96d581abcaaa37b0cf3c0b8381403e41c28505a30f66",
+    "reports/R8_UNEXECUTED_OR_TECH.md": "e24b1412dfce0e52961f9fe6c68b240b9d24479c5d9f5bfe2333d939f40e7ffe",
+    "m4/reports/M4_SEAL.json": "4b5692fd73af6cafe1b02acc0ab41112608fe860dbd7d4afe83f57e9a800868b",
+    "m5/M5_SEAL.json": "fdd774974896782dfed2d939ed94aa13b11db68a061be2b3289ee2f9e473d040",
+    "m6/seal/M6_SEAL.json": "47e1fc59318ae78a8049bf0052f9bbbf735a8b78b27b27e2e5ae599dd84745bd"
+  },
+  "generated_utc": "2026-10-04T05:02:47.297055+00:00"
+}

@@ -1,0 +1,1677 @@
+{
+  "protocol": "R4-v2.3",
+  "modules": {
+    "R4_PUSHT_REMOTE_BOOT": {
+      "scope": "TECHNICAL",
+      "recovered_verified_utc": "2026-10-03T14:56:22.457437+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_boot/boot_anchor_raw.csv",
+          "bytes": 79182,
+          "sha256": "770962650f2d1714fc0579fa79d59e2eeb4ddd148a52722313ce44a8a3792188"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_boot/BOOT_GATE.json",
+          "bytes": 222664,
+          "sha256": "c9f7a3ae8913d42cb069326d2ba601ed3f28126b21ad5116f2325286273aadff"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_boot/SUMMARY.json",
+          "bytes": 346,
+          "sha256": "28d295f64c9b42c9d85a956317b315cc6acaccac611415811e60788ac7aea223"
+        }
+      ],
+      "conclusions": [
+        "100 case × 2模型 × 3 horizon，共600原值。",
+        "600/600满足v2.3容差；585/600满足R3原严格容差。",
+        "最大relative MSE差5.933511147304671e-6。",
+        "新增R4 optimizer更新为0。"
+      ]
+    },
+    "X1_TWOROOM_CACHE": {
+      "scope": "ENCODING_CACHE",
+      "recovered_verified_utc": "2026-10-03T14:56:22.458209+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_CACHE_PROFILE/CACHE_ETA_RAW.csv",
+          "bytes": 614,
+          "sha256": "52aa92488f69edf5d8ed4684f6da4701007cf6bc590ff0ae25327520bb91250f"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_CACHE_PROFILE/CACHE_TELEMETRY_RAW.csv",
+          "bytes": 1449,
+          "sha256": "a400c83f9661d6cfa100da0ac03d5de08edb6e20033809f13e20cdf238b05d87"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_CACHE_PROFILE/CACHE_PROFILE.json",
+          "bytes": 1245,
+          "sha256": "4590b0b585e99e197abc1265d0be697ed08e28758900ae35708d0d8cb3aaf594"
+        }
+      ],
+      "conclusions": [
+        "TwoRoom双卡编码缓存已完成。",
+        "原值记录逐分片帧数、吞吐及GPU利用率。",
+        "本模块无optimizer更新。"
+      ]
+    },
+    "R4_PUSHT_CPU_BOOT": {
+      "scope": "CPU_TECHNICAL",
+      "recovered_verified_utc": "2026-10-03T14:57:53.535631+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/cpu_boot_pusht/boot_anchor_raw.csv",
+          "bytes": 80343,
+          "sha256": "e0bb2410edd967447f9359411c49de63568bbd3ada6c0a18a5046896f5eb4a1e"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/cpu_boot_pusht/BOOT_GATE.json",
+          "bytes": 223825,
+          "sha256": "6d8576d926233f0cdf6dc4819c71db5e064ee299c0d2192288b6819827e081a0"
+        }
+      ],
+      "conclusions": [
+        "100 case × 2模型 × 3 horizon，共600个CPU锚点核验原值。",
+        "这是技术接收，不是新主机正式闭环结果。",
+        "R4 optimizer更新为0。"
+      ]
+    },
+    "R4_REACHER_CPU_BOOT": {
+      "scope": "CPU_TECHNICAL",
+      "recovered_verified_utc": "2026-10-03T14:57:53.537036+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/cpu_boot_reacher/boot_anchor_raw.csv",
+          "bytes": 83374,
+          "sha256": "14773611ff713393219f137f303e5a3ac28a1d249cab89590c20bec2cb01be67"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/cpu_boot_reacher/BOOT_GATE.json",
+          "bytes": 226858,
+          "sha256": "540484e8ec57f804f6d3cb789fbd567060b4c23ce909b5ba8fb7b99f3a3e3978"
+        }
+      ],
+      "conclusions": [
+        "100 case × 2模型 × 3 horizon，共600个CPU锚点核验原值。",
+        "这是技术接收，不是新主机正式闭环结果。",
+        "R4 optimizer更新为0。"
+      ]
+    },
+    "X2_CPU_ACCEPTANCE": {
+      "scope": "CPU_TECHNICAL",
+      "recovered_verified_utc": "2026-10-03T14:57:53.537755+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/CPU_ACCEPTANCE_RAW_VALUES.csv",
+          "bytes": 19233,
+          "sha256": "2560987a67b0f8268239db81be8418c371b22f953042e0bdd5ca32dc1ddadba4"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/CPU_ACCEPTANCE.json",
+          "bytes": 3636,
+          "sha256": "b00f3d7a0c3f2c3347abef3bc41187f452df4358a0a0833662c1a3d45ec5ead0"
+        }
+      ],
+      "conclusions": [
+        "三个真实编码器的CPU技术验收。",
+        "神经臂仅3步TECH，不冒称30,000步正式结果。",
+        "冻结编码器与读出，验证预测语义与断点恢复。"
+      ]
+    },
+    "X2_COMPACT_ACCEPTANCE": {
+      "scope": "TRANSFER_DERIVATION_TECHNICAL",
+      "recovered_verified_utc": "2026-10-03T14:57:53.538534+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/COMPACT_ACCEPTANCE_RAW_VALUES.csv",
+          "bytes": 39680,
+          "sha256": "ef353ff4b2a04aa6c9a69ab6ce057e51f53d614a14e74a3ec86b73caeb5b797c"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/COMPACT_ACCEPTANCE.json",
+          "bytes": 30229,
+          "sha256": "544002297d04c6fdebb03a7506eb9a8e2ec79e46d8af77888d945521ab5ce137"
+        }
+      ],
+      "conclusions": [
+        "324编码器派生输入保持模型/数据张量及原SHA映射。",
+        "精简传输包不冒充原E0包。",
+        "重建潜变量与原值最大绝对差9.54e-7。"
+      ]
+    },
+    "X1_CPU_SEMANTICS": {
+      "scope": "CPU_TECHNICAL",
+      "recovered_verified_utc": "2026-10-03T14:57:53.539281+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/CPU_SEMANTICS_RAW.csv",
+          "bytes": 1181,
+          "sha256": "f897bc022d6501b08a1202630888ccd0bf62be017712f255a29b8d6e6f9eaa5e"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/CPU_RECEIPT.json",
+          "bytes": 1150,
+          "sha256": "7be87ed801966dfa1349142b85692119aed6d75fb32a9aa3b2382f4d2d601890"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/CONTRACT_RAW.csv",
+          "bytes": 418,
+          "sha256": "d40b90d32fdc5710c68f17aad272efce9f7102071de4530608973a90e241653c"
+        }
+      ],
+      "conclusions": [
+        "X1适配器CPU语义接收通过。",
+        "涵盖数据分片、合法teacher forcing、冻结和原成功语义。",
+        "正式case和30,000步训练不由TECH结果挑选。"
+      ]
+    },
+    "X1_TWOROOM_TECH": {
+      "scope": "TECHNICAL",
+      "recovered_verified_utc": "2026-10-03T15:00:36.853128+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_TECH/CLOSED_LOOP_TECH_RAW.csv",
+          "bytes": 704,
+          "sha256": "2cd89e8a0d9108e6b46b532789c2387326ad31e43ebff53564929163e7ba6fd9"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_TECH/TRAIN_TECH_RAW.csv",
+          "bytes": 395,
+          "sha256": "8fea25caf060bfe4174460991145c66925a998d2ca795912102c919370a97510"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_TECH/TECH_TIMING_RAW.csv",
+          "bytes": 383,
+          "sha256": "56433506d9c0cee9ecb31b95cc94a7b01d2e2ea1b8ee1fbe1749e7d961dbc1f1"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_TECH/MODULE_STATUS.json",
+          "bytes": 953,
+          "sha256": "58aefe888f623f2d8851d495595dd52cfac3f483ac163d1202fc181d84d01aa6"
+        }
+      ],
+      "conclusions": [
+        "tworoom：4 个 H0 TECH 闭环完成，原值仅用于技术核验，不进入正式统计。",
+        "单条闭环 P50=1.235421 秒，P90=1.898637 秒。",
+        "独立 TECH 完成 128 次优化器更新，失败/恢复额外更新均为 0；所有冻结参数与 buffer SHA 不变。",
+        "16 次复位/一步技术比较通过；缺失的原始 seed 未被恢复，正式使用经验证的固定 seed 0。",
+        "满足额外随机流的技术时延条件；仍须等待主结果交付后才可启动第二批。"
+      ]
+    },
+    "R4_PUSHT_ORIGINAL_STREAM": {
+      "scope": "FORMAL_FIXED_MODELS",
+      "recovered_verified_utc": "2026-10-03T15:13:53.935671+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_small_001/r4_pusht/reports/original/ORIGINAL_LEARNED_400_RAW.csv",
+          "bytes": 159734,
+          "sha256": "0561901d800dec0607dbe7a75e548ba0f6c79e0ef11f9aaf45a272cdc7072de7"
+        }
+      ],
+      "conclusions": [
+        "4个固定模型×100 case，共400条原随机流闭环，文件SHA已逐项核验。",
+        "H0/103201/103202/103203成功数分别91/94/95/93。",
+        "逐case成功、执行raw步和replan数均与原R3一致。",
+        "R4新增optimizer更新为0。"
+      ]
+    },
+    "R4_PUSHT_S1_OFFLINE": {
+      "scope": "FORMAL_FIXED_MODELS",
+      "recovered_verified_utc": "2026-10-03T15:13:53.936798+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_s1_offline_fast/S1_offline_raw.csv",
+          "bytes": 505641,
+          "sha256": "2b6a8d8d414804585f36d21a8dcecf84e810a9a55da6ce07e78d8f1af90c239b"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_s1_offline_fast/S1_offline_COMPLETE.json",
+          "bytes": 289,
+          "sha256": "802ed4caffa0ec00f65c182eb5eabcf6165111a04c91d415b838efd77a285bf4"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s1_offline/S1_MAIN_TABLE.csv",
+          "bytes": 7646,
+          "sha256": "d68f30471d326828ccb875b8d41552f66b2e15e63972d538821d6af8770f505b"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s1_offline/S1_HISTORY_PAIRED_TABLE.csv",
+          "bytes": 5052,
+          "sha256": "573e5f61a3b1c717caa38123e4c4e9835c1a18b53818b2852bf8906e5170555f"
+        }
+      ],
+      "conclusions": [
+        "2400行原值：100 case、4模型、2历史条件、3 horizon。",
+        "两种历史条件下三个horizon的三refit均值均低于H0。",
+        "六组配对差条件95%区间均跨0，未经多重比较校正。",
+        "这不是等效结论，也不足以单独确定控制归因。"
+      ]
+    },
+    "X2_LINUX_BASELINE": {
+      "scope": "FORMAL_BASELINE_GATE",
+      "recovered_verified_utc": "2026-10-03T15:13:53.937429+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/linux_baseline_raw_values.csv",
+          "bytes": 219118,
+          "sha256": "b3bef803bbb7989b4a08fd591a6790f55a2ad834f21c44023cf5ef0ed82e2a8b"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/LINUX_BASELINE_GATE.json",
+          "bytes": 132,
+          "sha256": "a88433e01c451a4dc09311d7e52fcbf3610b316321b8fd8d2787f9586a90b488"
+        }
+      ],
+      "conclusions": [
+        "324模型、972个R_k通过Linux重评门槛。",
+        "最大相对差1.2298170617664242e-7，小于1%。",
+        "后续比较以Linux重评值为基线，Bayes参照沿用原R_k-gap_k。"
+      ]
+    },
+    "X2_PRED_CONT": {
+      "scope": "FORMAL_FIXED30000",
+      "recovered_verified_utc": "2026-10-03T15:13:53.938018+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/PRED_CONT_RAW_VALUES.csv",
+          "bytes": 176260,
+          "sha256": "148fe00135230d9b372fadce14c967b7112d5b697460f201f6c1754a2c60dec0"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/PRED_CONT_STATUS.json",
+          "bytes": 49125,
+          "sha256": "5d4d8a5d61f2b5ec58ea54a62987384e72dea5613bf58d02c083a6dc802356d1"
+        }
+      ],
+      "conclusions": [
+        "全部324模型各完成30,000更新，共9,720,000预测器更新。",
+        "encoder/readout更新为0。",
+        "k8风险仅36/324下降；模型等权mean Δrisk=+0.0870606321，为描述统计。",
+        "保留负结果，MLP与闭式头继续，不追加调参或更新。",
+        "最终权重回收与CPU复评尚在进行，未SEAL。"
+      ]
+    },
+    "R4_PUSHT_S0": {
+      "scope": "TECHNICAL",
+      "recovered_verified_utc": "2026-10-03T15:17:44.337562+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s0/S0_CHECKS_RAW.csv",
+          "bytes": 1482,
+          "sha256": "809f171beb16834d579838a6724a0c3f878eb4bd5b8bc680dfb5358f7191668e"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s0/S0_BRANCH_TIMING_RAW.csv",
+          "bytes": 2089,
+          "sha256": "3dc0dd0854534b861f1d4e8facb58e334b42eac1d48976247ab44a0129013bff"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_small_001/r4_pusht/s0/S0_A.json",
+          "bytes": 1062,
+          "sha256": "f9b4c330925fa4a85bc05e9ab6b49a1eef4f3bee0cc19c48da59114232c90e0d"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_small_001/r4_pusht/s0/R3_pusht_4492b8aacb9c67725b610e91_S0_BCD.json",
+          "bytes": 668,
+          "sha256": "7b3a343079ba1117a80daf79e395d844db8beef6875860bf3ec63cdfe9b4a305"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_small_001/r4_pusht/s0/R3_pusht_487672b045a227341910253e_S0_BCD.json",
+          "bytes": 668,
+          "sha256": "5647425005d1a9b04d3b1bc8d583ab6e72f08e3b6cdd624c16fa998deaf6b391"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_small_001/r4_pusht/s0/R3_pusht_7ce91d4ff6c641f063f24c1c_S0_BCD.json",
+          "bytes": 667,
+          "sha256": "6cfe8287464a3fdcb5da3c3bff6d7e9afb00a81ca8817346c7c7ee69d0292132"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_small_001/r4_pusht/s0/R3_pusht_d232773d79ba1384fc558708_S0_BCD.json",
+          "bytes": 666,
+          "sha256": "1471b7c2e43a71bffbed1657c61a85deee84ec3d54be96e684ca045f402d44a7"
+        }
+      ],
+      "conclusions": [
+        "4个冻结TECH case的复位state最大差0，像素/render逐位一致。",
+        "同机重放state/dynamical、A/A、B后A次序及末端编码均通过既定检查。",
+        "S0(b-d)实际16个branch check；原值保留逐branch耗时。",
+        "这是同机确定性门槛，不等于与历史R3所有浮点值逐位一致。",
+        "新增optimizer更新为0。"
+      ]
+    },
+    "R4_REACHER_REMOTE_BOOT": {
+      "scope": "TECHNICAL",
+      "recovered_verified_utc": "2026-10-03T15:17:44.338437+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_small_001/r4_reacher/boot/boot_anchor_raw.csv",
+          "bytes": 82551,
+          "sha256": "5f55804a4fd53599dd96bb5cc19f3a18c44a95566ae658dc35294d47bc943b16"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_small_001/r4_reacher/boot/BOOT_GATE.json",
+          "bytes": 226035,
+          "sha256": "92bd8cc18fd47750fc75932c6bb4e80d295dbe7a4515d19c0d67fbd90d88c5cc"
+        }
+      ],
+      "conclusions": [
+        "600个R3开环锚点对照通过R4-v2.3门槛。",
+        "最大relative MSE差1.0335013939766213e-5。",
+        "R4新增optimizer更新为0。"
+      ]
+    },
+    "R4_PUSHT_S1_CROSS": {
+      "scope": "FORMAL_FIXED_MODELS",
+      "recovered_verified_utc": "2026-10-03T15:17:44.345125+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_small_001/r4_pusht/s1/S1_cross_raw.csv",
+          "bytes": 11678852,
+          "sha256": "dd8c581d781a1e0956b695da4a57f3b2db89bd7fa1eb07581c11571c36e036ba"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s1_cross/S1_MAIN_TABLE.csv",
+          "bytes": 21550,
+          "sha256": "0c8f82dadc91d38aae26e370006366e3e72665db2cb0d0db031f293b0c859449"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s1_cross/S1_FIRST_ANCHOR_OWN_OTHER.csv",
+          "bytes": 370690,
+          "sha256": "2b6d68f50477d23352c68cede320a1b4948187a20e9bb5055fae5cdc9f57b1d8"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s1_cross/S1_COMMON_COVERAGE.csv",
+          "bytes": 1052331,
+          "sha256": "dd2cc1ea31ca36084e1b33c01991cd82f46ce00bc238ec874103df8b19a99299"
+        }
+      ],
+      "conclusions": [
+        "51432行记录、21668有效，缺失分合法过去不足与已执行动作后缀不足。",
+        "首锚点h5可比50个case：H0 MSE0.246633，三refit均值0.187483。",
+        "配对差-0.0591501，case95%[-0.0948006,-0.0279823]，family95%[-0.0934403,-0.0286643]。",
+        "h1/h2误差及三个horizon乐观偏差差值的条件95%区间仍跨0。",
+        "区间未经多重比较校正；这些访问/存活条件下结果不识别纯粹分布因果效应。"
+      ]
+    },
+    "X1_TWOROOM_TRAIN": {
+      "scope": "FORMAL_FIXED30000",
+      "recovered_verified_utc": "2026-10-03T15:23:55.204278+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_TRAIN/TRAIN_RAW_TABLE.csv",
+          "bytes": 1173,
+          "sha256": "b9b6c96c4d203e7523062a7f098586b56f54a0e747fb49c197332f5f926fc66c"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_TRAIN/MODULE_STATUS.json",
+          "bytes": 2393,
+          "sha256": "8a81fd382f7ba5cd715f8bdae2e9523a43bb07c76cd0c45e30cc292a06b1504c"
+        }
+      ],
+      "conclusions": [
+        "tworoom 三个固定 seed 均完成 30,000 次更新，共 90,000 次正式更新。",
+        "每个 seed 的更新日志严格连续，主评价固定使用 checkpoint_30000。",
+        "只更新 predictor 与 pred_proj；冻结参数和全部 buffer 的前后 SHA 一致。",
+        "独立 TECH 的 128 次更新单列，未继承进正式训练。",
+        "开环与闭环结果由后续完整固定 case 评价给出。"
+      ]
+    },
+    "X1_TWOROOM_OPEN_LOOP": {
+      "scope": "FORMAL_FIXED_MODELS",
+      "recovered_verified_utc": "2026-10-03T15:23:55.205658+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_OPEN_LOOP/per_case.csv",
+          "bytes": 392619,
+          "sha256": "b7d3fa5f1a14c5f15670e4f2bcd8dd0de4c0120f30dd390d85d854bd509fce95"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_OPEN_LOOP/OPEN_LOOP_RAW_MEANS.csv",
+          "bytes": 2298,
+          "sha256": "908ba5810ae5c05a611159eb1e313cde4ad752b25b8c2fc323adb7f1874daa4f"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_OPEN_LOOP/MODULE_STATUS.json",
+          "bytes": 719,
+          "sha256": "e156ee30bcbb41c5cf57b7cb46bf318bf4a2b8f35df900cbb1168a281bdd63d5"
+        }
+      ],
+      "conclusions": [
+        "tworoom 开环完成：4 个固定模型 × 100 个 case × h=1/2/5。",
+        "原坐标 MSE、TRAIN 方差标准化 MSE 与范数原值见表。",
+        "三个 refit 均使用固定 30,000 更新权重；本模块新增优化器更新和 CEM 轨迹均为 0。",
+        "所有模型预测先落盘，再读取未来 latent 目标评分；不使用 EVAL 拟合归一化。",
+        "开环预测误差单独报告，控制效果仍由完整闭环评价判定。"
+      ]
+    },
+    "X1_CUBE_RENDER": {
+      "scope": "TECHNICAL_PRECHECK",
+      "recovered_verified_utc": "2026-10-03T15:23:55.206617+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RENDER/COMPONENT_RAW.csv",
+          "bytes": 211,
+          "sha256": "146086699f4b4db7e46b4e3bbf87a63b9e56d491bfe6932679e346ae897d7a37"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RENDER/REPORT_CORRECTION.json",
+          "bytes": 223,
+          "sha256": "9d4012ca14f8aa70acec4dc1ab436190d88965cc055c0c002a3581ccf043fd23"
+        }
+      ],
+      "conclusions": [
+        "Cube EGL 的 4 次渲染均成功，图像为 224×224 RGB uint8。",
+        "显式 renderer.close 后的 4 次清理均未捕获异常。",
+        "同 seed 直接初始化图像不一致；固定源码 reset 未转发传入 seed，失败原值保留。",
+        "外部动作、CEM 和优化器更新均为 0；源码 reset 内另有每次 2 步随机稳定动作。",
+        "需等真实 source 状态覆盖后的既定 TECH 复位门槛，不放宽容差。"
+      ]
+    },
+    "X1_TWOROOM_CACHE_RESET": {
+      "scope": "TECHNICAL",
+      "recovered_verified_utc": "2026-10-03T15:23:55.207681+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_CACHE_RESET/CACHE_RAW_TABLE.csv",
+          "bytes": 189,
+          "sha256": "b31ce2749c4c7621138eb8de4ead491366267ab34e0a68728c739a75e35e3fe7"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_CACHE_RESET/RESET_RAW_TABLE.csv",
+          "bytes": 1222,
+          "sha256": "d595637ba922d77ec0a377b20299a822342078aa346f798a136fc45fc8b6a64a"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_CACHE_RESET/RESET_FALLBACK.json",
+          "bytes": 38462,
+          "sha256": "305cad2b837c117ddd0299489c31cbc01bc4174ac7959d0e0d1755613a4d95e8"
+        }
+      ],
+      "conclusions": [
+        "TwoRoom 缓存完成：8,088 个 episode、746,305 帧，两 GPU 墙钟约 268.940 秒。",
+        "TRAIN 方差由 663,556 个训练帧计算，标量为 0.9884500789651862；缓存无优化器更新、无状态标签读取。",
+        "16 次 TECH 复位/一步比较的 state、像素、控制器及未覆盖 variation 均完全相同。",
+        "原始数据 seed 缺失仍如实保留；通过 TECH 后使用固定 seed 0，不声称恢复原始 seed。",
+        "技术结果仅验证运行条件，不作为正式控制效果结论。"
+      ]
+    },
+    "R4_REACHER_FIXED_HORIZON_TECH": {
+      "scope": "TECH_FIXED64_MENU_NOT_FORMAL",
+      "recovered_verified_utc": "2026-10-03T15:29:43.849706+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_reacher_tech/SIM_TECHNICAL_LIMITATION.json",
+          "bytes": 2866,
+          "sha256": "a5d1645b6e2962f92e7d95c952a346964f04b71abd1ec12f376ade32ab5f8705"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_reacher_tech/s0/TERMINATION_MENU_TECH_PROTOCOL.json",
+          "bytes": 711,
+          "sha256": "660d1cc85f6b1e6fc5ee5c9b72a7d03ebf84d81990cd949ac216d32c6beb45f1"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_reacher_tech/s0/TERMINATION_MENU_TECH_RAW.csv",
+          "bytes": 5344,
+          "sha256": "1ce1ad993aec49e603cbdd9ef9de26a8bf138277aae71e90bb256302c12a2514"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_reacher_tech/s0/TERMINATION_MENU_TECH_RAW.json",
+          "bytes": 13870,
+          "sha256": "c42bc924edb25b8afe5a70e954b185a78ea16953c2d104616e9d52406733aace"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_reacher_tech/s0/TERMINATION_POSITIVE_BRANCH_RAW.csv",
+          "bytes": 2546,
+          "sha256": "e6345813856039615a8345bfa3f97cfb1bfaa54496eadb7b618870600d9b2dc1"
+        }
+      ],
+      "conclusions": [
+        "固定TECH菜单H0/SAMPLE_224在raw23、45个physics step成功且真实LAST，不能合法运行到固定25raw。",
+        "SIM_LAT/SIM_TASK不派发，标为技术不可评价；S2继续记录全部100×64候选与终止缺失，不采用剩余候选或完整fork子集作主归因。",
+        "此判定遵循已有固定时长与禁止LAST后自动复位规则；没有新增训练，也不改变Reacher其他模块。"
+      ]
+    },
+    "R4_REACHER_S0": {
+      "scope": "FIXED4_TECH_CASES",
+      "recovered_verified_utc": "2026-10-03T15:29:43.850826+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s0/S0_BRANCH_TIMING_RAW.csv",
+          "bytes": 2150,
+          "sha256": "306dea7f9fca48c4b535e0b4689b679bd966d18ccc9b905a82671effebf95a3d"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s0/S0_CHECKS_RAW.csv",
+          "bytes": 1560,
+          "sha256": "2d33bffba416f5a5da6c0e08f58c851f8dcf222d5955a865fe287c63f0682d23"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s0/S0_MODULE_STATUS.json",
+          "bytes": 1968,
+          "sha256": "13940d767a989fcd0cbd46f7998d75a3bcb600c39accd81aed56dc0d287574cb"
+        }
+      ],
+      "conclusions": [
+        "4个TECH case同seed复位的state、像素与render核验通过。",
+        "4个TECH case的复位重放、A/A、顺序和末端渲染编码检查均通过，共16条分支耗时原值。",
+        "本机可重放与固定25步可评价是两个门槛；后者仍受真实LAST限制。"
+      ]
+    },
+    "R4_REACHER_S1_OFFLINE": {
+      "scope": "FIXED100_OFFLINE_H_POLICY_H_REAL3",
+      "recovered_verified_utc": "2026-10-03T15:29:43.852011+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_reacher_s1_offline/S1_offline_raw.csv",
+          "bytes": 314681,
+          "sha256": "0da55e525d807d1ec54beadaf1dbae9b972da79e44bd0569ace11a855b05df30"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_reacher_s1_offline/S1_offline_COMPLETE.json",
+          "bytes": 289,
+          "sha256": "802ed4caffa0ec00f65c182eb5eabcf6165111a04c91d415b838efd77a285bf4"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s1_offline/S1_MAIN_TABLE.csv",
+          "bytes": 6705,
+          "sha256": "48179fd303776ba644c073c3e8b434a5ef14f4153ce1b85d1747378a36b835fb"
+        }
+      ],
+      "conclusions": [
+        "2400/2400行有效：100case×4模型×两种历史×3个horizon。",
+        "H_POLICY下h1/2/5的三seed均值相对H0预测MSE均下降，case条件95%区间均低于0。",
+        "这属于离线预测结果，不直接推出闭环控制改善。"
+      ]
+    },
+    "X2_PRED_CONT_CPU_RECOVERY": {
+      "scope": "ALL324_FINAL_WEIGHTS_FIXED_CPU_RESTORATION_PROBES",
+      "recovered_verified_utc": "2026-10-03T15:32:20.799270+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/recovery_compact/PRED_CONT_CPU_RESTORATION.json",
+          "bytes": 178212,
+          "sha256": "f8b55641b45caa7cdccd9c78dc396fb43bd08ac0eea3ffc852d76ad599b9143b"
+        }
+      ],
+      "conclusions": [
+        "全部324个正式30k预测器权重已回收到本地，原数据与模型张量hash通过。",
+        "固定小样本CPU恢复重评通过已声明容差，最大预测差1.04e-5、读出差5.94e-6、单anchor风险差1.57e-5。",
+        "原始DEV重算冻结encoder最大latent差1.91e-6；本次恢复零训练、零读出重拟合。"
+      ],
+      "superseded_references": [
+        {
+          "previous": {
+            "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/recovery_compact/PRED_CONT_CPU_RESTORATION.json",
+            "bytes": 178081,
+            "sha256": "58f2d7d2cb6e9cd3f13e05298c666d695278e106b306f5a8c6eea0e3ed518760"
+          },
+          "superseded_utc": "2026-10-03T16:06:08.210085+00:00",
+          "reason": "Recovery verifier adds all256 preserved per-episode risk aggregation; original scientific values unchanged.",
+          "audit": {
+            "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/FINAL_DELIVERY_READONLY_AUDIT.json",
+            "bytes": 6474,
+            "sha256": "a13b3c7d4a9a28a254281576153340ec41976725ff38a6887ad0150678b336b3"
+          }
+        }
+      ]
+    },
+    "R4_PUSHT_S2_INITIAL": {
+      "scope": "FIXED100_FORKS_X64_CANDIDATES",
+      "recovered_verified_utc": "2026-10-03T15:35:45.182786+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s2/S2_ALL_CANDIDATE_RAW.csv",
+          "bytes": 4397336,
+          "sha256": "83de33e0835edab83c18960ed29258fdd6c5594b555c580f5fc1fb2dce999c5c"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s2/S2_CANDIDATE_COVERAGE.csv",
+          "bytes": 24535,
+          "sha256": "12a684630c709af02a9d584874745832ebfdefaf1ec001d7640542dd88501909"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s2/S2_FORK_RAW_METRICS.csv",
+          "bytes": 342297,
+          "sha256": "ad1b203bf9348af1a20ac8e21c68a008c64c082d3be4ed9c01d41e016717bcd6"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s2/S2_MAIN_TABLE.csv",
+          "bytes": 27252,
+          "sha256": "ba7e062dab2bf49f0f78678e72509bb56beea8ad359075671ab89ca13cd3eef9"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s2/S2_STATUS.json",
+          "bytes": 161,
+          "sha256": "e5fccad136a26a29e4df66a03fe10af09ef36663a7a3d55b8defbd748b822a46"
+        }
+      ],
+      "conclusions": [
+        "100×64候选均完成固定25raw时长；99/100菜单含成功候选，16条初始化候选的平均成功率为1.6875%。",
+        "ANYTIME任务评分下，H0的D_total为0.502449，三固定refit均值为0.366847；配对差−0.135602，case条件95%区间[−0.226076,−0.050038]。",
+        "D_goal=0.108149；D_model_signed保留符号，三项是有限菜单记账，不解释为独立或非负瓶颈百分比。",
+        "候选平均latent MSE下降，排序相关性上升；latent有限菜单损失的配对差区间仍跨0。",
+        "统计单位为100个case，所有区间为未校正的条件95%，结果只适用于此固定菜单与已知case。"
+      ]
+    },
+    "X2_MLP_POST_H8": {
+      "scope": "ALL324_FIXED_E0_ENCODERS",
+      "recovered_verified_utc": "2026-10-03T15:36:42.380066+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/MLP_POST_H8_RAW_VALUES.csv",
+          "bytes": 178145,
+          "sha256": "3b5603df283bcf138f4f571df71cf85c63c058ef3cd50b67aef615a0298bce3e"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/MLP_POST_H8_STATUS.json",
+          "bytes": 49774,
+          "sha256": "808170b01fae0b9e349057dd705744d0e9fed5b1da42f39a4f19170023e6a304"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/MLP_POST_H8_SUMMARY.md",
+          "bytes": 488,
+          "sha256": "2dcb10c9eca5621e8dda6cb3ffeb460627f41d2f863390dce15e8c65f656bb7e"
+        }
+      ],
+      "conclusions": [
+        "MLP_POST_H8：324/324 个冻结 E0 编码器，各完成固定 30,000 步；编码器与读出更新均为 0。",
+        "h=1：相对 Linux 联合预测器的等权平均风险差 +0.05815728；改善 36/324。",
+        "h=8：相对 Linux 联合预测器的等权平均风险差 +0.10654676；改善 36/324。",
+        "h=16：相对 Linux 联合预测器的等权平均风险差 +0.10432819；改善 38/324。",
+        "以上为既有 E0 DEV 上的固定预算后验开发结果；未据评价结果调参或延长预算。"
+      ]
+    },
+    "X2_closed": {
+      "scope": "ALL324_FIXED_E0_ENCODERS",
+      "recovered_verified_utc": "2026-10-03T15:36:42.382088+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/closed_RAW_VALUES.csv",
+          "bytes": 1581511,
+          "sha256": "6473c112538245d42847976aa29a9f257209aa2cab8b5699ae1407d983816d6c"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/closed_STATUS.json",
+          "bytes": 45872,
+          "sha256": "375fa6da4f6c48957e3e6a429dd6e942f36ce61a95344fb2b93eb31ce37b6b79"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/closed_SUMMARY.md",
+          "bytes": 507,
+          "sha256": "d3a05640dffa662c989b5f3dddd2ba3fcdf6ed21af5548dbfe43cbb438206286"
+        }
+      ],
+      "conclusions": [
+        "闭式模块：324/324 编码器 × 全部 8 头及 S1 选择完成；神经优化、编码器和读出更新均为 0。",
+        "S1，h=1：相对 Linux 联合预测器的等权平均风险差 -0.01009175；改善 285/324。",
+        "S1，h=8：相对 Linux 联合预测器的等权平均风险差 -0.04452997；改善 303/324。",
+        "S1，h=16：相对 Linux 联合预测器的等权平均风险差 -0.05886168；改善 311/324。",
+        "S1 按原包无状态标签规则选择；全部头原值保留，S2 仅作标签对齐参考。"
+      ]
+    },
+    "X2_MAIN": {
+      "scope": "ALL324_X12ARMS_X3HORIZONS",
+      "recovered_verified_utc": "2026-10-03T15:36:42.384573+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_ALL_RAW_VALUES.csv",
+          "bytes": 2178956,
+          "sha256": "96689f3bcfa411158d652fb0d173ca4893fefdc8cb90f768399659ea5eb794ac"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_MAIN_TABLE.csv",
+          "bytes": 305784,
+          "sha256": "8821c6a8dc4e97001daebbec387e64eabd6b4e7fdf89e1dd74db4de7aa5be214"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_SCOPE_DIFFERENCES.csv",
+          "bytes": 929076,
+          "sha256": "acf4a3446c6697a84cc6b8a171e4f260e8cd3142a4ef88307514ec2760cf3e63"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_STATUS.json",
+          "bytes": 186,
+          "sha256": "c9880281efa440de5ab8bfcc7179bb5af35f3b9bed2d8520392b193bda78fdbf"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/main_validation/x2.json",
+          "bytes": 1098,
+          "sha256": "d8833c8caf11368a670d6c9c6986f108a196ef61477acb53567f099db683b5cf"
+        }
+      ],
+      "conclusions": [
+        "全部324编码器的12臂×3horizon，共11664条原值，3888条三seed均值；覆盖、预算和数值关系已独立核验。",
+        "h8等权Bayes超额风险：JOINT_LINUX 0.28069477，PRED_CONT 0.36775541，MLP_POST_H8 0.38724153，S1_SELECTED 0.23616480。",
+        "两个神经臂平均风险上升；S1闭式选择在h8改善303/324模型。",
+        "scope间相对XS的风险差与原E0并列保留；各世界/方法原值优先，整体均值只作描述。",
+        "没有新增编码器/读出训练，也没有根据结果调整预算或选择DEV最优头。"
+      ]
+    },
+    "R4_PUSHT_S1_CPU_RECOVERY": {
+      "scope": "ONE_METADATA_FIXED_H0_TRAJECTORY_ALL4_MODELS",
+      "recovered_verified_utc": "2026-10-03T15:37:00.795314+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/recovery/pusht_first_h0/RECOVERED_S1_CPU_RAW.csv",
+          "bytes": 81518,
+          "sha256": "e76c1599237ca8425ef8b57b992502944d8f9b505f6374c0873b2883fbddec61"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/recovery/pusht_first_h0/RECOVERY_CHECK.json",
+          "bytes": 4184,
+          "sha256": "2d78c2103006adf6a8eaa4368844c83e1c8a0bd12bbbdcd434952188c9a7fa92"
+        }
+      ],
+      "conclusions": [
+        "本地CPU从已回收actions/latents/goal重算固定首case H0轨迹，四模型120个评分单元，共480个标量原值。",
+        "有效性与缺失原因逐项一致；全部模型参数与buffer哈希不变，零训练、零模拟新调用。",
+        "latent MSE最大绝对差4.28e-8；预测代价/乐观偏差最大绝对差7.63e-5，实现代价完全一致。",
+        "这是1条轨迹的数值恢复对照；没有声称全轨迹像素重建或全量恢复封存通过。"
+      ]
+    },
+    "X1_TWOROOM_MAIN": {
+      "scope": "FIXED100_CASES_H0_PLUS3_REFITS",
+      "recovered_verified_utc": "2026-10-03T15:37:14.269515+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_MAIN/MAIN_TABLE.csv",
+          "bytes": 4484,
+          "sha256": "771338d8235b13f92fbff1f9f5be2f73554373e3f2e702907a565de19a183017"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_MAIN/ALL_RAW_VALUES.csv",
+          "bytes": 406390,
+          "sha256": "920acc2a1097244687fbcebd82d9fa0d78edf7c4edf0125516ee4460cde37148"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_MAIN/MODULE_STATUS.json",
+          "bytes": 3467,
+          "sha256": "df017b7b7ddb44d93e112affec8f64d6464ce6405878559b01c0f860e9fbc233"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/main_validation/tworoom.json",
+          "bytes": 947,
+          "sha256": "edb646253daf94f93173903b2b3032f725a5c43686e28d51b9fa1ed5ebe71c37"
+        }
+      ],
+      "conclusions": [
+        "tworoom：100个固定case×4个arm已完成，原值表保留每case成功与动作日志。",
+        "H0成功率82.0%；三个固定30k refit均值82.3%。",
+        "固定refit均值−H0为0.3个百分点；5000组配对case重采样区间见statistics。",
+        "三个后训练seed不视为独立预训练重复，也不是ensemble policy。",
+        "官方预训练逐episode暴露未知；family缺失不以episode ID冒充独立家族。"
+      ]
+    },
+    "R4_PUSHT_S3_MAIN": {
+      "scope": "FIXED100_LEARNING_X3STREAMS_PLUS_FIXED20_MENU_X3STREAMS",
+      "recovered_verified_utc": "2026-10-03T15:44:27.689111+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s3/S3_ALL_RAW_VALUES.csv",
+          "bytes": 338865,
+          "sha256": "85517f84bfc77be09d7590caaa61667d2599aeecfd9ba2145ffc8393f19db3ac"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s3/S3_LEARNING_MAIN_TABLE.csv",
+          "bytes": 3150,
+          "sha256": "6dd342b824a806c94f3af8a089315051e130bf79d5378944aad52f354b878204"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s3/PLANNING_RANDOMNESS_TABLE.csv",
+          "bytes": 2536,
+          "sha256": "79120959a5cff396e000974f756cbee8d947e9b5ecc64203cc3ad2de5a54466a"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s3/S3_MENU_INTERVENTIONS.csv",
+          "bytes": 4880,
+          "sha256": "4475f77d4309e0df798f54f5fc12a806b90e925ee7bc49861e3fd34115dc04fb"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s3/S3_MARGIN_AND_RESOURCE_TABLE.csv",
+          "bytes": 57145,
+          "sha256": "d7d7ef1dd65413ecd65c86cf63474d3e9469dab18572fe357beaf0ce9654d6ec"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s3/CORRECTED_RESOURCE_LEDGER.csv",
+          "bytes": 523597,
+          "sha256": "2226c3af49e03e8ac813eb80e3143fbeb4fe5e6bccaf5609a8ce14f215fcf985"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/main_validation/r4_pusht_s3.json",
+          "bytes": 5339,
+          "sha256": "1693822a457f57301b891e7c6569e996e4fc606ce9267b54cda4342902e92324"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/MAIN_MODULE_STATUS.json",
+          "bytes": 2528,
+          "sha256": "a10d3dff54b2b4f7aa3bee18c33ca6f8fda933f81645bfaa02e4fc9ca5f1f2c4"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s3/RESOURCE_LEDGER_PROVENANCE.json",
+          "bytes": 1528,
+          "sha256": "6923df693664b80b56d6156d6fb605154b6df76d0fb249d895ec5e9024a5d19f"
+        }
+      ],
+      "conclusions": [
+        "全部1380条闭环完成，全部7张冻结统计表已在本地从原result和派生state逐值复算一致，零方法失败。",
+        "100case三随机流中，H0成功率91/92/93%，三refit均值94/93.33/94.33%；各流配对差95%区间均跨0。",
+        "固定20case的三流均值：H0和H0菜单88.33%，SIM_LAT和SIM_TASK均100%；SIM_LAT较H0菜单+11.67pp，case条件95%区间[1.67,25.00]pp。",
+        "SIM_LAT带来7次成功转换、分属4个case，无反向转换；SIM_TASK未增加成功，不据20case天花板结果宣称等效。",
+        "模拟重排是使用特权状态的策略干预；区间未经多重比较校正，不能作加性瓶颈分解或完美上限。"
+      ]
+    },
+    "R4_REACHER_S1_CROSS": {
+      "scope": "FOUR_MODELS_X_FOUR_NEW_HOST_ORIGINAL_TRAJECTORIES",
+      "recovered_verified_utc": "2026-10-03T15:46:52.025627+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_reacher_s1_complete/s1/S1_cross_raw.csv",
+          "bytes": 9815466,
+          "sha256": "ced6cdaf59e3c7b62eaf48d01b49bc9af385ef0737659ae1dfb0d1105bcad745"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_reacher_s1_complete/s1/S1_cross_COMPLETE.json",
+          "bytes": 291,
+          "sha256": "3db939ed0c428a1cd00fa834f985d9295039faa2c9ff9e6b4bdea193601c54dc"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s1_cross/S1_FIRST_ANCHOR_OWN_OTHER.csv",
+          "bytes": 457659,
+          "sha256": "3efadf4625f5305483f0cdd12213ddac52a1cbb0d646e252f8dbf5f5b4c16aab"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s1_cross/S1_HISTORY_PAIRED_RAW.csv",
+          "bytes": 4166288,
+          "sha256": "94f39b8c6b355b268a25cf8e9d1a5c24bce6338ed28608ce994edef3e4ec68de"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s1_cross/S1_COMMON_COVERAGE.csv",
+          "bytes": 1287973,
+          "sha256": "13fabda3d66ad71f7dc24d9e643630de3402a64c990f318aa30a82fd90b16533"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s1_cross/S1_SOURCE_RELATION_TABLE.csv",
+          "bytes": 14862,
+          "sha256": "6b979dcf277f7b8128523072113441fcb16f46acbd9a550c4b2e83c5f1fe3269"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s1_cross/S1_HISTORY_PAIRED_TABLE.csv",
+          "bytes": 8474,
+          "sha256": "bcaa99f2737c8b847a4c9db7cf68e030accdeb6d916604e2039cd8be02775689"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s1_cross/S1_MAIN_TABLE.csv",
+          "bytes": 18899,
+          "sha256": "7e744eced39e4d75ab165f6317f251311c7efe70098aad21c2b90da76b929ac9"
+        }
+      ],
+      "conclusions": [
+        "63864行交叉评分，35452行有效；缺少过去或执行后缀的记录保留为缺失。",
+        "首规划H_POLICY h1/2/5的共同有效case分别100/99/90，三refit均值MSE分别0.066091/0.090598/0.113144，均低于H0且case差值95%区间低于0。",
+        "h5乐观偏差由H0的-18.5476降至refit均值-21.1874，即代价低估更大；预测MSE下降并不等于代价校准改善。",
+        "h1/h2的偏差差值方向相反，完整指标和各seed原值均保留。",
+        "结果受实际执行后缀与policy来源条件影响；不由source比较识别纯分布移位因果效应。"
+      ]
+    },
+    "X1_CUBE_RESET_DIAGNOSTIC": {
+      "scope": "FIXED16_TECH_TRIALS_CURRENT_FROZEN_PROTOCOL",
+      "recovered_verified_utc": "2026-10-03T15:49:58.370651+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RESET_DIAGNOSTIC/RESET_FALLBACK.json",
+          "bytes": 35661,
+          "sha256": "ed309cef38b9ed8cc4924ad2353a903e268cc8e3b4f222d32c87b891c7fa6eb3"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RESET_DIAGNOSTIC/RESET_RAW_TABLE.csv",
+          "bytes": 2050,
+          "sha256": "7f43d80a61cecf45bf8227de18f604478276d37345e6b5171ced16614b5064c5"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RESET_DIAGNOSTIC/NONZERO_DIFFERENCES.csv",
+          "bytes": 8607,
+          "sha256": "ee342e8a3ffea1d64ced57eb6aceff155d31c9b6f2e3a0c7c9cddbd8418b50a7"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RESET_DIAGNOSTIC/CALLS_AND_FIRST_DIFFERENCE.json",
+          "bytes": 2754,
+          "sha256": "8773e7c13837ce1bf9c485cabc2b5be31e1c8a98e3df470375f177e361fc1467"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RESET_DIAGNOSTIC/OFFICIAL_CUBE_EVAL.yaml",
+          "bytes": 1129,
+          "sha256": "9d75b9740a13d4e80538010cbd20cb3bf3fa6185bef48814412e1cb3189308e0"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/CUBE_SCOPE_INDEPENDENT_READONLY_AUDIT.json",
+          "bytes": 4006,
+          "sha256": "41d97907a7506850366c4abc99f8873c7c4fab76c7a17233e1176af794042ee1"
+        }
+      ],
+      "conclusions": [
+        "Cube source覆盖后的16次既定TECH审计失败，原exact门槛保留。",
+        "执行控制前qpos/qvel与所有像素均完全相同；最先不同的是ctrl与qacc_warmstart。",
+        "一步零动作后7对qpos/qvel有微小非零差异，全部渲染/注入像素及奖励、终止仍完全相同。",
+        "官方固定callables仅set_state(qpos,qvel)和set_target_pos；原配置没有set_control。",
+        "The frozen closed-loop protocol is technically unevaluable; independent training and open-loop modules continue. No additional trials or relaxed tolerances."
+      ]
+    },
+    "R4_REACHER_S2_MAIN": {
+      "scope": "FIXED_CASES_ORIGINAL_PROTOCOL_WITH_EXPLICIT_TECHNICAL_LIMITATIONS",
+      "recovered_verified_utc": "2026-10-03T15:51:59.780338+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s2/S2_ALL_CANDIDATE_RAW.csv",
+          "bytes": 3643710,
+          "sha256": "366a902d2045a3b3985a1e310588798d836ea834159bb3789006ec6bfd2101ac"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s2/S2_CANDIDATE_COVERAGE.csv",
+          "bytes": 15056,
+          "sha256": "654fcc610e0ff0d6a7a70c8c0566c4774286f684e946e6517ada4dd00007ea27"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s2/S2_SECONDARY_TABLE.csv",
+          "bytes": 2,
+          "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s2/S2_FORK_RAW_METRICS.csv",
+          "bytes": 11432,
+          "sha256": "70c176a419b42eb9e252624852d2d70c9ddde6f0788924428df55cfbe826a333"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s2/S2_MAIN_TABLE.csv",
+          "bytes": 2,
+          "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s2/S2_STATUS.json",
+          "bytes": 190,
+          "sha256": "e031504bf3bbda86be075e8ff6216b6e03d0f58cf7e9f4223171a2c7139662b8"
+        }
+      ],
+      "conclusions": [
+        "100个初始fork、6400条逻辑候选均有原值与缺失标志；菜单来源及动作SHA已独立核验。",
+        "5037候选完成固定25raw时长，1363候选因成功并真实终止而缺少规定时长终点；96/100个fork受影响。",
+        "固定时长主归因技术不可评价，不删去成功候选，也不把剩余4个完整fork改作全任务主结果。",
+        "候选成功与覆盖原值仍完整保留；终止后的未观测状态、latent和代价未填补。",
+        "本模块新增神经训练为0，原菜单与原封存结果不改动。"
+      ]
+    },
+    "R4_REACHER_S3_MAIN": {
+      "scope": "FIXED_CASES_ORIGINAL_PROTOCOL_WITH_EXPLICIT_TECHNICAL_LIMITATIONS",
+      "recovered_verified_utc": "2026-10-03T15:58:07.014466+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s3/PLANNING_RANDOMNESS_TABLE.csv",
+          "bytes": 2262,
+          "sha256": "e855faf1a1fed9755a8b24b21855a5c9310f731cadb1fb7201f9fcf057f16fef"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s3/S3_MARGIN_AND_RESOURCE_TABLE.csv",
+          "bytes": 47919,
+          "sha256": "39cd52919c02458beb08604f8a57e78307168cd44e8c5920743505715202e48d"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s3/S3_SUCCESS_TRANSITIONS.csv",
+          "bytes": 5093,
+          "sha256": "6f50c9f837b21814cccc08ecb1bc0ee4b0d45c58c4e475ed60f4926ab7298aa8"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s3/S3_MENU_INTERVENTIONS.csv",
+          "bytes": 4427,
+          "sha256": "95a41ca55c2a2f4d9577cab860e67a58ac12ab5f992fd30e5b24c9af4e48f188"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s3/S3_LEARNING_MAIN_TABLE.csv",
+          "bytes": 2781,
+          "sha256": "4e7b775758d8bf2630671def0ef747ef0661f8e75c6dff57206cde17176ec448"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s3/S3_LEARNING_SUCCESS_TRANSITIONS.csv",
+          "bytes": 69973,
+          "sha256": "d5c5df23320c6b3f5122904085488017055a7541722886ee9834b9a8353eba44"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s3/S3_ALL_RAW_VALUES.csv",
+          "bytes": 205849,
+          "sha256": "97fc10b939c4f38ee391e989cdbf30e9f472578102839fdc8421eecad132170a"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/main_validation/r4_reacher_s3.json",
+          "bytes": 5369,
+          "sha256": "731488e461e796c29e25b06cb47424341ed774c4cc036f7c94da840cccd238d9"
+        }
+      ],
+      "conclusions": [
+        "学习策略1200条加H0菜单60条已完成；本地从原result与派生state独立复算全部7张冻结统计表逐值一致。",
+        "原流/ALT1/ALT2的H0成功率为86/68/84%，三固定refit均值为84.33/83/81.67%。",
+        "三seed均值减H0的差值依次为-1.67/+15/-2.33pp；仅ALT1的case条件95%区间全高于0，不能只挑这一条流汇报。",
+        "H0的ALT1相对原流下降18pp，case条件95%区间[-29,-7]pp，说明这组规划随机流对结果影响较大。",
+        "两种SIM重排按固定TECH真实LAST证据标为不可评价，未执行且不算作零成功率；新增神经训练为0。"
+      ]
+    },
+    "X1_CUBE_OFFLINE_TECH": {
+      "scope": "REAL_MODEL_CPU_CACHE_FIXED128_UPDATE_TECH",
+      "recovered_verified_utc": "2026-10-03T15:53:26.458339+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_OFFLINE_TECH/MODEL_CHECK_RAW.csv",
+          "bytes": 212,
+          "sha256": "48bfc45422be4d35f3872f8ab268a4ae4aa2e34c678fe81e355f26deab8e3ae1"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_OFFLINE_TECH/CACHE_RAW_TABLE.csv",
+          "bytes": 524,
+          "sha256": "aa6453136cfe0722803b4eaf0a5b50cb3eddf4395c5d750a9eea91bd9953da91"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_OFFLINE_TECH/CACHE_ETA_RAW.csv",
+          "bytes": 650,
+          "sha256": "c2a16809be5df8b80a58ab540e4ed2baeef5ae0e1b01de935c8f8321e00513eb"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_OFFLINE_TECH/CACHE_TELEMETRY_RAW.csv",
+          "bytes": 1455,
+          "sha256": "5cfa1acf16eacf0975c11bca8fb62eec8aaa43e641b4d19a9f9d6f205628863f"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_OFFLINE_TECH/TRAIN_TECH_RAW.csv",
+          "bytes": 392,
+          "sha256": "444553d10e37cec6720af7b81139ca9967afd989cdd45f4fab3b4b0df754f639"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_OFFLINE_TECH/MODULE_STATUS.json",
+          "bytes": 1371,
+          "sha256": "b393b06394ceea538bba3fb7a277a284a2411cb48e1a51b2a7cf82d8125a722d"
+        }
+      ],
+      "conclusions": [
+        "Cube 真实官方模型在 CPU 的三项接口差异均为0，权重和buffer未变。",
+        "输入缓存覆盖8104条轨迹、1628904帧，两个GPU分片和合并原值已保存。",
+        "独立训练TECH完成128更新，失败/恢复额外更新为0，冻结SHA不变。",
+        "精确复位审计失败；闭环TECH在门槛前停止，0条轨迹、0次CEM，时延不填。",
+        "离线正式后训练与开环继续；不具备第二批闭环随机流资格。"
+      ]
+    },
+    "R4_S1_SOURCE_STOP_FLAGS": {
+      "scope": "ORIGINAL400_PER_TASK_NO_NEW_QUERIES",
+      "recovered_verified_utc": "2026-10-03T15:58:07.015742+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_source_stop_flags/S1_SOURCE_STOP_FLAGS_RAW.csv",
+          "bytes": 103985,
+          "sha256": "22fd883744a41d76f8e35940107ba092dfb04302a42aabe808d1ed1b105d3fb2"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_reacher_source_stop_flags/S1_SOURCE_STOP_FLAGS_RAW.csv",
+          "bytes": 105068,
+          "sha256": "fdabd3a961f52d690bf4afc18d5f6a2c01df9abd46dc7990b24c892b9278af9e"
+        }
+      ],
+      "conclusions": [
+        "800 source-trajectory rows preserve non-exclusive success, true-LAST semantics, truncation and raw-budget flags.",
+        "PushT: 373 observed successes, 370 before raw50; 30 trajectories reached raw50; no truncation.",
+        "Reacher: 339 observed successes, 317 before raw50; 83 trajectories reached raw50; no truncation.",
+        "This supplements provenance only; original S1 missingness fields, predictions and inferential tables remain unchanged."
+      ]
+    },
+    "X2_FINAL_RECOVERY_SEAL": {
+      "scope": "ALL324_FINAL_PRED_AND_MLP_AND8_CLOSED_HEADS",
+      "recovered_verified_utc": "2026-10-03T16:00:12.030595+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_RECOVERY_SEAL.json",
+          "bytes": 1627,
+          "sha256": "01685f8fb0978e4ccc8348b33171514720b81a1eada3b99121c8b00321c1f3f5"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/PRED_CONT_RECOVERY_SEAL.json",
+          "bytes": 932,
+          "sha256": "f7b217db93626ec8381ab00fdaad9b34e2c6d31c12668ab61a19129760121ab4"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/closed_RECOVERY_SEAL.json",
+          "bytes": 926,
+          "sha256": "bf342a5d171c402d3d0160443b8997f9579c32a88416ccd52ae4a9cd7cb3fd1c"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/MLP_POST_H8_RECOVERY_SEAL.json",
+          "bytes": 934,
+          "sha256": "fc7b8bfe2180199cc7a9f78b63780a5d60a7a6eabfeaa44866a0fb80bf2abd54"
+        }
+      ],
+      "conclusions": [
+        "All 324 PRED and 324 MLP final predictors plus 2592 closed heads recovered and checked.",
+        "All 324 original frozen encoders recomputed on the first two raw DEV episodes; every final head reevaluated on fixed anchors7/27/47 and horizons1/8/16.",
+        "All256 saved per-episode risks reaggregate to original completed receipts; this is not a full256-episode inference rerun.",
+        "648 predictors x30000 =19440000 formal updates; no encoder update or readout refit.",
+        "Root independently verified the final SEAL dependencies and all six main-result SHA entries; remote originals retained."
+      ]
+    },
+    "R4_REACHER_S1_CPU_RECOVERY": {
+      "scope": "ONE_METADATA_FIXED_H0_TRAJECTORY_ALL4_MODELS",
+      "recovered_verified_utc": "2026-10-03T16:00:12.031926+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/recovery/reacher_first_h0/RECOVERED_S1_CPU_RAW.csv",
+          "bytes": 85918,
+          "sha256": "9dc1e09f318ae24b3e2492996d2e0f785c6319a51bf1aa0a2f1566a399354ca1"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/recovery/reacher_first_h0/RECOVERY_CHECK.json",
+          "bytes": 4199,
+          "sha256": "5e1ef6c376665aa765e09454ff6b91068dfe39d7fcbe1c728dcd0daced62a611"
+        }
+      ],
+      "conclusions": [
+        "Four models on one metadata-fixed H0 trajectory:120 scoring cells,480 scalar comparisons.",
+        "Eligibility and missingness match exactly; all parameters/buffers unchanged, zero optimizer updates and simulator calls.",
+        "Maximum absolute MSE difference1.57394e-7; predicted cost/optimism1.22070e-4; realized cost exact.",
+        "This is a numerical recovery comparison, not a local pixel reconstruction or a full inference rerun."
+      ]
+    },
+    "X1_CUBE_MAIN": {
+      "scope": "FORMAL_OFFLINE_AND_EXPLICIT_CLOSED_LOOP_TECHNICAL_MISSINGNESS",
+      "recovered_verified_utc": "2026-10-03T16:12:34.410683+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_MAIN/MAIN_TABLE.csv",
+          "bytes": 4135,
+          "sha256": "67a2205015d7df0c1f40452452fa32e74bebf2af68e3a5fd117e5664eeb09692"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_MAIN/ALL_RAW_VALUES.csv",
+          "bytes": 417164,
+          "sha256": "17c010b85d993b66c45bb3c4fc4d5242f5bba4dc0f7fedc35d632d26450a3754"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_MAIN/MODULE_STATUS.json",
+          "bytes": 3728,
+          "sha256": "ea275743a71270f08b12fb700eb378bae198f13cf24a94fef1a64870d4e0adf4"
+        }
+      ],
+      "conclusions": [
+        "Cube 完成三个固定30k后训练与100个固定case的h1/2/5开环评价。",
+        "正式闭环未执行：原exact复位门槛失败，成功率和区间保留NA。",
+        "原source覆盖后输入qpos/qvel和像素一致，但ctrl/warmstart及一步物理状态存在非零差异。",
+        "所有500条闭环占位行均显式标注缺失，未计作失败或成功。",
+        "未追加复位trial、未放宽容差，技术证据SHA与全部离线原值随表保存。"
+      ]
+    },
+    "MAIN_BATCH_MERGED": {
+      "scope": "LOSSLESS_FOUR_LINE_MAIN_DELIVERY",
+      "recovered_verified_utc": "2026-10-03T16:12:34.420209+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/FOUR_TASK_MAIN_TABLE.csv",
+          "bytes": 23890,
+          "sha256": "15215fe73f950d3a87589f0ab7ff0e7ee03117f469d8ffdc94f89100c2c99404"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/FOUR_TASK_ALL_RAW_VALUES.csv",
+          "bytes": 2548047,
+          "sha256": "906711356b8ea271cbf52dcfb3d9ddbfbaae0f6103a63fd90384502ce15a1712"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/PLANNING_RANDOMNESS_TABLE.csv",
+          "bytes": 6375,
+          "sha256": "3a712d1df835a6b7019c08ac98505e88ea26fa4aadf846cb45f31161fb68b213"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/R4_ATTRIBUTION_TABLE.csv",
+          "bytes": 379411,
+          "sha256": "5aa52d6c1435b495664e7c5a17654547363460a7877ee4cd525c9e03c2b4138c"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/R4_S2_COVERAGE.csv",
+          "bytes": 54294,
+          "sha256": "cd09057d036d214d37e66615031c842623b8d0d1aaa84061a1cb061f7b1ed58f"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/R4_S2_ALL_CANDIDATE_RAW.csv",
+          "bytes": 9000582,
+          "sha256": "c8fd3d82aa137962cfc267024b882a2da8c8841e8f5fc85d132bb2f4216545af"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/R4_S3_ALL_RAW_VALUES.csv",
+          "bytes": 742338,
+          "sha256": "c8cc2544b40572a97c4756d03f3432d4b97a45bb128977ecbc51260ed9efad34"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/X2_TABLE.csv",
+          "bytes": 213685,
+          "sha256": "4cb0aff8a8f2a4415435960cce7b7558dfa5bb70add98a2e58412a2d63675c33"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/X2_ALL_HEADS_TABLE.csv",
+          "bytes": 636303,
+          "sha256": "67aef7f6bdccbd8362cedd42a22da434b10f70d279632bae58e4a1717a8e81fc"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/X2_ALL_RAW_VALUES.csv",
+          "bytes": 3170435,
+          "sha256": "97e86afcfaeba6663ff87e38917d35c6151266fb1f25a0a615c034521f8a17a7"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/X2_SCOPE_DIFFERENCES.csv",
+          "bytes": 1810395,
+          "sha256": "2b808af45e02759f0f6b6bbe4976fa7f0d6e6e88473d6db211f549d04ef503da"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/MERGE_STATUS.json",
+          "bytes": 13734,
+          "sha256": "cb561438b58e911e993b93c774d268c20a5c30ee0a3a361a3d6bed97ee5da907"
+        }
+      ],
+      "conclusions": [
+        "四任务主表80行；8000原值包含明确派生均值与Cube技术缺失，不全是独立观测。",
+        "R4两任务规划随机性24行、归因1149行；每行保留来源SHA。",
+        "R4初始候选12800行，正式S3闭环2640行；Reacher固定horizon缺失不作失败。",
+        "X2四臂主表1296行，全部头原值11664行；没有按DEV选最优头。",
+        "Cube闭环与Reacher固定horizon模块技术不可评价，数值留空。"
+      ]
+    },
+    "MAIN_CPU_RECOMPUTATION": {
+      "scope": "FROZEN_STATISTICS_RECOMPUTATION_AND_ARITHMETIC_VALIDATION",
+      "recovered_verified_utc": "2026-10-03T16:13:20.852555+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/recomputed/20261003T161214.450966Z-8525/RECOMPUTE_MANIFEST.json",
+          "bytes": 2737090,
+          "sha256": "156edd2d1214e1132d61bb67c5d6b19a31c9723c6e04acbce5fcb935e3f012ec"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/ops/recompute_delivery.py",
+          "bytes": 17774,
+          "sha256": "4ea20b1ff3da0699206a3d16729e5f08e253c7f824b082bfbe483f764ed155d4"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/RECOMPUTE_ENTRYPOINT_TECH_CHECKS.json",
+          "bytes": 897,
+          "sha256": "356be3790126dbdbbd49b42951f151aeee6f2eb0717534f00b09c24207851f4c"
+        }
+      ],
+      "conclusions": [
+        "46份R4统计表从原值以冻结v3定义重算，逐字段与原交付一致。",
+        "8007个来源文件运行前后SHA不变；没有新模型推理、模拟或训练。",
+        "R3/X1/X2保留原表与区间，验证覆盖、case内三refit均值与Bayes风险算术。",
+        "输出独立写入recomputed目录；未覆盖主批科学文件。",
+        "Cube及Reacher技术缺失与分母原样保留。"
+      ]
+    },
+    "X1_CUBE_TRAIN": {
+      "scope": "FIXED_THREE_30000_UPDATE_TRAINING",
+      "recovered_verified_utc": "2026-10-03T16:14:31.862568+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_TRAIN/TRAIN_RAW_TABLE.csv",
+          "bytes": 1166,
+          "sha256": "68b43b18e16b0eba3b2c37140d45cdcd13f093e974db41ed1f339735b3b92f90"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_TRAIN/MODULE_STATUS.json",
+          "bytes": 2348,
+          "sha256": "b8094f38d67c550c2920e35259e8e8da7ab85f25c4ceac006aaf3103322963c6"
+        }
+      ],
+      "conclusions": [
+        "cube 三个固定 seed 均完成 30,000 次更新，共 90,000 次正式更新。",
+        "每个 seed 的更新日志严格连续，主评价固定使用 checkpoint_30000。",
+        "只更新 predictor 与 pred_proj；冻结参数和全部 buffer 的前后 SHA 一致。",
+        "独立 TECH 的 128 次更新单列，未继承进正式训练。",
+        "开环与闭环结果由后续完整固定 case 评价给出。"
+      ]
+    },
+    "X1_CUBE_OPEN_LOOP": {
+      "scope": "FIXED100_FOUR_ARM_THREE_HORIZON_OPEN_LOOP",
+      "recovered_verified_utc": "2026-10-03T16:14:31.864207+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_OPEN_LOOP/per_case.csv",
+          "bytes": 386609,
+          "sha256": "449c13321f64d3db4318c48a00f1422786987aa49356d1a2e4114b552e8c30a1"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_OPEN_LOOP/OPEN_LOOP_RAW_MEANS.csv",
+          "bytes": 2264,
+          "sha256": "e07d41127e1310e2447956096391f084e30276daf0169b7c03662aba6e20f0c4"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_OPEN_LOOP/MODULE_STATUS.json",
+          "bytes": 704,
+          "sha256": "63d95b2a8e6e4f7b8cc4d045476f45c0808ff84d9562c7fbf18bb8005f4f685c"
+        }
+      ],
+      "conclusions": [
+        "cube 开环完成：4 个固定模型 × 100 个 case × h=1/2/5。",
+        "原坐标 MSE、TRAIN 方差标准化 MSE 与范数原值见表。",
+        "三个 refit 均使用固定 30,000 更新权重；本模块新增优化器更新和 CEM 轨迹均为 0。",
+        "所有模型预测先落盘，再读取未来 latent 目标评分；不使用 EVAL 拟合归一化。",
+        "开环预测误差单独报告，控制效果仍由完整闭环评价判定。"
+      ]
+    },
+    "X1_CUBE_RANDOMNESS": {
+      "scope": "EXPLICIT_TECHNICAL_MISSINGNESS_NO_NEW_TRIALS",
+      "recovered_verified_utc": "2026-10-03T16:14:31.865561+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/PLANNING_RANDOMNESS_TABLE.csv",
+          "bytes": 2644,
+          "sha256": "a690e1607a80855c298c9d42260efec68f24b8d1def0cb45e4b46f0776f9be57"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/ALL_RAW_VALUES.csv",
+          "bytes": 132350,
+          "sha256": "47375b032ab4537aecd23d8f7409103d012248f78862bfa481b41413b66eb72c"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/S3_LEARNING_MAIN_TABLE.csv",
+          "bytes": 2991,
+          "sha256": "bad7a3fb4ddd5282a483a0d95adc970f18ec5dc69c7190f8d17f484a2420088e"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/MODULE_STATUS.json",
+          "bytes": 1335,
+          "sha256": "33904937753160086e153780d84824d9600f4b061b9b1d46ba1be4703e69b78d"
+        }
+      ],
+      "conclusions": [
+        "Cube 四个模型×三个规划流均保留为技术缺失，真实闭环轨迹为0。",
+        "每行cases=0、universe_cases=100；成功率和区间为空，不填0。",
+        "单条闭环TECH P90未观测，也未判定为超过30秒。",
+        "原因是原source exact复位门槛失败，原16次证据SHA随表保存。",
+        "未追加规划流、复位试验或bootstrap，所有1200个预定单元均显式缺失。"
+      ]
+    },
+    "R4_PUSHT_SECONDARY_MIDDLE": {
+      "scope": "SECONDARY_FIXED20_H0_VISITATION_SURVIVAL_CONDITIONED",
+      "recovered_verified_utc": "2026-10-03T16:21:04.125062+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/ALL_CANDIDATE_RAW.csv",
+          "bytes": 779601,
+          "sha256": "47cf9673b8b8e8ad5d1e3adad72259ea67d39f80e4200c7ba2257c45daad5e18"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/S2_SECONDARY_TABLE.csv",
+          "bytes": 28146,
+          "sha256": "037792ead9fe6e1af648e88be71fa97529aeac7ccafc53c455216d9f28510e13"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/MIDDLE_FORK_AVAILABILITY_RAW.csv",
+          "bytes": 6323,
+          "sha256": "4980b62e33d830adbefd967e546ed16fe92bf28b921bf48c6580ca36b71e1c74"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/MODULE_STATUS.json",
+          "bytes": 598,
+          "sha256": "1e83225822626b88862d9ec381ca9c02a04dc5ff2b177f9f7724bb980da23497"
+        }
+      ],
+      "conclusions": [
+        "固定20个H0 raw10访问fork均完成，1280个逻辑候选均有完整25raw真值。",
+        "ANYTIME D_total：H0 0.74358882，固定三refit均值0.51468675；差−0.22890207，case95%[−0.36688362,−0.10120184]。",
+        "排序Spearman：0.66354104→0.76545595；配对差95%[0.02999536,0.17594441]。",
+        "仅为H0访问与存活条件下固定20例secondary，不与初始100fork合并估计。",
+        "同fork D_goal对四模型在定义上相同；约1e−18均值舍入不解释为模型效应。"
+      ]
+    },
+    "R4_REACHER_SECONDARY_MIDDLE": {
+      "scope": "SECONDARY_FIXED20_H0_VISITATION_SURVIVAL_CONDITIONED",
+      "recovered_verified_utc": "2026-10-03T16:21:04.126553+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/ALL_CANDIDATE_RAW.csv",
+          "bytes": 67,
+          "sha256": "660d23ccbc6a4874e7382d44c30146f1e4ea3ab4a30fab590d099ed8ea368906"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/S2_SECONDARY_TABLE.csv",
+          "bytes": 2,
+          "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/MIDDLE_FORK_AVAILABILITY_RAW.csv",
+          "bytes": 5899,
+          "sha256": "3d9a439205f8f43009048d31e4d689afc7c137bce4a3272c45292d7ea246d492"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/MODULE_STATUS.json",
+          "bytes": 627,
+          "sha256": "b35bae5fb94a1dcd53b04d4c41802b5fdba2b8cbe8ca44b85391405ca3e1efae"
+        }
+      ],
+      "conclusions": [
+        "原固定20例全部保留，固定25raw分支因已冻结真实DMC LAST门槛未运行。",
+        "候选与归因表为空，缺失原因单列；未替换case或补零。",
+        "本批未新增模拟或神经训练，原S1/学习闭环及主批恢复继续有效。"
+      ]
+    },
+    "R4_SIM_CEM_ESTIMATE_GATE": {
+      "scope": "CONDITIONAL_PROTOCOL_ESTIMATE_ONLY",
+      "recovered_verified_utc": "2026-10-03T16:21:04.127902+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/SIM_CEM_ESTIMATES.csv",
+          "bytes": 1154,
+          "sha256": "ba76c3056402f2b1fe96c580783482c8f17a139c73d72b7ebda525eab4893b7b"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/SIM_CEM_ESTIMATE.json",
+          "bytes": 15154,
+          "sha256": "1f8406ad2dafed6eef028c3461b5fbc070b414e668f1eaac423714bd1d8e191a"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/SIM_CEM_SKIP_EVIDENCE.json",
+          "bytes": 1154,
+          "sha256": "98e861f3eb6e7945453dc637bec3054ac304fc9bbfa697dca43a96166fcab1aa"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/SIM_CEM_ESTIMATE.json",
+          "bytes": 324,
+          "sha256": "702915c7df90ea45ad1f95e2874da31b4ad0ec0a06b32ce5bac9e8ad648aced5"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/SIM_CEM_SKIP_EVIDENCE.json",
+          "bytes": 408,
+          "sha256": "26b0b27d7ca93417228a5444fd4cf41ff15895291ed7db8da767c3417efbe7b9"
+        }
+      ],
+      "conclusions": [
+        "PushT每完整候选分支实测P90=0.44281627秒。",
+        "20case×最多2次重规划×9000查询：每臂串行工作44.2816小时，两worker理想wall22.1408小时，超过2小时门槛。",
+        "两臂合计最多720000查询；这是工作量估算，并非实测并行完成时间。",
+        "Reacher固定目标受真实DMC LAST阻塞，无合法估算成功率。",
+        "四臂均未运行，完整模拟器CEM新增调用0，成功指标留空。"
+      ]
+    },
+    "R4_PUSHT_FINAL_RECOVERY": {
+      "scope": "FULL_MINIMUM_EVIDENCE_HASH_VERIFICATION_WITH_SCOPED_CPU_COMPARISON",
+      "recovered_verified_utc": "2026-10-03T16:25:30.816441+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/remote_results/final_recovery/pusht/FINAL_RECOVERY_INVENTORY.json",
+          "bytes": 2627,
+          "sha256": "64898fbb0d3e070433e572419c111e35e3abe196a13bc97c5d24a7132f6d7927"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/remote_results/final_recovery/pusht/RECOVERY_MANIFEST.json",
+          "bytes": 1500,
+          "sha256": "6b0d67fbe12eb848a6ccab1e90a2dd8a0021fd76fdc268cd6fed23ee2ebe3950"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/remote_results/final_recovery/pusht/MINIMUM_TRAJECTORY_COUNTS_RAW.csv",
+          "bytes": 957,
+          "sha256": "53a6290bb8f5f754047fcda854caac76b778b7c8279d06c008e740e1d1bb5f8c"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/SECONDARY_RECOVERY_MANIFEST.json",
+          "bytes": 483772,
+          "sha256": "0e8b6c58096200b035f73e4105d6c2e95ecbe7647664b7179f578ed2a855685b"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/CPU/RECOVERY_CHECK.json",
+          "bytes": 1380,
+          "sha256": "9c36b3b67acff8fee627460f5d1e36e9211a33bd933ec9091ce8e817bba627d0"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/secondary_validation/r4_pusht.json",
+          "bytes": 778142,
+          "sha256": "8a6bf8d0f3745ca291d95d05b8ab299f481eea4b8496d7d1a8caae83adc1d2e4"
+        }
+      ],
+      "conclusions": [
+        "pusht主批菜单与最小轨迹完整回收，正式轨迹1380条，TECH4条。",
+        "初始100fork×64候选及四模型完整proposal、真实S3执行菜单完整保存，逐文件SHA通过。",
+        "原像素/HDF5/full300日志保留远端；本地含每帧hash、状态/latent/动作与源重建映射。",
+        "CPU恢复为已声明固定case上的预测/代价复评，没有新增模拟或训练；不声称本地完整像素重建。",
+        "第二批单独回收并独立验核，主批档案未更改。"
+      ]
+    },
+    "R4_REACHER_FINAL_RECOVERY": {
+      "scope": "FULL_MINIMUM_EVIDENCE_HASH_VERIFICATION_WITH_SCOPED_CPU_COMPARISON",
+      "recovered_verified_utc": "2026-10-03T16:25:30.818960+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/remote_results/final_recovery/reacher/FINAL_RECOVERY_INVENTORY.json",
+          "bytes": 2064,
+          "sha256": "452208703cd8b38992de0baeca05b09fdeb23cd295ecdb8745ddfb8de7f0bfdc"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/remote_results/final_recovery/reacher/RECOVERY_MANIFEST.json",
+          "bytes": 1401,
+          "sha256": "a038d46ac2663be6a715273eeaf6d8d9b138934b9abf85c99ed95fbf5839be19"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/remote_results/final_recovery/reacher/MINIMUM_TRAJECTORY_COUNTS_RAW.csv",
+          "bytes": 718,
+          "sha256": "8d90fbc9f3f3f519055ebbc97d54d1ab1c1dc3729883d6c2635c03de2901bfe1"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/SECONDARY_RECOVERY_MANIFEST.json",
+          "bytes": 10104,
+          "sha256": "7a05dcf453d85c040e3cce44598eaabec63dc95740f5a804cd8a00d430d878a0"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/CPU/RECOVERY_CHECK.json",
+          "bytes": 724,
+          "sha256": "220b91fb721d05e27a545f5fea41683fa2380c3e48072c6996d250e4df365085"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/secondary_validation/r4_reacher.json",
+          "bytes": 25263,
+          "sha256": "6c7997031b65444c959f789796c362790d36407f56dcda5206ee47e331fcc3d2"
+        }
+      ],
+      "conclusions": [
+        "reacher主批菜单与最小轨迹完整回收，正式轨迹1260条，TECH4条。",
+        "初始100fork×64候选及四模型完整proposal、真实S3执行菜单完整保存，逐文件SHA通过。",
+        "原像素/HDF5/full300日志保留远端；本地含每帧hash、状态/latent/动作与源重建映射。",
+        "CPU恢复为已声明固定case上的预测/代价复评，没有新增模拟或训练；不声称本地完整像素重建。",
+        "第二批单独回收并独立验核，主批档案未更改。"
+      ]
+    },
+    "X1_TWOROOM_RANDOMNESS": {
+      "scope": "FIXED100_FOUR_ARM_THREE_STREAM_PAIRED",
+      "recovered_verified_utc": "2026-10-03T16:31:04.661175+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/ALL_RAW_VALUES.csv",
+          "bytes": 136104,
+          "sha256": "d8c08499fd4876bb0a67c41bc8ab2507a27befcd2e5c6ef7982552907114a614"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/PLANNING_RANDOMNESS_TABLE.csv",
+          "bytes": 2277,
+          "sha256": "8132ff9cf4bca82e9e55ca9a742e6fe2fe46f66054c04810283998a5b9b1cc71"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/S3_LEARNING_MAIN_TABLE.csv",
+          "bytes": 2759,
+          "sha256": "c334dee89a5d70bf816465b607a9565784ca45fd0b7675e4b39e3f8ab20ad8ad"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/MODULE_STATUS.json",
+          "bytes": 1152,
+          "sha256": "9b0ce4850d279981d26aee30dd782a935a95287ed5bfdd4d37d056be7f23dcef"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/RANDOMNESS_STATISTICS_FREEZE.json",
+          "bytes": 4844,
+          "sha256": "d6518c1619c2b626b91643c18a3a5695c73535f3eaa0f55832718307c01a2500"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/CASE_BOOTSTRAP_INDICES.npz",
+          "bytes": 4014516,
+          "sha256": "4a4178af314cfa4e554ec20d4e0d8a6f11204f9d6dfc78171be6d4feb96864b2"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/secondary_validation/x1_tworoom.json",
+          "bytes": 1267,
+          "sha256": "4e5a1f943f9dd9a5e68fddc1317e032a880e0f3ad8f3ef9863a288581aa1e545"
+        }
+      ],
+      "conclusions": [
+        "新增800条闭环完成，复用原400条，固定100case×4模型×3规划流完整配对。",
+        "H0各流82/83/81%；固定三refit均值82.3333/79/80.6667%。",
+        "配对差+0.3333/−4/−0.3333个百分点，三组条件95%区间均跨0，不证明等效或稳定收益。",
+        "12行同模型跨流随机性表、15行逐流模型主表已独立按冻结统计逐字段复算一致。",
+        "未新增模型训练、case或独立预训练重复；family未知，区间未经多重性校正。"
+      ]
+    },
+    "SECONDARY_BATCH_MERGED": {
+      "scope": "SEPARATE_SECONDARY_LOSSLESS_FOUR_TASK_RANDOMNESS_AND_R4_MIDDLE",
+      "recovered_verified_utc": "2026-10-03T16:31:04.663900+00:00",
+      "files": [
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/secondary/FOUR_TASK_PLANNING_RANDOMNESS_TABLE.csv",
+          "bytes": 12668,
+          "sha256": "cec55dcd8234b5858dedafbf4bd28e984c8559da16d63797c4bcbf60de177b99"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/secondary/X1_LEARNING_ALL_STREAMS.csv",
+          "bytes": 8137,
+          "sha256": "663bf1a95ed6c62ce6f8441f1e5aec299dcc30b8cc33d8c7a9b7afc1aeb95c12"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/secondary/X1_ALL_STREAMS_RAW_VALUES.csv",
+          "bytes": 475977,
+          "sha256": "165aa785eaa1ec729cd2f0feac122d5e2ea0ddd31a0362b606542bec6ca55c24"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/secondary/R4_S2_MIDDLE_TABLE.csv",
+          "bytes": 36526,
+          "sha256": "da3c1dadce6f780d310fd133579ac8ee4b9fccd2396ca7f6d5e44b0c8bfc36e9"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/secondary/R4_S2_MIDDLE_CANDIDATE_RAW.csv",
+          "bytes": 874360,
+          "sha256": "3cf929828ea1afd6732d1b5f93c8f68382b245fccb52ad0acef241f9b1f15074"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/secondary/R4_S2_MIDDLE_AVAILABILITY.csv",
+          "bytes": 14974,
+          "sha256": "082dddc82b034ae994fbd33223cb22f4452848219dcb0b9243f5f0d3a53d61ea"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/secondary/SIM_CEM_ESTIMATES.csv",
+          "bytes": 1597,
+          "sha256": "1c24c4e0d6958457e4eb885575f3d9618a4d0555161e115b02ce8e4d25b651ca"
+        },
+        {
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/secondary/MERGE_STATUS.json",
+          "bytes": 7151,
+          "sha256": "f3c485760c5c2894cab222120ca276f551811d33a499c466fa568c0064c41204"
+        }
+      ],
+      "conclusions": [
+        "四任务规划随机性48行，Cube12行明确技术缺失。",
+        "X1三流原单元2400行：TwoRoom1200实际观测，Cube1200明确缺失。",
+        "PushT中途20fork×64候选完整；Reacher20例按技术门槛未运行，不填零。",
+        "SIM_CEM四臂均未运行，时间估算及技术原因单列。",
+        "主批文件保持原SHA；初始100fork与中途20fork不合并估计。"
+      ]
+    }
+  }
+}

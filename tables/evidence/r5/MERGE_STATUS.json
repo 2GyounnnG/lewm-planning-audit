@@ -1,0 +1,175 @@
+{
+  "version": "R5_DELIVERED_TABLE_MERGE_V1",
+  "utc": "2026-10-03T18:59:11.251167+00:00",
+  "evidence_label": "POST_R4_SUPPLEMENT_ON_KNOWN_EVALUATION_CASES",
+  "main_modules_complete": [
+    "C1",
+    "H1a",
+    "H1b",
+    "H2"
+  ],
+  "preset_H3": "NOT_TRIGGERED_TRIGGER_QUANTITY_NOT_DISCRIMINATIVE",
+  "H1b_interpretation": "Small-probe baselines, not single-frame information-theoretic lower bounds",
+  "C2_included": true,
+  "H3X_exploratory_included": true,
+  "all_R5_and_authorized_H3X_tables_complete": false,
+  "all_authorized_modules_accounted_for": true,
+  "C2_status": "TECHNICALLY_UNEVALUABLE",
+  "C2_missing_results_are_zero": false,
+  "source_tables": {
+    "r4_main": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/source_tables/R4_MAIN_SEALED/FOUR_TASK_MAIN_TABLE.csv",
+      "bytes": 23890,
+      "sha256": "15215fe73f950d3a87589f0ab7ff0e7ee03117f469d8ffdc94f89100c2c99404"
+    },
+    "r4_raw": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/source_tables/R4_MAIN_SEALED/FOUR_TASK_ALL_RAW_VALUES.csv",
+      "bytes": 2548047,
+      "sha256": "906711356b8ea271cbf52dcfb3d9ddbfbaae0f6103a63fd90384502ce15a1712"
+    },
+    "c1_main": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c1/reports/MAIN_TABLE.csv",
+      "bytes": 2881,
+      "sha256": "536c580e433fa82040582b96d3b080f6c40b8ad327cd7a0333e5a36b36e78baa"
+    },
+    "c1_raw": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c1/reports/ALL_RAW_VALUES.csv",
+      "bytes": 145586,
+      "sha256": "083d4d33f4f23ef3340174a22fef47bdbf17a55ff65990adf0d03bae5f9e6de6"
+    },
+    "h1a": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1a/reports/HISTORY_CONDITION_4TASK_TABLE.csv",
+      "bytes": 81458,
+      "sha256": "02adc09003fd81a4e72955cd08ca6953787f190bbdd548830113d10e2c3862a5"
+    },
+    "h1b": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/main/SINGLE_FRAME_INFORMATION_TABLE.csv",
+      "bytes": 183919,
+      "sha256": "d78137939cf6f37decf6b39a85a63567c80c4d82392da850258eafc03379122b"
+    },
+    "h2_table": [
+      {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h2/reports/reacher_MAIN/REAL_HISTORY_REPLANNING_TABLE.csv",
+        "bytes": 46030,
+        "sha256": "ff3f76c1df98917a125418df31283f8af4733e9cb8d2865874873cb1055c4211"
+      },
+      {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h2/reports/pusht_MAIN/REAL_HISTORY_REPLANNING_TABLE.csv",
+        "bytes": 49929,
+        "sha256": "1e9f26cb0d6f1079f05f07ee4d632985529c4024d6836daa3c41520badfd18c6"
+      }
+    ],
+    "h2_raw": [
+      {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h2/reports/reacher_MAIN/ALL_RAW_VALUES.csv",
+        "bytes": 547514,
+        "sha256": "d4e6ac21adddd2c82592f2dc9d2a110b2231a4cf2ddf84661908ef470f0956d1"
+      },
+      {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h2/reports/pusht_MAIN/ALL_RAW_VALUES.csv",
+        "bytes": 644582,
+        "sha256": "8cbbeefae3295dfa16595ffa5f4c13ff8d5bc3b9167cf464c1187467a7f67ed9"
+      }
+    ],
+    "h3x": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h3x/reports/main/H3X_EXPLORATORY_CONTEXT_MATCHED_REFIT_TABLE.csv",
+      "bytes": 36726,
+      "sha256": "cfe873d66281b7ba411e636589ddec57e682b3a1ed9358705d96fc94219b7e62"
+    },
+    "c2": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/reports/CUBE_PLANNER_RANDOMNESS_TABLE.csv",
+      "bytes": 18571,
+      "sha256": "704f3c50b79484aa103f739664079b1398457ed123001e0f39a76d3a3434b5be"
+    },
+    "c2_module_status": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/reports/MODULE_STATUS.json",
+      "bytes": 59037,
+      "sha256": "68498c84e4c86a12fba1cbb5cb17513336faf12b173a398be092c957e50dd69c"
+    },
+    "C2_PARTIAL_RAW_VALUES.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/reports/C2_PARTIAL_RAW_VALUES.csv",
+      "bytes": 148782,
+      "sha256": "1895af4bb33ebee1e01b28dc4016bf81e0976d5e296c11d1131c5646ff60fcf9"
+    },
+    "C2_EXPECTED_CELL_STATUS.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/reports/C2_EXPECTED_CELL_STATUS.csv",
+      "bytes": 156019,
+      "sha256": "99f0348c6de1b81f325f0d993df7d42c09264ac7d904b1192e35f16649371077"
+    }
+  },
+  "source_files_modified": false,
+  "statistics_recomputed": false,
+  "outputs": {
+    "FOUR_TASK_MAIN_TABLE_V2.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/FOUR_TASK_MAIN_TABLE_V2.csv",
+      "bytes": 40200,
+      "sha256": "e3214f05e633d69f7b242336ee74881cedd7c30fbcb918994702d5dd81d24617",
+      "rows": 80
+    },
+    "FOUR_TASK_ALL_RAW_VALUES_V2.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/FOUR_TASK_ALL_RAW_VALUES_V2.csv",
+      "bytes": 4032305,
+      "sha256": "a31c38e7a9de509113b91e4291ffde644c300709142ecdcaef35c4c0df850236",
+      "rows": 8000
+    },
+    "R4_CUBE_PREVIOUSLY_UNEVALUABLE_ROWS.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/R4_CUBE_PREVIOUSLY_UNEVALUABLE_ROWS.csv",
+      "bytes": 2521,
+      "sha256": "336031d8078f46fc30f2ce78d7359251245d1a82b487413d84b38100bc4daae8",
+      "rows": 5
+    },
+    "HISTORY_CONDITION_4TASK_TABLE.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/HISTORY_CONDITION_4TASK_TABLE.csv",
+      "bytes": 126209,
+      "sha256": "f2207786ee446c8f8831fc724925008ee718d4869737a3d5b46e6ba7ce58a74c",
+      "rows": 276
+    },
+    "SINGLE_FRAME_INFORMATION_TABLE.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/SINGLE_FRAME_INFORMATION_TABLE.csv",
+      "bytes": 258718,
+      "sha256": "f757db0f2511736854984f64e53be9494fd3458f5570662cdefeb9c825283f89",
+      "rows": 445
+    },
+    "REAL_HISTORY_REPLANNING_TABLE.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/REAL_HISTORY_REPLANNING_TABLE.csv",
+      "bytes": 141359,
+      "sha256": "ec7d46541cb38de377c478e31e285045af4a03efddd774d5622651a4b13e3eea",
+      "rows": 264
+    },
+    "REAL_HISTORY_REPLANNING_RAW.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/REAL_HISTORY_REPLANNING_RAW.csv",
+      "bytes": 1570873,
+      "sha256": "a76a8f7b42e0dcf11fb95533a4011989c7779dc0cb7f52af650e3310dd52f756",
+      "rows": 2400
+    },
+    "H3X_CONTEXT_MATCHED_REFIT_EXPLORATORY_TABLE.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/H3X_CONTEXT_MATCHED_REFIT_EXPLORATORY_TABLE.csv",
+      "bytes": 56963,
+      "sha256": "4b13795f1c0be5e598330b0a0f4e48c378d2863f1db99928e77e90137ee55e74",
+      "rows": 90
+    },
+    "CUBE_PLANNER_RANDOMNESS_TABLE.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/CUBE_PLANNER_RANDOMNESS_TABLE.csv",
+      "bytes": 24245,
+      "sha256": "1708a2cf7618982f0251495fa428027b0cbdc35d7f418896017613ecef051d76",
+      "rows": 35
+    },
+    "C2_PARTIAL_RAW_VALUES.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/C2_PARTIAL_RAW_VALUES.csv",
+      "bytes": 191661,
+      "sha256": "00c7ad429a431b99d69fe6dcde98e27498a3982e81ade4642800cb3a42aa3ca6",
+      "rows": 280
+    },
+    "C2_EXPECTED_CELL_STATUS.csv": {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/C2_EXPECTED_CELL_STATUS.csv",
+      "bytes": 280058,
+      "sha256": "7ae221d598debabf2dc578bede3c3a741da8ee6837dd4126ad573a2b798c54a8",
+      "rows": 800
+    }
+  },
+  "source_code": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/merge_r5_final.py",
+    "bytes": 8409,
+    "sha256": "3e0c0aff987f9cd51de82dd9f5ae4d43f2f0699b40d6864e611d334828d986b4"
+  }
+}

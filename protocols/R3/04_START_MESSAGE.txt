@@ -1,0 +1,29 @@
+请以01_CODEX_PROMPT.md和02_EXPERIMENT_SPEC.md作为本轮R3唯一执行合同。
+
+我授权继续使用此前G1/R2.1同一台2×RTX5090实例。
+先核对主机、两卡UUID、当前任务及旧产物快照；不新租卡，不连接其他旧SSH。
+
+实际执行官方LeWM PushT与Reacher两任务：
+- 用作者原始checkpoint，不用我们的G1 XS/TC checkpoint替代；
+- 冻结encoder、观测projector、action encoder及全部BN running统计；
+- 只续训predictor与预测输出投影pred_proj的参数；
+- 2任务×3后训练seed×30,000更新=180,000正式更新；
+- 每任务目标100个固定起点—目标对，H0与3个refit共享CEM协议，最多800条正式闭环trajectory。
+
+先做官方模型加载、零更新包装、真实环境reset/step、梯度/恢复和完整CEM episode计时。
+技术条件满足即连续训练和评价，不要求先出现5–10个百分点提升。
+不因某任务没赢而换任务、补seed、挑checkpoint或降低CEM预算。
+
+原官方pretraining是否见过评估来源单独记录；本轮refit留出不等于整模型从未见过。
+不训练新的视觉表示、state decoder或双线性头，不做其他规划器交叉。
+不做金融、EAAI路线、新热学PDE、LIBERO、BWM复现。
+
+旧R2.1回收与本轮可并行，但不得覆盖唯一证据。
+继续使用单份数据缓存；保存紧凑预测器delta、逐case轨迹与指标，增量回传。
+
+先按每GPU一个worker，技术profile后再决定训练是否每GPU两个；规划时间比较用无竞争设置。
+ETA分开报训练和完整CEM评价，不承诺1–2天。
+
+没有真实技术阻塞时实际完成，不只写计划。
+结束后报告两个任务、每seed的开环与规划结果，以及单独的RELEASE_GATE。
+不要自动destroy实例，不自动开展下一轮。

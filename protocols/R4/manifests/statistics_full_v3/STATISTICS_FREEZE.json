@@ -1,0 +1,30 @@
+{
+  "version": "R4_V23_CASE_PAIRED_20261003_V1",
+  "replicates": 5000,
+  "files": {
+    "aggregate.py": "f17eb75fc036986963b675c4281f19bc938728fb583773277ccd640f19b98d8a",
+    "statistics.py": "e110a936b19622a659812f6b1b1d01a82245fc83ac2381434762dd3a5ae3320b",
+    "test_aggregate.py": "8734bbb55543db263cfab3b7f32fe03755c4595d822ec204cf040bf3b8e0a362",
+    "test_statistics.py": "3274c7d6e082298b0bd197ad1e52729e4d81c8e19496bc5be49fc5757d1004a0"
+  },
+  "case_sampling": "shared deterministic indices for all arms within task and case universe",
+  "S1": "pair model comparisons on same source/anchor/horizon; average within case before cross-case means; report denominators",
+  "S2": "initial forks only for primary; logical aliases retained; candidate count does not increase n; secondary fork separate",
+  "S3": "planner streams and refit models repeated within case; no seed pooling as independent cases",
+  "fixed_refit_mean": "equal mean of all three fixed refits within case; cell requires all three; not an ensemble policy",
+  "history_contrast": "REAL3 minus POLICY on identical source, anchor and horizon with all four models valid in both histories",
+  "source_relation": "own/other descriptive conditioning only; not randomized source effect",
+  "task_margin": "locked original success geometry; anytime over executed post-action states, initial margin reported separately; terminal always separate",
+  "secondary_forks": "fixed20 H0 raw10 visitation/survival conditioned, never pooled with initial100; fixed-horizon invalidity explicitly retained",
+  "PushT_family": "sample families uniformly with replacement, divide weighted episode sum by sampled episode count; all arms share draws",
+  "Reacher_family": "unknown; no fabricated clusters",
+  "interval": "conditional95, pointwise unadjusted; no FWER claim",
+  "near_ties": {
+    "atol": 1e-05,
+    "rtol": 1e-05,
+    "basis": "R3 FP32 replay/cache numerical resolution, frozen before new branch results"
+  },
+  "signed_decomposition": "D_total = D_model_signed + D_goal; negative signed term retained",
+  "missing": "NOT_RUN/MISSING_LOG/NOT_RESTORABLE/INSUFFICIENT_EXECUTED_SUFFIX/TRUE_TERMINATED remain distinct; never zero imputed",
+  "evidence_label": "POST_R3_ATTRIBUTION_SUPPLEMENT_ON_KNOWN_EVALUATION_CASES"
+}

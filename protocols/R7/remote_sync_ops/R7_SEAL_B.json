@@ -1,0 +1,84 @@
+{
+  "common_inputs": [
+    {
+      "bytes": 898,
+      "path": "ops/R7_FORMAL_LAUNCH.json",
+      "sha256": "462dec7279b34d7e2b18a5d9fdba8779668b1b2c2aeaea01357759955c2202eb"
+    },
+    {
+      "bytes": 548782,
+      "path": "ops/R7_REACHER_CASE_SELECTION.json",
+      "sha256": "56d260ab04fdf92f468f013c34903af8580d06fe00203fea07c9811a3d3af79d"
+    },
+    {
+      "bytes": 949244,
+      "path": "ops/R7_PUSHT_CASE_SELECTION.json",
+      "sha256": "41b2ad3623973f884d68f87fe06c4716458b5896f95837b186c2fd1ca58e225f"
+    },
+    {
+      "bytes": 19201,
+      "path": "ops/R7_REACHER_TECH_GATE.json",
+      "sha256": "5a80253cbf4467ffc86a3a17234f3b5585a2b75220d303fd6b7fb21345fdeb4f"
+    },
+    {
+      "bytes": 26903,
+      "path": "ops/R7_PUSHT_TECH_GATE.json",
+      "sha256": "29b158e0a9d44af71b9caed591c6e203e54382af8add8eae92224da0f354b83f"
+    },
+    {
+      "bytes": 2712,
+      "path": "reports/R7_STATS.json",
+      "sha256": "89ce77e9a4997da2cce82036bf68988e34fd39c7507c11f81680f3ba9d42e865"
+    }
+  ],
+  "evidence_label": "DESCRIPTIVE_REFERENCE",
+  "module": "R7_B_RANDOM_ACTION_LOWER_BOUND",
+  "no_result_selection": true,
+  "no_training": true,
+  "raw_files": [
+    {
+      "bytes": 16852,
+      "path": "random/reacher/reacher_RANDOM_RAW_VALUES.csv",
+      "sha256": "724b04fc8c3257407fd0297e7100d09c6a1f03ad9cf009fd114dadd0cfe0f971"
+    },
+    {
+      "bytes": 15652,
+      "path": "random/pusht/pusht_RANDOM_RAW_VALUES.csv",
+      "sha256": "5a96a51b4e3e3dc379cb1ab5759e5102f38f52456867f61e06cba361c3be8eeb"
+    },
+    {
+      "bytes": 16852,
+      "path": "random/tworoom/tworoom_RANDOM_RAW_VALUES.csv",
+      "sha256": "7b73e1f59abbf81d4cb3ea78bf1c2a16c005b2f7cb92271c88371a454fcf55a9"
+    },
+    {
+      "bytes": 15052,
+      "path": "random/cube/cube_RANDOM_RAW_VALUES.csv",
+      "sha256": "9b46c7ca65bb81624ab41e71438406df85fe9a8791485f16a725a9a3eb7e48b4"
+    }
+  ],
+  "remote_originals_retained": true,
+  "reports": [
+    {
+      "bytes": 127,
+      "path": "reports/B_CONCLUSION.txt",
+      "sha256": "163d92a7f36ad98c4e9ab73f567e375c0f0fa499bb407c1ac3922af9517a348d"
+    },
+    {
+      "bytes": 444,
+      "path": "reports/B_MAIN_TABLE.csv",
+      "sha256": "488dbbf35dfa7118e4ba37b366e543fcacd5d9504123fa2e2b326f534610b876"
+    },
+    {
+      "bytes": 64252,
+      "path": "reports/B_RAW_VALUES.csv",
+      "sha256": "375c32a050d7002af622713d88fa3e5cf125ee27dd8919ea83c9fa99a7a6e878"
+    },
+    {
+      "bytes": 477,
+      "path": "ops/R7_B_RAW_MANIFEST.csv",
+      "sha256": "9d2773091cc9a37825e66e427a4fc59e8c81b22aeb9db45bf77c336672311a9d"
+    }
+  ],
+  "status": "SEALED"
+}

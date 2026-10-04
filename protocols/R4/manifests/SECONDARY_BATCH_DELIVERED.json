@@ -1,0 +1,19 @@
+{
+  "status": "SECONDARY_BATCH_DELIVERED",
+  "delivered_utc": "2026-10-03T16:31:04.676801+00:00",
+  "merge": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/secondary/MERGE_STATUS.json",
+    "bytes": 7151,
+    "sha256": "f3c485760c5c2894cab222120ca276f551811d33a499c466fa568c0064c41204"
+  },
+  "primary_output_SHA_unchanged": true,
+  "all_scientific_computation_finished": true,
+  "local_file_recovery_pending": [
+    "X1_CUBE",
+    "X1_TWOROOM_ADDITIONAL_TRAJECTORIES"
+  ],
+  "strict_CPU_recovery_failure": [
+    "X1_TWOROOM"
+  ],
+  "release_gate_must_remain": "HOLD"
+}

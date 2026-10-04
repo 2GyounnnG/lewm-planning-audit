@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-03T19:05:30.138506+00:00",
+  "completed_utc": "2026-10-03T19:05:34.213982+00:00",
+  "original_boundary_sha256": {
+    "r4_v23_execution/SEAL.json": "c86fd600da69ee5b735563527e9456cc2bbd3e998fcda13597628fea87999f29",
+    "r4_v23_execution/RECOVERY_MANIFEST.json": "28f4020a1c4b2433ef7ea5efb5376a115a2b9d8e4542a5518b583e48cd3a96a6",
+    "r4_v23_execution/RELEASE_GATE.json": "572e250ef249766ead4d1d215b5e9b6262a8ae639af2dbf757c9822fc5388622",
+    "r5_execution/ops/INITIAL_STAGE_SEAL.json": "a982abb1fd8d4472b909158f96106bcfec89d1f88756dbd6d946a785db68937e",
+    "r5_execution/ops/INITIAL_STAGE_RECOVERY_MANIFEST.json": "6b86762eb2d260d07a8866b7929711d811d1bccd6269e0c69784db9256830897",
+    "r5_execution/ops/INITIAL_STAGE_DELIVERY_INDEX.json": "3f5c638ba390796b8dc3a2f2729ae2b7ab276a94a3bf03c1aab1bb1aa398f47a"
+  },
+  "checks": {
+    "r4_v23_execution/RECOVERY_MANIFEST.json": {
+      "checked_files": 53730,
+      "recorded_bytes": 1279520356,
+      "differences": []
+    },
+    "r5_execution/ops/INITIAL_STAGE_RECOVERY_MANIFEST.json": {
+      "checked_files": 3120,
+      "recorded_bytes": 1306380300,
+      "differences": []
+    }
+  },
+  "audit_code_sha256": "05d01f09e125c4f837293c71b514ae67a472d5b475317b0f1b440e16e0a70578",
+  "source_files_written": 0,
+  "automatic_repairs": 0,
+  "scope": "All current bytes match original sealed local records; this is not a claim that no historical transient modification ever occurred"
+}

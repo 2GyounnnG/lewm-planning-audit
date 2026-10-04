@@ -1,0 +1,54 @@
+{
+  "as_of_UTC": "2026-10-03T18:27:14.150856+00:00",
+  "time_zone": "Asia/Shanghai",
+  "scientific_modules": {
+    "C1": "DELIVERED_SEALED",
+    "H1a": "DELIVERED_INHERITED_CPU_HOLD",
+    "H1b": "DELIVERED_SEALED_ADDENDUM_SEPARATE",
+    "H2": "DELIVERED_RECOVERY_RUNNING",
+    "C2": {
+      "status": "TECHNICAL_STOP_PENDING_DIAGNOSIS",
+      "completed": 280,
+      "target": 800,
+      "ETA": null
+    },
+    "H3X": {
+      "formal_start_UTC": "2026-10-03T17:54:41.332+00:00",
+      "last_snapshot_UTC": "2026-10-03T18:10:04.153081+00:00",
+      "updates_per_seed": [
+        12568,
+        12301,
+        12442
+      ],
+      "target_updates_each": 30000,
+      "mandatory_closed_loop_trajectories_after_training": 900
+    }
+  },
+  "network_observation": {
+    "source": "H2 real end-to-end archive transfer",
+    "as_of_UTC": "2026-10-03T18:12:15+00:00",
+    "received_MB": 61.13,
+    "target_MB": 351.16,
+    "elapsed_seconds": 312.45,
+    "MB_per_second": 0.196,
+    "concurrent_independent_connections_test_pending": true
+  },
+  "estimated_scientific_all_results_China": "C2 ETA withdrawn pending technical diagnosis; H3X existing estimate unchanged",
+  "estimated_all_recovery_seal_China": "Provisional; constrained by network transfer and C2 diagnosis",
+  "uncertainties": [
+    "Three-seed training end and real formal H3X closed-loop throughput",
+    "Aggregate transport bandwidth for H2/C2/H3X archives sharing the same host",
+    "CPU recovery verification and possible tolerance failures; original tolerances will not change"
+  ],
+  "manual_instance_release_recommended": false,
+  "automatic_rental": false,
+  "automatic_destroy": false,
+  "updated_utc": "2026-10-03T18:54:17.235309+00:00",
+  "scientific_jobs_finished": true,
+  "C2_status": "TECHNICALLY_UNEVALUABLE",
+  "recovery_and_final_seal_estimate_China": [
+    "2026-10-04T03:15:00+08:00",
+    "2026-10-04T03:30:00+08:00"
+  ],
+  "estimate_basis": "Observed sequential download throughput0.2–0.25MB/s; remaining final weight,H2last52.58MB,H3Xnumeric133MB+metadata8.66MB,C2partial280 compact pending size. CPU checks overlap downloads."
+}

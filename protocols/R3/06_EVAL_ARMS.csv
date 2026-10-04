@@ -1,0 +1,9 @@
+arm_id,task,environment,weights_source,max_cases,goal_offset_raw,eval_budget_raw,cem_num_samples,cem_iterations,cem_topk,planner_seed_policy,status
+R3_pusht_H0,pusht,swm/PushT-v1,quentinll/lewm-pusht,100,25,50,300,30,30,same_per_task_case_replan_index_across_arms,PLANNED_NOT_EXECUTED
+R3_pusht_REFIT_s103201_fixed30000,pusht,swm/PushT-v1,R3/pusht/REFIT_s103201_fixed30000,100,25,50,300,30,30,same_per_task_case_replan_index_across_arms,PLANNED_NOT_EXECUTED
+R3_pusht_REFIT_s103202_fixed30000,pusht,swm/PushT-v1,R3/pusht/REFIT_s103202_fixed30000,100,25,50,300,30,30,same_per_task_case_replan_index_across_arms,PLANNED_NOT_EXECUTED
+R3_pusht_REFIT_s103203_fixed30000,pusht,swm/PushT-v1,R3/pusht/REFIT_s103203_fixed30000,100,25,50,300,30,30,same_per_task_case_replan_index_across_arms,PLANNED_NOT_EXECUTED
+R3_reacher_H0,reacher,swm/ReacherDMControl-v0,quentinll/lewm-reacher,100,25,50,300,30,30,same_per_task_case_replan_index_across_arms,PLANNED_NOT_EXECUTED
+R3_reacher_REFIT_s103201_fixed30000,reacher,swm/ReacherDMControl-v0,R3/reacher/REFIT_s103201_fixed30000,100,25,50,300,30,30,same_per_task_case_replan_index_across_arms,PLANNED_NOT_EXECUTED
+R3_reacher_REFIT_s103202_fixed30000,reacher,swm/ReacherDMControl-v0,R3/reacher/REFIT_s103202_fixed30000,100,25,50,300,30,30,same_per_task_case_replan_index_across_arms,PLANNED_NOT_EXECUTED
+R3_reacher_REFIT_s103203_fixed30000,reacher,swm/ReacherDMControl-v0,R3/reacher/REFIT_s103203_fixed30000,100,25,50,300,30,30,same_per_task_case_replan_index_across_arms,PLANNED_NOT_EXECUTED

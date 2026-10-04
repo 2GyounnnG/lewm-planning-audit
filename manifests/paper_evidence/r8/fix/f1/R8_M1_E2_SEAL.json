@@ -1,0 +1,27 @@
+{
+  "version": "R8_FIX_F1_SEAL_V1",
+  "evidence_label": "R8_FIX_F1_CORRECTED_E2",
+  "files": [
+    {
+      "path": "/workspace/r8_fix/f1/R8_M1_E2_CASE_VALUES.csv",
+      "bytes": 18936,
+      "sha256": "27cbccd235b7a9918f0d639737f92e411f93a69696a4661e17294883ba28143f"
+    },
+    {
+      "path": "/workspace/r8_fix/f1/R8_M1_E2_CONCLUSION_ZH.txt",
+      "bytes": 492,
+      "sha256": "6fb3d67bebf870699ddc1cacb4048f5ba47a4b1f1b17062d2af0f9d4f3bc704d"
+    },
+    {
+      "path": "/workspace/r8_fix/f1/R8_M1_E2_CORRECTED_TABLE.csv",
+      "bytes": 1770,
+      "sha256": "b538a12db542669051a465a9d50fe0507a7f4bc8861296cdf5c13b22c5812a36"
+    },
+    {
+      "path": "/workspace/r8_fix/f1/R8_M1_E2_RECEIPT.json",
+      "bytes": 4004,
+      "sha256": "e8eaae1b642ab370035ffaa9886dbe7ffb05ea6d09e91d51c9611a8d47935412"
+    }
+  ],
+  "source_files_untouched": true
+}

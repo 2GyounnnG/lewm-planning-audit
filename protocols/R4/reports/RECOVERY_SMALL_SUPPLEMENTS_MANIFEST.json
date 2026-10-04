@@ -1,0 +1,50 @@
+{
+  "version": "R4_V23_RECOVERY_SMALL_SUPPLEMENTS_V1",
+  "status": "COMPLETE",
+  "noninferential_only": true,
+  "files": {
+    "r4/reports/remote_pusht_source_stop_flags/S1_SOURCE_STOP_FLAGS_RAW.csv": {
+      "bytes": 103985,
+      "sha256": "22fd883744a41d76f8e35940107ba092dfb04302a42aabe808d1ed1b105d3fb2"
+    },
+    "r4/reports/remote_pusht_source_stop_flags/S1_SOURCE_STOP_FLAGS_COMPLETE.json": {
+      "bytes": 858,
+      "sha256": "c0c4dd527efcbc9dcd0e50a1d899d82f097732d8479db61fe13f5e71ab5243f6"
+    },
+    "tables/recovery/pusht_first_h0/RECOVERED_S1_CPU_RAW.csv": {
+      "bytes": 81518,
+      "sha256": "e76c1599237ca8425ef8b57b992502944d8f9b505f6374c0873b2883fbddec61"
+    },
+    "tables/recovery/pusht_first_h0/RECOVERY_CHECK.json": {
+      "bytes": 4184,
+      "sha256": "2d78c2103006adf6a8eaa4368844c83e1c8a0bd12bbbdcd434952188c9a7fa92"
+    },
+    "r4/reports/remote_reacher_source_stop_flags/S1_SOURCE_STOP_FLAGS_RAW.csv": {
+      "bytes": 105068,
+      "sha256": "fdabd3a961f52d690bf4afc18d5f6a2c01df9abd46dc7990b24c892b9278af9e"
+    },
+    "r4/reports/remote_reacher_source_stop_flags/S1_SOURCE_STOP_FLAGS_COMPLETE.json": {
+      "bytes": 858,
+      "sha256": "b06d342af7e114f711a1f55ee318f9418b6c88ee32dcf5951189534519227376"
+    },
+    "tables/recovery/reacher_first_h0/RECOVERED_S1_CPU_RAW.csv": {
+      "bytes": 85918,
+      "sha256": "9dc1e09f318ae24b3e2492996d2e0f785c6319a51bf1aa0a2f1566a399354ca1"
+    },
+    "tables/recovery/reacher_first_h0/RECOVERY_CHECK.json": {
+      "bytes": 4199,
+      "sha256": "5e1ef6c376665aa765e09454ff6b91068dfe39d7fcbe1c728dcd0daced62a611"
+    },
+    "r4/reports/remote_reacher_s2_reproduction_final/S2_INITIAL_CEM_REPRODUCTION_FINAL.json": {
+      "bytes": 95,
+      "sha256": "e2f1760633e5ac788783ca9f95a7e7219affad4e6a56e50566c7bb73fdaabcbe"
+    },
+    "r4/reports/remote_reacher_s2_reproduction_final/S2_INITIAL_CEM_REPRODUCTION_FINAL_RAW.csv": {
+      "bytes": 83559,
+      "sha256": "36a5375a543e9c9ed864a752aa8522a88154b364611225db2d11f35f8bae6ec5"
+    }
+  },
+  "original_scoring_unchanged": true,
+  "new_simulator_steps": 0,
+  "optimizer_updates": 0
+}

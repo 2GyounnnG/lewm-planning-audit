@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "tasks": [
+    "tworoom"
+  ],
+  "raw_rows": 2000,
+  "main_rows": 20,
+  "case_coverage_verified": true,
+  "observed_and_derived_rows_distinguished": true,
+  "within_case_and_main_arithmetic_verified": true,
+  "inputs": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_MAIN/MAIN_TABLE.csv",
+      "bytes": 4484,
+      "sha256": "771338d8235b13f92fbff1f9f5be2f73554373e3f2e702907a565de19a183017"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_MAIN/ALL_RAW_VALUES.csv",
+      "bytes": 406390,
+      "sha256": "920acc2a1097244687fbcebd82d9fa0d78edf7c4edf0125516ee4460cde37148"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_MAIN/MODULE_STATUS.json",
+      "bytes": 3467,
+      "sha256": "df017b7b7ddb44d93e112affec8f64d6464ce6405878559b01c0f860e9fbc233"
+    }
+  ]
+}

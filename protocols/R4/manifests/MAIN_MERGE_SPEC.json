@@ -1,0 +1,238 @@
+{
+  "protocol": "R4-v2.3",
+  "purpose": "LOSSLESS_MAIN_RESULTS_MERGE_AFTER_ALL_REQUIRED_MAIN_MODULES",
+  "requirements": [
+    {
+      "name": "r3",
+      "status_file": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/manifests/main_validation/r3.json",
+      "allowed_technical_statuses": []
+    },
+    {
+      "name": "tworoom",
+      "status_file": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/manifests/main_validation/tworoom.json",
+      "allowed_technical_statuses": []
+    },
+    {
+      "name": "cube",
+      "status_file": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/manifests/main_validation/cube.json",
+      "allowed_technical_statuses": [
+        "COMPLETE_WITH_TECHNICAL_LIMITATIONS"
+      ]
+    },
+    {
+      "name": "x2",
+      "status_file": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/manifests/main_validation/x2.json",
+      "allowed_technical_statuses": []
+    },
+    {
+      "name": "r4_pusht_main",
+      "status_file": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/manifests/main_validation/r4_pusht_main.json",
+      "allowed_technical_statuses": []
+    },
+    {
+      "name": "r4_reacher_main",
+      "status_file": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/manifests/main_validation/r4_reacher_main.json",
+      "allowed_technical_statuses": [
+        "COMPLETE_WITH_TECHNICAL_LIMITATIONS"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "name": "FOUR_TASK_MAIN_TABLE.csv",
+      "sources": [
+        {
+          "label": "ORIGINAL_R3_UNCHANGED",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r3_reference/MAIN_TABLE.csv"
+        },
+        {
+          "label": "X1_TWOROOM",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/x1/reports/tworoom_MAIN/MAIN_TABLE.csv"
+        },
+        {
+          "label": "X1_CUBE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/x1/reports/cube_MAIN/MAIN_TABLE.csv"
+        }
+      ]
+    },
+    {
+      "name": "FOUR_TASK_ALL_RAW_VALUES.csv",
+      "sources": [
+        {
+          "label": "ORIGINAL_R3_UNCHANGED",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r3_reference/ALL_RAW_VALUES.csv"
+        },
+        {
+          "label": "X1_TWOROOM",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/x1/reports/tworoom_MAIN/ALL_RAW_VALUES.csv"
+        },
+        {
+          "label": "X1_CUBE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/x1/reports/cube_MAIN/ALL_RAW_VALUES.csv"
+        }
+      ]
+    },
+    {
+      "name": "PLANNING_RANDOMNESS_TABLE.csv",
+      "sources": [
+        {
+          "label": "R4_PUSHT",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s3/PLANNING_RANDOMNESS_TABLE.csv"
+        },
+        {
+          "label": "R4_REACHER",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s3/PLANNING_RANDOMNESS_TABLE.csv"
+        }
+      ]
+    },
+    {
+      "name": "R4_ATTRIBUTION_TABLE.csv",
+      "sources": [
+        {
+          "label": "R4_PUSHT_S1_OFFLINE_S1_MAIN_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s1_offline/S1_MAIN_TABLE.csv"
+        },
+        {
+          "label": "R4_PUSHT_S1_CROSS_S1_MAIN_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s1_cross/S1_MAIN_TABLE.csv"
+        },
+        {
+          "label": "R4_PUSHT_S1_CROSS_S1_HISTORY_PAIRED_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s1_cross/S1_HISTORY_PAIRED_TABLE.csv"
+        },
+        {
+          "label": "R4_PUSHT_S1_CROSS_S1_SOURCE_RELATION_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s1_cross/S1_SOURCE_RELATION_TABLE.csv"
+        },
+        {
+          "label": "R4_PUSHT_S2_S2_MAIN_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s2/S2_MAIN_TABLE.csv"
+        },
+        {
+          "label": "R4_PUSHT_S3_S3_LEARNING_MAIN_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s3/S3_LEARNING_MAIN_TABLE.csv"
+        },
+        {
+          "label": "R4_PUSHT_S3_S3_MENU_INTERVENTIONS",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s3/S3_MENU_INTERVENTIONS.csv"
+        },
+        {
+          "label": "R4_PUSHT_S3_S3_MARGIN_AND_RESOURCE_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s3/S3_MARGIN_AND_RESOURCE_TABLE.csv"
+        },
+        {
+          "label": "R4_REACHER_S1_OFFLINE_S1_MAIN_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s1_offline/S1_MAIN_TABLE.csv"
+        },
+        {
+          "label": "R4_REACHER_S1_CROSS_S1_MAIN_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s1_cross/S1_MAIN_TABLE.csv"
+        },
+        {
+          "label": "R4_REACHER_S1_CROSS_S1_HISTORY_PAIRED_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s1_cross/S1_HISTORY_PAIRED_TABLE.csv"
+        },
+        {
+          "label": "R4_REACHER_S1_CROSS_S1_SOURCE_RELATION_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s1_cross/S1_SOURCE_RELATION_TABLE.csv"
+        },
+        {
+          "label": "R4_REACHER_S2_S2_MAIN_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s2/S2_MAIN_TABLE.csv"
+        },
+        {
+          "label": "R4_REACHER_S3_S3_LEARNING_MAIN_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s3/S3_LEARNING_MAIN_TABLE.csv"
+        },
+        {
+          "label": "R4_REACHER_S3_S3_MENU_INTERVENTIONS",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s3/S3_MENU_INTERVENTIONS.csv"
+        },
+        {
+          "label": "R4_REACHER_S3_S3_MARGIN_AND_RESOURCE_TABLE",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s3/S3_MARGIN_AND_RESOURCE_TABLE.csv"
+        },
+        {
+          "label": "R4_EXPLICIT_TECHNICAL_LIMITATIONS",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/R4_TECHNICAL_LIMITATIONS.csv"
+        }
+      ]
+    },
+    {
+      "name": "R4_S2_COVERAGE.csv",
+      "sources": [
+        {
+          "label": "R4_PUSHT",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s2/S2_CANDIDATE_COVERAGE.csv"
+        },
+        {
+          "label": "R4_REACHER",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s2/S2_CANDIDATE_COVERAGE.csv"
+        }
+      ]
+    },
+    {
+      "name": "R4_S2_ALL_CANDIDATE_RAW.csv",
+      "sources": [
+        {
+          "label": "R4_PUSHT",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s2/S2_ALL_CANDIDATE_RAW.csv"
+        },
+        {
+          "label": "R4_REACHER",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s2/S2_ALL_CANDIDATE_RAW.csv"
+        }
+      ]
+    },
+    {
+      "name": "R4_S3_ALL_RAW_VALUES.csv",
+      "sources": [
+        {
+          "label": "R4_PUSHT",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_pusht/s3/S3_ALL_RAW_VALUES.csv"
+        },
+        {
+          "label": "R4_REACHER",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/tables/r4_reacher/s3/S3_ALL_RAW_VALUES.csv"
+        }
+      ]
+    },
+    {
+      "name": "X2_TABLE.csv",
+      "sources": [
+        {
+          "label": "X2_ALL324_FROZEN_E0",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/x2/reports/X2_FOUR_ARM_MAIN_TABLE.csv"
+        }
+      ]
+    },
+    {
+      "name": "X2_ALL_HEADS_TABLE.csv",
+      "sources": [
+        {
+          "label": "X2_ALL324_FROZEN_E0",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/x2/reports/X2_MAIN_TABLE.csv"
+        }
+      ]
+    },
+    {
+      "name": "X2_ALL_RAW_VALUES.csv",
+      "sources": [
+        {
+          "label": "X2_ALL324_FROZEN_E0",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/x2/reports/X2_ALL_RAW_VALUES.csv"
+        }
+      ]
+    },
+    {
+      "name": "X2_SCOPE_DIFFERENCES.csv",
+      "sources": [
+        {
+          "label": "X2_ALL324_FROZEN_E0",
+          "path": "/Users/richwang/Documents/ChatGPT/\u70ed/r4_v23_execution/x2/reports/X2_SCOPE_DIFFERENCES.csv"
+        }
+      ]
+    }
+  ],
+  "interval_interpretation": "Source intervals preserved. Pointwise conditional95; no four-task FWER claim. No cross-task pooling or DEV best-head selection."
+}

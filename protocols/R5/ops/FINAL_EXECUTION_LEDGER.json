@@ -1,0 +1,79 @@
+{
+  "version": "R5_CONTINUATION_FINAL_LEDGER_V1",
+  "assembled_utc": "2026-10-03T19:28:13.562123+00:00",
+  "user_authorization": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/CONTINUATION_AUTHORIZATION_V1.json",
+    "bytes": 3200,
+    "sha256": "357fc43fa8306b2eaf85f89468887e5f6296906feaf3b3a48a50a957026011d1"
+  },
+  "primary_root": "/workspace/r5",
+  "formal_new_closed_trajectories": {
+    "C1": 400,
+    "H2_reacher": 1200,
+    "H2_pusht": 1200,
+    "H3X": 900,
+    "C2": 280
+  },
+  "formal_new_closed_total": 3980,
+  "C2_expected": 800,
+  "C2_missing": 520,
+  "C2_missing_counted_as_failures": false,
+  "C2_partial_used_for_inference": false,
+  "new_world_model_training": {
+    "H3X_formal": 90000,
+    "H3X_TECH": 101,
+    "total": 90101,
+    "trainable_modules": [
+      "predictor",
+      "pred_proj"
+    ],
+    "other_modules_updates": 0,
+    "three_seeds": [
+      103201,
+      103202,
+      103203
+    ],
+    "final_steps_each": 30000,
+    "result_based_checkpoint_or_seed_selection": false
+  },
+  "H1b_measurement_probe_fitting": {
+    "formal_updates": 187200,
+    "TECH_updates": 200,
+    "total_updates": 187400,
+    "is_world_model_training": false,
+    "enters_planning_or_closed_loop": false,
+    "authorization_recorded_in_initial_ledger": true
+  },
+  "preset_H3": "NOT_TRIGGERED_TRIGGER_QUANTITY_NOT_DISCRIMINATIVE",
+  "H3X_label": "H3X_EXPLORATORY_AFTER_TRIGGER_DEFECT",
+  "strict_CPU_acceptance_failures": [
+    {
+      "module": "H1a",
+      "outliers": 12,
+      "denominator_coordinates": 1536000
+    },
+    {
+      "module": "H2_reacher",
+      "outliers": 3,
+      "denominator_candidate_costs": 1200
+    }
+  ],
+  "release_gate": "HOLD",
+  "all_original_pixels_local": false,
+  "original_remote_files_retained": true,
+  "R4_and_initial_R5_seals_unchanged": true,
+  "automatic_rental": false,
+  "automatic_destroy": false,
+  "known_science_jobs_naturally_finished": true,
+  "compute_snapshot": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/FINAL_COMPUTE_STATE.json",
+    "bytes": 342,
+    "sha256": "c93662ea84debc24cc7f676f764c2ed3081dbc518a75d4202825b061ba67dd8e"
+  },
+  "C2_attempts": "Initial run and one unchanged native resume failed at the same bitwise initial-render gate before CEM/actions; no second resume; section6 technical downgrade; cause unproven.",
+  "technical_closed_trajectories": {
+    "C1": 4,
+    "H3X": 1
+  },
+  "scope": "Continuation ledger; does not modify or replace the sealed initial-stage ledger. Module contracts/receipts contain complete technical diagnostics."
+}

@@ -1,0 +1,69 @@
+{
+  "common_inputs": [
+    {
+      "bytes": 898,
+      "path": "ops/R7_FORMAL_LAUNCH.json",
+      "sha256": "462dec7279b34d7e2b18a5d9fdba8779668b1b2c2aeaea01357759955c2202eb"
+    },
+    {
+      "bytes": 548782,
+      "path": "ops/R7_REACHER_CASE_SELECTION.json",
+      "sha256": "56d260ab04fdf92f468f013c34903af8580d06fe00203fea07c9811a3d3af79d"
+    },
+    {
+      "bytes": 949244,
+      "path": "ops/R7_PUSHT_CASE_SELECTION.json",
+      "sha256": "41b2ad3623973f884d68f87fe06c4716458b5896f95837b186c2fd1ca58e225f"
+    },
+    {
+      "bytes": 19201,
+      "path": "ops/R7_REACHER_TECH_GATE.json",
+      "sha256": "5a80253cbf4467ffc86a3a17234f3b5585a2b75220d303fd6b7fb21345fdeb4f"
+    },
+    {
+      "bytes": 26903,
+      "path": "ops/R7_PUSHT_TECH_GATE.json",
+      "sha256": "29b158e0a9d44af71b9caed591c6e203e54382af8add8eae92224da0f354b83f"
+    },
+    {
+      "bytes": 2712,
+      "path": "reports/R7_STATS.json",
+      "sha256": "89ce77e9a4997da2cce82036bf68988e34fd39c7507c11f81680f3ba9d42e865"
+    }
+  ],
+  "evidence_label": "PREREGISTERED_STRESS_TEST_FRESH_CASES",
+  "formal_result_count": 4800,
+  "module": "R7_A_LONG_HORIZON",
+  "no_result_selection": true,
+  "no_training": true,
+  "remote_originals_retained": true,
+  "reports": [
+    {
+      "bytes": 538,
+      "path": "reports/A_CONCLUSION.txt",
+      "sha256": "4970f7ad907176c2326488b6b68b296759ce9ed135b2bd7635ca737ffe457cf8"
+    },
+    {
+      "bytes": 387,
+      "path": "reports/A_MAIN_TABLE.csv",
+      "sha256": "f402785d7b3159b2b9010df8cda405426a15a2ca96c134940f171fbcc7e80bd2"
+    },
+    {
+      "bytes": 712165,
+      "path": "reports/A_RAW_VALUES.csv",
+      "sha256": "9eb928b5b00105a0e0653dea2a5e289a80abfd2c22f8f0d313562b208ad40350"
+    },
+    {
+      "bytes": 2201,
+      "path": "reports/A_SECONDARY_TABLE.csv",
+      "sha256": "47c0ee0056a91c59b263846f481cec2d5330f7e98c97d597affda30fc3fdd61c"
+    },
+    {
+      "bytes": 1665369,
+      "path": "ops/R7_A_RAW_MANIFEST.csv",
+      "sha256": "fbc1c0947b679c7f4931ff7c0a58bece72ee3ad4cfa489d055e42313f87c5fcf"
+    }
+  ],
+  "status": "SEALED",
+  "trajectory_count": 4800
+}

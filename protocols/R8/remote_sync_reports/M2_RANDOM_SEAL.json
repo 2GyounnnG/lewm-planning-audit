@@ -1,0 +1,32 @@
+{
+  "module": "M2_RANDOM",
+  "status": "SEALED",
+  "files": [
+    {
+      "path": "raw/M2_RANDOM_REACHER_RAW_VALUES.csv",
+      "bytes": 16852,
+      "sha256": "4143b154247da4307c590ecd0a130d000df9f58ff4891650d4018d2165bc2175"
+    },
+    {
+      "path": "raw/M2_RANDOM_PUSHT_RAW_VALUES.csv",
+      "bytes": 15652,
+      "sha256": "660558561fa4eaf6be6ab7de4b10361b897d0b3d991674198e59d454d152ae0a"
+    },
+    {
+      "path": "raw/M2/random/cube_RANDOM_RAW_VALUES.csv",
+      "bytes": 23124,
+      "sha256": "7e377174960c88c38713efa4985addb5ee0400395ba67d262309c6a1a597e352"
+    },
+    {
+      "path": "raw/M2/random/tworoom_RANDOM_RAW_VALUES.csv",
+      "bytes": 25818,
+      "sha256": "8fbdacdcdb7c51daf2a69ed3eeb666aa121c8b5e01b227c376699b5f97580f87"
+    }
+  ],
+  "rows_each": 300,
+  "seeds": [
+    7001,
+    7002,
+    7003
+  ]
+}

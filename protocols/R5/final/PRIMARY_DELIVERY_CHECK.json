@@ -1,0 +1,113 @@
+{
+  "status": "PASS_FINAL_PRIMARY_DELIVERY",
+  "utc": "2026-10-03T19:33:57.139488+00:00",
+  "primary_root": "/workspace/r5",
+  "archive": {
+    "path": "/workspace/r5/ops/FINAL_CONTINUATION_DELIVERY_V2.tar.gz",
+    "bytes": 1518884,
+    "sha256": "69290dbf92075cf98873377842139fbf2a0f2a95f7813e21db1565afc09a9908"
+  },
+  "files_verified": {
+    "CONTINUATION_DELIVERY_INDEX.json": {
+      "bytes": 18494,
+      "sha256": "9ba2f857b3ec4063bd96cccc21454210b681fcf89b945df116bc38864d2f314c"
+    },
+    "LOCAL_RECOMPUTATION_GUIDE.txt": {
+      "bytes": 1255,
+      "sha256": "1ba2651f19ad902470dcf3c89f3744a79a38818c8aa410f8c6945bac06da8444"
+    },
+    "recompute_final_tables.py": {
+      "bytes": 3981,
+      "sha256": "a8d6877e2dc144d19d4836f9e254a20171b0838f55245348179a2bdb57a0d4e9"
+    },
+    "ops/CONTINUATION_ETA_PROFILE.json": {
+      "bytes": 821,
+      "sha256": "2a3cb1b6dfaefdc141c522ddd39d9f848dc6488c23f42b4720a90d78b33cac9c"
+    },
+    "ops/CONTINUATION_PROGRESS_EVENTS.jsonl": {
+      "bytes": 6741,
+      "sha256": "919b9c95e97dab2dc8a021ffaaf276c2fb6fc6c8dad3fab0daf54fd2649450e1"
+    },
+    "ops/FINAL_EXECUTION_LEDGER.json": {
+      "bytes": 2573,
+      "sha256": "612420e50da82798152ab2ce6f635ff0e527f1cc674bed01e67d63710ee03edd"
+    },
+    "ops/FINAL_COMPONENT_QUIESCENCE.json": {
+      "bytes": 1534,
+      "sha256": "bf09ab47130765e5f3d7cdb264a12c0c63509efb7210974f5a9f1d65e441a5ee"
+    },
+    "ops/FINAL_CONTINUATION_CONFIG.json": {
+      "bytes": 10763,
+      "sha256": "7ac3784d21de5b80f97924dcf7ed6b2b5e5fd8f2571b867afd7169ae7736b1fa"
+    },
+    "ops/FINAL_LOCAL_SEALED_BOUNDARY_CHECK.json": {
+      "bytes": 1479,
+      "sha256": "aae7a14d0f32c0c4ac9b0fc480dbe2d609f79d3c2e8e7f52ba00735224b3befb"
+    },
+    "ops/FINAL_PRIMARY_INITIAL_BOUNDARY_CHECK.json": {
+      "bytes": 757,
+      "sha256": "8e8142a3cc443fc94f82fb1891ab1f9938190423f818d82ea215b3c424cf9c3c"
+    },
+    "ops/FINAL_COMPUTE_STATE.json": {
+      "bytes": 342,
+      "sha256": "c93662ea84debc24cc7f676f764c2ed3081dbc518a75d4202825b061ba67dd8e"
+    },
+    "ops/validate_component_seals.py": {
+      "bytes": 10398,
+      "sha256": "e3b364ef96a527f63f4ce756c3ab72316a3c3bd6e61140bf419700b5e7ee8f5a"
+    },
+    "ops/seal_continuation_final.py": {
+      "bytes": 10360,
+      "sha256": "833ce4894cebe80b3d21c504c6339dd40e3bce3b53f4fc3256a7186ce70688c3"
+    },
+    "ops/merge_r5_final.py": {
+      "bytes": 8409,
+      "sha256": "3e0c0aff987f9cd51de82dd9f5ae4d43f2f0699b40d6864e611d334828d986b4"
+    },
+    "ops/check_c2_degraded.py": {
+      "bytes": 7096,
+      "sha256": "7ea4868c09bd15a1e90bc663651a30087d5e25f5d024d6bcdabe1fd9ae37ec69"
+    },
+    "ops/check_h3x_tables.py": {
+      "bytes": 6373,
+      "sha256": "fed765474ddb913fe9b15dcd551d679fea2eff02711b46135c9466a6db87a658"
+    },
+    "final/RECOVERY_MANIFEST.json": {
+      "bytes": 10309544,
+      "sha256": "0331fd995ec90e0a2c1956267c57efd423e9cc641a896664705427c2bfe37b8a"
+    },
+    "final/RELEASE_GATE.json": {
+      "bytes": 10413,
+      "sha256": "b5b6a6511442d54598c428493760abb3abdafa9afe179f7ad6f265d4a3e6b252"
+    },
+    "final/SEAL.json": {
+      "bytes": 8331,
+      "sha256": "d6a6b3a4d41fe27fc19e7e53eb787f5133724540432a8e3f1bebc76aa1f24810"
+    }
+  },
+  "component_and_R4_anchor_files_verified": {
+    "/workspace/r5/INITIAL_STAGE_SEAL.json": "a982abb1fd8d4472b909158f96106bcfec89d1f88756dbd6d946a785db68937e",
+    "/workspace/r5/C1/RECOVERY_SEAL.json": "0a46038f8255c1b3db6dae5bca6fec5b11a69e00316563e516770c0a55e49ba6",
+    "/workspace/r5/H2/reacher/RECOVERY_SEAL.json": "13af619f8b7ea1aea67ce1c6dddc1c9acc5ccc7b52e37a8265081becf5300c2e",
+    "/workspace/r5/H2/pusht/RECOVERY_SEAL.json": "f0b11928aa141085d944c273a58cb6fe3dacd0343f5ab3e335aede5b1f96205f",
+    "/workspace/r5/H3X/H3X_RECOVERY_SEAL.json": "2c3222c1652e02642435897b6e494ae5bf4f40a5e2aee41b300569fd2a7d2b3c",
+    "/workspace/r5/C2/RECOVERY_SEAL.json": "bbd22e956cf346bfe2a2d740596aebace1c6bec90a20e8525df942400635f0a6"
+  },
+  "root_seal_sha256": "d6a6b3a4d41fe27fc19e7e53eb787f5133724540432a8e3f1bebc76aa1f24810",
+  "local_manifest_file_count": 33324,
+  "primary_coverage_scope": "Final19rootfiles and6componentseal anchors; component receipts separately document their primary/local coverage. This does not claim all33324local paths exist under identical primary paths.",
+  "R4_primary_root_seal_check": {
+    "status": "NOT_CLAIMED",
+    "reason": "First mirror preflight incorrectly assumed /workspace/r4_v23_execution/SEAL.json exists; it stopped before extraction. R4 local root anchors and all53730 sealed local records were verified by FINAL_LOCAL_SEALED_BOUNDARY_CHECK; primary initial R5 and its referenced R4 dependencies were separately checked against2880 original required-file records. No R4 file is copied or written."
+  },
+  "H2_scope_wording_clarification": {
+    "actual_planning_RGB_frames_checked": 4725,
+    "goal_RGB_retained_additionally": true,
+    "sealed_component_sources_unchanged": true
+  },
+  "release_gate": "HOLD",
+  "automatic_destroy": false,
+  "automatic_rental": false,
+  "R4_files_written": 0,
+  "initial_R5_files_written": 0
+}

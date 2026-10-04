@@ -1,0 +1,11 @@
+{
+  "archive": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/FINAL_TABLES_V2.tar.gz",
+    "bytes": 1022917,
+    "sha256": "7da7158f66f7c374c4ae9d85af2759ab8805aceb9d14b7b649e3fcdad048283f"
+  },
+  "tables": 11,
+  "rows": 12675,
+  "status": "VERIFIED_PACKAGE_READY",
+  "independent_merge_check_sha256": "3c9f912eb6f8364aa5c74de1f557d6d526e9837e165fac5b79a2536e03ee8e68"
+}

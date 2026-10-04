@@ -1,0 +1,78 @@
+{
+  "status": "MAIN_BATCH_DELIVERED",
+  "delivered_utc": "2026-10-03T16:12:34.421195+00:00",
+  "merge": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/MERGE_STATUS.json",
+    "bytes": 13734,
+    "sha256": "cb561438b58e911e993b93c774d268c20a5c30ee0a3a361a3d6bed97ee5da907"
+  },
+  "main_outputs": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/FOUR_TASK_MAIN_TABLE.csv",
+      "bytes": 23890,
+      "sha256": "15215fe73f950d3a87589f0ab7ff0e7ee03117f469d8ffdc94f89100c2c99404",
+      "rows": 80
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/FOUR_TASK_ALL_RAW_VALUES.csv",
+      "bytes": 2548047,
+      "sha256": "906711356b8ea271cbf52dcfb3d9ddbfbaae0f6103a63fd90384502ce15a1712",
+      "rows": 8000
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/PLANNING_RANDOMNESS_TABLE.csv",
+      "bytes": 6375,
+      "sha256": "3a712d1df835a6b7019c08ac98505e88ea26fa4aadf846cb45f31161fb68b213",
+      "rows": 24
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/R4_ATTRIBUTION_TABLE.csv",
+      "bytes": 379411,
+      "sha256": "5aa52d6c1435b495664e7c5a17654547363460a7877ee4cd525c9e03c2b4138c",
+      "rows": 1149
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/R4_S2_COVERAGE.csv",
+      "bytes": 54294,
+      "sha256": "cd09057d036d214d37e66615031c842623b8d0d1aaa84061a1cb061f7b1ed58f",
+      "rows": 200
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/R4_S2_ALL_CANDIDATE_RAW.csv",
+      "bytes": 9000582,
+      "sha256": "c8fd3d82aa137962cfc267024b882a2da8c8841e8f5fc85d132bb2f4216545af",
+      "rows": 12800
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/R4_S3_ALL_RAW_VALUES.csv",
+      "bytes": 742338,
+      "sha256": "c8cc2544b40572a97c4756d03f3432d4b97a45bb128977ecbc51260ed9efad34",
+      "rows": 2640
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/X2_TABLE.csv",
+      "bytes": 213685,
+      "sha256": "4cb0aff8a8f2a4415435960cce7b7558dfa5bb70add98a2e58412a2d63675c33",
+      "rows": 1296
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/X2_ALL_HEADS_TABLE.csv",
+      "bytes": 636303,
+      "sha256": "67aef7f6bdccbd8362cedd42a22da434b10f70d279632bae58e4a1717a8e81fc",
+      "rows": 3888
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/X2_ALL_RAW_VALUES.csv",
+      "bytes": 3170435,
+      "sha256": "97e86afcfaeba6663ff87e38917d35c6151266fb1f25a0a615c034521f8a17a7",
+      "rows": 11664
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/main/X2_SCOPE_DIFFERENCES.csv",
+      "bytes": 1810395,
+      "sha256": "2b808af45e02759f0f6b6bbe4976fa7f0d6e6e88473d6db211f549d04ef503da",
+      "rows": 10368
+    }
+  ],
+  "allows": "Only protocol second-batch modules: S2 middle fixed20 and conditionally eligible X1 extra streams; SIM_CEM estimate gate enforced."
+}

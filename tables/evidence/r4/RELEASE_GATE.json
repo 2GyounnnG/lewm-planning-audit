@@ -1,0 +1,59 @@
+{
+  "status": "HOLD_CPU_RECOVERY_TOLERANCE_FAILURE",
+  "scientific_delivery_complete": true,
+  "required_local_file_recovery_complete": true,
+  "all_frozen_CPU_acceptance_gates_passed": false,
+  "instance_release_ready": false,
+  "strict_CPU_acceptance_failures": [
+    {
+      "task": "tworoom",
+      "receipt": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/recovery/tworoom/RECOVERY_SEAL.json",
+        "bytes": 795745,
+        "sha256": "a5e98d9de1ee07afb32f773072546721971b605b4686f2df883ad75a001a3367"
+      },
+      "reason": "FAILED_ORIGINAL_FROZEN_CPU_REPLAY_TOLERANCE"
+    },
+    {
+      "task": "cube",
+      "receipt": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/recovery/cube/RECOVERY_SEAL.json",
+        "bytes": 70805,
+        "sha256": "2ad88ee5c7081e5fc0597d1a60cfa490bb0698a93eab71885bc46ed2b2e61e1a"
+      },
+      "reason": "FAILED_ORIGINAL_FROZEN_CPU_REPLAY_TOLERANCE"
+    },
+    {
+      "task": "tworoom",
+      "receipt": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/recovery/tworoom/SECONDARY_RECOVERY_SEAL.json",
+        "bytes": 2287955,
+        "sha256": "583c91db5802b8f6893f547f5f45ae042b5da1b756c8fc760d9290100d55ef23"
+      },
+      "reason": "FAILED_ORIGINAL_FROZEN_CPU_REPLAY_TOLERANCE"
+    }
+  ],
+  "technical_limitations": [
+    "Reacher fixed25 simulator attribution and simulator reranking cannot be scored consistently after true DMC LAST; outcomes remain missing.",
+    "Cube closed loop and extra planner streams blocked by frozen exact reset gate; observed offline results retained.",
+    "SIM_CEM not executed: PushT estimate exceeds two-hour gate; Reacher common fixed25 objective technically unavailable.",
+    "TwoRoom strict frozen CPU replay tolerance fails on both macOS ARM and Linux x86; original failure receipts retained. Byte recovery can complete, but RELEASE_GATE remains HOLD.",
+    "Cube original fixed100 x4 CPU replay also fails unchanged frozen tolerance on macOS ARM (0/0/1/17 out-of-tolerance coordinates for H0/103201/103202/103203). Files and frozen model state hashes match; no tolerance or backend search; release remains HOLD."
+  ],
+  "CPU_acceptance_scope": {
+    "R4_primary": "All minimum trajectories/actual menus and source-to-derived maps hash verified. One fixed source case per task rescored on CPU for four models; no full local pixel reconstruction or simulator rerun claimed.",
+    "R4_secondary": "PushT first metadata middle case64 candidates x4 models CPU score comparison, parameters/buffers unchanged; numerical differences reported without adding a scientific tolerance. Reacher no new predictions because original fixed25 gate blocks execution.",
+    "X1": "All required final weights, fixed100 cached forecast inputs and observed trajectories hash verified. Fixed100 x4 h1..5 forecasts tested at unchanged original CPU tolerance. Any failure remains explicitly failed and prevents release readiness; encoder pixel reencoding and full simulator recovery not claimed.",
+    "X2": "All324 original encoders recomputed on first2 raw DEV episodes; every final head checked on episodes0,1 x anchors7,27,47 x h1,8,16. All256 saved per-episode risk means reaggregate; not full256-episode inference.",
+    "remote_retention": "Original RGB, HDF5, full intermediate candidate logs, optimizer/intermediate checkpoints remain remotely where not in the minimum recovery set. No automatic destroy."
+  },
+  "no_new_neural_updates_during_recovery": true,
+  "automatic_release_or_destroy": false,
+  "instance_release_performed": false,
+  "recovery_manifest": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/RECOVERY_MANIFEST.json",
+    "bytes": 16660716,
+    "sha256": "28f4020a1c4b2433ef7ea5efb5376a115a2b9d8e4542a5518b583e48cd3a96a6"
+  },
+  "verified_utc": "2026-10-03T16:45:41.808567+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "version": "R4_V23_CASE_PAIRED_20261003_V1",
+  "replicates": 5000,
+  "files": {
+    "aggregate.py": "3e4a1324664bfaa340c161689d79e153f3521af71c73c30fed7cd167b15fcfac",
+    "statistics.py": "26a09314458113a3039264aa16d41cabe6b8dc5cd913c5b39c6428380056f769",
+    "test_statistics.py": "3274c7d6e082298b0bd197ad1e52729e4d81c8e19496bc5be49fc5757d1004a0"
+  },
+  "case_sampling": "shared deterministic indices for all arms within task and case universe",
+  "S1": "pair model comparisons on same source/anchor/horizon; average within case before cross-case means; report denominators",
+  "S2": "initial forks only for primary; logical aliases retained; candidate count does not increase n; secondary fork separate",
+  "S3": "planner streams and refit models repeated within case; no seed pooling as independent cases",
+  "PushT_family": "sample families uniformly with replacement, divide weighted episode sum by sampled episode count; all arms share draws",
+  "Reacher_family": "unknown; no fabricated clusters",
+  "interval": "conditional95, pointwise unadjusted; no FWER claim",
+  "near_ties": {
+    "atol": 1e-05,
+    "rtol": 1e-05,
+    "basis": "R3 FP32 replay/cache numerical resolution, frozen before new branch results"
+  },
+  "signed_decomposition": "D_total = D_model_signed + D_goal; negative signed term retained",
+  "missing": "NOT_RUN/MISSING_LOG/NOT_RESTORABLE/INSUFFICIENT_EXECUTED_SUFFIX/TRUE_TERMINATED remain distinct; never zero imputed",
+  "evidence_label": "POST_R3_ATTRIBUTION_SUPPLEMENT_ON_KNOWN_EVALUATION_CASES"
+}

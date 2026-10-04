@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Better Predictors, Not Better Plans"
+message: "If you use this audit package, please cite the paper."
+type: software
+authors:
+  - family-names: Wang
+    given-names: Ruiqi
+    affiliation: "Department of Physics, University of California San Diego"
+    orcid: "https://orcid.org/0009-0005-4942-5821"
+repository-code: "https://github.com/2GyounnnG/lewm-planning-audit"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-04

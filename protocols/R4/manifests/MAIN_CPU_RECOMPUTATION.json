@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE_WITH_TECHNICAL_LIMITATIONS",
+  "manifest": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/recomputed/20261003T161214.450966Z-8525/RECOMPUTE_MANIFEST.json",
+    "bytes": 2737090,
+    "sha256": "156edd2d1214e1132d61bb67c5d6b19a31c9723c6e04acbce5fcb935e3f012ec"
+  },
+  "entrypoint": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/ops/recompute_delivery.py",
+    "bytes": 17774,
+    "sha256": "4ea20b1ff3da0699206a3d16729e5f08e253c7f824b082bfbe483f764ed155d4"
+  },
+  "comparisons": 46,
+  "source_files": 8007
+}

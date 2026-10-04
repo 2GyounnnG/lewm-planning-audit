@@ -1,0 +1,49 @@
+{
+  "status": "SEALED",
+  "module": "R8_M4_PUSHT_ORACLE_EXTENSION",
+  "evidence_label": "R8_M4_ORACLE_EXTENSION",
+  "created_utc": "2026-10-04T04:41:28.865303+00:00",
+  "new_rows": 720,
+  "reused_rows": 180,
+  "combined_rows": 900,
+  "new_case_count": 80,
+  "old_case_count": 20,
+  "streams": [
+    "R3_ORIGINAL",
+    "R4_ALT_CEM_1",
+    "R4_ALT_CEM_2"
+  ],
+  "roles": [
+    "H0_MENU_RERANK",
+    "SIM_LAT_RERANK",
+    "SIM_TASK_RERANK"
+  ],
+  "old_root_read_only": "/workspace/r4_pusht/trajectories/FORMAL",
+  "new_root": "/workspace/r8/m4/trajectories/FORMAL",
+  "tech_gate": "/workspace/r8/m4/ops/M4_TECH_GATE.json",
+  "reports": {
+    "M4_ALL_RAW_VALUES.csv": {
+      "bytes": 217108,
+      "sha256": "292bcada4a48807cfc896532dcd1a5c071fc5292a8a024ade503e89bca72a9fe"
+    },
+    "M4_CONCLUSION_ZH.txt": {
+      "bytes": 445,
+      "sha256": "3249a078beb113f604c535d4d3567cce77ba9199cc55503c574a306ed5e8f4bf"
+    },
+    "M4_MAIN_TABLE.csv": {
+      "bytes": 414,
+      "sha256": "9ff42367830f701ba507178d0c2824db82021971f6a6ecc74f7a3e3ca3a9989d"
+    },
+    "M4_SECONDARY_TABLE.csv": {
+      "bytes": 866,
+      "sha256": "559dd25712347fa9749550d7d66cd98e9ccbf151b2d11f7878f13bb1fa587614"
+    }
+  },
+  "r4_source_s3_sha256": "5a218fe873ac79e34e34f194901c1d4ead05730adea7c30071ffc8566133dae1",
+  "r8_s3_sha256": "8493f09c057c807eaed9a36f197360d58f18f3e8143d5bdc32332101c8ce98c2",
+  "status_constraints": {
+    "no_training": true,
+    "no_tuning": true,
+    "no_result_selection": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "R8_FIX_F2_M3_V3_MAIN_V1",
+  "evidence_label": "R8_FIX_F2_PRED_PAST_CORRECTED",
+  "status": "COMPLETE",
+  "rows": 1200,
+  "cases": 100,
+  "primary_endpoint": "H_REAL3_REPLAN_minus_PRED_PAST",
+  "primary": {
+    "point": 0.008333333333333337,
+    "ci_low": 0.0,
+    "ci_high": 0.01666666666666667,
+    "n_cases": 100,
+    "bootstrap": 5000,
+    "seed_rule": "R8_CASE_BOOTSTRAP_20261004/M3_H_REAL3_MINUS_PRED_PAST",
+    "seed_uint64": 13348898508186752825,
+    "indices_sha256": "134a0606e3f032e37b3cddbb692ac31aaac97fa9595b0ea1d93a81282e56c8d4",
+    "ci_zero_normalization": "5.551115123125783e-18 normalized to 0.0 per protocol"
+  },
+  "success_rates": {
+    "H_REAL3_REPLAN": 0.975,
+    "PRED_PAST": 0.9666666666666666,
+    "H_POLICY": 0.8383333333333333
+  },
+  "replan": {
+    "PRED_PAST_entered_rate": 0.5783333333333334,
+    "second_plan_present_rate": 0.5783333333333334,
+    "second_plan_different_vs_H_REAL3_rate": 1.0,
+    "second_plan_different_n": 694,
+    "second_plan_comparable_n": 694
+  },
+  "secondary_endpoint": "PRED_PAST_minus_H_POLICY",
+  "secondary": {
+    "point": 0.12833333333333333,
+    "ci_low": 0.09833333333333333,
+    "ci_high": 0.16,
+    "n_cases": 100,
+    "bootstrap": 5000,
+    "seed_rule": "R8_CASE_BOOTSTRAP_20261004/M3_PRED_PAST_MINUS_H_POLICY",
+    "seed_uint64": 9486253961397756373,
+    "indices_sha256": "000053430d0c1786a272d8a9c6b76ee2df1f4250719831836a67efd42d127489"
+  },
+  "directional_flips": {
+    "H_POLICY_to_PRED_PAST_failure_to_success": 176,
+    "H_POLICY_to_PRED_PAST_success_to_failure": 22,
+    "paired_rows": 1200
+  },
+  "bootstrap_indices_sha256": {
+    "primary": "134a0606e3f032e37b3cddbb692ac31aaac97fa9595b0ea1d93a81282e56c8d4",
+    "secondary": "000053430d0c1786a272d8a9c6b76ee2df1f4250719831836a67efd42d127489"
+  }
+}

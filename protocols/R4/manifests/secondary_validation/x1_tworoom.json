@@ -1,0 +1,34 @@
+{
+  "status": "COMPLETE",
+  "reason": null,
+  "task": "tworoom",
+  "fixed_cases": 100,
+  "logical_rows": 1200,
+  "observed_rows": 1200,
+  "randomness_rows": 12,
+  "learning_rows": 15,
+  "frozen_statistics_reproduced_from_raw": true,
+  "explicit_missingness_verified": false,
+  "inputs": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/MODULE_STATUS.json",
+      "bytes": 1152,
+      "sha256": "9b0ce4850d279981d26aee30dd782a935a95287ed5bfdd4d37d056be7f23dcef"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/ALL_RAW_VALUES.csv",
+      "bytes": 136104,
+      "sha256": "d8c08499fd4876bb0a67c41bc8ab2507a27befcd2e5c6ef7982552907114a614"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/PLANNING_RANDOMNESS_TABLE.csv",
+      "bytes": 2277,
+      "sha256": "8132ff9cf4bca82e9e55ca9a742e6fe2fe46f66054c04810283998a5b9b1cc71"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/S3_LEARNING_MAIN_TABLE.csv",
+      "bytes": 2759,
+      "sha256": "c334dee89a5d70bf816465b607a9565784ca45fd0b7675e4b39e3f8ab20ad8ad"
+    }
+  ]
+}

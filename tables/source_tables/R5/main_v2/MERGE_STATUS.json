@@ -1,0 +1,123 @@
+{
+  "version": "R5_DELIVERED_TABLE_MERGE_V1",
+  "utc": "2026-10-03T18:04:01.165993+00:00",
+  "evidence_label": "POST_R4_SUPPLEMENT_ON_KNOWN_EVALUATION_CASES",
+  "main_modules_complete": [
+    "C1",
+    "H1a",
+    "H1b",
+    "H2"
+  ],
+  "preset_H3": "NOT_TRIGGERED_TRIGGER_QUANTITY_NOT_DISCRIMINATIVE",
+  "H1b_interpretation": "Small-probe baselines, not single-frame information-theoretic lower bounds",
+  "C2_included": false,
+  "H3X_exploratory_included": false,
+  "all_R5_and_authorized_H3X_tables_complete": false,
+  "source_tables": {
+    "r4_main": {
+      "path": "/workspace/r5/source_tables/R4_MAIN_SEALED/FOUR_TASK_MAIN_TABLE.csv",
+      "bytes": 23890,
+      "sha256": "15215fe73f950d3a87589f0ab7ff0e7ee03117f469d8ffdc94f89100c2c99404"
+    },
+    "r4_raw": {
+      "path": "/workspace/r5/source_tables/R4_MAIN_SEALED/FOUR_TASK_ALL_RAW_VALUES.csv",
+      "bytes": 2548047,
+      "sha256": "906711356b8ea271cbf52dcfb3d9ddbfbaae0f6103a63fd90384502ce15a1712"
+    },
+    "c1_main": {
+      "path": "/workspace/r5/C1/reports/MAIN_TABLE.csv",
+      "bytes": 2881,
+      "sha256": "536c580e433fa82040582b96d3b080f6c40b8ad327cd7a0333e5a36b36e78baa"
+    },
+    "c1_raw": {
+      "path": "/workspace/r5/C1/reports/ALL_RAW_VALUES.csv",
+      "bytes": 145586,
+      "sha256": "083d4d33f4f23ef3340174a22fef47bdbf17a55ff65990adf0d03bae5f9e6de6"
+    },
+    "h1a": {
+      "path": "/workspace/r5/H1a/combined/HISTORY_CONDITION_4TASK_TABLE.csv",
+      "bytes": 81458,
+      "sha256": "02adc09003fd81a4e72955cd08ca6953787f190bbdd548830113d10e2c3862a5"
+    },
+    "h1b": {
+      "path": "/workspace/r5/H1b/reports/main/SINGLE_FRAME_INFORMATION_TABLE.csv",
+      "bytes": 183919,
+      "sha256": "d78137939cf6f37decf6b39a85a63567c80c4d82392da850258eafc03379122b"
+    },
+    "h2_table": [
+      {
+        "path": "/workspace/r5/H2/reacher/reports/REAL_HISTORY_REPLANNING_TABLE.csv",
+        "bytes": 46030,
+        "sha256": "ff3f76c1df98917a125418df31283f8af4733e9cb8d2865874873cb1055c4211"
+      },
+      {
+        "path": "/workspace/r5/H2/pusht/reports/REAL_HISTORY_REPLANNING_TABLE.csv",
+        "bytes": 49929,
+        "sha256": "1e9f26cb0d6f1079f05f07ee4d632985529c4024d6836daa3c41520badfd18c6"
+      }
+    ],
+    "h2_raw": [
+      {
+        "path": "/workspace/r5/H2/reacher/reports/ALL_RAW_VALUES.csv",
+        "bytes": 547514,
+        "sha256": "d4e6ac21adddd2c82592f2dc9d2a110b2231a4cf2ddf84661908ef470f0956d1"
+      },
+      {
+        "path": "/workspace/r5/H2/pusht/reports/ALL_RAW_VALUES.csv",
+        "bytes": 644582,
+        "sha256": "8cbbeefae3295dfa16595ffa5f4c13ff8d5bc3b9167cf464c1187467a7f67ed9"
+      }
+    ]
+  },
+  "source_files_modified": false,
+  "statistics_recomputed": false,
+  "outputs": {
+    "FOUR_TASK_MAIN_TABLE_V2.csv": {
+      "path": "/workspace/r5/tables/main_v2/FOUR_TASK_MAIN_TABLE_V2.csv",
+      "bytes": 37240,
+      "sha256": "0d8b6adac0d15692f2f88a8789bebdd1b4d16424baafd7ed2bc1a67a39f4018b",
+      "rows": 80
+    },
+    "FOUR_TASK_ALL_RAW_VALUES_V2.csv": {
+      "path": "/workspace/r5/tables/main_v2/FOUR_TASK_ALL_RAW_VALUES_V2.csv",
+      "bytes": 3736305,
+      "sha256": "995e198fc72e7d330857bbfbb951f614a0ecab66ea54204e9bb8d3615e6a416b",
+      "rows": 8000
+    },
+    "R4_CUBE_PREVIOUSLY_UNEVALUABLE_ROWS.csv": {
+      "path": "/workspace/r5/tables/main_v2/R4_CUBE_PREVIOUSLY_UNEVALUABLE_ROWS.csv",
+      "bytes": 2336,
+      "sha256": "0f5d42d175da6b166e68fe6478bef305e96f4e6447e3e91b03c029222c539916",
+      "rows": 5
+    },
+    "HISTORY_CONDITION_4TASK_TABLE.csv": {
+      "path": "/workspace/r5/tables/main_v2/HISTORY_CONDITION_4TASK_TABLE.csv",
+      "bytes": 116273,
+      "sha256": "e508032c696af8facb2a335b7b09d6cf82644afd857ae51e22c6bf5f463462f0",
+      "rows": 276
+    },
+    "SINGLE_FRAME_INFORMATION_TABLE.csv": {
+      "path": "/workspace/r5/tables/main_v2/SINGLE_FRAME_INFORMATION_TABLE.csv",
+      "bytes": 242253,
+      "sha256": "a74f901cd9d4bdc7bcc3cbd0f821b8baac0655e1e15e92bffcbf0668f9d7fde1",
+      "rows": 445
+    },
+    "REAL_HISTORY_REPLANNING_TABLE.csv": {
+      "path": "/workspace/r5/tables/main_v2/REAL_HISTORY_REPLANNING_TABLE.csv",
+      "bytes": 130271,
+      "sha256": "5be8f63d130e9beb8029d3ed45c9f45c90b599878bc9119f4a09ff997e5b0410",
+      "rows": 264
+    },
+    "REAL_HISTORY_REPLANNING_RAW.csv": {
+      "path": "/workspace/r5/tables/main_v2/REAL_HISTORY_REPLANNING_RAW.csv",
+      "bytes": 1470073,
+      "sha256": "fcb117ed945c61dfbdff76066603e0b796d81029bf5feff2c9114745d2057bf9",
+      "rows": 2400
+    }
+  },
+  "source_code": {
+    "path": "/workspace/r5/ops/merge_r5.py",
+    "bytes": 7522,
+    "sha256": "57282e3c66f4f102eae098fc99b2b24a1a184990c5690a6056b62df60a9fe109"
+  }
+}

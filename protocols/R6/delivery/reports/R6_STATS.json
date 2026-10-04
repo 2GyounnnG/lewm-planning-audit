@@ -1,0 +1,71 @@
+{
+  "version": "R6_PREREGISTERED_FRESH_CASE_REPORT_V1",
+  "evidence_label": "PREREGISTERED_FRESH_CASE_REPLICATION",
+  "status": "COMPLETE",
+  "cases": 100,
+  "trajectories": 2400,
+  "models": [
+    "H0",
+    "REFIT_103201",
+    "REFIT_103202",
+    "REFIT_103203"
+  ],
+  "streams": [
+    "R3_ORIGINAL",
+    "R4_ALT_CEM_1",
+    "R4_ALT_CEM_2"
+  ],
+  "history_conditions": [
+    "H_POLICY",
+    "H_REAL3_REPLAN"
+  ],
+  "primary_endpoint": {
+    "definition": "case mean across 4 models and 3 streams of H_REAL3_REPLAN minus H_POLICY success",
+    "point_estimate": 0.13666666666666663,
+    "bootstrap": 5000,
+    "bootstrap_unit": "CASE",
+    "bootstrap_seed_rule": "int.from_bytes(SHA256(\"R6_CASE_BOOTSTRAP_20261004/reacher\")[:8],big)",
+    "bootstrap_seed_uint64": 2358986375419572309,
+    "bootstrap_indices_sha256": "7ac8216837ae30400798b4b0692c4477f445a119a18610d4f2fa9deb846fdb0e",
+    "ci95": [
+      0.10583333333333332,
+      0.1691666666666667
+    ],
+    "replication判定": "PASS_INTERVAL_LOWER_GT_ZERO"
+  },
+  "first_plan_pair_gate": {
+    "H_REAL3_rows": 1200,
+    "checked_equal": 1200,
+    "mismatches": 0
+  },
+  "secondary_endpoints": {
+    "flips": 196,
+    "model_stream_rows": 29,
+    "raw_rows": 2400
+  },
+  "source_tables": {
+    "raw": {
+      "path": "/workspace/r6/reacher/reports/R6_RAW_VALUES.csv",
+      "bytes": 773127,
+      "sha256": "017f3d9fd2d9a85b93e47ab3cc950180288362dbd1e3ce8b59b2970d6744d7c6"
+    },
+    "main": {
+      "path": "/workspace/r6/reacher/reports/R6_MAIN_TABLE.csv",
+      "bytes": 1772,
+      "sha256": "bee98c6b251bfbbe7f89aa94afafc1139cfce6d77e1e584398ea8d58c304037f"
+    },
+    "secondary": {
+      "path": "/workspace/r6/reacher/reports/R6_SECONDARY_TABLE.csv",
+      "bytes": 1803,
+      "sha256": "95a6d6caddf52917db8d7020433706bd047f681c7b838386c3c103e6afd31c86"
+    },
+    "flips": {
+      "path": "/workspace/r6/reacher/reports/R6_FLIPS.csv",
+      "bytes": 17000,
+      "sha256": "1d98eeb1f93329928e7692d30869b8c14a078510cbc5d6fc473335796731ad31"
+    }
+  },
+  "no_new_training": true,
+  "automatic_destroy": false,
+  "remote_originals_retained": true
+}

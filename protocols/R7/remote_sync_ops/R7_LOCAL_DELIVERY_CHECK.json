@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-04T01:57:05.730087+00:00",
+  "root": "/Users/richwang/Documents/ChatGPT/热/r7_execution/remote_sync",
+  "checks": 9604,
+  "bad": [],
+  "A_seal_sha256": "49529444511bc8ed0ae24bad331e1b9f7155d16ede52bacfa8f46cac0e6a40d7",
+  "B_seal_sha256": "eae55ad61165687f28c03365eabd605e403a885ab6c2c03d0d8dd0081e361c06",
+  "remote_originals_retained": true,
+  "destroy_performed": false,
+  "content": [
+    "R7 A/B raw manifests and 9600 formal raw files",
+    "R7 B four 300-row CSVs",
+    "R7 reports, selections, TECH gates, code and launch records",
+    "R7 A/B seals"
+  ]
+}

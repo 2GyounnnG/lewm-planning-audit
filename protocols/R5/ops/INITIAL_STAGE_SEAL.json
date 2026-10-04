@@ -1,0 +1,95 @@
+{
+  "R4_readonly_boundary": {
+    "bytes": 1998,
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/R4_READONLY_POST_R5_CHECK.json",
+    "sha256": "ce2211fd9cd61490089d1278d5b8304112b451a14ff7457fcd53ee0b4e5594f5"
+  },
+  "R4_unchanged": true,
+  "all_R5_complete": false,
+  "conditions_not_met": [
+    "H3",
+    "H2_TwoRoom"
+  ],
+  "delivery_index_snapshot": {
+    "bytes": 8858,
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/INITIAL_STAGE_DELIVERY_INDEX.json",
+    "sha256": "3f5c638ba390796b8dc3a2f2729ae2b7ab276a94a3bf03c1aab1bb1aa398f47a"
+  },
+  "future_full_R5_SEAL_untouched": true,
+  "initial_scientific_stage_complete": true,
+  "initial_stage_provenance": {
+    "execution_ledger": {
+      "bytes": 1932,
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/EXECUTION_LEDGER.json",
+      "sha256": "ec5a3fab61ff489968323e9bfb5845e870e66c3b379f3531df39fbf967dead4e"
+    },
+    "package_acceptance": {
+      "bytes": 725,
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/PACKAGE_ACCEPTANCE.json",
+      "sha256": "4e71fa4ecdce440a006102ad356eb0f4f58eb0e464f5e58487804cbdf3b1443b"
+    },
+    "progress_events": {
+      "bytes": 2838,
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/PROGRESS_EVENTS.jsonl",
+      "sha256": "13950c2dea4bfb32a4b6d4bf3c70aec2b5fa3b16b4eabe182d80a04ecca3b62a"
+    }
+  },
+  "initial_stage_recovery_complete": true,
+  "module_seals": {
+    "C0": {
+      "bytes": 35599,
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c0/recovery/RECOVERY_SEAL.json",
+      "sha256": "11f6611f7f4b9bb60498dcf8bfa1f159cb64c89b6cf630c1759d9242198adafc"
+    },
+    "H1a": {
+      "bytes": 1607342,
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1a/recovery/RECOVERY_SEAL.json",
+      "sha256": "690d7ea8a2926e5f1865b2f51b706b13dcb303ae78afe7a992871a4b62b71785"
+    },
+    "H1b": {
+      "bytes": 393283,
+      "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/H1B_RECOVERY_SEAL.json",
+      "sha256": "1eaefdfd27782bb11e84570dadb716d44f1e10a74a734710eb62fd51dad039b0"
+    }
+  },
+  "next_module_readiness": {
+    "bytes": 2078,
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/NEXT_MODULE_READINESS.json",
+    "sha256": "030546f74db79f06365a7794ed8194f2ce409db69c571331d094e26e8cce5630"
+  },
+  "not_started": [
+    "C1",
+    "H2",
+    "C2"
+  ],
+  "recovery_manifest": {
+    "bytes": 1501916,
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/INITIAL_STAGE_RECOVERY_MANIFEST.json",
+    "sha256": "6b86762eb2d260d07a8866b7929711d811d1bccd6269e0c69784db9256830897"
+  },
+  "release_gate": "HOLD",
+  "remote_module_seal_paths": {
+    "C0": "/workspace/r5/C0/RECOVERY_SEAL.json",
+    "H1a": "/workspace/r5/H1a/RECOVERY_SEAL.json",
+    "H1b": "/workspace/r5/H1b/H1B_RECOVERY_SEAL.json"
+  },
+  "sealed_utc": "2026-10-03T17:24:00.025035+00:00",
+  "snapshot_scope": "Historical initial-stage evidence only; not a restriction on subsequently authorized R5 modules.",
+  "stage_scope": [
+    "C0",
+    "H1a",
+    "H1b"
+  ],
+  "status": "SEALED_INITIAL_STAGE_WITH_H1a_CPU_RECOVERY_FAILURE",
+  "strict_cpu_gate_failure_modules": [
+    "H1a"
+  ],
+  "strict_cpu_gate_passed": false,
+  "updates": {
+    "TECH_probe_updates": 200,
+    "formal_probe_updates": 187200,
+    "total_probe_updates": 187400,
+    "world_model_updates": 0
+  },
+  "version": "R5_INITIAL_STAGE_SEAL_V1"
+}

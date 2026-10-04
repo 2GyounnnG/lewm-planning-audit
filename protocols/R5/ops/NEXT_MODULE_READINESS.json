@@ -1,0 +1,64 @@
+{
+  "version": "R5_POST_INITIAL_READINESS_V1",
+  "utc": "2026-10-03T17:12:47.405661+00:00",
+  "current_authorized_launch_stage": "C0_H1a_H1b_ONLY",
+  "scientific_results_complete": [
+    "C0",
+    "H1a",
+    "H1b"
+  ],
+  "current_new_closed_loop_runs": 0,
+  "world_model_new_updates": 0,
+  "conditions": {
+    "C1": {
+      "condition_met": true,
+      "status": "NOT_STARTED_INITIAL_STAGE_ONLY",
+      "planned_runs_if_continued": 400,
+      "source": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c0/reports/C0_GATE.json",
+        "bytes": 2571,
+        "sha256": "26886571c474c25e3a9fc02ed6cca18f8aac1a0bc6c89a687ed740564056c8f5"
+      }
+    },
+    "H2_reacher": {
+      "status": "NOT_STARTED_INITIAL_STAGE_ONLY",
+      "planned_runs_if_continued": 1200
+    },
+    "H2_pusht": {
+      "status": "NOT_STARTED_INITIAL_STAGE_ONLY",
+      "planned_runs_if_continued": 1200
+    },
+    "H2_tworoom": {
+      "condition_met": false,
+      "status": "NOT_TRIGGERED",
+      "ratio_H_REAL3_to_H_POLICY": 1.0130289999658972,
+      "threshold": 0.5,
+      "planned_runs": 0,
+      "source": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1a/reports/H2_TWOROOM_CONDITION.json",
+        "bytes": 362,
+        "sha256": "50f8d1349b6fdac3413c65746d389a8980be03a43c9d09cb9755a9ff9f5405de"
+      }
+    },
+    "H3": {
+      "condition_met": false,
+      "horizons_met": 0,
+      "required_horizons": 2,
+      "status": "NOT_TRIGGERED",
+      "planned_updates": 0,
+      "planned_closed_loops": 0,
+      "source": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h1b/reports/main/H3_MEASUREMENT_ONLY.json",
+        "bytes": 3383,
+        "sha256": "cbe14405057b6d2ea8cacb5a5414745c3b54086e989724b4fcc03ec53545e803"
+      }
+    },
+    "C2": {
+      "status": "NOT_STARTED_REQUIRES_R5_MAIN_DELIVERY",
+      "planned_runs_if_continued": 800
+    }
+  },
+  "remaining_closed_loop_count_if_continued_under_original_rules": 3600,
+  "no_configuration_or_checkpoint_selection_changes": true,
+  "no_automatic_rental_or_destroy": true
+}

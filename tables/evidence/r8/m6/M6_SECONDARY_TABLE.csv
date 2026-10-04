@@ -1,0 +1,3 @@
+task,endpoint,n_cases,estimate,ci95_low,ci95_high,label,cem900_candidates,cem300_candidates,stream
+pusht,H0_CEM900_minus_H0_CEM300,100,0.0,-0.05,0.06,未检出,900,300,R3_ORIGINAL
+reacher,H0_CEM900_minus_H0_CEM300,100,0.05,-0.03,0.13,未检出,900,300,R3_ORIGINAL

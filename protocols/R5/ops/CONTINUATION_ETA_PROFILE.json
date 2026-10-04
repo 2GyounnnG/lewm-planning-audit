@@ -1,0 +1,17 @@
+{
+  "status": "SCIENTIFIC_EXECUTION_AND_ALL_COMPONENT_RECOVERY_FINISHED",
+  "as_of_UTC": "2026-10-03T19:29:35.287796+00:00",
+  "time_zone": "Asia/Shanghai",
+  "remaining_scientific_compute_seconds": 0,
+  "all_scientific_results_complete": false,
+  "reason_incomplete_science": "C2 technically unevaluable:280completed520missing; no further retry",
+  "all_authorized_modules_accounted_for": true,
+  "component_recovery_remaining_bytes": 0,
+  "final_seal": "/Users/richwang/Documents/ChatGPT/热/r5_execution/final/SEAL.json",
+  "final_primary_seal": "/workspace/r5/final/SEAL.json",
+  "completion_time_source": "Read sealed_utc from final/SEAL.json; no further ETA for scientific jobs.",
+  "release_gate": "HOLD",
+  "automatic_rental": false,
+  "automatic_destroy": false,
+  "manual_instance_release_recommended": false
+}

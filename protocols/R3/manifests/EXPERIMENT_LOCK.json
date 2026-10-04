@@ -1,0 +1,101 @@
+{
+  "status": "EXPERIMENT_PROTOCOL_FROZEN_BEFORE_OPTIMIZER_AND_OUTCOME",
+  "protocol_files": {
+    "protocol/01_CODEX_PROMPT.md": "ce20b02b38a801b3a5ebccc3ca921039cc59ce9fb4a0b53da8d8df10ea3f31c8",
+    "protocol/02_EXPERIMENT_SPEC.md": "57dddb3c2c542f22d1b99a62c4c402608c94d7bf029b2780a067eb8d4796d437",
+    "protocol/03_PRIMARY_SOURCES.md": "bfab872989d7ece529d427f7f16260b29f759b084b5bfc2c13c77ab9b7b1a55b",
+    "manifests/JOBS.json": "f87c0911af3d2f5bd5c8a890e81434d3441188b32e6b38cfa1c1990cd57078b3",
+    "manifests/NUMERICAL_TOLERANCES.json": "c92a5ac5ecff19db26424f4109dfdf2d32d90aef7c929ade11604e91271f996c",
+    "state/ROLE_SELECTION_CONTRACT.json": "d6784f84a08979017e3c4081d9d461565de13c0d5797c3e1256624316e9304bb"
+  },
+  "tasks": [
+    "pusht",
+    "reacher"
+  ],
+  "refit_seeds": [
+    103201,
+    103202,
+    103203
+  ],
+  "updates_per_job": 30000,
+  "formal_updates": 180000,
+  "technical_updates_limit": 1024,
+  "technical_complete_trajectories_limit": 16,
+  "formal_trajectories_limit": 800,
+  "optimizer": {
+    "type": "AdamW",
+    "lr": 5e-05,
+    "weight_decay": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "clip_global_norm": 1.0,
+    "new_optimizer": true
+  },
+  "schedule": {
+    "warmup_updates": 500,
+    "terminal_lr": 5e-06,
+    "post_warmup": "cosine",
+    "endpoint_updates": 30000
+  },
+  "batch": {
+    "effective": 128,
+    "initial_microbatch": 128,
+    "only_preformal_fallback": [
+      64,
+      32
+    ],
+    "all_matched_jobs_same": true
+  },
+  "precision": "FP32_AMP_OFF_TF32_OFF",
+  "trainable_parameter_prefixes": [
+    "predictor.",
+    "pred_proj."
+  ],
+  "frozen_modules": [
+    "encoder",
+    "projector",
+    "action_encoder"
+  ],
+  "all_BN_running_statistics_frozen": true,
+  "predictor_dropout": "original train mode during refit, eval during inference",
+  "data": "actual pinned official source only; roles/source_map/normalization/cache manifests must be frozen separately before optimizer",
+  "roles_rule": "state/ROLE_SELECTION_CONTRACT.json",
+  "cache_coordinates": "official encoder plus observation projector, all legal raw phases, no extra normalization",
+  "training_target": "all3 teacher-forced next tokens from frozen cache, span20raw, windows uniformly sampled",
+  "monitor": "fixed <=256 MONITOR windows every1000; no selection",
+  "milestones": [
+    3000,
+    10000,
+    30000
+  ],
+  "formal_checkpoint": 30000,
+  "planning": {
+    "horizon": 5,
+    "receding_horizon": 5,
+    "action_block": 5,
+    "raw_actions_per_replan": 25,
+    "raw_budget": 50,
+    "num_samples": 300,
+    "n_steps": 30,
+    "topk": 30,
+    "var_scale": 1.0,
+    "batch_size": 1,
+    "initial_history_len": 1,
+    "arms": [
+      "H0",
+      "REFIT_103201",
+      "REFIT_103202",
+      "REFIT_103203"
+    ]
+  },
+  "technical_CEM_plan": "first2 pre-frozen TECH cases/task times H0 and exact clone =8 complete trajectories, charged separately",
+  "statistical_analysis": "fixed3-seed case-average effect; paired5000 case and family-ratio bootstrap;95 and97.5 conditional intervals; no outcome gate",
+  "execution": "1worker/card initially; measured4workers only when >=10% conservative improvement;1policy/card no concurrent training",
+  "formal_launch_gate": "real official strict load; input/cache/rollout/goal-cost equivalence; zero-update gradients/freeze; separateprocess8vs4+4 resume; finite profile; true8completeCEM clone/timing; no success improvement threshold",
+  "original_pretraining_exposure": "author cards link same original training source; exact episode exposure unverified; R3 heldout is not wholemodel unseen",
+  "automatic_scope_expansion": false,
+  "destroy_instance": false
+}

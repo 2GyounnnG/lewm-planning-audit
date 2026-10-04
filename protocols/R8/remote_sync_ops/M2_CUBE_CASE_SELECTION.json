@@ -1,0 +1,3926 @@
+{
+  "budget_raw": 50,
+  "candidate_count": 2696,
+  "cases": [
+    {
+      "case_id": "R8_cube_00451d3d37294e3fd2eaa3ec",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3213",
+      "episode_sha256": "e7c44a7a5e46307736477b0e3e17b8af85f62720a97663acd4804822d51adbb1",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 88,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "00451d3d37294e3fd2eaa3ecabd8a6e0ef08b2dc0401841784d15aa344f0127f",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3213,
+      "source_seed": null,
+      "start_raw_index": 63,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_00519cb7b505eea32ed8503a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:4896",
+      "episode_sha256": "bebe25adea55c7303de6046e02c8bd1a31d96c3f7c64ac83b47cff52d8058a4f",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 91,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "00519cb7b505eea32ed8503afdd7693bdcb8c3b84eb8bc5d050819cf01b7e8d3",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 4896,
+      "source_seed": null,
+      "start_raw_index": 66,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0068cf45e454ecdb0bff9d18",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6295",
+      "episode_sha256": "f639f6f31792c34a22d931a111434f487109152e413f2adbbc092bad2a0f2236",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 36,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0068cf45e454ecdb0bff9d1870b1fcf4f9a7b5062b4cbe1d19c45c8d0497c512",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6295,
+      "source_seed": null,
+      "start_raw_index": 11,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_008fbdb2bfc8daf77a9f6e9e",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:949",
+      "episode_sha256": "87c1508c8e296ecb7de1acf3bc1a2328e69c92eb6e26d44f44f1466635ea56c6",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 81,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "008fbdb2bfc8daf77a9f6e9e07501075c5e0662b96e9ddb599899c3e1adbfaf2",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 949,
+      "source_seed": null,
+      "start_raw_index": 56,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_00a66fb0485cc05c8f667fd3",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:9581",
+      "episode_sha256": "e1ef82683dea97915966998c2f4756046908cd73ca09162dc7f984736c051f9e",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 59,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "00a66fb0485cc05c8f667fd3574049f08893c3fe3a0e4880962c4810b4fc403c",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 9581,
+      "source_seed": null,
+      "start_raw_index": 34,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_00b0588a6280ee567357c5eb",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:5006",
+      "episode_sha256": "05056d05dad8430658f74706787a69df62b127b0b59daf00633f8549dc3cf03b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 97,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "00b0588a6280ee567357c5eb9435574f0b17c503ae8a01dafe418dcea86923dc",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 5006,
+      "source_seed": null,
+      "start_raw_index": 72,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_00b27d8944a7a1480bb8a8be",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:4438",
+      "episode_sha256": "f2036d153b4ce759700ee114c09b6b0554a6a8ea43756c7b30f2e14e511c3a6f",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 125,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "00b27d8944a7a1480bb8a8be2c3d1da5be857350dd10884147afcd5c40aa0672",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 4438,
+      "source_seed": null,
+      "start_raw_index": 100,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_00c67b0b20ce8e08b4465daa",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3056",
+      "episode_sha256": "7b8f21c69f552c3d627ac74c8463f48b699a4c057cd8196f748549a0b09f319b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 172,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "00c67b0b20ce8e08b4465daaf1edf659347afcebc84d7033d27e42ed821344d3",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3056,
+      "source_seed": null,
+      "start_raw_index": 147,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_00dc84bb4892e9596ad09ee3",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6429",
+      "episode_sha256": "35b984604ed78d50fd874cbed4989fd26972e83c913dac2d642a0446eeeca615",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 115,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "00dc84bb4892e9596ad09ee3536af6046c2480a63080aa139d7710447f7847e1",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6429,
+      "source_seed": null,
+      "start_raw_index": 90,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_00e60410049990b5f52970f8",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2950",
+      "episode_sha256": "a214bc0f92f798fc7b7b69e78dbce38e4b6d9a47be1b6759450a90a0144ccf63",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 132,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "00e60410049990b5f52970f8e0fb28b8786baa84efd8a640ddb29bb14eaf1755",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2950,
+      "source_seed": null,
+      "start_raw_index": 107,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_00f91a8562bffaa11fc56f88",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:8069",
+      "episode_sha256": "1806980f9768c89074536129f9311746a0c2176f2f8647a161f68380f0f94ad0",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 99,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "00f91a8562bffaa11fc56f88971170c90b97f1b8e16b8d77b9dd090cd188b987",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 8069,
+      "source_seed": null,
+      "start_raw_index": 74,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_00f9f7a2eba4b62df05aadd2",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:706",
+      "episode_sha256": "a8ae0715fef044da2d45d18301c285801d2ae6601e091d6c1273a881a04874dd",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 191,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "00f9f7a2eba4b62df05aadd20376353a0df4a74e228b300d04619691dedf3a63",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 706,
+      "source_seed": null,
+      "start_raw_index": 166,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_010d235f4a8582f7b8572aa1",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:9139",
+      "episode_sha256": "6f6718b9547f7160b03dd53954792086adb8a02b98c43b25ba6ccb11b032cf49",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 185,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "010d235f4a8582f7b8572aa102854819645ceac2e5738d5cf24842f40ab74e54",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 9139,
+      "source_seed": null,
+      "start_raw_index": 160,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0126606b4795f61767cd0907",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3136",
+      "episode_sha256": "b076d8ffb5005b587d5cf9de92e2a02a31be4b1c4bc34babd7e87e99f9046b49",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 189,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0126606b4795f61767cd090795ab4597cc1ee7b906c99fe778f3ede95a1599b5",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3136,
+      "source_seed": null,
+      "start_raw_index": 164,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0149acb9aea6fcf65b0504fa",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6496",
+      "episode_sha256": "c012b3c2a7dca6db52a3b289447307029ccb7a4becf20502a2f249f55b18738b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 139,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0149acb9aea6fcf65b0504fab6b4648ad5b4fd1658776840bb3e1edb79238838",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6496,
+      "source_seed": null,
+      "start_raw_index": 114,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_018ebac04cd2978eb8c19e0e",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7441",
+      "episode_sha256": "abcd4ff3e94e460c94c6cfaf6c58158230dcc8dc891a70391de47dc344ebbf90",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 57,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "018ebac04cd2978eb8c19e0ee63f56e3cb9eadfb729455f3b003605d8becd333",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7441,
+      "source_seed": null,
+      "start_raw_index": 32,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_01a2e344139ceef90830dc1a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7251",
+      "episode_sha256": "c6ac2cbc92098ccf902ed8bae0376f353248272e874089766a6db5ea23c832fe",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 78,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "01a2e344139ceef90830dc1aa6f788c10e44891f2fea9355eca6409f5f950fd1",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7251,
+      "source_seed": null,
+      "start_raw_index": 53,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_01bc51e91a0914412f4a84b7",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:4160",
+      "episode_sha256": "2cdd674f371698733d63bc392f70ef6fdc1e45ac647a6cfb1949fff2fa33ebd3",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 69,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "01bc51e91a0914412f4a84b7b5b5517042274f5b2c22cac86b2373fea603d96c",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 4160,
+      "source_seed": null,
+      "start_raw_index": 44,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_01bebf6f72052209d53f2a03",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2270",
+      "episode_sha256": "0061e4aaa6cbc6aaf263d9477db212c40299f51c1ab4acf79c8e13bdec591a4e",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 178,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "01bebf6f72052209d53f2a03f94c3f271200d71e8817fe432325b1e77133315a",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2270,
+      "source_seed": null,
+      "start_raw_index": 153,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_01cc53335e0782fd7a65daa4",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7210",
+      "episode_sha256": "de47e36cfa6badfbf831c84d48248a68f49f4edb648cfdfdd93eb7f101a4906e",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 122,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "01cc53335e0782fd7a65daa4f1293adb4916c6534d5d61865e89a3ae3ab6995e",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7210,
+      "source_seed": null,
+      "start_raw_index": 97,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_01d2a4023574abe67174cb39",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6888",
+      "episode_sha256": "0b66eb9026387d14e252ba71f136b690eb309afc4436fcf13b9044753bc7b2cd",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 74,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "01d2a4023574abe67174cb3981b32521482d2fdc62b89224f38e8250cb4fc87a",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6888,
+      "source_seed": null,
+      "start_raw_index": 49,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_01ef4a0adf99694bd532b1d9",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:5628",
+      "episode_sha256": "cde21641d03e31f916c194d3c31614692195605430b001d5ce5b58d94985caa7",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 71,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "01ef4a0adf99694bd532b1d905f57e88243913b1a8e81ca5f4ce27341f7c701c",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 5628,
+      "source_seed": null,
+      "start_raw_index": 46,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_01f61d7305f4113b892b6f46",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:747",
+      "episode_sha256": "8251a26ab79788341e3c1d70360f181f3f30dd2c25dc88150fcf4a3e0b0b6dee",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 116,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "01f61d7305f4113b892b6f46c318232002181332f2850f24240caa66b7fbac5b",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 747,
+      "source_seed": null,
+      "start_raw_index": 91,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_01f8bd8c9480cc33943f20a1",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3060",
+      "episode_sha256": "7ae0adc4df1d4dc07098f4d9f4af6f5ab7faa9a64b35a6d471cb097a4450b413",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 129,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "01f8bd8c9480cc33943f20a1d0d33794870e23a51ea8ee9f6a9cb93147d0a592",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3060,
+      "source_seed": null,
+      "start_raw_index": 104,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_020f19d2028658f41f85b318",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6750",
+      "episode_sha256": "92effff10d757c208224f08977796c95415a22577e3ebf32dc0384220499fba8",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 98,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "020f19d2028658f41f85b31895c3fc55db2c14fdf6f1eeb396e7908508bab00a",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6750,
+      "source_seed": null,
+      "start_raw_index": 73,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_025519880b93623858d1776c",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:9707",
+      "episode_sha256": "dc62db54f44242957b40a85d3830274f024536851d6731d979e926ed874bb4e7",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 157,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "025519880b93623858d1776cc81c3fe38005d810cb2f844fd93cf9bf6921fffe",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 9707,
+      "source_seed": null,
+      "start_raw_index": 132,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_026ae97883281ae35c9f979a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:5206",
+      "episode_sha256": "be64df70d03eb9278d11788f95372447c0d61d7781017f3a51682f2485114bc2",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 133,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "026ae97883281ae35c9f979abea26fae1dd9f74a9a37dd67f257a86bd4d03626",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 5206,
+      "source_seed": null,
+      "start_raw_index": 108,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_026bdedcb7e58fa0b9bf7365",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2102",
+      "episode_sha256": "c3b057dfd410ad903bbdc61af279a9e14a6f5919bb8eda3ccf2ccafddf776389",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 138,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "026bdedcb7e58fa0b9bf7365b8b4e26567cc62fc062ba1cf25c46aec203d8828",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2102,
+      "source_seed": null,
+      "start_raw_index": 113,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_02c3c0d7728750423f80cce1",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:444",
+      "episode_sha256": "8e432d0e45e12d1e0b02fb4386ac367d793ce204fe9fa48c5274b372c67b06b0",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 59,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "02c3c0d7728750423f80cce15df442afb57df955e2a45fdda488c902a6f58101",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 444,
+      "source_seed": null,
+      "start_raw_index": 34,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_02d0affa1da85d8501121ab3",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7577",
+      "episode_sha256": "e4d7182442290abf8416e2143c3f1638c919ac17ff5c26a298c2db2c7d912cab",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 119,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "02d0affa1da85d8501121ab37adb556c347a900bf6222704e13d6f46a533e3c5",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7577,
+      "source_seed": null,
+      "start_raw_index": 94,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_03232dbe6212f2f59374404d",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2647",
+      "episode_sha256": "4f67519fca7472e9402eba2d9be10eec333d953a82338f037058b62254069eeb",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 189,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "03232dbe6212f2f59374404d3bbfbf3877e1eb207d00ebd0828106525bd04efe",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2647,
+      "source_seed": null,
+      "start_raw_index": 164,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_032465c39b29b39b42027f47",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:324",
+      "episode_sha256": "dce3effe5fa242f29d2a77f48a6ba0f8d039d91acfc6c576dc397969512321b9",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 72,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "032465c39b29b39b42027f4793f5c980ddd63fc779456f4d0d0ff9b72edf030c",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 324,
+      "source_seed": null,
+      "start_raw_index": 47,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_036a054decad2b670dfd232b",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7946",
+      "episode_sha256": "c2143f797cb32fd28354ff56abbecbf7bd748a999ffca5173237b0b80b98255a",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 139,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "036a054decad2b670dfd232be4ec9e82adbe535a923bd66c283397efc28e6606",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7946,
+      "source_seed": null,
+      "start_raw_index": 114,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_03782981f1e197a7ba49cd11",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3447",
+      "episode_sha256": "94926b3cf4f808984c99539db997320df1164db72721a2c6c2873cada68b3033",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 29,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "03782981f1e197a7ba49cd11870c16c2378df6aafea492b0d0a295132fa7563f",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3447,
+      "source_seed": null,
+      "start_raw_index": 4,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_039d6f5be6111b2cab826016",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:848",
+      "episode_sha256": "3a99ae67cd976dd9a6025f83269a50e004516c31763c9deaddc187c596041e08",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 32,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "039d6f5be6111b2cab826016f7675ef8933f1be4407ed93f144721d2d832feae",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 848,
+      "source_seed": null,
+      "start_raw_index": 7,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_03a4de79618cc0489e9d54ea",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7043",
+      "episode_sha256": "ebebf3d1f84ca41df3802263e1716806ab87ce85da153d8c8c9338187e33b143",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 52,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "03a4de79618cc0489e9d54eae28cf55c970990438fcc0b87223ca15002c7e5d5",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7043,
+      "source_seed": null,
+      "start_raw_index": 27,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_03b6ec7e05edff7b9d52dabd",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3134",
+      "episode_sha256": "c8bde9e661c5d0c6ba63f325cc840606ae57edcded83b0eb00f678adf1db4234",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 27,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "03b6ec7e05edff7b9d52dabdff1135a36ac2baaa33dc7efd15a6f245abf69be7",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3134,
+      "source_seed": null,
+      "start_raw_index": 2,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_03d857e91c55439064bd0c64",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6825",
+      "episode_sha256": "e1ae477f8d7b2d65aa36115237130fdb8d3816edb14572df67e1555f93d875eb",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 67,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "03d857e91c55439064bd0c64e35a14fe6b8baf9eea8e3643cf05cecf8a423e59",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6825,
+      "source_seed": null,
+      "start_raw_index": 42,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_03e90419069797471e3a0862",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2168",
+      "episode_sha256": "04d288a54a6893b85205a8d72814edd1f43b293116b1965c92b492bfe10359a6",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 25,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "03e90419069797471e3a0862a0714930be28cf8797544f6fd9d0260fe54d2361",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2168,
+      "source_seed": null,
+      "start_raw_index": 0,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0411acaca9662268fb02bd67",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6624",
+      "episode_sha256": "e1dc1de81abf6eadad81d2700bb8090a9996467b90f4df165518dbf04b04af91",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 30,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0411acaca9662268fb02bd6770420482b149354e4b2f49ff6f678f0e2039104f",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6624,
+      "source_seed": null,
+      "start_raw_index": 5,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_043303dd386ae57a945932c7",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6800",
+      "episode_sha256": "af83a689ae17af39e12d6c1edac565227fc688a7280b3de670ad5d2bc02f60ad",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 74,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "043303dd386ae57a945932c76f8258f1625d60d08ff317c615de34298f1a9719",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6800,
+      "source_seed": null,
+      "start_raw_index": 49,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0457d4cc87daf53b0c2d3176",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:9914",
+      "episode_sha256": "6dcb180b229894ff17790562aa4c42cbd77f0b13b530224b5ef75b57ac91e1fa",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 106,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0457d4cc87daf53b0c2d3176baa2a00bfa64e0538a37f1f4b74f3ed59ab29a31",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 9914,
+      "source_seed": null,
+      "start_raw_index": 81,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0483fdecdf970bde334e2bdc",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:662",
+      "episode_sha256": "4e70bf1d40810bba9e65a2769dcad64970fa9992362f36251c67857e6783e87a",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 198,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0483fdecdf970bde334e2bdc20068f4b1dca769d001be54fabe084d98e68dce1",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 662,
+      "source_seed": null,
+      "start_raw_index": 173,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_048475ae768137217766a847",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:8798",
+      "episode_sha256": "5ceea8ec8cac9b7652f35e11e8779777e08241e435e5ca61723279ea5a6e0ff9",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 97,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "048475ae768137217766a847b6794da178b8e7a473f3573854305562d19277b8",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 8798,
+      "source_seed": null,
+      "start_raw_index": 72,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_048508f6e24fa74d7070867e",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2525",
+      "episode_sha256": "05088f342088bf776669305f81495d9eea04f9b905146094865e2cdb08eaa3da",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 63,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "048508f6e24fa74d7070867ecd924677b5ae41cddd0efb9f34c79383c2936757",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2525,
+      "source_seed": null,
+      "start_raw_index": 38,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0486bb927b4a92597a73334d",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3543",
+      "episode_sha256": "99f33ca75b3e97841bd6313a323fd43d5e7b8bbf17675894a9b87f6cdf2a943d",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 106,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0486bb927b4a92597a73334d323db495e292459dffcfadcbfa6a62d381341d30",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3543,
+      "source_seed": null,
+      "start_raw_index": 81,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_04beed1d66098bc20b12cb29",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2539",
+      "episode_sha256": "a7e66ca4de856903ea19d3d4e0e43855587a2b7b03e446ae2d79c37cdf367ac5",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 163,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "04beed1d66098bc20b12cb296fe0af7d65a28edef0d33ef977df39d6b4a5e6d9",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2539,
+      "source_seed": null,
+      "start_raw_index": 138,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_04e3ebd248c6f64f3844afb2",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:4652",
+      "episode_sha256": "c302c155471563b95801197a6a165bb83979b81c0fcbef12aae281001b7a8988",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 175,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "04e3ebd248c6f64f3844afb24b96c654c75fc950fba12480b1d1e9dde51cb01f",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 4652,
+      "source_seed": null,
+      "start_raw_index": 150,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_04ed2e517e25f0cba2fd3910",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2689",
+      "episode_sha256": "f787ce6c8eb652189c8405ae768310555da272d861df70286346dbb6796e516e",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 144,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "04ed2e517e25f0cba2fd391096bea361b5194e65532f3b5d4b74326b3fe651b8",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2689,
+      "source_seed": null,
+      "start_raw_index": 119,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_04fa7521eb82bbfe83458541",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:132",
+      "episode_sha256": "8c5bc0d358ad369f20860f39ab68c7ad8692df975c71a74e305ef1c0f380019b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 135,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "04fa7521eb82bbfe83458541a07e10f724efe826a7bd4ad5517bf1df4200442f",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 132,
+      "source_seed": null,
+      "start_raw_index": 110,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_053151dc8dd0a1a59059630a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:785",
+      "episode_sha256": "7e4031409d047f11fd4240378bb8bb28cef18450aa8a03e954cbf9d0476535c1",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 113,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "053151dc8dd0a1a59059630ae83e3ebe216ed275dab0612ca1a8b47d09a741a3",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 785,
+      "source_seed": null,
+      "start_raw_index": 88,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_053c9043332fa72030028cb9",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:914",
+      "episode_sha256": "78b7ef02ecaddc7aa5eb80a3b6b8d2d9b6da7d7347818e86db409278963cae1b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 57,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "053c9043332fa72030028cb9897b38d1d28760c8a7f716b0ec33fc000d8428c5",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 914,
+      "source_seed": null,
+      "start_raw_index": 32,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0561007d74be98a9d954f214",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:1062",
+      "episode_sha256": "ae026543fa7b67998e3dca0d48c1f3ed48d8890b152ce3aef3de6ebeefa167e4",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 139,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0561007d74be98a9d954f2145ff38f7c19ddefb19de6bb1c4a78bc74382be66a",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 1062,
+      "source_seed": null,
+      "start_raw_index": 114,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0562116ae000887d8ed2ae96",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:8602",
+      "episode_sha256": "7bea8cd28e21f249d5800163310aaf88e97c58a1e914be5298839e1e0252b372",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 185,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0562116ae000887d8ed2ae96041aae5e5d09e127374cca1f0531f46a78d9d0bb",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 8602,
+      "source_seed": null,
+      "start_raw_index": 160,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_056c270014d0b5e9a8a5644b",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3880",
+      "episode_sha256": "e48031b562f3fe5df87a47cb65e83221dca7be4748059089a28e000d460fdb89",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 112,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "056c270014d0b5e9a8a5644b82e33c14c1db2a41a30d587df68a879005563c57",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3880,
+      "source_seed": null,
+      "start_raw_index": 87,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_057fb5b6fd370e479131fea7",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:4683",
+      "episode_sha256": "4dda050ef34511a80bd3cd8b75b358dac53284cb67f9c08160b1ceae0f9c00a9",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 98,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "057fb5b6fd370e479131fea7ca7594c39743dd8aaced56ffc2b95660d8734956",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 4683,
+      "source_seed": null,
+      "start_raw_index": 73,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_05a344bdd6e52458ef3dbb9f",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:4435",
+      "episode_sha256": "62eb94421f5baca3fd28db29b5ab8bd6d63cf824eaf1bfc1f9a15d14a9cb3613",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 199,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "05a344bdd6e52458ef3dbb9f82e456fa379b56d82ee472c4e2f3560016890fe6",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 4435,
+      "source_seed": null,
+      "start_raw_index": 174,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_05ba7fce746c98cc9b67d832",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:4437",
+      "episode_sha256": "bbd99e37e08381f0d525f435edeefe05c5c0f5633ce334b9d15aca57e1e5d44d",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 99,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "05ba7fce746c98cc9b67d83211c472f884aa6b3fdc92b81789a7b915a316db7d",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 4437,
+      "source_seed": null,
+      "start_raw_index": 74,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_05d3e7983764326ecd476f0e",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:5460",
+      "episode_sha256": "026d8e0a401a1722fd5e5623fff39b614e5fb58834bd7268acb298a9a7ffa121",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 72,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "05d3e7983764326ecd476f0e5fe59bc636149b742985bf167b1c7b236e47f847",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 5460,
+      "source_seed": null,
+      "start_raw_index": 47,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_05dc1462ddba9676fa51ade5",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3939",
+      "episode_sha256": "8376f5d348611cac781fe4ab80e9753398f7846297b5101e9fdfb121d07bb8ea",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 127,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "05dc1462ddba9676fa51ade5c5488c95c0e101219726a864407086a10adaee7d",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3939,
+      "source_seed": null,
+      "start_raw_index": 102,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_05dfafa290dd91e3cb0d51cc",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3369",
+      "episode_sha256": "8f51a4d3e91973ed4286d4a95e78e57bce502791c9f699948b055af4d7f664ea",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 57,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "05dfafa290dd91e3cb0d51cce1125c65f14689cb66f0233bed06445d78a5147a",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3369,
+      "source_seed": null,
+      "start_raw_index": 32,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0602890ff5985d126728d441",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2829",
+      "episode_sha256": "3ae0e4b96f14d7e61651281354743b8e01a8ac0713c18204f898b86926fa04b2",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 94,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0602890ff5985d126728d44161f67e0ed90361a9d27d50235175a70d2be5cf1c",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2829,
+      "source_seed": null,
+      "start_raw_index": 69,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0618c8c348fd65be08a570d1",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:4557",
+      "episode_sha256": "56bb8619b0356685939a804619eacce2db00f3003668aeeb25f9721c4afd85bf",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 137,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0618c8c348fd65be08a570d1a0733ef81a4359eb8613bdbc554262d1ef6ea1e2",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 4557,
+      "source_seed": null,
+      "start_raw_index": 112,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_061ca8ddd89377430b61f2d5",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7395",
+      "episode_sha256": "9e96dc6016ccb73fe98c3a525f8f37a13367508bd421aa8a34b40d2837dbd159",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 169,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "061ca8ddd89377430b61f2d5edb7f06bf762c9146d06247342eea88cda22855b",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7395,
+      "source_seed": null,
+      "start_raw_index": 144,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_061f4dd50d79373ae88a43fe",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:4576",
+      "episode_sha256": "66ccb6844fac19bf87c4516cb040febcc6622383ce873671caad0932a59538fc",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 82,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "061f4dd50d79373ae88a43fe33e974dc6fde4ec19e6e50ebce47d8d66650c7d1",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 4576,
+      "source_seed": null,
+      "start_raw_index": 57,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0629ebd5db9acebf1b73ae92",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3677",
+      "episode_sha256": "e902d6aac286f97832440fc2596329dcc88c4410b61b6ce4a35d65df9cd05669",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 95,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0629ebd5db9acebf1b73ae92beb6a56cd1d674a821584ec444eb95b90e774cf4",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3677,
+      "source_seed": null,
+      "start_raw_index": 70,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_062f5c06b1e8a042b340eae6",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6393",
+      "episode_sha256": "29873d280e62ee44a1599da0b34820ecb036d40fe205909e1e979ff2d57f3a6c",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 118,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "062f5c06b1e8a042b340eae6369cf22bed33588c0f96fa613f4e2cf48cab0b11",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6393,
+      "source_seed": null,
+      "start_raw_index": 93,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0678dae2859d35a741bc5a6c",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:8965",
+      "episode_sha256": "843d1d6ba43237a719535409d25fd2e6e5b65e8e9156eb61fddd776b1e02965b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 102,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0678dae2859d35a741bc5a6caa04c6bba46abd66531aace82275fdf6a1a38e84",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 8965,
+      "source_seed": null,
+      "start_raw_index": 77,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_069fa81f1a686c841e11b23c",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6708",
+      "episode_sha256": "1348c39e9d983340bf7107b246d15b045907257c27a6327c0d8e96820eb5f75b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 96,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "069fa81f1a686c841e11b23cd2061b7ecd1fbcb888fd885b2f7e1ffcc5192f79",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6708,
+      "source_seed": null,
+      "start_raw_index": 71,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_070b91d46a66f33dbfc49ec8",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3348",
+      "episode_sha256": "3193842b06df58f1bc87f13daca812744982b2e68622ddb2822d0fa876c53b08",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 189,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "070b91d46a66f33dbfc49ec84984131e8908a389884579b0d8981c9061aa00e3",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3348,
+      "source_seed": null,
+      "start_raw_index": 164,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_07726c8882c0f6d4cf98356d",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:9356",
+      "episode_sha256": "a4c5cdeae3ee8714bceb93f11a7c94ca0a00a28e26f411291a0b1f615e97bb8d",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 46,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "07726c8882c0f6d4cf98356de41567d123dcbf0c119cb26e79e09c3bb94b0d9a",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 9356,
+      "source_seed": null,
+      "start_raw_index": 21,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_07adcc1fa7dbd2db7c611039",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:1701",
+      "episode_sha256": "78293d6384d67e2611b280dcbe44373a9974d01071a29957344a252d7250b6cf",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 127,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "07adcc1fa7dbd2db7c6110392a268d2373edfe0c88585f7bc114427b6759814d",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 1701,
+      "source_seed": null,
+      "start_raw_index": 102,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_07b84bd87413733590708517",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7742",
+      "episode_sha256": "c69a1170df71bdfeed3313e48b74f44aa0211238ac583e8112bb2f3a58ee9dfc",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 83,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "07b84bd87413733590708517e85cedf24038d67a84918e7c4c60a39be0f9e731",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7742,
+      "source_seed": null,
+      "start_raw_index": 58,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_07e266f4046e3834e1a7118d",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3045",
+      "episode_sha256": "d07bfc962b92c99e65aad1b6d89662eb7f7c8fe49f6d24c87f270a3ac2b27f76",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 182,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "07e266f4046e3834e1a7118d9990b4c9f96c1d1d2de5669b9add435d4e878c4d",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3045,
+      "source_seed": null,
+      "start_raw_index": 157,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_07f1ed5bd18ad5cc46b7969f",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3823",
+      "episode_sha256": "f3741c8e9f66c2547831e971f9932b32b6570918e07a52ed860445ff193f0fdf",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 117,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "07f1ed5bd18ad5cc46b7969f379cca08abba4c5a3ecb146b506ff0915bb45178",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3823,
+      "source_seed": null,
+      "start_raw_index": 92,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_07ffaed1ee1ba4659754d8dc",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:8143",
+      "episode_sha256": "8774ad97803da5202620556b7209443a3edd35a8f8f31bf9070c613e13861211",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 186,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "07ffaed1ee1ba4659754d8dc054ecd096a4dbb2480f434070e55f9f1efa36f7f",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 8143,
+      "source_seed": null,
+      "start_raw_index": 161,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0828f8c0a7bf5f970f650816",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:5411",
+      "episode_sha256": "6002502d413bcfa3736f9eb5c20842125f59e2a5503eee383df24eadb68b4632",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 180,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0828f8c0a7bf5f970f650816b385ac65be18e5f6fe191a88d29aeca863107be6",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 5411,
+      "source_seed": null,
+      "start_raw_index": 155,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_082c8fcbca630b68a40e3e91",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:5053",
+      "episode_sha256": "f6eac345bdb73fd693149dbd78817f129846a72d4cfa94ef32c953dbec951d60",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 161,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "082c8fcbca630b68a40e3e915232adef4c9a922e2cbadd90d65f3c54b7ce21f0",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 5053,
+      "source_seed": null,
+      "start_raw_index": 136,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0847a314c294c24f960bbcd6",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7507",
+      "episode_sha256": "b60b4fb508a813da22310d60ef2d80c71e9033ca81da17be9e5a8d63af0977fa",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 179,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0847a314c294c24f960bbcd62a3f0c0fa4a620dd4e67e93c376cb1e7bdf5a617",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7507,
+      "source_seed": null,
+      "start_raw_index": 154,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_084b16e6e11eba5d50b50f6e",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:892",
+      "episode_sha256": "21c6c0663333d503d22160d2e35987991f82855009bec958661f2eb095cc63d3",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 158,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "084b16e6e11eba5d50b50f6e4b66614fea9dabde3d490178d0c4dc849451bb6d",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 892,
+      "source_seed": null,
+      "start_raw_index": 133,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_08529526369a77d93c7e5cfa",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7345",
+      "episode_sha256": "da99955fa30c4bc2d997abe692c23808a69115a9922b01e3107bc32013130591",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 49,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "08529526369a77d93c7e5cfab7e0f27cbc13fdb3a1f106ab52afd2ead0f2bcbd",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7345,
+      "source_seed": null,
+      "start_raw_index": 24,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_087dee9bd7aa686f9a82760b",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:156",
+      "episode_sha256": "edc22ff370eb905ab23dc80093bb2728a4064bf11597cdd1107f6b884b9c3164",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 143,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "087dee9bd7aa686f9a82760b7a1d343e6bd060a3878da37fe8c49131f0d8dbaa",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 156,
+      "source_seed": null,
+      "start_raw_index": 118,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0928c1bcbddea2e87479934a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:1932",
+      "episode_sha256": "a930cb387fb5a6358c02c41a19ddb8c1caa2c42f679c211e60bb5627e10547c5",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 67,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0928c1bcbddea2e87479934a99955f368af48f95eace991252d879db5e5ac2ab",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 1932,
+      "source_seed": null,
+      "start_raw_index": 42,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0975ccb16924c5cbe10f1841",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:866",
+      "episode_sha256": "796721bfaeca24a31cc67d981f5b1e976d73dc735655dd8e92272e69941d90ae",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 58,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0975ccb16924c5cbe10f184191118289573b5c212c0eec25287e0d72c58cc988",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 866,
+      "source_seed": null,
+      "start_raw_index": 33,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_097c6d27c395567681ab67a2",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2285",
+      "episode_sha256": "b40111f4605c1b951207f77ef9abae43e5b842f22f6ea673ff278d012ef75f53",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 187,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "097c6d27c395567681ab67a20b833e60467cb77c3fcfa838d1879b04a01b0d82",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2285,
+      "source_seed": null,
+      "start_raw_index": 162,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_09945dac93b1e47d097c438c",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:5299",
+      "episode_sha256": "5654c3a9513ccd271946e8745bfda467a675b3027d8dd26843b2554eb02ce452",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 161,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "09945dac93b1e47d097c438c635e211f1f1b51474e7e49a2639408d0ce2b19c3",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 5299,
+      "source_seed": null,
+      "start_raw_index": 136,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_09992bf4efbde5310d157c9f",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:1698",
+      "episode_sha256": "f560b2e33a7020b7cdd4014872f50053c52b8af12f45fe8d75327a6d4208a05c",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 140,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "09992bf4efbde5310d157c9f4946c322e432add1c2b33405ea9f127296687294",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 1698,
+      "source_seed": null,
+      "start_raw_index": 115,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_099aa6242010f0223c20ba08",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:7902",
+      "episode_sha256": "de00d7e0ef63c2d58ea60127c8b3b261240923f51a27b2bac064ce7a1a9b3b3d",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 128,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "099aa6242010f0223c20ba0873c314715730e584e60f26f82418bc62821f1f57",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 7902,
+      "source_seed": null,
+      "start_raw_index": 103,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_09a7eba8f6ad33376a060271",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:3807",
+      "episode_sha256": "5b535043c45a86e1669629d5a44bd2f8c4aba028719e7e9734bec259db9b5f6e",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 45,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "09a7eba8f6ad33376a060271c3d97d90dfb1f1462f02bea7373db115c6386436",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 3807,
+      "source_seed": null,
+      "start_raw_index": 20,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_09eb562c92944652610cf16a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:9824",
+      "episode_sha256": "ada0881bf581482c4175440628508113a65ebf306bd615543fa388f7cf0f0ad2",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 29,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "09eb562c92944652610cf16ae43b4116656f5f51dddd0aafb572520345108d12",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 9824,
+      "source_seed": null,
+      "start_raw_index": 4,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_09f2733ec009a4e9b04d0a17",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:8767",
+      "episode_sha256": "47f643c4289666c7a810d452c2aa70520a532b9547a75be63c0ed7d741396a8d",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 192,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "09f2733ec009a4e9b04d0a1762e6703003d90e7f97dcefceed34fa10a2ddab31",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 8767,
+      "source_seed": null,
+      "start_raw_index": 167,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0a1d23f8a381d84a5013eb84",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6104",
+      "episode_sha256": "69e5e8d6b2358cdb7c9beb633c6ff764e8f24f6b01ffb91959e4f037bfa2de3d",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 78,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0a1d23f8a381d84a5013eb8492a7b037566c8fd205318dea51f0f2a448b3ed02",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6104,
+      "source_seed": null,
+      "start_raw_index": 53,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0a4364c6ef2ff272bc328b56",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:6199",
+      "episode_sha256": "c12ff5fbc3fc84f73ecacd7a90ada9d4f03732b995baf7886ade02871257d402",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 180,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0a4364c6ef2ff272bc328b56e120783d2060dbb4ecc1d6ff6d88e37758b0e226",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 6199,
+      "source_seed": null,
+      "start_raw_index": 155,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0a52556b251a5ef965cb8409",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:2360",
+      "episode_sha256": "62e3883ce97e09c72a8f4e7b7e872338cf9a5b5db3f15d7997b461659c313076",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 54,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0a52556b251a5ef965cb8409f73b86b055c796189de7024bebe0a69292f49229",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 2360,
+      "source_seed": null,
+      "start_raw_index": 29,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0a64e69d5fb00bf8a1ac75b1",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:9543",
+      "episode_sha256": "164a1b79b505476e1cdc9815d70cc0d849790e69bdb34de686b1fffbdc370269",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 134,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0a64e69d5fb00bf8a1ac75b1524abe29cf005ff0fd7211a484a795bf54f8e679",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 9543,
+      "source_seed": null,
+      "start_raw_index": 109,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0a671a820037c283c15865ed",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:9101",
+      "episode_sha256": "bc54c36652ca1ab6e1a0a9b894bc6fd3f68f52b2d62cab3152a6d66f5be3b625",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 32,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0a671a820037c283c15865edd42ede113886987b2ea5d7e4d51d0f6027d8925e",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 9101,
+      "source_seed": null,
+      "start_raw_index": 7,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0a6e5325de6ef3d6b26562d1",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:1028",
+      "episode_sha256": "947bddb687cb8ead4c9983d47de31974bd834e94c6223d93353d0d9747c3c492",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 120,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0a6e5325de6ef3d6b26562d15df451897c28f8733f90de90958ea6530809b6e4",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 1028,
+      "source_seed": null,
+      "start_raw_index": 95,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0a7cd1f6775034406f334e08",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:8103",
+      "episode_sha256": "58674a25f6c9829264393fa800cbbf8e594c446534c3f74e1863279739631e1e",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 53,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0a7cd1f6775034406f334e08386112c324f1fb63b61b8d5f85eb023d7e165147",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 8103,
+      "source_seed": null,
+      "start_raw_index": 28,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0a85dc6552981d590cd677d7",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:1708",
+      "episode_sha256": "1c8e327a5fdff8e6da6dc99d00425059a4ee4a9d576634092251333be5227cf2",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 75,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0a85dc6552981d590cd677d729703f52501b944e001534ea8a38aa99b73168f9",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 1708,
+      "source_seed": null,
+      "start_raw_index": 50,
+      "task": "cube"
+    },
+    {
+      "case_id": "R8_cube_0a9060c86b7bb90af8835f6a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "cube:0664d507c4ff1200:1051",
+      "episode_sha256": "791d0134dcdc6b830c4657605eb33cb72eaa5419de4699ff647b9f24f158cee9",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 164,
+      "length": 201,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "privileged_block_0_pos": [
+            3
+          ],
+          "privileged_block_0_quat": [
+            4
+          ],
+          "qpos": [
+            21
+          ],
+          "qvel": [
+            20
+          ]
+        }
+      },
+      "reset_mode": "C1_SYMMETRIC_OFFICIAL",
+      "reset_seed": 0,
+      "reset_seed_provenance": "C1_SYMMETRIC_OFFICIAL",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+      "selection_sha256": "0a9060c86b7bb90af8835f6ab2eff5f35aa7e13efe8961b7577ec577b47d3874",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "source_episode_idx": 1051,
+      "source_seed": null,
+      "start_raw_index": 139,
+      "task": "cube"
+    }
+  ],
+  "construction_rule": "R3 metadata case construction; goal offset 25 raw; budget 50 raw",
+  "evidence_label": "R8_FRESH_CASE_REPLICATION",
+  "excluded_case_ids": 508,
+  "excluded_episode_ids": 104,
+  "formal_count": 100,
+  "offset_raw": 25,
+  "planned_formal_trajectories": 1200,
+  "selection_rule": "sha256(\"R8_FRESH/cube/\"+episode_id)",
+  "selection_used_model_outputs": false,
+  "source_h5": {
+    "archive_sha256": "3725d6a01abd492164441ef0a27e588f52b94a118fab56b96987b1a34a6c2600",
+    "bytes": 101942558720,
+    "path": "/dev/shm/x1_source_unpacked/cube/cube_single_expert.h5",
+    "receipt": "/workspace/x1_cube/manifests/cube_source_receipt.json",
+    "sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625"
+  },
+  "source_roles_sha256": "ad3c67c7ced865d5d21afed4c6b3f10a0c9bf40ec3d76616c07604da4b1d8a65",
+  "status": "SEALED_BEFORE_CLOSED_LOOP",
+  "task": "cube",
+  "version": "R8_M2_FRESH_CASE_SELECTION_V1"
+}

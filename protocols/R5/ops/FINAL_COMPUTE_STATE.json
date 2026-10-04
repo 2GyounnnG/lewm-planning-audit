@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-03T19:15:04.268690+00:00",
+  "known_R5_scientific_PIDs_still_present": [],
+  "nvidia_compute_processes": "",
+  "science_sources_modified": false,
+  "processes_interrupted": false,
+  "automatic_destroy": false,
+  "note": "Read-only end-of-computation snapshot; recovery transfers and CPU file verification may continue."
+}

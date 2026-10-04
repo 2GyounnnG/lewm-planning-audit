@@ -1,0 +1,17 @@
+{
+  "schema": "R8_FIX_STATUS_V3",
+  "generated_utc": "2026-10-04T07:40:39.662987+00:00",
+  "F1": "COMPLETE_CORRECTED_E2",
+  "F2": "TECH_FAIL_NOT_EVALUABLE",
+  "F2_formal_rows": 1200,
+  "F2_formal_status": "POSTHOC_AFTER_TECH_FAIL / INVALID_TECH_GATE",
+  "F2_strict_tech_gate": "FAIL",
+  "new_training": 0,
+  "original_R4_R8_files_modified": false,
+  "automatic_destroy": false,
+  "m6_assets_local_sha_verified": "211/211",
+  "invalid_or_excluded": [
+    "M3 PRED_PAST old implementation",
+    "M3 PRED_PAST F2 posthoc after strict TECH fail"
+  ]
+}

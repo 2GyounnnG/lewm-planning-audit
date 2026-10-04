@@ -1,0 +1,63 @@
+{
+  "version": "R6_RELEASE_CHECKLIST_V1",
+  "created_local": "2026-10-04",
+  "status": "READY_FOR_USER_DESTROY_AFTER_REVIEW",
+  "r6_local_delivery_check": "/Users/richwang/Documents/ChatGPT/热/r6_execution/delivery/R6_LOCAL_DELIVERY_CHECK.json",
+  "sha_verification": {
+    "sealed_r6_files": "PASS",
+    "c1_rgb_manifest_and_8_samples": "PASS",
+    "tarball_sha256": "c2411b39209581700f2da58fc78ecb29ffd6633fac0c843d2e7595bebcd7dad8",
+    "tarball_bytes": 449980,
+    "remote_originals_not_modified": true
+  },
+  "remote_only_destroy_irrecoverable": [
+    {
+      "path": "/workspace/r6/reacher/raw/FORMAL/**/result.json",
+      "count": 2400,
+      "bytes": 4306978,
+      "recoverability": "本地未保存；destroy 后不可恢复"
+    },
+    {
+      "path": "/workspace/r6/reacher/raw/FORMAL/**/trajectory.npz",
+      "count": 2400,
+      "bytes": 1561778680,
+      "recoverability": "本地未保存；destroy 后不可恢复"
+    },
+    {
+      "path": "/workspace/r6/reacher/assets/R6_reacher_*.npz",
+      "count": 100,
+      "bytes": "未回传（CASE_WINDOWS 已回传）",
+      "recoverability": "本地未保存；destroy 后不可恢复"
+    },
+    {
+      "path": "/workspace/r6/data/source H5 and shared R3 assets",
+      "count": "远端共享原件",
+      "bytes": "未回传",
+      "recoverability": "本地未保存；destroy 后不可恢复"
+    }
+  ],
+  "local_available": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r6_execution/delivery",
+      "contents": "R6_SEAL.json, R6_RECOVERY_MANIFEST.json, sealed reports, ops manifests, R6 code snapshot, C1_RGB_ILLUSTRATION.tar.gz, extracted 8 NPZ samples, C1 manifest, R6_LOCAL_DELIVERY_CHECK.json"
+    }
+  ],
+  "accepted_holds": [
+    {
+      "item": "H1a CPU tolerance",
+      "status": "ACCEPTED_AS_RECORDED_NUMERICAL_REPRODUCTION_LIMIT",
+      "action": "不放宽容差，不改原值"
+    },
+    {
+      "item": "H2 Reacher CPU tolerance",
+      "status": "ACCEPTED_AS_RECORDED_NUMERICAL_REPRODUCTION_LIMIT",
+      "action": "不放宽容差，不改原值"
+    }
+  ],
+  "destructive_action": "用户自行在 vast.ai destroy；本代理未执行自动 destroy。",
+  "limitations": [
+    "R6 raw result.json/trajectory.npz（4800 文件）未回传本地，完整内容仅保留在远端。",
+    "R6 100 个 case window NPZ assets 未随交付包回传；CASE_WINDOWS.json 已核验。",
+    "远端 R3/R4/R5 数据、模型与作业原件未回传；R4/R5 evidence 未修改。"
+  ]
+}

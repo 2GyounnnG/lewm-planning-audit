@@ -1,0 +1,137 @@
+{
+  "protocol": "R4-v2.3",
+  "purpose": "SECOND_BATCH_SEPARATE_FROM_IMMUTABLE_MAIN",
+  "requirements": [
+    {
+      "name": "r4_pusht",
+      "status_file": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/secondary_validation/r4_pusht.json",
+      "allowed_technical_statuses": [
+        "COMPLETE_WITH_TECHNICAL_LIMITATIONS"
+      ]
+    },
+    {
+      "name": "r4_reacher",
+      "status_file": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/secondary_validation/r4_reacher.json",
+      "allowed_technical_statuses": [
+        "COMPLETE_WITH_TECHNICAL_LIMITATIONS"
+      ]
+    },
+    {
+      "name": "x1_tworoom",
+      "status_file": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/secondary_validation/x1_tworoom.json",
+      "allowed_technical_statuses": [
+        "COMPLETE_WITH_TECHNICAL_LIMITATIONS"
+      ]
+    },
+    {
+      "name": "x1_cube",
+      "status_file": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/secondary_validation/x1_cube.json",
+      "allowed_technical_statuses": [
+        "COMPLETE_WITH_TECHNICAL_LIMITATIONS"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "name": "FOUR_TASK_PLANNING_RANDOMNESS_TABLE.csv",
+      "sources": [
+        {
+          "label": "R4_PUSHT",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_pusht/s3/PLANNING_RANDOMNESS_TABLE.csv"
+        },
+        {
+          "label": "R4_REACHER",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r4_reacher/s3/PLANNING_RANDOMNESS_TABLE.csv"
+        },
+        {
+          "label": "X1_TWOROOM",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/PLANNING_RANDOMNESS_TABLE.csv"
+        },
+        {
+          "label": "X1_CUBE",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/PLANNING_RANDOMNESS_TABLE.csv"
+        }
+      ]
+    },
+    {
+      "name": "X1_LEARNING_ALL_STREAMS.csv",
+      "sources": [
+        {
+          "label": "X1_TWOROOM",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/S3_LEARNING_MAIN_TABLE.csv"
+        },
+        {
+          "label": "X1_CUBE_TECHNICAL_MISSINGNESS",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/S3_LEARNING_MAIN_TABLE.csv"
+        }
+      ]
+    },
+    {
+      "name": "X1_ALL_STREAMS_RAW_VALUES.csv",
+      "sources": [
+        {
+          "label": "X1_TWOROOM",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/tworoom_RANDOMNESS/ALL_RAW_VALUES.csv"
+        },
+        {
+          "label": "X1_CUBE_TECHNICAL_MISSINGNESS",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/ALL_RAW_VALUES.csv"
+        }
+      ]
+    },
+    {
+      "name": "R4_S2_MIDDLE_TABLE.csv",
+      "sources": [
+        {
+          "label": "R4_PUSHT",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/S2_SECONDARY_TABLE.csv"
+        },
+        {
+          "label": "R4_REACHER",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/S2_SECONDARY_TABLE.csv"
+        },
+        {
+          "label": "TECHNICAL_LIMITATIONS",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/R4_SECONDARY_TECHNICAL_LIMITATIONS.csv"
+        }
+      ]
+    },
+    {
+      "name": "R4_S2_MIDDLE_CANDIDATE_RAW.csv",
+      "sources": [
+        {
+          "label": "R4_PUSHT",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/ALL_CANDIDATE_RAW.csv"
+        },
+        {
+          "label": "R4_REACHER",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/ALL_CANDIDATE_RAW.csv"
+        }
+      ]
+    },
+    {
+      "name": "R4_S2_MIDDLE_AVAILABILITY.csv",
+      "sources": [
+        {
+          "label": "R4_PUSHT",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/pusht/MIDDLE_FORK_AVAILABILITY_RAW.csv"
+        },
+        {
+          "label": "R4_REACHER",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/secondary/reacher/MIDDLE_FORK_AVAILABILITY_RAW.csv"
+        }
+      ]
+    },
+    {
+      "name": "SIM_CEM_ESTIMATES.csv",
+      "sources": [
+        {
+          "label": "MEASURED_TECH_P90_ESTIMATE_AND_GATE",
+          "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/SIM_CEM_ESTIMATES.csv"
+        }
+      ]
+    }
+  ],
+  "interval_interpretation": "Pointwise unadjusted conditional95. X1 repeated streams do not increase independent case count. Mid-forks are fixed20 H0-visited/survival conditioned, kept separate from initial100. Missing Cube/Reacher outcomes remain blank.",
+  "main_batch_directory_not_modified": true
+}

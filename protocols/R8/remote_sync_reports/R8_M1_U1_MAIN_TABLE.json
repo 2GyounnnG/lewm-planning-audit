@@ -1,0 +1,25 @@
+{
+  "dataset": "M1_U1",
+  "task": "reacher",
+  "status": "COMPLETE",
+  "rows": 2400,
+  "cases": 100,
+  "expected_rows": 2400,
+  "available_histories": [
+    "H_POLICY",
+    "H_REAL3_REPLAN"
+  ],
+  "primary_contrast": "H_REAL3_REPLAN_minus_H_POLICY_pooled",
+  "point_estimate": 0.008333333333333337,
+  "ci95_low": 0.003333333333333335,
+  "ci95_high": 0.01416666666666667,
+  "bootstrap": 5000,
+  "bootstrap_seed_rule": "R8_CASE_BOOTSTRAP_20261004/M1_U1/H_REAL3_REPLAN_minus_H_POLICY_pooled",
+  "bootstrap_seed_uint64": 6384393157027228926,
+  "H_POLICY_success_rate": 0.9891666666666666,
+  "H_REAL3_REPLAN_success_rate": 0.9975,
+  "H_POLICY_entered_replanning_rate": 0.5783333333333334,
+  "H_REAL3_REPLAN_entered_replanning_rate": 0.5783333333333334,
+  "paired_first_plan_checked_H_REAL3_rows": 1200,
+  "cross_unit_first_plan_checked_rows": 2400
+}

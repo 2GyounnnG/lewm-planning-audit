@@ -1,0 +1,34 @@
+{
+  "status": "COMPLETE_WITH_TECHNICAL_LIMITATIONS",
+  "reason": "RESET_FALLBACK_EXACT_CHECK_FAILED",
+  "task": "cube",
+  "fixed_cases": 100,
+  "logical_rows": 1200,
+  "observed_rows": 0,
+  "randomness_rows": 12,
+  "learning_rows": 15,
+  "frozen_statistics_reproduced_from_raw": false,
+  "explicit_missingness_verified": true,
+  "inputs": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/MODULE_STATUS.json",
+      "bytes": 1335,
+      "sha256": "33904937753160086e153780d84824d9600f4b061b9b1d46ba1be4703e69b78d"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/ALL_RAW_VALUES.csv",
+      "bytes": 132350,
+      "sha256": "47375b032ab4537aecd23d8f7409103d012248f78862bfa481b41413b66eb72c"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/PLANNING_RANDOMNESS_TABLE.csv",
+      "bytes": 2644,
+      "sha256": "a690e1607a80855c298c9d42260efec68f24b8d1def0cb45e4b46f0776f9be57"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_RANDOMNESS/S3_LEARNING_MAIN_TABLE.csv",
+      "bytes": 2991,
+      "sha256": "bad7a3fb4ddd5282a483a0d95adc970f18ec5dc69c7190f8d17f484a2420088e"
+    }
+  ]
+}

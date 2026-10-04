@@ -1,0 +1,235 @@
+{
+  "version": "R8_FIXED_CASE_BOOTSTRAP_SUMMARY_V1",
+  "evidence_label": "R8_ORIGINAL_VALUE_SUMMARY",
+  "created_utc": "2026-10-04T03:35:56Z",
+  "read_only_inputs": true,
+  "source_roots": [
+    "/workspace/r8/raw/U1",
+    "/workspace/r8/raw/U2",
+    "/workspace/r8/raw/M2_reacher",
+    "/workspace/r8/raw/M2_pusht"
+  ],
+  "bootstrap": {
+    "B": 5000,
+    "unit": "CASE",
+    "seed_rule": "SHA256(\"R8_CASE_BOOTSTRAP_20261004/<dataset>/<contrast>\") first 8 bytes big-endian",
+    "quantile": "linear 2.5%,97.5%"
+  },
+  "datasets": [
+    {
+      "dataset": "M1_U1",
+      "task": "reacher",
+      "status": "COMPLETE",
+      "rows": 2400,
+      "cases": 100,
+      "outputs": [
+        {
+          "path": "/workspace/r8/reports/R8_M1_U1_RAW_VALUES.csv",
+          "bytes": 720996,
+          "sha256": "89c0a3bf259b7cc1ba873669ebc34f8daec7b96653bd299da9760653afcb7b90"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M1_U1_CONDITION_TABLE.csv",
+          "bytes": 2754,
+          "sha256": "6fd373388e8cfb420060c73a987b118c48138325501749169de4437413c92d62"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M1_U1_CASE_BOOTSTRAP_TABLE.csv",
+          "bytes": 2306,
+          "sha256": "c8459891c1cbb92ba7940afc9db08553c1f64341a7feacde40a629ba721a457b"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M1_U1_MAIN_TABLE.json",
+          "bytes": 845,
+          "sha256": "63e71e52122ad5bfd6b6681316ae7d933dd5194fe74c74ba4cfb7421000ae3ac"
+        }
+      ],
+      "main": {
+        "dataset": "M1_U1",
+        "task": "reacher",
+        "status": "COMPLETE",
+        "rows": 2400,
+        "cases": 100,
+        "expected_rows": 2400,
+        "available_histories": [
+          "H_POLICY",
+          "H_REAL3_REPLAN"
+        ],
+        "primary_contrast": "H_REAL3_REPLAN_minus_H_POLICY_pooled",
+        "point_estimate": 0.008333333333333337,
+        "ci95_low": 0.003333333333333335,
+        "ci95_high": 0.01416666666666667,
+        "bootstrap": 5000,
+        "bootstrap_seed_rule": "R8_CASE_BOOTSTRAP_20261004/M1_U1/H_REAL3_REPLAN_minus_H_POLICY_pooled",
+        "bootstrap_seed_uint64": 6384393157027228926,
+        "H_POLICY_success_rate": 0.9891666666666666,
+        "H_REAL3_REPLAN_success_rate": 0.9975,
+        "H_POLICY_entered_replanning_rate": 0.5783333333333334,
+        "H_REAL3_REPLAN_entered_replanning_rate": 0.5783333333333334,
+        "paired_first_plan_checked_H_REAL3_rows": 1200,
+        "cross_unit_first_plan_checked_rows": 2400
+      }
+    },
+    {
+      "dataset": "M1_U2",
+      "task": "reacher",
+      "status": "COMPLETE",
+      "rows": 2400,
+      "cases": 100,
+      "outputs": [
+        {
+          "path": "/workspace/r8/reports/R8_M1_U2_RAW_VALUES.csv",
+          "bytes": 720965,
+          "sha256": "dca2628f0ed575ed75bc5fe394be98db116fecdd6d6985ef9a418fb942807cc2"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M1_U2_CONDITION_TABLE.csv",
+          "bytes": 2804,
+          "sha256": "5636b341a2b4c774f976057982cf283efa1cbba1c2c87d4b6a11de5a4e56fb0e"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M1_U2_CASE_BOOTSTRAP_TABLE.csv",
+          "bytes": 2416,
+          "sha256": "9213cfbe3a0eaa834a009c6e6800c2ba2481a6fe9de3807f26215cf5043d5dbf"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M1_U2_MAIN_TABLE.json",
+          "bytes": 827,
+          "sha256": "23cc30e56e56328c204bca19b4fb65bfa3ac7deb4635986feefe938c5bff6558"
+        }
+      ],
+      "main": {
+        "dataset": "M1_U2",
+        "task": "reacher",
+        "status": "COMPLETE",
+        "rows": 2400,
+        "cases": 100,
+        "expected_rows": 2400,
+        "available_histories": [
+          "H_POLICY",
+          "H_REAL3_REPLAN"
+        ],
+        "primary_contrast": "H_REAL3_REPLAN_minus_H_POLICY_pooled",
+        "point_estimate": 0.11083333333333333,
+        "ci95_low": 0.08416666666666668,
+        "ci95_high": 0.14,
+        "bootstrap": 5000,
+        "bootstrap_seed_rule": "R8_CASE_BOOTSTRAP_20261004/M1_U2/H_REAL3_REPLAN_minus_H_POLICY_pooled",
+        "bootstrap_seed_uint64": 17809501965250932245,
+        "H_POLICY_success_rate": 0.8391666666666666,
+        "H_REAL3_REPLAN_success_rate": 0.95,
+        "H_POLICY_entered_replanning_rate": 0.5358333333333334,
+        "H_REAL3_REPLAN_entered_replanning_rate": 0.5358333333333334,
+        "paired_first_plan_checked_H_REAL3_rows": 1200,
+        "cross_unit_first_plan_checked_rows": 2400
+      }
+    },
+    {
+      "dataset": "M2_REACHER",
+      "task": "reacher",
+      "status": "COMPLETE",
+      "rows": 1200,
+      "cases": 100,
+      "outputs": [
+        {
+          "path": "/workspace/r8/reports/R8_M2_REACHER_RAW_VALUES.csv",
+          "bytes": 374966,
+          "sha256": "f6724b6e76ad139299201d0d348b1b22a5923d2b1f2c256211d8e4961284e8d9"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M2_REACHER_CONDITION_TABLE.csv",
+          "bytes": 1513,
+          "sha256": "1208b082198945093c6e96b896f9ea47f236777dc4ae3cec689fad857b18ac96"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M2_REACHER_CASE_BOOTSTRAP_TABLE.csv",
+          "bytes": 499,
+          "sha256": "3e3911cbc9da89e7f995151bed6c613290a9f28399c2199a64e54b34da1bfeab"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M2_REACHER_MAIN_TABLE.json",
+          "bytes": 781,
+          "sha256": "c6635fdb42233f8b8bfb43a9716e4a8a8cbef0029838805b3e11cc4fe1b04016"
+        }
+      ],
+      "main": {
+        "dataset": "M2_REACHER",
+        "task": "reacher",
+        "status": "COMPLETE",
+        "rows": 1200,
+        "cases": 100,
+        "expected_rows": 1200,
+        "available_histories": [
+          "H_POLICY"
+        ],
+        "primary_contrast": "H_POLICY_success_pooled",
+        "point_estimate": 0.8408333333333334,
+        "ci95_low": 0.8041666666666667,
+        "ci95_high": 0.8783333333333334,
+        "bootstrap": 5000,
+        "bootstrap_seed_rule": "R8_CASE_BOOTSTRAP_20261004/M2_REACHER/H_POLICY_success_pooled",
+        "bootstrap_seed_uint64": 17025049542749625233,
+        "H_POLICY_success_rate": 0.8408333333333333,
+        "H_REAL3_REPLAN_success_rate": null,
+        "H_POLICY_entered_replanning_rate": 0.5391666666666667,
+        "H_REAL3_REPLAN_entered_replanning_rate": null,
+        "paired_first_plan_checked_H_REAL3_rows": 0,
+        "cross_unit_first_plan_checked_rows": 0
+      }
+    },
+    {
+      "dataset": "M2_PUSHT",
+      "task": "pusht",
+      "status": "COMPLETE",
+      "rows": 1200,
+      "cases": 100,
+      "outputs": [
+        {
+          "path": "/workspace/r8/reports/R8_M2_PUSHT_RAW_VALUES.csv",
+          "bytes": 360608,
+          "sha256": "1464b710f7a4c4dd8c6a44c52201a9babfbeedf5afd6c98969f1855aa7600469"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M2_PUSHT_CONDITION_TABLE.csv",
+          "bytes": 1496,
+          "sha256": "190bcc4a0aec5af014ef3e7471fad585e1eb6001c954c36379c9d997bde7a333"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M2_PUSHT_CASE_BOOTSTRAP_TABLE.csv",
+          "bytes": 478,
+          "sha256": "b80ecbb2a45eb785ffb34fb264299779c34a6e4152dc4aaa0a0940961d925dcf"
+        },
+        {
+          "path": "/workspace/r8/reports/R8_M2_PUSHT_MAIN_TABLE.json",
+          "bytes": 750,
+          "sha256": "56d4a7c853cf7e3da4c779c8660ae8f5944a0a6b323f3313d458b768efe7c4cd"
+        }
+      ],
+      "main": {
+        "dataset": "M2_PUSHT",
+        "task": "pusht",
+        "status": "COMPLETE",
+        "rows": 1200,
+        "cases": 100,
+        "expected_rows": 1200,
+        "available_histories": [
+          "H_POLICY"
+        ],
+        "primary_contrast": "H_POLICY_success_pooled",
+        "point_estimate": 0.905,
+        "ci95_low": 0.8558333333333333,
+        "ci95_high": 0.9483333333333333,
+        "bootstrap": 5000,
+        "bootstrap_seed_rule": "R8_CASE_BOOTSTRAP_20261004/M2_PUSHT/H_POLICY_success_pooled",
+        "bootstrap_seed_uint64": 16631598686314540424,
+        "H_POLICY_success_rate": 0.905,
+        "H_REAL3_REPLAN_success_rate": null,
+        "H_POLICY_entered_replanning_rate": 0.15583333333333332,
+        "H_REAL3_REPLAN_entered_replanning_rate": null,
+        "paired_first_plan_checked_H_REAL3_rows": 0,
+        "cross_unit_first_plan_checked_rows": 0
+      }
+    }
+  ],
+  "R4_R5_R6_R7_modified": false
+}

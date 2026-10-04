@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE",
+  "scope_rows": 10368,
+  "max_absolute_arithmetic_error": {
+    "current": 0.0,
+    "original_E0": 0.0
+  },
+  "risk_differences_recomputed_from_delivered_raw": true,
+  "original_E0_differences_recomputed_from_immutable_input_rows": true,
+  "new_statistical_estimands": 0,
+  "new_model_calls": 0,
+  "inputs": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_ALL_RAW_VALUES.csv",
+      "bytes": 2178956,
+      "sha256": "96689f3bcfa411158d652fb0d173ca4893fefdc8cb90f768399659ea5eb794ac"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/reports/X2_SCOPE_DIFFERENCES.csv",
+      "bytes": 929076,
+      "sha256": "acf4a3446c6697a84cc6b8a171e4f260e8cd3142a4ef88307514ec2760cf3e63"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x2/inputs/X2_INPUT_MANIFEST.json",
+      "bytes": 792931,
+      "sha256": "2d28860852dc316858001635f6f4e228e2ddb543a3cf352f4c15dc54232cd3b1"
+    }
+  ]
+}

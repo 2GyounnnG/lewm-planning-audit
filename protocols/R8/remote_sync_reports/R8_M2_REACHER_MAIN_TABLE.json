@@ -1,0 +1,24 @@
+{
+  "dataset": "M2_REACHER",
+  "task": "reacher",
+  "status": "COMPLETE",
+  "rows": 1200,
+  "cases": 100,
+  "expected_rows": 1200,
+  "available_histories": [
+    "H_POLICY"
+  ],
+  "primary_contrast": "H_POLICY_success_pooled",
+  "point_estimate": 0.8408333333333334,
+  "ci95_low": 0.8041666666666667,
+  "ci95_high": 0.8783333333333334,
+  "bootstrap": 5000,
+  "bootstrap_seed_rule": "R8_CASE_BOOTSTRAP_20261004/M2_REACHER/H_POLICY_success_pooled",
+  "bootstrap_seed_uint64": 17025049542749625233,
+  "H_POLICY_success_rate": 0.8408333333333333,
+  "H_REAL3_REPLAN_success_rate": null,
+  "H_POLICY_entered_replanning_rate": 0.5391666666666667,
+  "H_REAL3_REPLAN_entered_replanning_rate": null,
+  "paired_first_plan_checked_H_REAL3_rows": 0,
+  "cross_unit_first_plan_checked_rows": 0
+}

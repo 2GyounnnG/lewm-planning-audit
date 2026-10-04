@@ -1,0 +1,222 @@
+{
+  "version": "R8_RELEASE_CHECKLIST_FINAL_V3",
+  "generated_utc": "2026-10-04T07:43:30.012455+00:00",
+  "remote_roots": [
+    "/workspace/r8",
+    "/workspace/r8_fix",
+    "/workspace/shared_data/r3",
+    "/workspace/r4_v23_execution/r4"
+  ],
+  "local_v3_root": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_v3",
+  "local_return_root": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync",
+  "returned_and_verified": [
+    {
+      "name": "R3 official code/weights/refit checkpoints/manifest",
+      "remote_path": "/workspace/shared_data/r3",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/shared_data/r3",
+      "manifest_local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/manifests/remote_shared_data_r3.sha256",
+      "files": 4068,
+      "bytes": 599996559,
+      "manifest_sha256": "cbb085401455e87a820f257533aada2176643674e5ea11b5b91521b271024a73",
+      "remote_local_manifest_exact": true,
+      "status": "SHA_EXACT"
+    },
+    {
+      "name": "R8 assets",
+      "remote_path": "/workspace/r8/assets",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/r8/assets",
+      "manifest_local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/manifests/remote_r8_assets.sha256",
+      "files": 600,
+      "bytes": 304958078,
+      "manifest_sha256": "992c4b868d672b0213205d0168d5cabf9d6b1b85b94eb0adc9c70ae35cafb0be",
+      "remote_local_manifest_exact": true,
+      "status": "SHA_EXACT"
+    },
+    {
+      "name": "R4-v2.3 execution code",
+      "remote_path": "/workspace/r4_v23_execution/r4",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/r4_v23_execution/r4",
+      "manifest_local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/manifests/remote_r4_v23_execution_r4.sha256",
+      "files": 93,
+      "bytes": 994055,
+      "manifest_sha256": "117a1f0958710ddb4e91100e0b644017be08af9d94ce5a991d91e9b96f42207b",
+      "remote_local_manifest_exact": true,
+      "status": "SHA_EXACT"
+    },
+    {
+      "name": "F2 strict TECH input/results/logs",
+      "remote_path": "/workspace/r8_fix/f2_validation",
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/r8_fix/f2_validation",
+      "manifest_local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/manifests/remote_r8_fix_f2_validation.sha256",
+      "files": 15,
+      "bytes": 388932,
+      "manifest_sha256": "8738aa027fc3647772e9a6ff0912c9b6cad38a2d28b26fe71cf2d09d7e307327",
+      "remote_local_manifest_exact": true,
+      "status": "SHA_EXACT"
+    }
+  ],
+  "local_v3_artifacts": [
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_v3/reports/R8_MAIN_TABLE_V3.csv",
+      "exists": true,
+      "bytes": 3643,
+      "sha256": "7eb07a610de5e38343735d289346c9d849dd98c794d9e2e973f285ff2d3c4245"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_v3/reports/R8_SECONDARY_TABLE_V3.csv",
+      "exists": true,
+      "bytes": 4277,
+      "sha256": "0b005cf8b3b1eb7f3bc3f347e650ea00679c91ef2f9d60d4024eb96286f7c5f1"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_v3/reports/R8_CORRECTIONS.md",
+      "exists": true,
+      "bytes": 1295,
+      "sha256": "af912b64f0305ffac4f713a89df15c143f665ad4177fb7e3feb913fd64927a0c"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_v3/reports/R8_FIX_STATUS_V3.json",
+      "exists": true,
+      "bytes": 548,
+      "sha256": "07cbecb6b4fb13ef7c7f3edce15556361e33ccc6ecbdfe64a6db462ef183e666"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_v3/reports/R8_FIX_CONCLUSIONS_V3.txt",
+      "exists": true,
+      "bytes": 473,
+      "sha256": "3994fa4b4a53947475dfbee352e799e916dc057a69a4e99fff0c73245b98fc58"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_v3/reports/R8_FIX_FINAL_SEAL_V3.json",
+      "exists": true,
+      "bytes": 1530,
+      "sha256": "df6988fe9cb7f94ea2cc18af6658d40ca4b490891b3abb247433c545b52513b4"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/fix/f1/R8_M1_E2_CORRECTED_TABLE.csv",
+      "exists": true,
+      "bytes": 1770,
+      "sha256": "b538a12db542669051a465a9d50fe0507a7f4bc8861296cdf5c13b22c5812a36"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/fix/f1/R8_M1_E2_SEAL.json",
+      "exists": true,
+      "bytes": 857,
+      "sha256": "a7bf852bcc10e43c2a8d0399037506a9a5fc61a6f27c4db6c25fd90c46b1f2d4"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/fix/f1/R8_M1_E2_RECEIPT.json",
+      "exists": true,
+      "bytes": 4004,
+      "sha256": "e8eaae1b642ab370035ffaa9886dbe7ffb05ea6d09e91d51c9611a8d47935412"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/fix/f2/reports/M3_V3_MAIN_TABLE.csv",
+      "exists": true,
+      "bytes": 571,
+      "sha256": "98c56944c17016e37a97c4128cdaa49326b5434bf24672f6988fa46f50c7744b"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/fix/f2/reports/M3_V3_SECONDARY_TABLE.csv",
+      "exists": true,
+      "bytes": 455,
+      "sha256": "9fddb5540c069f4e7bc4393075fc4cc97c3e0050f8cb0d6c0165b2087fec64bd"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/fix/f2/reports/M3_V3_SEAL.json",
+      "exists": true,
+      "bytes": 624650,
+      "sha256": "f59dba80d05048297f347de41d87e6a9d899c8c423991e3cbde79091bd5b6a7a"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/remote_sync/fix/f2/reports/R8_FIX_F2_RECEIPT.json",
+      "exists": true,
+      "bytes": 1521300,
+      "sha256": "f0102dae871a7b0eb96444697cb6237a0fcb03f9097c7c4af2d0a1c5d46afffb"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/r8_fix/f2_validation/ops/TECH_GATE_ZHAT_ONLY.json",
+      "exists": true,
+      "bytes": 1060,
+      "sha256": "1b55790051fc028e082be16cfaa6aefa069463eb025cfc3c1ed62451819de30b"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/r8_fix/f2_validation/ops/TECH_GATE_STRICT.json",
+      "exists": true,
+      "bytes": 1385,
+      "sha256": "66260d1edf91412437ddef7ea923b654321fd805dfcd21263c9a04b91f842295"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/r8_fix/f2_validation/ops/VALIDATION_RECEIPT.json",
+      "exists": true,
+      "bytes": 4268,
+      "sha256": "e6dcabc0d833febc4b2db1e18672d6c138e7c80930e7ee76a3f091f6229dff99"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/r8_fix/f2_validation/ops/TECH.log",
+      "exists": true,
+      "bytes": 4278,
+      "sha256": "bd2ddce166d6729c6a3a88a1761fb0b8cf5300348e4f700804f43d387a40916c"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/final_sync/r8_fix/f2_validation/reports/M3_V3_RAW_VALUES_VERIFIED.csv",
+      "exists": true,
+      "bytes": 331167,
+      "sha256": "ce2ce8ea27a78e0d8639c1f549bb7e544aa44bbfea90d1a1d37c22380a4d7d86"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_sync/m6/assets",
+      "exists": true,
+      "bytes": 137092872,
+      "sha256": null,
+      "files": 211,
+      "sha_verification": "see /Users/richwang/Documents/ChatGPT/热/r8_execution/fix_sync/M6_ASSETS_VERIFY.json"
+    },
+    {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_sync/M6_ASSETS_VERIFY.json",
+      "exists": true,
+      "bytes": 99323,
+      "sha256": "0159b05077cdb99c6b13d5193cad252e742c323d7c499ef0a788388147244ead"
+    }
+  ],
+  "verification_file": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_v3/R8_FIX_LOCAL_VERIFY_V3.json",
+  "m6_assets": {
+    "local_path": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_sync/m6/assets",
+    "verification_file": "/Users/richwang/Documents/ChatGPT/热/r8_execution/fix_sync/M6_ASSETS_VERIFY.json",
+    "status": "211/211 SHA_MATCH",
+    "note": "M6 inputs are local; exact R3/R4 dependencies are now also mirrored under final_sync and SHA-matched."
+  },
+  "remote_only_discardable_after_user_confirmation": [
+    {
+      "remote_path": "/workspace/r8",
+      "files": 94351,
+      "bytes": 2480921893,
+      "reason": "远端 R8 原始证据包、运行副本和重复输入；本地已有 V2/V3 结果与回传镜像。destroy 后不可恢复。"
+    },
+    {
+      "remote_path": "/workspace/r8_fix",
+      "files": 7339,
+      "bytes": 134911096,
+      "reason": "R8-FIX 原始运行、F1/F2/F3 副本和验证目录；V3 结果及 F2 严格 TECH 已回传本地。destroy 后不可恢复。"
+    },
+    {
+      "remote_path": "/workspace/shared_data/r3",
+      "files": 4068,
+      "bytes": 599996660,
+      "reason": "R3 官方代码、权重、全部 refit checkpoint、manifest；本地 final_sync 已逐文件 SHA 匹配。"
+    },
+    {
+      "remote_path": "/workspace/r4_v23_execution/r4",
+      "files": 93,
+      "bytes": 994055,
+      "reason": "R4-v2.3 执行代码；本地 final_sync 已逐文件 SHA 匹配。"
+    }
+  ],
+  "remote_destroyed": false,
+  "user_action": "由用户在 vast.ai 上手动 destroy；本代理不执行 destroy。",
+  "notes": [
+    "本次只做回传、hash 核验和清单更新；未运行闭环、训练或修改已封存 R4–R8 文件。",
+    "rsync --checksum 对本地目标进行缺失/不一致补齐；四个远端树的逐文件 SHA manifest 均 exact_match=true。",
+    "F2 严格 TECH 只扰动两个过去 latent 的验证结果保持 FAIL；F2 formal 1200 条仅作 posthoc invalid，未纳入有效主结论。"
+  ]
+}

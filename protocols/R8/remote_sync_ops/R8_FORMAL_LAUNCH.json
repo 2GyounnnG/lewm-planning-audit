@@ -1,0 +1,41 @@
+{
+  "arms": [
+    "H0",
+    "REFIT_103201",
+    "REFIT_103202",
+    "REFIT_103203"
+  ],
+  "evidence_label": "PREREGISTERED_BUDGET_DECOMPOSITION",
+  "histories": [
+    "H_POLICY",
+    "H_REAL3_REPLAN"
+  ],
+  "no_training": true,
+  "no_tuning": true,
+  "planned_rows_per_unit": 2400,
+  "planned_total_rows": 4800,
+  "remote_root": "/workspace/r8",
+  "result_based_selection": false,
+  "streams": [
+    "R3_ORIGINAL",
+    "R4_ALT_CEM_1",
+    "R4_ALT_CEM_2"
+  ],
+  "units": {
+    "U1": {
+      "budget_raw": 100,
+      "cases": 100,
+      "max_replans": 3,
+      "offset_raw": 25,
+      "reference": "R6"
+    },
+    "U2": {
+      "budget_raw": 50,
+      "cases": 100,
+      "max_replans": 1,
+      "offset_raw": 50,
+      "reference": "R7"
+    }
+  },
+  "version": "R8_PREREGISTERED_BUDGET_DECOMPOSITION_V1"
+}

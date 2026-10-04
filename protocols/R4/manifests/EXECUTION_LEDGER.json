@@ -1,0 +1,118 @@
+{
+  "protocol": "R4-v2.3",
+  "host": "72531573d994",
+  "host_key_file": "ops/known_hosts",
+  "gpu_uuids": [
+    "GPU-57022c96-33b0-3a94-a817-87e60458a7a0",
+    "GPU-97c13860-4f7b-6944-d2c9-a14b16414a6e",
+    "GPU-063564fb-a4ee-c698-720e-1933c78250d7",
+    "GPU-f1f1f5c6-8b3a-3698-ee3f-90310013acf6",
+    "GPU-19969c82-67f3-c9ab-7523-790dda5dbfb1",
+    "GPU-a777580a-da3f-fb0c-bc26-1aa1977f834e",
+    "GPU-408fc95e-8431-da52-0c52-d3bb3470e7ae",
+    "GPU-72d3ed36-1378-44c6-4bb8-54641bf396a4"
+  ],
+  "partitions": {
+    "r4_pusht": {
+      "gpus": [
+        0,
+        1
+      ],
+      "cpu_affinity": "0-23",
+      "quota": 24
+    },
+    "r4_reacher": {
+      "gpus": [
+        2,
+        3
+      ],
+      "cpu_affinity": "24-47",
+      "quota": 24
+    },
+    "x1_tworoom": {
+      "gpus": [
+        4,
+        5
+      ],
+      "cpu_affinity": "48-63",
+      "quota": 16
+    },
+    "x1_cube": {
+      "gpus": [
+        6,
+        7
+      ],
+      "cpu_affinity": "64-87",
+      "quota": 24
+    },
+    "x2": {
+      "gpus": [],
+      "cpu_affinity": "88-191",
+      "quota": 104,
+      "worker_threads": 1
+    }
+  },
+  "actual_aggregate_cgroup_cpu_quota": 184.32,
+  "logical_affinity_cpu_count": 192,
+  "disk_actual_gib": 300,
+  "disk_protocol_target_tb": 2,
+  "storage_handling": "SHA-verified public HDF5 may use RAM scratch; all experiment outputs and hashes persist in /workspace; no old cache deletions",
+  "training": {
+    "r4_optimizer_updates": 0,
+    "x1_per_task_seeds": [
+      103201,
+      103202,
+      103203
+    ],
+    "x1_updates_per_seed": 30000,
+    "x2_encoders": 324,
+    "x2_trainable": "original predictor or MLP head only, encoder/readout frozen",
+    "x2_updates_per_neural_arm": 30000
+  },
+  "no_auto_rent": true,
+  "no_auto_destroy": true,
+  "stage": "ALL_SCIENTIFIC_RESULTS_DELIVERED_X1_RECOVERY_PENDING_CPU_GATE_HOLD",
+  "statistics_freeze": "manifests/statistics_full_v3/STATISTICS_FREEZE.json",
+  "confirmed_background": {
+    "x1_cube": {
+      "stage": "RECOVERY_TRANSFER_AND_PENDING_STRICT_CPU_CHECK"
+    },
+    "x1_tworoom": {
+      "stage": "SECONDARY_COMPLETE_INCREMENTAL_RECOVERY_PENDING",
+      "strict_CPU_replay": "FAILED_ON_MAC_AND_LINUX"
+    },
+    "x2": {
+      "stage": "SEALED"
+    },
+    "r4": {
+      "stage": "PRIMARY_AND_SECONDARY_RECOVERY_COMPLETE"
+    }
+  },
+  "last_observed_utc": "2026-10-03T16:31:04.677229+00:00",
+  "r4_original_stream_progress": {
+    "pusht": {
+      "completed_case_arm_records": 400,
+      "all_hashes_verification": "PASS",
+      "independent_validation": "manifests/main_validation/r4_pusht_main.json"
+    },
+    "reacher": {
+      "completed_case_arm_records": 400,
+      "all_hashes_verification": "PASS",
+      "independent_validation": "manifests/main_validation/r4_reacher_main.json"
+    }
+  },
+  "technical_updates": {
+    "r4": 0,
+    "x1_tworoom": 128,
+    "x1_cube": 128
+  },
+  "technical_limitations": {
+    "reacher_fixed_horizon": "TRUE_DMC_LAST_BEFORE_RAW25",
+    "cube_closed_loop": "RESET_FALLBACK_EXACT_CHECK_FAILED"
+  },
+  "second_batch_started": true,
+  "r4_neural_training_actual_updates": 0,
+  "x2_predictor_actual_updates": 19440000,
+  "x1_formal_predictor_actual_updates": 180000,
+  "all_scientific_computation_finished": true
+}

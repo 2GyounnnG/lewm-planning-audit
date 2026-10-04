@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-03T18:22:52.948021+00:00",
+  "route": "user-provided ssh7.vast.ai:20789 proxy",
+  "status": "TIMEOUT",
+  "timeout_seconds": 45,
+  "partial_bytes": 688128,
+  "scientific_jobs_modified": false
+}

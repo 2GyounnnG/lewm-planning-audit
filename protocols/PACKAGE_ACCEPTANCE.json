@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "zip_sha256": "55dda59c40e5dc8c841a7f003970b3b5afb0966ffb4737a28698a2245661d2f8",
+  "verified_files": [
+    {
+      "file": "./00_READ_FIRST.md",
+      "sha256": "1bce0901af2580c98649d12e9281efad8261ed136c6bd91eb7b4f88ebaab382c"
+    },
+    {
+      "file": "./R5_SPEC_ZH.md",
+      "sha256": "782e6fcedac0604339d40a31f4b91365df0ed2fedf0044a2b59d3c93504f9bac"
+    },
+    {
+      "file": "./RUN_MATRIX.json",
+      "sha256": "e42ca72ce2873d2b75bf1f387b01e1a18639bdcef7c8e7d08f880cdf5f875a21"
+    }
+  ],
+  "primary_remote_output_root": "/workspace/r5",
+  "local_directory_role": "Independent staging and recovery mirror; no R4 output modifications",
+  "accepted_utc": "2026-10-03T16:34:19.162899+00:00"
+}

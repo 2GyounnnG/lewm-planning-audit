@@ -1,0 +1,595 @@
+{
+  "status": "COMPLETE",
+  "reason": null,
+  "task": "pusht",
+  "new_neural_training": 0,
+  "S2_candidates": 6400,
+  "valid_fixed_horizon_candidates": 6400,
+  "forks_with_technical_missing_horizon": 0,
+  "main_files_and_menu_sources_sha_verified": true,
+  "independent_s3_reconstruction": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/manifests/main_validation/r4_pusht_s3.json",
+    "bytes": 5339,
+    "sha256": "1693822a457f57301b891e7c6569e996e4fc606ce9267b54cda4342902e92324"
+  },
+  "inputs": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/MAIN_MODULE_STATUS.json",
+      "bytes": 2528,
+      "sha256": "a10d3dff54b2b4f7aa3bee18c33ca6f8fda933f81645bfaa02e4fc9ca5f1f2c4"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s3_final/S3_ALL_RAW_VALUES.csv",
+      "bytes": 338865,
+      "sha256": "691eeccca8ed48761c888fe45930cb526cd9f8ac288e2c94e55e978a543c1766"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s3_final/S3_LEARNING_MAIN_TABLE.csv",
+      "bytes": 3150,
+      "sha256": "6dd342b824a806c94f3af8a089315051e130bf79d5378944aad52f354b878204"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s3_final/PLANNING_RANDOMNESS_TABLE.csv",
+      "bytes": 2536,
+      "sha256": "79120959a5cff396e000974f756cbee8d947e9b5ecc64203cc3ad2de5a54466a"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s3_final/S3_MENU_INTERVENTIONS.csv",
+      "bytes": 4880,
+      "sha256": "4475f77d4309e0df798f54f5fc12a806b90e925ee7bc49861e3fd34115dc04fb"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s3_final/S3_SUCCESS_TRANSITIONS.csv",
+      "bytes": 15913,
+      "sha256": "31849a1cda1210d8d4bab12f1d64c31c7a27991a2e84d7f4dbb9bac1587e89c8"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s3_final/S3_MARGIN_AND_RESOURCE_TABLE.csv",
+      "bytes": 57145,
+      "sha256": "d7d7ef1dd65413ecd65c86cf63474d3e9469dab18572fe357beaf0ce9654d6ec"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s3_final/S3_LEARNING_SUCCESS_TRANSITIONS.csv",
+      "bytes": 66373,
+      "sha256": "1456f00b6e7bc80ee9e2363e8abb03530d148dbfbabcc31128b63cc4da21d239"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/all_primary/CLOSED_LOOP_RAW.csv",
+      "bytes": 554554,
+      "sha256": "6765e7c47d86ffba4ce3aec60b5712a13b07bcb59788e821a2920604e547dc7f"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/all_primary/CLOSED_LOOP_COMPLETE.json",
+      "bytes": 1815,
+      "sha256": "95245f9e06eb18173bc6cb9711c9ccaa1fe4d53d36e2a360ffb86d22ded9e634"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s2/S2_FORK_RAW_METRICS.csv",
+      "bytes": 342297,
+      "sha256": "ad1b203bf9348af1a20ac8e21c68a008c64c082d3be4ed9c01d41e016717bcd6"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s2/S2_CANDIDATE_COVERAGE.csv",
+      "bytes": 24535,
+      "sha256": "12a684630c709af02a9d584874745832ebfdefaf1ec001d7640542dd88501909"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s2/S2_MAIN_TABLE.csv",
+      "bytes": 27252,
+      "sha256": "ba7e062dab2bf49f0f78678e72509bb56beea8ad359075671ab89ca13cd3eef9"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s2/S2_STATUS.json",
+      "bytes": 161,
+      "sha256": "e5fccad136a26a29e4df66a03fe10af09ef36663a7a3d55b8defbd748b822a46"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_tables/reports/s2/S2_SECONDARY_TABLE.csv",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    }
+  ],
+  "S2_source_completion_records": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_020a95d513544f5524366396/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "f9d5e714ea261cc7a07112f1c2137f9380fa2ad0300f6f16e0e865875af873dd"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_053999669fde5d80c7d567c6/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "bc8dd1062368aabd0ffe22b0c9fc874f0f15c5b51142f2e7768957e0b30efbf3"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_098d31b739330b3fd1202895/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "2510768294cb2b748ba80adaef1e349e21159d1099af5895abdaf277402189ee"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_09d5f1eca9dc5a4c28cf3674/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "f8437d43d3c2e272ad276149c908b0907718adc729679e4e14c84dc86ebca74a"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_0ad1a17dc3e7fd784b920f11/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "73ad4638a27606a5957e687292a5ad35903db37b8d9bde745f68bbdcbf83e831"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_0bfedb3a3c78640094544dad/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "97d2f0887cf8861a2979d3488208ee54cb37d38d2813869de24e5033babf5eea"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_0d6f717fffe3fa5d3e5db268/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "13bfdf9c5d30997a0f007b0512271700dfdd848e9f14181e8e9af6da3c2d9f0d"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_11659cb74e70647ee65adbe4/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "8c9ae9c185220e19265ef0afc476f42e537e20ce68e5a75fbfb79650d68ababe"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_1209b140fd4a65cf643600a9/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "72ea09c73d34e6b10622174f75c5c27ecc012a1eea71913dc1cc4695b6f46968"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_1719f9b7278f088d0b732ecd/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "66fd77677777aee92c1378e27606575745511bc3a4d58d34e1cf14c555a2ba96"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_1721d6fb59dcfe53f40351b4/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "ecb599cc264e6792f34975cfa364d8d1013bdd43a29e1e0079817659d49c9ea1"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_1986c789b2aaa3e1b080b065/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "628926eb4c8446638e364315f49c4c70c7eb54a95002e9ed2b36ba725fce45b3"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_1ae9bfabc0400541fce55a67/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "d48fdf5d494e8cfa2849c4f0309335de1df091063803bc9460aff797843e2f85"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_1b18096f65582dde46b89f9f/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "a936ee99496857b8af6e8c0f37550851d9aecd13484a1b496d69eeb01e758c13"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_1f9f9099a308c2adeaf4cfeb/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "1414cd0b91c41a66a81d2935b66aacd4e616f2d8ca8761d07d44771b1d4eba5c"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_20b5cb6f32d7e90a9e3e3c58/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "8330866ae80eae77d275a1b3dc29684424ff7b1953bcb59bc546f1106999ad41"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_28ac9111487aa56d2ad73b8c/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "d67e63e5ba347bc1902f001a007a900d26c1a8e8bc44329b83781b8b98e916ce"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_2aa86291f5a9bc6d2a542ca4/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "45519c1d596561d7c95d4c107f1a996c8eb9796b4312de7020127ef67cd0dd1c"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_2b5c05df7cdafc1f2c45c087/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "10f570bf60a760163603ccefb519bb893f150b8ff6ca94b213ab0cc5f13d3206"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_2c8c134352a981d3595025aa/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "5d46aa75ae8699a0deb78b1375d60ec11ecfd98352ad20f3be4b244c3761a3e2"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_31b21893c0f1aac28ab8021e/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "ed123937ff622d2799353d4e610fd4e6ed37cc331934fb204f1b2ecd9e508cd3"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_31d2b295c839b8a4d0fec49a/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "f59be2b7070b409a83a10bf1838b624a0ed9f1d69f640770b00f9745d2462218"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_37e52ffebaa8df62fd61cb0b/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "6954ed97cfacb4f67f2caf0a3dfcc315e0f7a0ff706de491832e7a097e6903b3"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_3952588c9fdb9f46979434f2/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "3eb2585b9f10123492f5c5aafb7f2a777fe778522fad57973c007354ede14c26"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_3b3c47ccf37ea80f1b6beb70/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "0606b888cf9d3a941450792e020bfda31876b025bd764b29a1414a12ae138b03"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_46110862aff5ad45249662d8/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "43c8695b73834c29e0e33e3c5228c898917ec35020e5c7bd4967f10d66a80701"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_47d9d1c606d428b3daf60d00/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "673de2a77188aa81b7d27b75a61c565fa8a6a3d793a680fe268d653efe404123"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_4e31ff2a59d37e1703212e0b/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "b524a29a2d5abd8604040b1fa8f25c2177713c7e6c8ee43de1389ff47e5cc1bc"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_4e3f0f02b51e3890b782e809/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "428197fcc70570752122d28f4340379b027c1daf29c6feb3bbbfcb085cb18b2b"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_50342a0443133a1a6f895b8d/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "aa791a29dcb9df3c6c39e5e600522e99fd0653415dbc2a7ca9d895e2847957d5"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_51ab07bbe10d2868537c685e/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "1f30c12a4beda3f82d49ef28e3411afe0f1a74b779c6292b3f937b0f2ddf0840"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_524c4da4389a5d0321a47b43/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "6f6e1fcf3d366547be5e7a6c0b8b5c6fd8a118d9ed627588790ca0f079390c20"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_53ae02335d171a3f0697ed3d/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "6d2fd8867fe43d1aa7460d8684a99e96d2be99773f0c8e0560427a5a62f9dd9b"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_556be57ae3129639d9751240/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "7b6a7da64176a5d7aaba21ff49e9d2b56ee9196f2f418e2ace1afe43d5be1046"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_55bec0d39fb91cc6691c11cb/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "ed77dbe3742d99007b3a85a07abefa87403be8a3dca4a74c6894ac6e32e0a5b8"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_594e5a275d65b492f0839cd3/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "081f2eb011fd33cd283d37d2a89ce0cbdd42a184eb41208fc96ffa93eddbbdc3"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_5a3654fa50d546370881f032/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "c42a70735566372fb933ad5e4d1834912fcc414b390e7bc989aa8879e505690f"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_5c9e318ef5d0b21ed4c7aa80/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "3f096ea83c005da3396ca56c8fa24e2c4188b0f736424c603a92bced8e637b8a"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_5d575573b766746c8baaf120/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "9df079840eed79de2cdcf85b4d8243ee987b82e0942804675e159f6bc78670be"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_64bae5c02c144f4581a444b0/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "9af11ea5f366a06dfcfe5a65802ff89585148698d7a9fc131571abb745581b9a"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_65922df5c9e2292aeefdc3b9/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "8ebdb00e94ea8d6e0709c6302d128b246ccea758802d497c98078edc2b60c0b2"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_6831730d1e7fb60ba13bcb7b/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "8c2d15345aa8d1a09c7f0e0375f92c5371a8374d4bddf3e45f6f83a75594a0be"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_687e7bdf8981a1485a1282a0/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "f03aeeb5a29df939e6d696df8d846caeec23515f861bf439c616cb95c4cdedfb"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_6b9bb0f1463397b1cd9ad551/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "dc7dccef3d3a9b88f266a64a8bba97c6b04b06222f5c36cac4c0e2fdf01309a3"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_6ec8f41eb28be4ceab26d017/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "3b0a462d68c1e09dda857605555855a0ddcc713063c557743d3b7393b6a25365"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_7a3c8ce9e39c5aea464d6750/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "2a8e7e505b707067356d7ab2e3aad2bd7664a19bd9999d9df0f451577176f7ea"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_7ce90e89516ced7f461de5d5/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "0afcba5a8da535e5113f2e381e3b9628679145358eaaf29f0a6d0719eeb3d5f9"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_7dd839f8ef62084da5f8b194/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "08057866fe99321cf749bf12f0add2a7ab6b21ffd00e1129c08eee3fe506c995"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_7dfb132e89316e8137e4d17f/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "e85fac51b275675c85a2d4760109e6d5e4e8f03e088d068381e7aad1fcf3280f"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_7e1ab9b666819cd89af74e15/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "8ff9f489453efabbe5487244b6dd5852e68958ec71ca21c4b2057c373a2c3a0e"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_83f0acf3b5e42573391e7a1e/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "97fc1849307a1d97ac2c15dc107144ea8f20261fcf6fe195995787e87473905d"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_845a5f81e72c6501e6675a31/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "86d7122b153fa218761eeda113788669fdd7d4d61fd173fd2fa91f2031630e24"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_87daf6182e1361b2285ef900/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "f72be7b8fca97e88675b1fa322cfeb150c33f1eb8a98b256b9341525eb9454ec"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_8d6ddedfb4d9cded29e3092b/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "4bc306ded754fb6cfcba55122f854e6bf3dc8947bbd7b6813c5f4947165c4a83"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_8e221410300bba4359e57166/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "cf9e3f561e38e92191ea54a3b1694517a40e4db27e1e431bab40a890a05e91dc"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_90393bc1b7fa4e0da384385e/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "eb4fc9679bc1113f5419a7f6306b15194f93a2f0231abae76a5949c249542ebb"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_952cb4a6291472da65f51d38/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "8ff8a7631a15f3696031f873a091540a0d2108f3e6e7aaf570ed0b61ff2c24e5"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_971df134fa6b79a1cbaff345/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "7f0c8a410d7473722b5ddd5f9b71a7ef57b3bb07e0cdf2d66c502fccc16e20d8"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_9cd7ce25e19bd56845b59641/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "531e74223281c2559157fc3570d25795e5cff73746a9a1ca10fb5f9c85872a87"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_9d0bbfa343af97c75ba9ae70/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "192f84279fd79b36a92929d3d0d27d71de652a7fa5ba4f264052121ab1029199"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_9d0c6cbb6e2ec4b4f4e8858f/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "ec17caa9e76b545443668229a366f355253cb30e456dd67d4bc350a2d3dbf572"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_9ff9e4d6bdff11e1889e8a52/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "ae591871b3b8ad743c9ff4931b35fa9c85fa13f52f04c698665a4c57f7b71d97"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_a0c1be26c51be6bc9da67160/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "b6d86e30020b833693cdc4d86bf104ccc1a39d60ad0ee4031cf80c5652acf376"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_ac2f3a4f4fa362120d8dab00/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "a700938287aeac81bf2632517c0cec4ffb70313799f7db1ce1e417f4a1c8ffb3"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_ad6553f987cce5a0489303a5/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "148ed552fa32621796274478f146df57c3f60cdd4af06a4fe5af656b3ccb0141"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_ae74bcac23b57e8f1fd45b5c/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "ae34ef2dd2abb092b4d2f9d990d44bbdd2ae12508b6b67f6d75783d291c28999"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_aec814060b1f2d8fa79a5086/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "6192ca29cb6514d8398c4652a5fe7ed79173be2ba4397a32efe908fb388d7ead"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_af38397815cd9609ad1ea68a/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "d7eca6ca4269da8f2e787ed75c15378f7b86d1834f01b2bc9fa54fa4dae1367a"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_b15b453ce65ce7df1f64b788/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "514e9d77b796dbbffbef8906e0e5761d50b6f4e5cd94b5f7e8ca6d1c20ac2132"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_b2687b9bf9a131dfe7d295bb/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "ff26a5b2965ed9bfaf95407fbade2e23b31f9f41083993b171f95f66bab94353"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_b6608659b6d53b64ee042192/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "4b99f5763f9fb65e188a78be33833ad0a71f879a80fe0e9480af1e10acf2e110"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_ba91c8638e0207ecebbb7cd8/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "801b7c0a9c2e98cd64192734acd77d3aa119dc5a12254bc0573f7cc93e70c356"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_bc6b471807b67d990e6aad50/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "648bfdf374db64c05974f2ac0e3da8f8ee8c44ce5a791ff5ad079c6adddaf1b9"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_c810ae1483f15123173f6fd4/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "94d999f6fdc5dfa7b02ad7a0c030d6f207c9aaa1cd2fffad053a0348e659c228"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_c86037c50b49d9143a2ce91b/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "e118deee17fb46ea7d9117804a505a28784abfda5d479bac46121dc8725244eb"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_ca9570676c02d5e4692fac64/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "e22f06f2dfbd3ea82884a9b2409eb1c2d2aa00cb7bf355804b6c5f45c33cfdd1"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_cb5ae8e208399914f87b37d6/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "5d19cd8a7fe43dc463afb89fb056b72b9b08239104169e7353f71cfe3b231159"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_d4cdd065079c58904958b83f/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "e2c3eec77616fbb59a94ad06131b23868cb3c50f1ad6c976d667ab287b23be36"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_d587549a0e251fe39c6baeab/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "a2242d7a7ebd5fc3b889b38bf83bd35125f5cfeec4f6a4f07cd829291bbc51ba"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_d91903cf011296eb94e9a902/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "c06c8f4a3ca8c3e09c673d8415d74ce0c4d3c03060600fd659dfb7d33d7f4ecb"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_daf1645e61c8c0d1f3945a87/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "658a6e8680b3774d86e347198f1ed51dfdb449ec783d28c19e691ab5aae22aaf"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_dc50074e9ec3c2c00440ab6e/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "6c452fd961099bca5f1a1a4309a5d8d15eb06a22b3647567383c6763e16d8cd0"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_dd8f3bc7c3b5f15ac3068737/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "c04e962836906b181bfc398cda7b8dc5c60ee8cc9bdde24d67818cfe8e5edefe"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_e09767b57864046b7cf06d33/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "aa11f323d033f601314b72816c02152f467a862c27cb35a12c33d21b89f424c7"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_e0eac21452426164e7abadba/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "378d9b5e08ae377576015f2c618ba75938b437a6aa44a8eea51519dfe86c8454"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_e262320a2796890430c74dbe/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "9ff3fc0b97fe83fb0140e44b40bdd02a56f0416243fb20dc6c86ea5b7f62a957"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_e4d45c4851c4d2f61c64f586/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "9cdd6c3ed9964feb898b7b6df76e1bf75c49b5054b41ebdedbc515a4c4a2610b"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_e8f9a82d4da32c861fd10492/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "5653523c7b0d354c9ec4eccf2bdc2df78f128de2e06c526421695946cde5034f"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_e9ad56a3f2a26bbfba8ec8af/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "163b91284bc35fbc382b7e1c0384b150e1d74780763caeec1efd6b9ff0b4d8a2"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_ea99c61f898da5c1f244a2c4/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "201a31fea02ab7681b9f733c7b4d08c83e01a22c4cc40ffa8c56677b213ae161"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_ebbd0e40e9102ae47af76ad7/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "51b41ad769b5d25e85d3e24c57f149c2a41f407fcaa4f9222fea79be45583a4f"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_ee79a565775979bd87a5d701/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "bfd9da81f813639139111a6464325d928da2c3845cd4e9082969570ae34ceac9"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_f24c4485ced985e4234469ae/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "ebee30ff4fa2fd56a975b7760d9b77eecdde30133a006350d5a6ad21c4bff070"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_f26c43f91e52169f03a9c454/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "4516a4dba406570eef7d8d02f49044c48ed6f4d980709212e0704e35b0eab9c4"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_f2eede9d9bbfc0c3f8d3e88f/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "a06621713b874cfbb6f11dcf7c79abcd0321e51dbbfd4c097df5d57041fbf8bb"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_f416a93a0980b4735e522192/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "e2fd1278fab9ef2baf44cb4f8b9f7ff9167b3dc4d9d2e9db0c920e07ec1f4b36"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_f96b798a632653a77548e631/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "7fc33d80d5746f1cad2182fb4500e6d7b6f8b0ac5e6a4fc10f983d29394751cd"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_fa73ad6b8fb70140bc3b77de/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "f2f3cdc1ad230fb18b4df951b7b7958977945b0b689fb9034e02c85f2090d41a"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_fa97d4ee6c658923ec9c651e/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "febdee6c33c17cc802669a65e2b8e6c369abea5549fe6fc9ef4a91b2c1db47a5"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/r4/reports/remote_pusht_primary_values/s2/R3_pusht_ffed0cdd17716a9123057502/COMPLETE.json",
+      "bytes": 924,
+      "sha256": "bf7d6236445bb7df342bffa576f3736365db628986d1aa417b60a95da0eef1ea"
+    }
+  ],
+  "full_trajectory_recovery_is_separate": true
+}

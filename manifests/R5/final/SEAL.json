@@ -1,0 +1,180 @@
+{
+  "version": "R5_FINAL_CONTINUATION_SEAL_V2",
+  "status": "SEALED_WITH_C2_TECHNICAL_DEGRADATION_AND_CPU_RECOVERY_FAILURE",
+  "sealed_utc": "2026-10-03T19:29:53.798123+00:00",
+  "all_scientific_jobs_finished": true,
+  "all_scientific_results_complete": false,
+  "preset_H3": "NOT_TRIGGERED_TRIGGER_QUANTITY_NOT_DISCRIMINATIVE",
+  "H3X_label": "H3X_EXPLORATORY_AFTER_TRIGGER_DEFECT",
+  "all_authorized_modules_accounted_for": true,
+  "completed_trajectories_by_module": {
+    "C1": 400,
+    "H2_reacher": 1200,
+    "H2_pusht": 1200,
+    "H3X": 900,
+    "C2": 280
+  },
+  "technical_degradations": {
+    "C2": {
+      "expected_trajectories": 800,
+      "completed_trajectories": 280,
+      "missing_cells": 520,
+      "failed_before_action_cells": 1,
+      "not_run_cells": 519,
+      "failed_attempts_for_same_case": 2,
+      "scientific_configuration_changed": false,
+      "missing_values_filled_with_zero": false,
+      "reason": "Original bitwise initial-render gate failed on the same case before CEM/actions both before and after one identical native resume; 75 nonrender fields matched. Root cause not established. R5 section6 technical downgrade applies only to C2.",
+      "status": "TECHNICALLY_UNEVALUABLE",
+      "new_CEM_calls_at_failed_attempts": 0,
+      "new_raw_actions_at_failed_attempts": 0,
+      "partial_records_used_for_inference": false
+    }
+  },
+  "final_merged_tables": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/tables/final_v2/MERGE_STATUS.json",
+    "bytes": 7895,
+    "sha256": "b467c63d305a5e3107dc10a4bc7ab883dce3b2d645d0607c1562b8f3d7746e23"
+  },
+  "recovery_manifest": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/final/RECOVERY_MANIFEST.json",
+    "bytes": 10309544,
+    "sha256": "0331fd995ec90e0a2c1956267c57efd423e9cc641a896664705427c2bfe37b8a"
+  },
+  "release_gate": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/final/RELEASE_GATE.json",
+    "bytes": 10413,
+    "sha256": "b5b6a6511442d54598c428493760abb3abdafa9afe179f7ad6f265d4a3e6b252"
+  },
+  "module_recovery_seals": {
+    "INITIAL_STAGE": {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/INITIAL_STAGE_SEAL.json",
+      "primary_path": "/workspace/r5/INITIAL_STAGE_SEAL.json",
+      "expected_sha256": "a982abb1fd8d4472b909158f96106bcfec89d1f88756dbd6d946a785db68937e",
+      "record": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/ops/INITIAL_STAGE_SEAL.json",
+        "bytes": 3461,
+        "sha256": "a982abb1fd8d4472b909158f96106bcfec89d1f88756dbd6d946a785db68937e"
+      },
+      "sealed_status": "SEALED_INITIAL_STAGE_WITH_H1a_CPU_RECOVERY_FAILURE"
+    },
+    "C1": {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c1/recovery/RECOVERY_SEAL.json",
+      "primary_path": "/workspace/r5/C1/RECOVERY_SEAL.json",
+      "expected_sha256": "0a46038f8255c1b3db6dae5bca6fec5b11a69e00316563e516770c0a55e49ba6",
+      "path_mappings": [
+        {
+          "source_prefix": "/workspace/r5/C1/recovery/bundle",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c1/recovery/extracted/bundle"
+        },
+        {
+          "source_prefix": "/workspace/r5/C1/recovery",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c1/recovery"
+        },
+        {
+          "source_prefix": "/workspace/r5/C1/reports",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c1/reports"
+        },
+        {
+          "source_prefix": "/workspace/r5/C1",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c1/recovery/extracted/bundle"
+        },
+        {
+          "source_prefix": "/workspace/r5/C0",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c0/recovery/extracted/C0"
+        },
+        {
+          "source_prefix": "/workspace/r5/code",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution"
+        }
+      ],
+      "record": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c1/recovery/RECOVERY_SEAL.json",
+        "bytes": 3870,
+        "sha256": "0a46038f8255c1b3db6dae5bca6fec5b11a69e00316563e516770c0a55e49ba6"
+      },
+      "sealed_status": "SEALED_C1_COMPLETE_WITH_LOCAL_NUMERIC_AND_CPU_RECOVERY"
+    },
+    "H2_reacher": {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h2/recovery/reacher/RECOVERY_SEAL.json",
+      "primary_path": "/workspace/r5/H2/reacher/RECOVERY_SEAL.json",
+      "expected_sha256": "13af619f8b7ea1aea67ce1c6dddc1c9acc5ccc7b52e37a8265081becf5300c2e",
+      "record": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h2/recovery/reacher/RECOVERY_SEAL.json",
+        "bytes": 1981,
+        "sha256": "13af619f8b7ea1aea67ce1c6dddc1c9acc5ccc7b52e37a8265081becf5300c2e"
+      },
+      "sealed_status": "COMPLETE_COMPACT_RECOVERY_WITH_CPU_COST_TOLERANCE_FAILURE"
+    },
+    "H2_pusht": {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h2/recovery/pusht/RECOVERY_SEAL.json",
+      "primary_path": "/workspace/r5/H2/pusht/RECOVERY_SEAL.json",
+      "expected_sha256": "f0b11928aa141085d944c273a58cb6fe3dacd0343f5ab3e335aede5b1f96205f",
+      "record": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h2/recovery/pusht/RECOVERY_SEAL.json",
+        "bytes": 1966,
+        "sha256": "f0b11928aa141085d944c273a58cb6fe3dacd0343f5ab3e335aede5b1f96205f"
+      },
+      "sealed_status": "COMPLETE_COMPACT_RECOVERY_WITH_NARROW_CPU_COST_PASS"
+    },
+    "H3X": {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h3x/reports/H3X_RECOVERY_SEAL.json",
+      "primary_path": "/workspace/r5/H3X/H3X_RECOVERY_SEAL.json",
+      "expected_sha256": "2c3222c1652e02642435897b6e494ae5bf4f40a5e2aee41b300569fd2a7d2b3c",
+      "record": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/h3x/reports/H3X_RECOVERY_SEAL.json",
+        "bytes": 1790718,
+        "sha256": "2c3222c1652e02642435897b6e494ae5bf4f40a5e2aee41b300569fd2a7d2b3c"
+      },
+      "sealed_status": "COMPLETE_WITH_EXPLICIT_REMOTE_ONLY_ORIGINALS"
+    },
+    "C2": {
+      "local_path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/recovery/RECOVERY_SEAL.json",
+      "primary_path": "/workspace/r5/C2/RECOVERY_SEAL.json",
+      "expected_sha256": "bbd22e956cf346bfe2a2d740596aebace1c6bec90a20e8525df942400635f0a6",
+      "path_mappings": [
+        {
+          "source_prefix": "/workspace/r5/C2/recovery/bundle",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/recovery/extracted/bundle"
+        },
+        {
+          "source_prefix": "/workspace/r5/C2/recovery",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/recovery"
+        },
+        {
+          "source_prefix": "/workspace/r5/C2/reports",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/reports"
+        },
+        {
+          "source_prefix": "/workspace/r5/C2",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/recovery/extracted/bundle"
+        },
+        {
+          "source_prefix": "/workspace/r5/C0",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c0/recovery/extracted/C0"
+        },
+        {
+          "source_prefix": "/workspace/r5/code",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution"
+        },
+        {
+          "source_prefix": "/workspace/r5/C2/diagnostic",
+          "local_prefix": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/diagnostic"
+        }
+      ],
+      "file_mappings": {
+        "/workspace/r5/C1/RECOVERY_SEAL.json": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c1/recovery/RECOVERY_SEAL.json"
+      },
+      "record": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r5_execution/c2/recovery/RECOVERY_SEAL.json",
+        "bytes": 5636,
+        "sha256": "bbd22e956cf346bfe2a2d740596aebace1c6bec90a20e8525df942400635f0a6"
+      },
+      "sealed_status": "SEALED_TECHNICALLY_UNEVALUABLE_WITH_PARTIAL_NUMERIC_AND_CPU_RECOVERY"
+    }
+  },
+  "original_R4_and_initial_R5_seals_unchanged": true,
+  "automatic_destroy": false,
+  "automatic_rental": false,
+  "original_remote_files_retained": true
+}

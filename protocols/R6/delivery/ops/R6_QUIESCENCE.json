@@ -1,0 +1,10 @@
+{
+  "version": "R6_QUIESCENCE_V1",
+  "utc": "2026-10-03T22:56:46.479601+00:00",
+  "all_R6_workers_naturally_finished": true,
+  "nvidia_compute_processes": "",
+  "automatic_destroy": false,
+  "automatic_rental": false,
+  "R4_R5_jobs_interrupted": false,
+  "R4_R5_evidence_modified": false
+}

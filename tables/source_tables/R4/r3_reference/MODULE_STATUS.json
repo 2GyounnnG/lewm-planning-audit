@@ -1,0 +1,68 @@
+{
+  "status": "COMPLETE",
+  "scope": "ORIGINAL_R3_REFERENCE_ONLY_NO_NEW_EXPERIMENT",
+  "inputs": [
+    {
+      "path": "/Volumes/MyProj/r3_official_lewm_predictor_refit/recovery/artifacts/statistics/pusht/NUMERIC_RESULTS.json",
+      "bytes": 28066,
+      "sha256": "56cf1aa7a9f3fd4281ca1cda4bd12ae84dc7fc15235a96885eb3263db5e96682"
+    },
+    {
+      "path": "/Volumes/MyProj/r3_official_lewm_predictor_refit/recovery/artifacts/statistics/reacher/NUMERIC_RESULTS.json",
+      "bytes": 15189,
+      "sha256": "f2b566301aea15bed4c1c1a573c1fceb3fe17d22841bcd1ff938cd259da38464"
+    },
+    {
+      "path": "/Volumes/MyProj/r3_official_lewm_predictor_refit/recovery/tables/open_loop_summary.csv",
+      "bytes": 18923,
+      "sha256": "b33b5a7b16bdcb0a4cf8277cfe476a44220930784ddd4be2c28682c91c19ceed"
+    },
+    {
+      "path": "/Volumes/MyProj/r3_official_lewm_predictor_refit/recovery/tables/formal_planning_raw.csv",
+      "bytes": 5732902,
+      "sha256": "c3159a99a3c6cfcc1f4db386739bfb6111284436172936ae7ce9d19fd058a883"
+    },
+    {
+      "path": "/Volumes/MyProj/r3_official_lewm_predictor_refit/recovery/tables/open_loop_per_case.csv.gz",
+      "bytes": 371893,
+      "sha256": "1d53b51b13b878cd2ffa228962bb8e68a01f902de20fd41d33a64eb79a2e1a0d"
+    },
+    {
+      "path": "/Volumes/MyProj/r3_official_lewm_predictor_refit/recovery/reports/FINAL_SCIENTIFIC_REPORT_ZH_ERRATUM_001.md",
+      "bytes": 1463,
+      "sha256": "72b882c826078fa55311f6ba57ae099093ea21c90dd57e94d0411540066db219"
+    },
+    {
+      "path": "/Volumes/MyProj/r3_official_lewm_predictor_refit/recovery/reports/FINAL_SCIENTIFIC_REPORT_ZH_CORRECTED_001.md",
+      "bytes": 12267,
+      "sha256": "0af6e366b2d92add3998d750025669480b14ac64b22e27babc4cf90dd29108a1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r3_reference/MAIN_TABLE.csv",
+      "bytes": 9138,
+      "sha256": "6a8676b9d8105649c3088616080c6aa6511a526088e2d10d74272287aff1c2f1"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r3_reference/ALL_RAW_VALUES.csv",
+      "bytes": 1063160,
+      "sha256": "e14c03290005e93324d8186ce9136ecd1485260c9fea4722315a55dacba9c275"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r3_reference/ORIGINAL_METRICS_LONG.csv",
+      "bytes": 15560,
+      "sha256": "924bfdd4879a437c416fe6196f22c9a4679180ab3b6e655de182c5b0220a98cc"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/tables/r3_reference/ORIGINAL_OBSERVED_RAW_VALUES.csv",
+      "bytes": 1427569,
+      "sha256": "ea9e187a63e2077de9058c7ce162ea684487cb39e6dab632786a6c855edfd345"
+    }
+  ],
+  "rows": 40,
+  "raw_rows_including_derived_means": 4000,
+  "new_training_updates": 0,
+  "new_closed_loop_runs": 0,
+  "intervals": "Original pointwise conditional95 retained, no four-task FWER claim"
+}

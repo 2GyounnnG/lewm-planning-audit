@@ -1,0 +1,244 @@
+{
+  "protocol": "R4-v2.3",
+  "required_receipts": [
+    {
+      "role": "MAIN_DELIVERY",
+      "path": "tables/main/MERGE_STATUS.json",
+      "accepted_statuses": [
+        "COMPLETE_WITH_TECHNICAL_LIMITATIONS"
+      ],
+      "audit": "merge"
+    },
+    {
+      "role": "SECONDARY_DELIVERY",
+      "path": "tables/secondary/MERGE_STATUS.json",
+      "accepted_statuses": [
+        "COMPLETE_WITH_TECHNICAL_LIMITATIONS"
+      ],
+      "audit": "merge"
+    },
+    {
+      "role": "R4_PUSHT_PRIMARY_RECOVERY",
+      "path": "r4/remote_results/final_recovery/pusht/FINAL_RECOVERY_INVENTORY.json",
+      "accepted_statuses": [
+        "COMPLETE_AND_HASH_VERIFIED"
+      ],
+      "audit": "r4_inventory"
+    },
+    {
+      "role": "R4_PUSHT_SECONDARY_RECOVERY",
+      "path": "r4/reports/secondary/pusht/SECONDARY_RECOVERY_MANIFEST.json",
+      "accepted_statuses": [
+        "SEALED_SECONDARY_ORIGINAL_OUTPUTS"
+      ],
+      "audit": "r4_secondary"
+    },
+    {
+      "role": "R4_PUSHT_SECONDARY_CPU_SCOPE",
+      "path": "r4/reports/secondary/pusht/CPU/RECOVERY_CHECK.json",
+      "accepted_statuses": [
+        "COMPLETE_RECOVERY_COMPARISON"
+      ]
+    },
+    {
+      "role": "R4_REACHER_PRIMARY_RECOVERY",
+      "path": "r4/remote_results/final_recovery/reacher/FINAL_RECOVERY_INVENTORY.json",
+      "accepted_statuses": [
+        "COMPLETE_AND_HASH_VERIFIED"
+      ],
+      "audit": "r4_inventory"
+    },
+    {
+      "role": "R4_REACHER_SECONDARY_RECOVERY",
+      "path": "r4/reports/secondary/reacher/SECONDARY_RECOVERY_MANIFEST.json",
+      "accepted_statuses": [
+        "SEALED_SECONDARY_ORIGINAL_OUTPUTS"
+      ],
+      "audit": "r4_secondary"
+    },
+    {
+      "role": "R4_REACHER_SECONDARY_CPU_SCOPE",
+      "path": "r4/reports/secondary/reacher/CPU/RECOVERY_CHECK.json",
+      "accepted_statuses": [
+        "NOT_APPLICABLE_TECHNICALLY_UNEVALUABLE"
+      ]
+    },
+    {
+      "role": "X1_TWOROOM_RECOVERY",
+      "path": "x1/recovery/tworoom/RECOVERY_SEAL.json",
+      "accepted_statuses": [
+        "PASS",
+        "COMPLETE_WITH_CPU_TOLERANCE_FAILURE"
+      ],
+      "audit": "x1_local_files"
+    },
+    {
+      "role": "X1_CUBE_RECOVERY",
+      "path": "x1/recovery/cube/RECOVERY_SEAL.json",
+      "accepted_statuses": [
+        "PASS",
+        "COMPLETE_WITH_CPU_TOLERANCE_FAILURE"
+      ],
+      "audit": "x1_local_files"
+    },
+    {
+      "role": "X2_RECOVERY",
+      "path": "x2/reports/X2_RECOVERY_SEAL.json",
+      "accepted_statuses": [
+        "X2_SEALED"
+      ],
+      "audit": "x2"
+    }
+  ],
+  "additional_files": [
+    "README.md",
+    "analysis/aggregate.py",
+    "analysis/statistics.py",
+    "analysis/test_aggregate.py",
+    "analysis/test_statistics.py",
+    "manifests/CASE_AND_RANDOM_STREAM_MANIFEST.json",
+    "manifests/ETA_PROFILE.json",
+    "manifests/EXECUTION_LEDGER.json",
+    "manifests/MAIN_BATCH_DELIVERED.json",
+    "manifests/MAIN_CPU_RECOMPUTATION.json",
+    "manifests/MAIN_MERGE_SPEC.json",
+    "manifests/MODEL_AND_SOURCE_LOCK.json",
+    "manifests/SECONDARY_BATCH_DELIVERED.json",
+    "manifests/SECONDARY_MERGE_SPEC.json",
+    "manifests/main_validation/cube.json",
+    "manifests/main_validation/r3.json",
+    "manifests/main_validation/r4_pusht_main.json",
+    "manifests/main_validation/r4_pusht_s3.json",
+    "manifests/main_validation/r4_reacher_main.json",
+    "manifests/main_validation/r4_reacher_s3.json",
+    "manifests/main_validation/tworoom.json",
+    "manifests/main_validation/x2.json",
+    "manifests/main_validation/x2_scope_arithmetic.json",
+    "manifests/secondary_validation/r4_pusht.json",
+    "manifests/secondary_validation/r4_reacher.json",
+    "manifests/secondary_validation/x1_cube.json",
+    "manifests/secondary_validation/x1_tworoom.json",
+    "manifests/secondary_validation/x1_tworoom_bootstrap_lineage.json",
+    "ops/deliver.py",
+    "ops/download_r4_limited.py",
+    "ops/download_x1.py",
+    "ops/export_r3_reference.py",
+    "ops/export_replay_checks.py",
+    "ops/host_audit.py",
+    "ops/pin_hf_assets.py",
+    "ops/recompute_delivery.py",
+    "ops/seal_delivery.py",
+    "ops/unpack_verified.py",
+    "ops/validate_main_tables.py",
+    "ops/validate_r4_main.py",
+    "ops/validate_r4_secondary.py",
+    "ops/validate_r4_statistics.py",
+    "ops/validate_secondary_tables.py",
+    "ops/verify_recovered_s1.py",
+    "r4/CURRENT_ENGINEERING_INVENTORY.json",
+    "r4/R4_CONTRACT.json",
+    "r4/__init__.py",
+    "r4/augment_metrics.py",
+    "r4/boot_gate.py",
+    "r4/candidates.py",
+    "r4/collect_primary.py",
+    "r4/common.py",
+    "r4/compact_minimum.py",
+    "r4/compact_recovery.py",
+    "r4/compare_r3.py",
+    "r4/download_official.py",
+    "r4/estimate_sim_cem.py",
+    "r4/export_cases.py",
+    "r4/finalize_reacher.py",
+    "r4/inventory_recovery.py",
+    "r4/learning_followup.py",
+    "r4/module_status.py",
+    "r4/package_recovery.py",
+    "r4/primary_supervisor.py",
+    "r4/provenance_ledger.py",
+    "r4/pull_final_recovery.py",
+    "r4/replay.py",
+    "r4/report_old_replay.py",
+    "r4/runner.py",
+    "r4/s0.py",
+    "r4/s1.py",
+    "r4/s2.py",
+    "r4/s2_middle.py",
+    "r4/s3.py",
+    "r4/secondary_closeout.py",
+    "r4/stage_recovery.py",
+    "r4/statistics_recovery.py",
+    "r4/termination_menu_probe.py",
+    "r4/termination_plan_probe.py",
+    "r4/verify_middle_cpu.py",
+    "r4/verify_s2_reproduction.py",
+    "reports/COMMON_CANDIDATE_AUDIT.md",
+    "reports/CONTROL_ATTRIBUTION_FINAL_ZH.md",
+    "reports/HISTORY_AND_VISITED_DISTRIBUTION.md",
+    "reports/RANDOMNESS_AND_CLOSED_LOOP.md",
+    "reports/STATE_REPLAY_AUDIT.md",
+    "reports/STATISTICAL_INTERPRETATION_NOTES.md",
+    "x1/__init__.py",
+    "x1/after_cube_main.py",
+    "x1/after_receive.py",
+    "x1/after_second.py",
+    "x1/bulk_cube_queue.py",
+    "x1/check_model.py",
+    "x1/core.py",
+    "x1/cube_pipeline.py",
+    "x1/data.py",
+    "x1/evaluate.py",
+    "x1/intake.py",
+    "x1/limited_seal.py",
+    "x1/line.py",
+    "x1/mac_outliers.py",
+    "x1/offline_cube.py",
+    "x1/offline_report.py",
+    "x1/offline_tech_report.py",
+    "x1/open_loop_report.py",
+    "x1/randomness.py",
+    "x1/randomness_na.py",
+    "x1/receive_cube_main.py",
+    "x1/receive_second.py",
+    "x1/recovery_cpu.py",
+    "x1/recovery_pack.py",
+    "x1/recovery_seal.py",
+    "x1/render_probe.py",
+    "x1/report.py",
+    "x1/reset.py",
+    "x1/reset_diagnostic.py",
+    "x1/resume_cube_download.py",
+    "x1/runner.py",
+    "x1/second_batch.py",
+    "x1/tech_report.py",
+    "x1/telemetry.py",
+    "x1/test_semantics.py",
+    "x1/train.py",
+    "x1/train_report.py",
+    "x1/wait_cube_telemetry.py",
+    "x2/collect_module.py",
+    "x2/compact_inputs.py",
+    "x2/complete_recovery.py",
+    "x2/make_smoke_recovery.py",
+    "x2/prepare_inputs.py",
+    "x2/recover_download.py",
+    "x2/recover_outputs.py",
+    "x2/summarize_delivery.py",
+    "x2/supervise_recovery.py",
+    "x2/supervise_x2.py",
+    "x2/x2_runner.py"
+  ],
+  "technical_limitations": [
+    "Reacher fixed25 simulator attribution and simulator reranking cannot be scored consistently after true DMC LAST; outcomes remain missing.",
+    "Cube closed loop and extra planner streams blocked by frozen exact reset gate; observed offline results retained.",
+    "SIM_CEM not executed: PushT estimate exceeds two-hour gate; Reacher common fixed25 objective technically unavailable.",
+    "TwoRoom strict frozen CPU replay tolerance fails on both macOS ARM and Linux x86; original failure receipts retained. Byte recovery can complete, but RELEASE_GATE remains HOLD."
+  ],
+  "restoration_scope": {
+    "R4_primary": "All minimum trajectories/actual menus and source-to-derived maps hash verified. One fixed source case per task rescored on CPU for four models; no full local pixel reconstruction or simulator rerun claimed.",
+    "R4_secondary": "PushT first metadata middle case64 candidates x4 models CPU score comparison, parameters/buffers unchanged; numerical differences reported without adding a scientific tolerance. Reacher no new predictions because original fixed25 gate blocks execution.",
+    "X1": "All required final weights, fixed100 cached forecast inputs and observed trajectories hash verified. Fixed100 x4 h1..5 forecasts tested at unchanged original CPU tolerance. Any failure remains explicitly failed and prevents release readiness; encoder pixel reencoding and full simulator recovery not claimed.",
+    "X2": "All324 original encoders recomputed on first2 raw DEV episodes; every final head checked on episodes0,1 x anchors7,27,47 x h1,8,16. All256 saved per-episode risk means reaggregate; not full256-episode inference.",
+    "remote_retention": "Original RGB, HDF5, full intermediate candidate logs, optimizer/intermediate checkpoints remain remotely where not in the minimum recovery set. No automatic destroy."
+  }
+}

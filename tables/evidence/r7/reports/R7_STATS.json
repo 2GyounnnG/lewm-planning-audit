@@ -1,0 +1,116 @@
+{
+  "B_random": {
+    "cube": {
+      "case_bootstrap_point": 0.5166666666666666,
+      "cases": 100,
+      "ci95": [
+        0.42999999999999994,
+        0.6033333333333333
+      ],
+      "rows": 300,
+      "seed": 5684420886873955811,
+      "success_rate": 0.5166666666666667,
+      "successes": 155
+    },
+    "pusht": {
+      "case_bootstrap_point": 0.04666666666666666,
+      "cases": 100,
+      "ci95": [
+        0.02333333333333333,
+        0.07333333333333332
+      ],
+      "rows": 300,
+      "seed": 7647188642499600643,
+      "success_rate": 0.04666666666666667,
+      "successes": 14
+    },
+    "reacher": {
+      "case_bootstrap_point": 0.12666666666666665,
+      "cases": 100,
+      "ci95": [
+        0.08666666666666668,
+        0.16666666666666663
+      ],
+      "rows": 300,
+      "seed": 7387398016790151295,
+      "success_rate": 0.12666666666666668,
+      "successes": 38
+    },
+    "tworoom": {
+      "case_bootstrap_point": 0.18666666666666668,
+      "cases": 100,
+      "ci95": [
+        0.12325,
+        0.25666666666666665
+      ],
+      "rows": 300,
+      "seed": 2382394268027215391,
+      "success_rate": 0.18666666666666668,
+      "successes": 56
+    }
+  },
+  "P1_reacher": {
+    "ci95": [
+      0.005000000000000001,
+      0.018333333333333333
+    ],
+    "classification": "成立",
+    "lower": 0.005000000000000001,
+    "point": 0.010833333333333335,
+    "seed": 8536557257611442838
+  },
+  "P2_pusht": {
+    "ci95": [
+      -0.052222222222222225,
+      0.06111111111111111
+    ],
+    "classification": "未检出",
+    "point": 0.004444444444444445,
+    "seed": 1753966298947643289
+  },
+  "P2_reacher": {
+    "ci95": [
+      -0.04777777777777778,
+      0.014444444444444447
+    ],
+    "classification": "未检出",
+    "point": -0.015555555555555553,
+    "seed": 7436778590716173708
+  },
+  "R6_flip_counts": {
+    "POLICY_TO_REAL3_FAILURE": 16,
+    "POLICY_TO_REAL3_SUCCESS": 180
+  },
+  "bootstrap_namespace": "R7_LONG_BOOTSTRAP_20261004",
+  "bootstrap_reps": 5000,
+  "identity": "R7_PREREGISTERED_STRESS_TEST_FRESH_CASES_V1",
+  "pusht_counts": {
+    "cases": 100,
+    "flip_counts": {
+      "FAILURE_TO_SUCCESS": 19,
+      "NO_FLIP": 1160,
+      "SUCCESS_TO_FAILURE": 21
+    },
+    "max_replan_calls": 4,
+    "pair_first_plan_equal": 1200,
+    "trajectories": 2400
+  },
+  "reacher_counts": {
+    "cases": 100,
+    "flip_counts": {
+      "FAILURE_TO_SUCCESS": 13,
+      "NO_FLIP": 1187
+    },
+    "max_replan_calls": 4,
+    "pair_first_plan_equal": 1200,
+    "trajectories": 2400
+  },
+  "secondary_pusht_real3_minus_policy": {
+    "ci95": [
+      -0.013333333333333332,
+      0.009166666666666665
+    ],
+    "point": -0.0016666666666666679,
+    "seed": 6035903808073683719
+  }
+}

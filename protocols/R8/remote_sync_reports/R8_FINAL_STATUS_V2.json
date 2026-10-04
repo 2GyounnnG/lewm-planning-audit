@@ -1,0 +1,51 @@
+{
+  "version": "R8_FINAL_STATUS_V2",
+  "status": "COMPLETE_M1_M2_M3_M4_M5_M6",
+  "evidence": "R8_COMPLETE_ALL_AUTHORIZED_MODULES",
+  "new_training": 0,
+  "automatic_destroy": false,
+  "r4_r7_modified": false,
+  "modules": {
+    "M1": {
+      "U1_rows": 2400,
+      "U2_rows": 2400,
+      "status": "COMPLETE"
+    },
+    "M2": {
+      "reacher_rows": 1200,
+      "pusht_rows": 1200,
+      "cube_rows": 1200,
+      "tworoom_rows": 1200,
+      "random_rows_per_task": 300,
+      "status": "COMPLETE"
+    },
+    "M3": {
+      "REPEAT3_rows": 1200,
+      "REAL2_rows": 1200,
+      "PRED_PAST_rows": 1200,
+      "status": "COMPLETE"
+    },
+    "M4": {
+      "new_rows": 720,
+      "reused_r4_rows": 180,
+      "pooled_rows": 900,
+      "status": "COMPLETE"
+    },
+    "M5": {
+      "eligible_cases": 89,
+      "excluded_cases": 11,
+      "rows": 1068,
+      "status": "COMPLETE_PROTOCOL_EXTENSION"
+    },
+    "M6": {
+      "reacher_rows": 400,
+      "pusht_rows": 400,
+      "rows": 800,
+      "cem_candidates": 900,
+      "cem_topk": 90,
+      "status": "COMPLETE"
+    }
+  },
+  "remote_root": "/workspace/r8",
+  "generated_utc": "2026-10-04T05:02:47.291909+00:00"
+}

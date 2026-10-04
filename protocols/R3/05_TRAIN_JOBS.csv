@@ -1,0 +1,7 @@
+job_id,task,official_model_repo,refit_seed,updates,trainable_modules,frozen_modules,bn_running_policy,effective_batch,lr,precision,status
+R3_pusht_PRED_REFIT_s103201,pusht,quentinll/lewm-pusht,103201,30000,predictor;pred_proj.parameters,encoder;projector;action_encoder,FIXED_OFFICIAL_BUFFERS,128,5e-05,FP32_NO_AMP_NO_TF32,PLANNED_NOT_EXECUTED
+R3_pusht_PRED_REFIT_s103202,pusht,quentinll/lewm-pusht,103202,30000,predictor;pred_proj.parameters,encoder;projector;action_encoder,FIXED_OFFICIAL_BUFFERS,128,5e-05,FP32_NO_AMP_NO_TF32,PLANNED_NOT_EXECUTED
+R3_pusht_PRED_REFIT_s103203,pusht,quentinll/lewm-pusht,103203,30000,predictor;pred_proj.parameters,encoder;projector;action_encoder,FIXED_OFFICIAL_BUFFERS,128,5e-05,FP32_NO_AMP_NO_TF32,PLANNED_NOT_EXECUTED
+R3_reacher_PRED_REFIT_s103201,reacher,quentinll/lewm-reacher,103201,30000,predictor;pred_proj.parameters,encoder;projector;action_encoder,FIXED_OFFICIAL_BUFFERS,128,5e-05,FP32_NO_AMP_NO_TF32,PLANNED_NOT_EXECUTED
+R3_reacher_PRED_REFIT_s103202,reacher,quentinll/lewm-reacher,103202,30000,predictor;pred_proj.parameters,encoder;projector;action_encoder,FIXED_OFFICIAL_BUFFERS,128,5e-05,FP32_NO_AMP_NO_TF32,PLANNED_NOT_EXECUTED
+R3_reacher_PRED_REFIT_s103203,reacher,quentinll/lewm-reacher,103203,30000,predictor;pred_proj.parameters,encoder;projector;action_encoder,FIXED_OFFICIAL_BUFFERS,128,5e-05,FP32_NO_AMP_NO_TF32,PLANNED_NOT_EXECUTED

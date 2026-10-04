@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE_WITH_TECHNICAL_LIMITATIONS",
+  "reason": "RESET_FALLBACK_EXACT_CHECK_FAILED",
+  "tasks": [
+    "cube"
+  ],
+  "raw_rows": 2000,
+  "main_rows": 20,
+  "explicitly_missing_closed_loop_rows": 500,
+  "case_coverage_verified": true,
+  "observed_and_derived_rows_distinguished": true,
+  "within_case_and_main_arithmetic_verified": true,
+  "inputs": [
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_MAIN/MAIN_TABLE.csv",
+      "bytes": 4135,
+      "sha256": "67a2205015d7df0c1f40452452fa32e74bebf2af68e3a5fd117e5664eeb09692"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_MAIN/ALL_RAW_VALUES.csv",
+      "bytes": 417164,
+      "sha256": "17c010b85d993b66c45bb3c4fc4d5242f5bba4dc0f7fedc35d632d26450a3754"
+    },
+    {
+      "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/x1/reports/cube_MAIN/MODULE_STATUS.json",
+      "bytes": 3728,
+      "sha256": "ea275743a71270f08b12fb700eb378bae198f13cf24a94fef1a64870d4e0adf4"
+    }
+  ]
+}

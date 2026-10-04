@@ -1,0 +1,30 @@
+{
+  "status": "PROSPECTIVELY_FROZEN",
+  "comparisons": {
+    "encoder_cache": {
+      "atol": 1e-05,
+      "rtol": 1e-05
+    },
+    "predict_wrapper": {
+      "atol": 1e-06,
+      "rtol": 1e-06
+    },
+    "rollout_wrapper": {
+      "atol": 1e-06,
+      "rtol": 1e-06
+    },
+    "CPU_replay": {
+      "atol": 1e-05,
+      "rtol": 1e-05
+    }
+  },
+  "exact_checks": [
+    "raw_macro_action_index_mapping",
+    "frozen_parameters_and_BN_buffers_SHA256",
+    "exit_resume_weights_optimizer_sampler_and_RNG",
+    "H0_clone_CEM_actions_and_decisions_excluding_timing"
+  ],
+  "selected_before_actual_model_GPU_gates": true,
+  "tolerance_policy": "Predeclared technical FP32 implementation comparisons; failures are investigated without relaxing tolerances or changing scientific jobs.",
+  "CPU_replay_registration": "Declared before real model GPU technical checks and before any R3 optimizer update or formal outcome; exact hashes remain mandatory."
+}

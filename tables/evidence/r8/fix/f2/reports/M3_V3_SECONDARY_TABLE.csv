@@ -1,0 +1,9 @@
+metric,value,n,evidence
+H_POLICY_to_PRED_PAST_failure_to_success,176,1200,DESCRIPTIVE
+H_POLICY_to_PRED_PAST_success_to_failure,22,1200,DESCRIPTIVE
+paired_rows,1200,1200,DESCRIPTIVE
+PRED_PAST_entered_rate,0.5783333333333334,694,DESCRIPTIVE
+second_plan_present_rate,0.5783333333333334,694,DESCRIPTIVE
+second_plan_different_vs_H_REAL3_rate,1.0,694,DESCRIPTIVE
+second_plan_different_n,694,694,DESCRIPTIVE
+second_plan_comparable_n,694,694,DESCRIPTIVE

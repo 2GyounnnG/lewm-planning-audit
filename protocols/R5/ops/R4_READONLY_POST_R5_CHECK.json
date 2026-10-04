@@ -1,0 +1,52 @@
+{
+  "status": "PASS_ALL_ORIGINAL_SEALED_BYTES_UNCHANGED",
+  "purpose": "Read-only post-R5 boundary check of the pre-existing R4 seal; not a new R4 scientific run or reseal",
+  "started_at_utc": "2026-10-03T17:04:55.838866+00:00",
+  "completed_at_utc": "2026-10-03T17:04:59.010514+00:00",
+  "duration_seconds": 3.1717687920000004,
+  "original_R4_sealed_utc": "2026-10-03T16:45:41.808567+00:00",
+  "original_R4_status": "SEALED_WITH_CPU_RECOVERY_FAILURE",
+  "seal": {
+    "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/SEAL.json",
+    "bytes": 663,
+    "sha256": "c86fd600da69ee5b735563527e9456cc2bbd3e998fcda13597628fea87999f29"
+  },
+  "boundary_links": {
+    "recovery_manifest": {
+      "sealed_record": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/RECOVERY_MANIFEST.json",
+        "bytes": 16660716,
+        "sha256": "28f4020a1c4b2433ef7ea5efb5376a115a2b9d8e4542a5518b583e48cd3a96a6"
+      },
+      "matched": true,
+      "difference": null,
+      "matched_again_after_file_scan": true
+    },
+    "release_gate": {
+      "sealed_record": {
+        "path": "/Users/richwang/Documents/ChatGPT/热/r4_v23_execution/RELEASE_GATE.json",
+        "bytes": 3883,
+        "sha256": "572e250ef249766ead4d1d215b5e9b6262a8ae639af2dbf757c9822fc5388622"
+      },
+      "matched": true,
+      "difference": null,
+      "matched_again_after_file_scan": true
+    }
+  },
+  "manifest_record_count": 53730,
+  "records_checked": 53730,
+  "unique_paths": 53730,
+  "sum_recorded_bytes": 1279520356,
+  "every_record_checked_current_SHA256": true,
+  "hash_workers": 4,
+  "difference_count": 0,
+  "differences": [],
+  "R4_files_written": 0,
+  "R4_manifests_or_seals_modified": false,
+  "automatic_repairs": 0,
+  "new_inference": 0,
+  "new_statistics_runs": 0,
+  "new_optimizer_updates": 0,
+  "new_simulation_steps": 0,
+  "scope_limit": "Confirms current bytes equal the sealed records at audit time; does not prove that no transient historical modification ever occurred."
+}

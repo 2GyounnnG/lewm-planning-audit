@@ -1,0 +1,3026 @@
+{
+  "budget_raw": 50,
+  "candidate_count": 2691,
+  "cases": [
+    {
+      "case_id": "R8_tworoom_003c28579b58245c0c254088",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:342",
+      "episode_sha256": "6fe84a3637ae803ee8a54568c018c54c9fc19fa2016999ca51f3cbf2a34f9f05",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 29,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "003c28579b58245c0c254088a8f26635df056132ecb253c582300dd83f2671f6",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 342,
+      "source_seed": null,
+      "start_raw_index": 4,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_00475b9743bd99184577e0e2",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:2583",
+      "episode_sha256": "42d5618591761793d36b22f795808898e3be46f2d8ae62f455e58632176a3731",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 45,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "00475b9743bd99184577e0e2beac7578948c4981704aa0a6d1beef82a7869100",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 2583,
+      "source_seed": null,
+      "start_raw_index": 20,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_00508c7292fddf7be63a8708",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6915",
+      "episode_sha256": "b27e4575b8d989f950386b881c5d475fb8c546c34fd36a40b11d33f79b24cd9b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 63,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "00508c7292fddf7be63a8708faa1e7f828187da61c0d25e079f3cdd3ca0ddedc",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6915,
+      "source_seed": null,
+      "start_raw_index": 38,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_005aa86707a07a874aa9a029",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:7511",
+      "episode_sha256": "1c8121571394bb93f37de39ba1b68a3280740e4f07a82c1b9a417e91a28560f5",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 42,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "005aa86707a07a874aa9a0291431cea2349a6b0fe5a2ef060284f633124976e1",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 7511,
+      "source_seed": null,
+      "start_raw_index": 17,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_009360d1bee12d9dbc362c74",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:874",
+      "episode_sha256": "4c66c964babf909dc50afff92228040b2cbbff46164c041c279fa428ef6986b5",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 58,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "009360d1bee12d9dbc362c74c5e9cd9c1ee5fd686b632e976130a0e503f6b7e5",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 874,
+      "source_seed": null,
+      "start_raw_index": 33,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_00c6b02dc7fb880bcdfc7dda",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6409",
+      "episode_sha256": "dc26c22b617423a31487aa51acad20a93adcfcc491b8b362436989d627bff73a",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 26,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "00c6b02dc7fb880bcdfc7ddaba5d5d01a3d6daf7dd6b57f25f30228e50a54bd1",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6409,
+      "source_seed": null,
+      "start_raw_index": 1,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_00e9a3b01023364006051823",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6931",
+      "episode_sha256": "a0af14be12274deed6fa864e517a565b02625f8ff6dc5ef0b5412ede0ac20bb4",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 28,
+      "length": 67,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "00e9a3b010233640060518235f141fe5d26e3f486acd34646dd08bd079255af0",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6931,
+      "source_seed": null,
+      "start_raw_index": 3,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0111aeb23da6fffc773d216b",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6794",
+      "episode_sha256": "bc97efac5beaee1b365c7d59a5e4f9a4484c68a2be64b2a60e52c8a7b4d58beb",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 48,
+      "length": 73,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0111aeb23da6fffc773d216b2c511e24a723f85b0a43fcbbb82c2ce0eba7ca41",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6794,
+      "source_seed": null,
+      "start_raw_index": 23,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_01318120cf0b720a19bef43c",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:8041",
+      "episode_sha256": "c20984d8ec66c5170b3277692475eeb5b3e124b984ebf336ade414a8e1c04a43",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 90,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "01318120cf0b720a19bef43c79c810759d10f43fc780f99bc100a74fae108c13",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 8041,
+      "source_seed": null,
+      "start_raw_index": 65,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0149e656267ef1e29db10374",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5016",
+      "episode_sha256": "db7d051eab8e6206d5e425570aa56d5748b4650d63acd85195e8f54b55dfe024",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 74,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0149e656267ef1e29db10374ad9af07ca8cc17c9d386da66adc3aa292cb3d199",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5016,
+      "source_seed": null,
+      "start_raw_index": 49,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_016639ac537c8d4f9f2e2f3d",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5916",
+      "episode_sha256": "f2ca7d3715e2f274691c4b79882efd9ae91fb13666c9733315e5470e319e5051",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 32,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "016639ac537c8d4f9f2e2f3d6cc4d4aa2c6c2700842088a73c3238b96be57bea",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5916,
+      "source_seed": null,
+      "start_raw_index": 7,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_01ae7626ffa6fa257b7c7adf",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:4519",
+      "episode_sha256": "00de45e294c515be2211fa4960897277ab935f5277d5aaadfd3f244089e24af8",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 71,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "01ae7626ffa6fa257b7c7adf2142c6a08c15bbf55228f3746d11c4bb5a9ca30c",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 4519,
+      "source_seed": null,
+      "start_raw_index": 46,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_01aea11bbccfd11820ae3b67",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5042",
+      "episode_sha256": "7e4337ac9a1aab5aa519229d3d78be091c424303afdac89f5d7c0808940b54bf",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 94,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "01aea11bbccfd11820ae3b6757a1305ca6704c8371c2e31f42928ce2ed0edcce",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5042,
+      "source_seed": null,
+      "start_raw_index": 69,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_01c16f34aa04119a3489ad0f",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6169",
+      "episode_sha256": "09af0fd6f81a0b188bd499e32445f196fdbe6c2ecdd54bc761a82f7416e4744f",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 44,
+      "length": 72,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "01c16f34aa04119a3489ad0f0a54eb04ca0ee8c8e06809f0d9a0266d098c4edb",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6169,
+      "source_seed": null,
+      "start_raw_index": 19,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_01c67df22131e1d43aea07a4",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:1203",
+      "episode_sha256": "116ed92c5648dacd2ee889a19c4dfebaf2cf114e05a6631f9477c17a98f1918e",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 26,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "01c67df22131e1d43aea07a4ba9d957538578a0e3fefb06509705d03990d80e5",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 1203,
+      "source_seed": null,
+      "start_raw_index": 1,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_01e3ee0ac905e396feaf2334",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:3384",
+      "episode_sha256": "536995afd96ad84f924bdd85eb3033e470e6eda8f6b1127a9bb1bdfd9a9dd85d",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 43,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "01e3ee0ac905e396feaf2334be2386d57234e7fc59960a2eb21dbd3e06b8bbfd",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 3384,
+      "source_seed": null,
+      "start_raw_index": 18,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_01e4a5589224d5a2e107c624",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:221",
+      "episode_sha256": "52c411d5c02e5d6e1759f1866acd227de8ba0ed6355aa9153f348422ec3dd36b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 93,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "01e4a5589224d5a2e107c624faf52104207cbbe13a5112342b29055b0ecdcc88",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 221,
+      "source_seed": null,
+      "start_raw_index": 68,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_01e8cd45d1ad84576e58b248",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6591",
+      "episode_sha256": "2c7153378e0e933dbbe537297386a656ce8828606024a630fe132d0d41301854",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 36,
+      "length": 56,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "01e8cd45d1ad84576e58b248fda174c0a0d5f725c136d4613ca938dd357bdf26",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6591,
+      "source_seed": null,
+      "start_raw_index": 11,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_01ff035cef2e8239ddc76266",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:9510",
+      "episode_sha256": "6e251db53d5b334e878a83f09746e280daa1a22894969222b2fff38bee86b772",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 36,
+      "length": 100,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "01ff035cef2e8239ddc762668694e4f05af283c7585290d932a7055608cb0339",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 9510,
+      "source_seed": null,
+      "start_raw_index": 11,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_02263f4317267b20880e541d",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:7175",
+      "episode_sha256": "5598afbf191608d53898c6e56960502b062e81805a2a972639fc698d0dd13a97",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 53,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "02263f4317267b20880e541d01b799c2d18700126e4b53a2de0c8707b6390b1b",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 7175,
+      "source_seed": null,
+      "start_raw_index": 28,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_023f7ed8e2a657f21a31d693",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:9348",
+      "episode_sha256": "1ee9d2df9c1b28432f5099479d22a5c9295820381fe6b06042e6279cedb59d54",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 70,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "023f7ed8e2a657f21a31d69314d34cbfbba41dac58d7cd078cdff42e6d90965a",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 9348,
+      "source_seed": null,
+      "start_raw_index": 45,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0242e4f12dfac63f79ddbe09",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:1857",
+      "episode_sha256": "87797ea471cc915c6478525e17c55834df1a375d139dee24cbffaeb8a457f22f",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 77,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0242e4f12dfac63f79ddbe09102c9a539641c9aa40cd92517369f1aefcec1fde",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 1857,
+      "source_seed": null,
+      "start_raw_index": 52,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_025f489cacfa2a35b021beae",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:8449",
+      "episode_sha256": "bd4b9384ccfd6fef1d8bbbb463457b803db10972006bfaeee3a4dfd1deed7287",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 31,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "025f489cacfa2a35b021beae3865fdf3ad7e9615697c6dfa631b310f586feaf6",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 8449,
+      "source_seed": null,
+      "start_raw_index": 6,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_02680528f8abd745a907a78d",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:4838",
+      "episode_sha256": "19234e1654ee1f09f2e0ca93cbc30f54621aa89495fe110c30c9bb2c6c5389ef",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 73,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "02680528f8abd745a907a78df972939280f487ee5148f205f7b643d20830ed5d",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 4838,
+      "source_seed": null,
+      "start_raw_index": 48,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_028b381589885cb32be33fa7",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:1748",
+      "episode_sha256": "036ef17734ff101921b255e6dd2217a6cfa8186522427b047b4f7cd15374cad8",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 64,
+      "length": 88,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "028b381589885cb32be33fa71bbb452fa6fe746ea24b9705613151b4f4754fd1",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 1748,
+      "source_seed": null,
+      "start_raw_index": 39,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_02a8dae64e56ef9c8aafa967",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:9879",
+      "episode_sha256": "f4a4707a45cca2dbae7f14094b2f2e2e32c4d462da138fa714436ba8edbdf1b6",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 51,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "02a8dae64e56ef9c8aafa967f9468d94cb480614a1bf358560af081a1f107f91",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 9879,
+      "source_seed": null,
+      "start_raw_index": 26,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_02bab79061b5e6efe77164bc",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:4381",
+      "episode_sha256": "564b80fc654927623daf5a3ae9a6816e85b27cd906e6e03aecabdc8475d4310e",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 63,
+      "length": 77,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "02bab79061b5e6efe77164bca13de1c97fb886039c373c09244aad1a513d9804",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 4381,
+      "source_seed": null,
+      "start_raw_index": 38,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_02c039936a6720d15d8b0f8b",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:863",
+      "episode_sha256": "aace335beaf16047020aa414e2f4c15a6d068abf7e6527d8011fb7f8cfa79979",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 47,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "02c039936a6720d15d8b0f8bf5f144b5a0f052ce77fcaeb5626b777b4e1d23e8",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 863,
+      "source_seed": null,
+      "start_raw_index": 22,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_02c5bb81ae3f918f45c08145",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:1430",
+      "episode_sha256": "4344dbbd9b1c5b8bf365be1695d76e5f81409c20987b86f8a7ba859f4b633422",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 49,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "02c5bb81ae3f918f45c08145d15426aa5e8641262fcec4c2124e48ce2bc9b421",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 1430,
+      "source_seed": null,
+      "start_raw_index": 24,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_02d714c413bbbd0601fb4d3d",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:393",
+      "episode_sha256": "8925bf4d6ec8e80fbb8439aee6e0bc6981eb7bac6dcbc0e240e5551c1442fd04",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 44,
+      "length": 85,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "02d714c413bbbd0601fb4d3d4d0a5377d3e70eb20aedcfb3cacd408e23ad3205",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 393,
+      "source_seed": null,
+      "start_raw_index": 19,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_02ded7194e65433a137a4758",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5713",
+      "episode_sha256": "7fcd4ea129bc71c7f6dc1228a7aa0b6a8f36ff2d490e88d304a2f6c5ad1b15f9",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 76,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "02ded7194e65433a137a47581cf909f641e03ef7c52c627e876dbff277162123",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5713,
+      "source_seed": null,
+      "start_raw_index": 51,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_02f110e92f4d49fdbc75429a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:7007",
+      "episode_sha256": "a0c0ecc916a57318c569ee4944729c4d528b5c0a503f5bbc0ca5f8567d4657dd",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 37,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "02f110e92f4d49fdbc75429a4690240dba7ef6743e8591d52e1d210b3af539e2",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 7007,
+      "source_seed": null,
+      "start_raw_index": 12,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_031a32eb62cc199fab44890e",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:1656",
+      "episode_sha256": "0cee456ac8bdf95c9e63fa7c6f1efe677f8e36af6cbb0a366595a8c907fbffb5",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 81,
+      "length": 99,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "031a32eb62cc199fab44890e2b830ba1f5de9850dc0e229f56881446dbff58c2",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 1656,
+      "source_seed": null,
+      "start_raw_index": 56,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_031a5d25e58a49a33676fb9a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6883",
+      "episode_sha256": "d02ba7426be9897344ac14bc5d5b83d5118e8aced040a88540abe970d87f5d4b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 64,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "031a5d25e58a49a33676fb9a1d599bc22918a3873ff5608edb7293e0cbd74c08",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6883,
+      "source_seed": null,
+      "start_raw_index": 39,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0347e2fccede19563d0c5c76",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:1249",
+      "episode_sha256": "9a8a7797f0b5fd86d86d4022da0f265047f665a0f8ea470088ddccc1ceb43aeb",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 27,
+      "length": 99,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0347e2fccede19563d0c5c76d6bc84f07fbe907c26723dfab7e7fce539f16668",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 1249,
+      "source_seed": null,
+      "start_raw_index": 2,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_03482cb62a11aa50b0b8bb2a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6316",
+      "episode_sha256": "af78791c83fe4ce4f40ba909251bcf833dae96cd8e2dc14fb85ce976d1bc6bbe",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 38,
+      "length": 53,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "03482cb62a11aa50b0b8bb2a02fbd6e3b7f536f7b1d9a5caeb1997def703425d",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6316,
+      "source_seed": null,
+      "start_raw_index": 13,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_036be7416891ce8927324f99",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:8128",
+      "episode_sha256": "38f43194e50e23d02b9fae51b96b81805edf7927aa8bcfb2e38c40a38d19a7be",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 45,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "036be7416891ce8927324f9998751169b0edde5ba33ceb25b4da5cf115d8bac5",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 8128,
+      "source_seed": null,
+      "start_raw_index": 20,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_037985ace4b830f6fc862011",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:8446",
+      "episode_sha256": "6e44a37e13174533514b66f2b8b16508f77458022dc20620d2e26389de2ba253",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 46,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "037985ace4b830f6fc86201114aaf8806b030a175894874d03e2561828733298",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 8446,
+      "source_seed": null,
+      "start_raw_index": 21,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_037e59f4b23261042d6eeb46",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:9332",
+      "episode_sha256": "d3b2b5c44414accec185b6dce60bf33b03b99fef0825047ea6de9e4d0290e894",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 72,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "037e59f4b23261042d6eeb46ad6e13c8b65af14f809f8f84b95737e088d86c16",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 9332,
+      "source_seed": null,
+      "start_raw_index": 47,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_039f03865caa5e75652a007c",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:214",
+      "episode_sha256": "92b591cdf2185328e94f7252330db17f747f0362fc5b32b1bcfcdbf65b16edab",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 98,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "039f03865caa5e75652a007c97b40e8dfeb6e02797942f2f05d187fdfd160553",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 214,
+      "source_seed": null,
+      "start_raw_index": 73,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_03a2c5b51519abb663dc8836",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:2318",
+      "episode_sha256": "056db8eb7c95fcf8c1260ec83ccf8ff4ee3125d99f54099365ff84f7364a5361",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 60,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "03a2c5b51519abb663dc8836a9b5af0809da14798f26031c9fb460fd70a826f0",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 2318,
+      "source_seed": null,
+      "start_raw_index": 35,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_03c29f0d8ad7d05c2b5f83db",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:739",
+      "episode_sha256": "fa6745167b4ee6da195d718e331cb2e611dcba0ed8516c5d16bd915130a5cafa",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 73,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "03c29f0d8ad7d05c2b5f83dbb0631719217b1fde9766ebad0daee72512ad9323",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 739,
+      "source_seed": null,
+      "start_raw_index": 48,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_03e6c9a71e00e52688674c25",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:7233",
+      "episode_sha256": "6c5d1c4939bd12a8f4127d339c9cd8b217c94d03a709c7309fa5af565280c40a",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 46,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "03e6c9a71e00e52688674c25e02802ffde58c3a5c4c12146951fd77d00979a63",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 7233,
+      "source_seed": null,
+      "start_raw_index": 21,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_03efebeb192558a8fc438a3b",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6106",
+      "episode_sha256": "78047aceed42eea7205c3261236890d39f11f764ded7b4989d7e6102498d9df8",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 40,
+      "length": 63,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "03efebeb192558a8fc438a3b9d328c034f913183001c6021d070d73ae3c10477",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6106,
+      "source_seed": null,
+      "start_raw_index": 15,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_03f4e94af8fa8d668c086cb9",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5243",
+      "episode_sha256": "c6b701dd4b1a3e0a040893037141e7a51707a8e2f5d71af6bb8c63ebd4957c1b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 84,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "03f4e94af8fa8d668c086cb9a1730ae3e30761274c4a28d08370b723eb8ec037",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5243,
+      "source_seed": null,
+      "start_raw_index": 59,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_04207223ae48ad8b58be3a7a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5548",
+      "episode_sha256": "549c0513d044f6d3a3897c75dbe74f5fac445353e82fd271bc5e224bcb579c89",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 41,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "04207223ae48ad8b58be3a7a3102cb3df43a64e610b7695d713fdddf513b4550",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5548,
+      "source_seed": null,
+      "start_raw_index": 16,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_042b6ebbb71de453c372ac1a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:2764",
+      "episode_sha256": "9e994cc3d1c124691e35685176652b9e44faaf3b9b6041a84dbbfe93764be465",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 62,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "042b6ebbb71de453c372ac1a55da3856b11ad055379619ed0606ddd61e62107f",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 2764,
+      "source_seed": null,
+      "start_raw_index": 37,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_043a3f8ff0c3e18976268fde",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:8431",
+      "episode_sha256": "252d9433395e2ec397f8fda668e442d4e44ae8cee2de7867233d2209a9c6ae51",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 75,
+      "length": 90,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "043a3f8ff0c3e18976268fdef1bcb03b720b30b75cfa4a038284d127787ebed9",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 8431,
+      "source_seed": null,
+      "start_raw_index": 50,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_04473637cdfc1f585d9adcf3",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6344",
+      "episode_sha256": "155976a3e3dda254b1e4f44e4d9a3b1e94c65a953f45cfaf0062d8b2c7c2d491",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 82,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "04473637cdfc1f585d9adcf367b1da7dfe27312c5b93a3d1489d6c45dd1ccb13",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6344,
+      "source_seed": null,
+      "start_raw_index": 57,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_044ce8e736a8edf6c678d55e",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5231",
+      "episode_sha256": "08e11a57aa5f1ab4c84b0b7a7ce7092a423e1d07308df641a16ea3173fccd6c5",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 48,
+      "length": 58,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "044ce8e736a8edf6c678d55e4daf792685d16de76a0907bae6d5d8cbd581d1a9",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5231,
+      "source_seed": null,
+      "start_raw_index": 23,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_04bbb5132a97dfcd384a8abb",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:651",
+      "episode_sha256": "725895233cec1b0d5939b548b0ff6a8019a97675e12ce62194e731e96eeecbf8",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 61,
+      "length": 73,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "04bbb5132a97dfcd384a8abb2307903758b9926970b13a5cb6cf7a6402bf42b0",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 651,
+      "source_seed": null,
+      "start_raw_index": 36,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_04c09f873c34ac20e9f83a16",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5620",
+      "episode_sha256": "10b6629646b52dc7ed81154a40a12a4e80a7aed033ed9fcc6a1c8ff7e851fc98",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 32,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "04c09f873c34ac20e9f83a1676a5e2d423fb895e7b1fb18c36f5b278cfab1323",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5620,
+      "source_seed": null,
+      "start_raw_index": 7,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_04d8323122fa693918b468b7",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5977",
+      "episode_sha256": "5e77376671c82e3d786e4effdfc2c52ad8f17f0baab1455e6e639d6cc3e3d280",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 52,
+      "length": 84,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "04d8323122fa693918b468b7fa6ca2a10d29e405de21b32231fac58d3dfb9074",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5977,
+      "source_seed": null,
+      "start_raw_index": 27,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_04fb0eb806c1c28fc14b3111",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5171",
+      "episode_sha256": "1831cb8b0a08ce709fe1a4af72b3f9531d2d11daff1430ab0a9510ab72c8f982",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 62,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "04fb0eb806c1c28fc14b311105eb242aac76c4477a1c2705861f7c10f4f23874",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5171,
+      "source_seed": null,
+      "start_raw_index": 37,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_051a0810ac344676a8395c84",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:2872",
+      "episode_sha256": "4e10643ae3c183665b735cf41152d94c38fc9426f7b2248b21ba9c20fdb55a7a",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 75,
+      "length": 89,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "051a0810ac344676a8395c84f4faec7db68e1175828c8994a3dc6e20d47d7fd5",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 2872,
+      "source_seed": null,
+      "start_raw_index": 50,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_053839539a00319e17892aa8",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:510",
+      "episode_sha256": "91933dd6e22615b501200f46a24e0d088997795ff132ea582528b681d7e579df",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 51,
+      "length": 67,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "053839539a00319e17892aa8cd49ecbe47d723cc971b39a591aaa688a1b95db0",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 510,
+      "source_seed": null,
+      "start_raw_index": 26,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_053b1b2f86917a1334209ecf",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:2753",
+      "episode_sha256": "c47a9b256a7891089d214772dd041315aea3138e3666d2f5e4b3cd1c1c131993",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 97,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "053b1b2f86917a1334209ecff3eaafa9e9e6e7425ab46c18d5fdf5a72a35b534",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 2753,
+      "source_seed": null,
+      "start_raw_index": 72,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_053cdbeea03f1533347ae777",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:7660",
+      "episode_sha256": "c15b67192091a7e67bd8658c8f79bab43cca04880e28c34bc0b51dcac69ff98c",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 60,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "053cdbeea03f1533347ae777faae1d33068b8da3e9ec6359ec61fb6d4d329557",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 7660,
+      "source_seed": null,
+      "start_raw_index": 35,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_053e618c84fb4cef468f72ae",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:4047",
+      "episode_sha256": "3aaeef03952d8b8b24e9bc62c68d130f56f25c07dc09d296e7c4b104c784573d",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 43,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "053e618c84fb4cef468f72ae0753f1114e94456c4dcc9e4bbdbcf3ba18df5a77",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 4047,
+      "source_seed": null,
+      "start_raw_index": 18,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0540b17b3765202545c99668",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:2917",
+      "episode_sha256": "87c0a65b63cca9fa7f160833b247c002231dfc7e357fd89edfb608ba455dd144",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 71,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0540b17b3765202545c996683897d432410ffa60771e101ba77b3a0684fbf64d",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 2917,
+      "source_seed": null,
+      "start_raw_index": 46,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_056672215c66eae30389e3af",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:4741",
+      "episode_sha256": "b0ee06cac2edc5035cb9f7433f761aa7bb3e52ad7fcd43022b6f0e19bf84e201",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 56,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "056672215c66eae30389e3af7d583e196cc44b70f1a6028ce36740bdce305ad8",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 4741,
+      "source_seed": null,
+      "start_raw_index": 31,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_057a12046ff9a2a2fb35ff61",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:591",
+      "episode_sha256": "f6ac7d27b8ed74acb4d6e02cca5c619594d066ccc0e34de1de0a063c6c949cea",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 88,
+      "length": 96,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "057a12046ff9a2a2fb35ff6176539ebca131dade43a73cba667601a9fc2d5edd",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 591,
+      "source_seed": null,
+      "start_raw_index": 63,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_057cd69d9b64f0206c13beb0",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:4446",
+      "episode_sha256": "91007a2d616402136976386bde411a42d9b3e14df9ecdaf9de4ca25296b89938",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 39,
+      "length": 45,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "057cd69d9b64f0206c13beb02cfeee9417e44c6398a7f6979c222d46d4907d43",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 4446,
+      "source_seed": null,
+      "start_raw_index": 14,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0586069dc3ac8d02e1e05d18",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:1321",
+      "episode_sha256": "a6c76e642da71785a4566a22b4da6f9ef52ca6edafa82c4a45e5a16f9db7f1b9",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 62,
+      "length": 85,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0586069dc3ac8d02e1e05d18c1e84f741db40eb9eba83e4c1534437797a018e4",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 1321,
+      "source_seed": null,
+      "start_raw_index": 37,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0587a12763b08473dc82e82c",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:682",
+      "episode_sha256": "efc0390c82be0fa66338c78a480c04a60ac17f3757f8b7e5d2eee3cd2528c3b4",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 29,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0587a12763b08473dc82e82c52e09abb0eb061920fec77a1b838b53053917268",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 682,
+      "source_seed": null,
+      "start_raw_index": 4,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_058c2c802136fd3ed8b8fc06",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:4594",
+      "episode_sha256": "7bd655be9c61558c43228b753ef1e40553113949474aa475c0bc7eda454ee73f",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 40,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "058c2c802136fd3ed8b8fc0602181f681179cddeb2f0a5c2e4886d4fd884d803",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 4594,
+      "source_seed": null,
+      "start_raw_index": 15,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_05aaf411522d0664c6091dfe",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:74",
+      "episode_sha256": "c9b25440ef7b22c94990db7668357c712fa4064d6d7d19f479ebf0028c8dd773",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 41,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "05aaf411522d0664c6091dfe6374025ae3200f3c0d060ebe508a0a7d6c3afa35",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 74,
+      "source_seed": null,
+      "start_raw_index": 16,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_05ad61ff4222ae196d426a43",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:9745",
+      "episode_sha256": "8d913f58d76ec7a6f32b62c64621df8cbb52738ef2466e9cc2324d63de39fb81",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 27,
+      "length": 75,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "05ad61ff4222ae196d426a43710ac9e48e52c0f449e70695425ce9c5e3f25f11",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 9745,
+      "source_seed": null,
+      "start_raw_index": 2,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_06193442d6813842685fbaf7",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5357",
+      "episode_sha256": "4a6649169476e0d965e3a4e0acd0232f80fc871058dadf0fc6044232294aeeb4",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 71,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "06193442d6813842685fbaf70c28552d4caaff6fe7b02627be94a4ce2f059d98",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5357,
+      "source_seed": null,
+      "start_raw_index": 46,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_063489a641b297bf5d297abc",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:3752",
+      "episode_sha256": "930aab90ffd32533ea5e5440332e84177c53b02f576baa3c50c83ba03304d586",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 67,
+      "length": 97,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "063489a641b297bf5d297abc7679f16bd9476cac3321e03b30f3f2325d5c6756",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 3752,
+      "source_seed": null,
+      "start_raw_index": 42,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_066f598a0fcd4e4340ccefa8",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5437",
+      "episode_sha256": "d86a413015ed9ce6d63c3534c42a7e15eaa39122f6b633444c4b7ddba124d01d",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 72,
+      "length": 76,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "066f598a0fcd4e4340ccefa838e73454e4897c5bb3442de9d908830352cf1f7c",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5437,
+      "source_seed": null,
+      "start_raw_index": 47,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_06950ce9848b7660fc6fdfcc",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:8160",
+      "episode_sha256": "f275e4d2970a00d50bc75df619d64822f14cbae533cd489856d88f3153d8c630",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 32,
+      "length": 81,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "06950ce9848b7660fc6fdfcc0ffead8bf2101d0c766ebabf0babba48ccd0c0e0",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 8160,
+      "source_seed": null,
+      "start_raw_index": 7,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_069900f89528319b9ee417da",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:8472",
+      "episode_sha256": "1cfbe0c5e9b311234b8fea3744237ce75d34a13d3566d06bfef0e5d31a4f6654",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 32,
+      "length": 69,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "069900f89528319b9ee417da031ef43d729632ba92926ab3b2c38c59c16ef1e7",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 8472,
+      "source_seed": null,
+      "start_raw_index": 7,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_06b9d326abdb3751f8c711f5",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:984",
+      "episode_sha256": "801a847d96662e1d2561bbd940c0ace22fa1ff0fc286d6c1d1042bb46ab91e70",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 49,
+      "length": 99,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "06b9d326abdb3751f8c711f5656e1124b820db398d66af777296f9be8df5f7bc",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 984,
+      "source_seed": null,
+      "start_raw_index": 24,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_06bdf282db1599bb2cd1eeb0",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6708",
+      "episode_sha256": "b9832170f1bd3e869f66e5b092c7f15c35fa64d18bad72d238525e6392482240",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 97,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "06bdf282db1599bb2cd1eeb0584286fbc21d73a4a824af6733da64e9a5c5d316",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6708,
+      "source_seed": null,
+      "start_raw_index": 72,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_06e9f3b311a1a95f40a9ceee",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:7230",
+      "episode_sha256": "7588f1e9fbb1f87f10c94cfa4c90c8fc6719f2714f2c03a71ca20d31e6e8d102",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 47,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "06e9f3b311a1a95f40a9ceee6985ef6a61197e4b81324ffa86cb399a0b65ff29",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 7230,
+      "source_seed": null,
+      "start_raw_index": 22,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0700952867e238a86b5c81e2",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:4778",
+      "episode_sha256": "a6c1f8f701c567d97114b45d0be852723085fbfd8bc6f23585066de98bc1faf9",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 79,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0700952867e238a86b5c81e2f2fc21b6de8b6563dc1b1d1dc60d8b0638a2c98c",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 4778,
+      "source_seed": null,
+      "start_raw_index": 54,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_07275f3ed8b48418157c07d4",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:2682",
+      "episode_sha256": "eb88b7fa2e8c530ae4f7fa8fddf5f4ac4149e55fb153ac015e40b208822258eb",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 77,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "07275f3ed8b48418157c07d48317e417997699b4efb32c585bdee4130b8820e1",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 2682,
+      "source_seed": null,
+      "start_raw_index": 52,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_073c59bd6200ef6e33ce3e74",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:8047",
+      "episode_sha256": "e8936b9930a281f99af9f882bd36048e1cc357873a4b874fb2813598905fa239",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 76,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "073c59bd6200ef6e33ce3e74d76864ea994a0017bb1d3c8900379aee918bd242",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 8047,
+      "source_seed": null,
+      "start_raw_index": 51,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_075acb8ec82b2511f83ca412",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:1759",
+      "episode_sha256": "a24587f255fb2aebe2da1b3bd1ee3a7b322c10555383845e91849f4e75d23ca4",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 25,
+      "length": 78,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "075acb8ec82b2511f83ca412484bb9e82bc006ed5b97c8a720dc3c9e43e09acc",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 1759,
+      "source_seed": null,
+      "start_raw_index": 0,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0764579b0e8192142a2aa0dd",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:1714",
+      "episode_sha256": "742e27667bf5e9c57a66797c62a63fde5af49a9bf8c0212f893f79236b0f109a",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 59,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0764579b0e8192142a2aa0ddbb6b6faea5e783953c8afd6f088f18785c9108ff",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 1714,
+      "source_seed": null,
+      "start_raw_index": 34,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0764f83ed5ee645f1941be2f",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:2730",
+      "episode_sha256": "5d71bdb876dfb289feabbcd91e203a4a58c0af804886a2dac1da93e42058f918",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 26,
+      "length": 70,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0764f83ed5ee645f1941be2f9930522494378f8a526930026fbc7a13982229c3",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 2730,
+      "source_seed": null,
+      "start_raw_index": 1,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_077bc86183ed9b3f24c8b1a4",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:1117",
+      "episode_sha256": "b11c3cd60027240a71fb1f763f5567e744a47ee86e3d1450d1ab1f1296f67ac9",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 93,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "077bc86183ed9b3f24c8b1a4e48989595432602569d6bd243a2b3967a795b10f",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 1117,
+      "source_seed": null,
+      "start_raw_index": 68,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0786a563c4ee34cac10614cf",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:4331",
+      "episode_sha256": "f3a90c0082aa6f20914becfd4bfc6d64c8fac851a7f2d3324183c04e1718b4b5",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 87,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0786a563c4ee34cac10614cf74f276afa959c74f6baadf51342e8265915b3e22",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 4331,
+      "source_seed": null,
+      "start_raw_index": 62,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_0796fdd68bdc6e8d0f32164a",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5238",
+      "episode_sha256": "faebd526e439fc74cb42d7a8e15ae34d5ca2b9779a11104a5fadbe3d9824eadd",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 59,
+      "length": 73,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "0796fdd68bdc6e8d0f32164ac6a8534730256cf3135634cca3c1f48a5930b3ef",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5238,
+      "source_seed": null,
+      "start_raw_index": 34,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_079ace4574dabaf5a9dd4436",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:3864",
+      "episode_sha256": "ad9e4bca3b94b3252bafbfcb704228b102582abca6af9fb4f0fa2f706a43c01d",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 58,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "079ace4574dabaf5a9dd44363c5765771a20580ad9b7808517587a65d64dec94",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 3864,
+      "source_seed": null,
+      "start_raw_index": 33,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_07c9d6108d179b32ff54d64c",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6806",
+      "episode_sha256": "f3a215b380ec8b8fcea436bf2b79f2fc1c0187e12935b50711fc3ed9cfb7ab89",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 90,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "07c9d6108d179b32ff54d64ca080695bb2bcebf4cb1c263e895d47f1c936d764",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6806,
+      "source_seed": null,
+      "start_raw_index": 65,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_07d28ef566f88a6ee041edd2",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:5170",
+      "episode_sha256": "e60263a3e96247c533c143eb69efc3c957b702d90d9333104a7fa1197a5a15de",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 90,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "07d28ef566f88a6ee041edd25d5fc8bb2db23a6bcef926ed58ee156aa4de2c58",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 5170,
+      "source_seed": null,
+      "start_raw_index": 65,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_07e4dcb9572ac581baac5ea3",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:2380",
+      "episode_sha256": "034e74510be6f74490600ab25689813fca1a4dc577131dd1c5bfbb4b114735ed",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 62,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "07e4dcb9572ac581baac5ea30f005e8cb6da5c723eaa56c954360c81fbaf9368",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 2380,
+      "source_seed": null,
+      "start_raw_index": 37,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_07e91d52df7e3d17ef3c7d0b",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:4872",
+      "episode_sha256": "eb5ee998be4411cb4d00823ca92c03109832a7103a961a85c42065a1c63874fe",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 80,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "07e91d52df7e3d17ef3c7d0b56f5b2e892dc0aa2bd4381ef64ddd645228debaa",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 4872,
+      "source_seed": null,
+      "start_raw_index": 55,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_07f76c01c950ef75ff937ede",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:3576",
+      "episode_sha256": "d2d84227fc79df99eba95d8239c48dc7155011da6eac130de183b738b0282147",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 66,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "07f76c01c950ef75ff937ede402ab02c4347011a9ca84a86a9ab6a31c012027f",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 3576,
+      "source_seed": null,
+      "start_raw_index": 41,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_07fe2e9d497008591b7dfd91",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:427",
+      "episode_sha256": "fff36c76425c85f70bc9133c3e5ff6df6cde6f8ad53c3e90d73cc50bb8406ee0",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 75,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "07fe2e9d497008591b7dfd9175548c2a89b2a2ced8cfb47db84e2fbe9766dabd",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 427,
+      "source_seed": null,
+      "start_raw_index": 50,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_08164f988d61ecc14245fc09",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6079",
+      "episode_sha256": "0f5376394f7498b3048e850f10c67810e0cfd1710e95b758263cf2737d28aad4",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 60,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "08164f988d61ecc14245fc09f5d90f51f6f3d8534035e9c97991aa53189337ac",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6079,
+      "source_seed": null,
+      "start_raw_index": 35,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_082e9b45e7283603ec99842f",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:3998",
+      "episode_sha256": "409720fa83ddf3fbc6629ce45949fa763306ccce274a1bac38f6cb13663e35df",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 37,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "082e9b45e7283603ec99842f91ea4ae3766d15b3c5d88ff6594e0154ce6d5625",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 3998,
+      "source_seed": null,
+      "start_raw_index": 12,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_084c4ee8b76ad244548c7ccc",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:8326",
+      "episode_sha256": "8da29aa3ef6ec825629018f006792f62fa03dbf1328b571ad0d8c625a606e062",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 73,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "084c4ee8b76ad244548c7ccccda5d869c6fbccf73840012654a08d23d2cb578c",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 8326,
+      "source_seed": null,
+      "start_raw_index": 48,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_086beb45d9170a5eb00e4768",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:6735",
+      "episode_sha256": "f9b241a117bfed264b7419554fe1bd54cb37638589c62f04c60bf5e9c7cc4ada",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 83,
+      "length": 95,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "086beb45d9170a5eb00e47688e65e0ee27fb2ee3acdb7c12838f2e3305b6891c",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 6735,
+      "source_seed": null,
+      "start_raw_index": 58,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_08aaa113960a522f6e8577dd",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:8558",
+      "episode_sha256": "7aded9fa99915e2e7b687a092a4128235c3154bc91b65b1ebea86f7cc5489c4e",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 70,
+      "length": 72,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "08aaa113960a522f6e8577dd6d6db546d5fc66f67b8a51ab43c167d6e0e53c0a",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 8558,
+      "source_seed": null,
+      "start_raw_index": 45,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_08cf0f213dc94b2a94561e69",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:2915",
+      "episode_sha256": "290873d4b86b62ebfdef479278843068953e1d4d78b946bd9af9df84825fcc3f",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 66,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "08cf0f213dc94b2a94561e6953b1f411e36fd715494782105d658663af188ce8",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 2915,
+      "source_seed": null,
+      "start_raw_index": 41,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_08d5693a3598e40dcc9c9561",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:9824",
+      "episode_sha256": "a6282bacc74a6dfee977e4117c7ab3a0ddeb33d11389f6a460579a7dc1b1e6d4",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 91,
+      "length": 101,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "08d5693a3598e40dcc9c9561f692f01434382bb9272de5d1726ff7951d8ff24a",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 9824,
+      "source_seed": null,
+      "start_raw_index": 66,
+      "task": "tworoom"
+    },
+    {
+      "case_id": "R8_tworoom_08fae1c7d5506f5d6c5ca8ac",
+      "construction_rule": "R3 metadata planning-start hash, target offset 25 raw, budget 50",
+      "episode_id": "tworoom:129a36aa93ea0de4:3720",
+      "episode_sha256": "8382c71223b8314014bbe11ab974afd65b521e5a980cd91542dc71ab3d54f70f",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 32,
+      "length": 51,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "proprio": [
+            2
+          ]
+        }
+      },
+      "reset_mode": "OFFICIAL_FALLBACK_SEED0",
+      "reset_seed": 0,
+      "reset_seed_provenance": "X1_TECH_FALLBACK_SEED0",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+      "selection_sha256": "08fae1c7d5506f5d6c5ca8acdb5b1bcbe082d3ca32a1b10a0bacd518434141e7",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623",
+      "source_episode_idx": 3720,
+      "source_seed": null,
+      "start_raw_index": 7,
+      "task": "tworoom"
+    }
+  ],
+  "construction_rule": "R3 metadata case construction; goal offset 25 raw; budget 50 raw",
+  "evidence_label": "R8_FRESH_CASE_REPLICATION",
+  "excluded_case_ids": 608,
+  "excluded_episode_ids": 104,
+  "formal_count": 100,
+  "offset_raw": 25,
+  "planned_formal_trajectories": 1200,
+  "selection_rule": "sha256(\"R8_FRESH/tworoom/\"+episode_id)",
+  "selection_used_model_outputs": false,
+  "source_h5": {
+    "archive_sha256": "494b1a02f0765cd9a0d9daf1786c419ced1009977fc45d01e3158932f8d080ca",
+    "bytes": 12775849984,
+    "path": "/workspace/shared_data/unpacked/tworooms/tworoom.h5",
+    "receipt": "/workspace/x1_tworoom/manifests/tworoom_source_receipt.json",
+    "sha256": "129a36aa93ea0de488d2bcc876e396de9e3907bf66c6aae6394e542ef6a6d623"
+  },
+  "source_roles_sha256": "097fcf09c45d9b4ecedf7687e5da29233003850b3903737983b52304301d40b3",
+  "status": "SEALED_BEFORE_CLOSED_LOOP",
+  "task": "tworoom",
+  "version": "R8_M2_FRESH_CASE_SELECTION_V1"
+}

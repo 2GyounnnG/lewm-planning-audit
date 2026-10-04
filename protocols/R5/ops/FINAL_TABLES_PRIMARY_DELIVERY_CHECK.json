@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "primary_output": "/workspace/r5/tables/final_v2",
+  "tables": 11,
+  "rows": 12675,
+  "archive_sha256": "7da7158f66f7c374c4ae9d85af2759ab8805aceb9d14b7b649e3fcdad048283f",
+  "utc": "2026-10-03T19:03:32.300986+00:00",
+  "all_authorized_modules_accounted_for": true,
+  "all_scientific_results_complete": false,
+  "C2_status": "TECHNICALLY_UNEVALUABLE"
+}

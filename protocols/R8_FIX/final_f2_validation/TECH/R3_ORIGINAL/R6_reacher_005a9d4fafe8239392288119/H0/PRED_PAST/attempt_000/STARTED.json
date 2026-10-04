@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "version": "R8_FIX_F2_POST_SEAL_VALIDATION_V1",
+    "unit": "M3_REACHER",
+    "task": "reacher",
+    "case": {
+      "case_id": "R6_reacher_005a9d4fafe8239392288119",
+      "construction_rule": "R3 CASE EVAL construction: R3_CASE_START_20261002 hash legal planning start, goal=start+25 raw, R3_OPEN_LOOP_ANCHOR_20261002 fallback",
+      "episode_id": "reacher:85a7dddfa1801302:4083",
+      "episode_sha256": "b4b669c025be69c00e7def47179d97b1f0a2f69a7abd4de63fd40580bd89fd2b",
+      "family_id": null,
+      "goal_offset_raw": 25,
+      "goal_raw_index": 182,
+      "length": 201,
+      "open_loop_anchor_raw": 157,
+      "open_loop_anchor_relation": "SAME_AS_PLANNING_START",
+      "open_loop_target_raw": {
+        "1": 162,
+        "2": 167,
+        "5": 182
+      },
+      "open_loop_window_start_raw": 147,
+      "requires_validated_reset_fallback": true,
+      "reset_metadata": {
+        "column_shapes": {
+          "qpos": [
+            2
+          ],
+          "qvel": [
+            2
+          ]
+        }
+      },
+      "reset_seed": 0,
+      "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED",
+      "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+      "role": "EVAL",
+      "selection_rule": "sha256(\"R6_FRESH/reacher/\"+episode_id) ascending",
+      "selection_sha256": "005a9d4fafe82393922881198731fda75541b7663b61513de152ba4e80aa3ca0",
+      "selection_used_model_outputs": false,
+      "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "source_episode_idx": 4083,
+      "source_seed": null,
+      "start_raw_index": 157,
+      "task": "reacher",
+      "unit": "U1"
+    },
+    "arm": "H0",
+    "stream": "R3_ORIGINAL",
+    "provenance": {
+      "official": {
+        "task": "reacher",
+        "weights_sha256": "eb70b1fd5409f8f81875d62f5ee5a20dd220a3128a477de66b5760f475f0f469",
+        "config_sha256": "2564086e961e7b5c7c04dffc451091115b389a590645ff19653c64fd0bc16e09",
+        "source_sha256": {
+          "lewm_jepa": "41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96",
+          "lewm_module": "0b258a9e8dc24c29fcb1e8c50a09ec78b8ea85aeb79e21dd8adf712396646620",
+          "lewm_train": "5d5666a785148635f8bcb50b49f98dd4527c5aba8a02d90206eb5d46406079d2",
+          "lewm_utils": "b3e5cfce6d0eecd9510f06a7adc178edde86074e1474b899ff739ed8a5355b08",
+          "vit_constructor": "dd336acaa8f82877225559072e178f623c10a97ecc5a2ec3bdc38ea9cd1cab47"
+        }
+      },
+      "case_manifest": "339de3c4f5b0dd4ad3740c9a157c371b357f4883367b8afe8d2229a9a893542e",
+      "evidence_label": "R8_M3_HISTORY_MECHANISM",
+      "reference_root": "/workspace/r6/reacher",
+      "reference_label": "R6",
+      "history_mode": "PRED_PAST"
+    },
+    "plan": {
+      "horizon": 5,
+      "receding_horizon": 5,
+      "action_block": 5
+    },
+    "cem": {
+      "batch_size": 1,
+      "num_samples": 300,
+      "var_scale": 1.0,
+      "n_steps": 30,
+      "topk": 30
+    },
+    "budget_raw": 50,
+    "goal_offset_raw": 25,
+    "max_replans": 1,
+    "phase": "TECH",
+    "code": {
+      "r8_budget_runner.py": "b298c6987627fd9aee75124c0744fc95b1213d0764524bfd8fbb62a6f33f5014",
+      "context.py": "e64cfec6f00f32efa09f1941c4b278f910e76dd666a9ac6f2feb0b428204a94f"
+    },
+    "control_protocol": "R4_S3_learning_policy_same_host_same_case_same_stream",
+    "history_mode": "PRED_PAST",
+    "history_intervention": "H_POLICY single-frame control; H_REAL3_REPLAN real raw [t-10,t-5,t] at each receding-5 replan; fixed unit maximum post-initial replans",
+    "source": {
+      "revision": "abdced49809d5eae38e24b27dc7b635c502c4812",
+      "files": {
+        "stable_worldmodel/solver/cem.py": "a6662e7f1f2c6ecaf0a8527255d531aa05ed583339aabdf2798d0206382ef51b",
+        "stable_worldmodel/solver/utils.py": "d30c6225a9c4c83782132180a94c94188b07e0381d2c938c658fe5a49aed48e1",
+        "stable_worldmodel/policy.py": "4967e7e3d5b20eb7a1d0b00e5d60fd701cce1c750ae7ec4a9b02529b9366db22",
+        "stable_worldmodel/world/world.py": "f0d2834a04c7ce8915522773f6f4f53396cdf79bf3a1c92c3560d8d2c378fe56",
+        "stable_worldmodel/world/env_pool.py": "b6e73253199e1a39f0fcadfad7dbea09270cbd559e366d1bc9bf09c9e7da0606",
+        "stable_worldmodel/protocols.py": "35b3e08fa2df0239277d2004356375af58b207edbfa555d46d24baca646fc401",
+        "stable_worldmodel/envs/__init__.py": "118a262677a647c6d6ef8889443b096abe082db4e365fc0a5b1249715e7e3c1a",
+        "stable_worldmodel/envs/pusht/env.py": "c6d2104adc368ff1c352edc0e35ac74da9f07fda3a748ddbef0ba6b7a2d1daa2",
+        "stable_worldmodel/envs/dmcontrol/reacher.py": "7d58845f0a3412a1f8d52c0e2305fd8ca2889745ea38429ff08ccf2a8b561f65",
+        "stable_worldmodel/envs/dmcontrol/custom_tasks/reacher.py": "e5e2e82c0621efca7b4c3c194f422c946db59edb12db7735fbe8bdcf12e37e7c",
+        "stable_worldmodel/envs/dmcontrol/dmcontrol.py": "13d55bf73f9b7f8a9b5a2b380e12750e253a391716e64e65f795b1c9fff8bc08",
+        "stable_worldmodel/wrapper/default.py": "1099cbbdf9a79d4f409ef99dd95529aa6c9baced16d5102f47999110e35c0a51"
+      }
+    },
+    "optimizer_updates": 0,
+    "reranker": null
+  },
+  "identity_sha256": "ebaf7da50ccd987de88864cf3b38b8b19e332c399c1401e616eec3967612cd40",
+  "attempt": 0,
+  "started_unix": 1791097504.9172904
+}

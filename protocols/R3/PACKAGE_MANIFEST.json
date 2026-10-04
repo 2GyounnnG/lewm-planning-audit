@@ -1,0 +1,56 @@
+{
+  "type": "INSTRUCTION_PACKAGE_NOT_EXPERIMENT_RESULTS",
+  "date": "2026-10-02",
+  "files": [
+    {
+      "path": "01_CODEX_PROMPT.md",
+      "bytes": 19508,
+      "sha256": "ce20b02b38a801b3a5ebccc3ca921039cc59ce9fb4a0b53da8d8df10ea3f31c8"
+    },
+    {
+      "path": "02_EXPERIMENT_SPEC.md",
+      "bytes": 13878,
+      "sha256": "57dddb3c2c542f22d1b99a62c4c402608c94d7bf029b2780a067eb8d4796d437"
+    },
+    {
+      "path": "03_PRIMARY_SOURCES.md",
+      "bytes": 3868,
+      "sha256": "bfab872989d7ece529d427f7f16260b29f759b084b5bfc2c13c77ab9b7b1a55b"
+    },
+    {
+      "path": "04_START_MESSAGE.txt",
+      "bytes": 1819,
+      "sha256": "0df78787c5e8b30c5d00fed0bd593bc7963daf1487191d07ed972efa4bd7ad77"
+    },
+    {
+      "path": "05_TRAIN_JOBS.csv",
+      "bytes": 1399,
+      "sha256": "7155c0d301f46d932d5bf8e35bb0661855780b1e89b047a16ccd247a29213c24"
+    },
+    {
+      "path": "06_EVAL_ARMS.csv",
+      "bytes": 1531,
+      "sha256": "766cc4b0be7189c858188d8d94c22768aa06b76ee7b97f18f90997849d58bb07"
+    },
+    {
+      "path": "07_PROTOCOL_CHECKS.py",
+      "bytes": 3573,
+      "sha256": "1d45d4d6f62b3c1e50012cf1694fc71da0389dc4acb640a48a32401e4a00cbf2"
+    },
+    {
+      "path": "08_PACKAGE_CHECKS_RESULT.json",
+      "bytes": 135,
+      "sha256": "8436887918e1a358a8e51568e440e0cc1bef71d1d68244df91154006c304604d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1431,
+      "sha256": "4acd851b82f07bbc805bc14c3458afacf7cbf993613df632cdec45fdc833d649"
+    },
+    {
+      "path": "inputs_readonly/FINAL_SCIENTIFIC_REPORT_ZH.md",
+      "bytes": 8043,
+      "sha256": "9dd843d4b71f405cb03e98d5779338e7c245a465ec20759ca4e09713c5ba5a98"
+    }
+  ]
+}

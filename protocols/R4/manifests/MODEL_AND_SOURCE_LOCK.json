@@ -1,0 +1,77 @@
+{
+  "version": "R4_V23_MODEL_SOURCE_LOCK_V1",
+  "R3_model_lock_sha256": "cbf032b4471f1615cc48181b382fe0b99d399a648146d815d3941791a7ec4f88",
+  "files": {
+    "artifacts/train/R3_pusht_PRED_REFIT_s103201/checkpoint_30000.pt": {
+      "sha256": "e50a70b755c088d4ae6fad9c877d4e8a17114078e70900ada392e25fcb8a061d",
+      "bytes": 46397214
+    },
+    "artifacts/train/R3_pusht_PRED_REFIT_s103202/checkpoint_30000.pt": {
+      "sha256": "d2881d45110541b72b8a52cf893d579c986b6f1ba0a23cf86961502075500acd",
+      "bytes": 46397214
+    },
+    "artifacts/train/R3_pusht_PRED_REFIT_s103203/checkpoint_30000.pt": {
+      "sha256": "92ac3ac1c0a89c4d5c063b16475c446c7d5f9228e0ad006ff41c27d90c8794d1",
+      "bytes": 46397214
+    },
+    "artifacts/train/R3_reacher_PRED_REFIT_s103201/checkpoint_30000.pt": {
+      "sha256": "d1ead9f1ef483ae372ad60138c334e74571c91b274fcc61581da62b91a343bd1",
+      "bytes": 46397214
+    },
+    "artifacts/train/R3_reacher_PRED_REFIT_s103202/checkpoint_30000.pt": {
+      "sha256": "f16447e77eb4d84814d3b1e9b4836675b5462f94aa1ccbfb06d4e62e063da3a5",
+      "bytes": 46397214
+    },
+    "artifacts/train/R3_reacher_PRED_REFIT_s103203/checkpoint_30000.pt": {
+      "sha256": "6c9aba91796eefe30e82c6b1b0c39ce691d5f7e3fbbe9acd1d058597534c0002",
+      "bytes": 46397214
+    },
+    "official/pusht/README.md": {
+      "sha256": "660de4e79b109ea18602618d90c72c44630957978ebd8474910713d896340292",
+      "bytes": 178
+    },
+    "official/pusht/config.json": {
+      "sha256": "2564086e961e7b5c7c04dffc451091115b389a590645ff19653c64fd0bc16e09",
+      "bytes": 1313
+    },
+    "official/pusht/weights.pt": {
+      "sha256": "48938400ae3464c9680731287f583a9cb516f55a8ec64ea13a91be47fb15b607",
+      "bytes": 72290721
+    },
+    "official/reacher/README.md": {
+      "sha256": "2d7b1b41dc5d6a6e314d6ca5f56fbce65f21a0fa6cf08198cedac1097f8cadce",
+      "bytes": 185
+    },
+    "official/reacher/config.json": {
+      "sha256": "2564086e961e7b5c7c04dffc451091115b389a590645ff19653c64fd0bc16e09",
+      "bytes": 1313
+    },
+    "official/reacher/weights.pt": {
+      "sha256": "eb70b1fd5409f8f81875d62f5ee5a20dd220a3128a477de66b5760f475f0f469",
+      "bytes": 72290849
+    },
+    "state/lewm_source_manifest.json": {
+      "sha256": "f758362bf486d61e4b575554c2f5ef267408af20450419d7c836e3bad20178b8",
+      "bytes": 3227
+    },
+    "state/spt_source_manifest.json": {
+      "sha256": "168e006fc3aea4c8661af13cdbcd0eebc8383af0352366b9ae70780d1b6b0b41",
+      "bytes": 88353
+    },
+    "state/swm_compat_source_manifest.json": {
+      "sha256": "ed3ef01eab2194d62654955c8bb35a6a73c3fd95f2ef666e7627a0d3dd48dc4e",
+      "bytes": 39149
+    },
+    "state/swm_source_manifest.json": {
+      "sha256": "c48b15296f39b8501a38fdbb07682e86bdb26f7b5c6c5503dd269335326407b2",
+      "bytes": 44764
+    }
+  },
+  "fixed_refit_seeds": [
+    103201,
+    103202,
+    103203
+  ],
+  "R4_neural_training_updates": 0,
+  "X1_author_source_lock": "X1_HF_ASSET_LOCK.json"
+}

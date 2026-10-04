@@ -1,0 +1,3907 @@
+{
+  "version": "R8_M2_CASE_WINDOWS_V1",
+  "evidence_label": "R8_FRESH_CASE_REPLICATION",
+  "task": "reacher",
+  "cases": [
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_001713a6ea908b77c5664c85",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3466",
+        "source_episode_idx": 3466,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "059d8d034b48a33338ba4209c64fd138801d19101139175a1222ebe9e37eca94",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 109,
+        "goal_raw_index": 134,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "001713a6ea908b77c5664c856ace09f47325ecd41d6806984edd72c65fdf8e5a",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_001713a6ea908b77c5664c85.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_001713a6ea908b77c5664c85.npz",
+      "bytes": 477584,
+      "sha256": "142323997803c466fcb84b1750f833c3f67ea1a331ba34405eefc3bcfbe0ce15"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_00219f026aba0a03eee160b9",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5382",
+        "source_episode_idx": 5382,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "bc8069bcd4bb0d4208c484dbb98a6107d3857fe1a884b0433b57a817127a4c70",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 143,
+        "goal_raw_index": 168,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "00219f026aba0a03eee160b928c00cf1fb0a7527e0916cca15021431e011b9ee",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_00219f026aba0a03eee160b9.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_00219f026aba0a03eee160b9.npz",
+      "bytes": 480158,
+      "sha256": "cce77ba3a912a21a4ff6f0dc97ec25476430f4ad62c12d1db7196834ec6ccce6"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_002c028acece6eb07601d4f6",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2667",
+        "source_episode_idx": 2667,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "ac52219ef017a498d4e6e9e06db660a7dc73aa4650ac33654d153ea1b8eb865b",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 160,
+        "goal_raw_index": 185,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "002c028acece6eb07601d4f6ac8c1e96af5a964f99cd89a562edeebfbd56c899",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_002c028acece6eb07601d4f6.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_002c028acece6eb07601d4f6.npz",
+      "bytes": 484848,
+      "sha256": "51f42276da25c23c80483d1c12d87d5a20e0fb7ceac2eb858b668c701c89a318"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0031a20dbfc478c533d5c8f8",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5563",
+        "source_episode_idx": 5563,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "1bb8c06bd20b5801b3b879b5f486a9f05001bc4716da41230ed13d5189613ef6",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 78,
+        "goal_raw_index": 103,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0031a20dbfc478c533d5c8f86dc95d1c2bbe71f22727bf5789ef7bc098d4aef3",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0031a20dbfc478c533d5c8f8.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0031a20dbfc478c533d5c8f8.npz",
+      "bytes": 472611,
+      "sha256": "074aea90ce84f5219ec2aa965109c6844c42f355638fd0281a21d7e8878671b2"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0054a666c282912db4fcbf0a",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2959",
+        "source_episode_idx": 2959,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "766f7c488925605bed6d876fd879c67ae7042214d97470dcf8862b98c0811f5e",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 115,
+        "goal_raw_index": 140,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0054a666c282912db4fcbf0a2610cafda364dbdd6bcb13afa3cdab125f8b548d",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0054a666c282912db4fcbf0a.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0054a666c282912db4fcbf0a.npz",
+      "bytes": 482465,
+      "sha256": "6b05eb39038b207bb08f9981641e54833d79ea056456707b87e8cc47baa09d3b"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_00748f3ad4e4659c78d7e768",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:8698",
+        "source_episode_idx": 8698,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "476801895d300c81f7fedab8f8f9ee81eaaac8210ea8c37d4f875f67e151c8be",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 169,
+        "goal_raw_index": 194,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "00748f3ad4e4659c78d7e768026b7d9ebbf46c15d00986f73df99897ce2e2007",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_00748f3ad4e4659c78d7e768.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_00748f3ad4e4659c78d7e768.npz",
+      "bytes": 474963,
+      "sha256": "ec8b600f1ac2fb623ac4a06fe88f2d1aa2493331f13c76765d1c48ecad2988a1"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0088762abf0e4e12fa065c41",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2366",
+        "source_episode_idx": 2366,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "7e2b02c7876206b6663a2558de0206d9fa65fb88fdfe94e28e210f37fb1bb3c7",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 65,
+        "goal_raw_index": 90,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0088762abf0e4e12fa065c41492976fb3a4ee85c2a340fdfc370e071955007c0",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0088762abf0e4e12fa065c41.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0088762abf0e4e12fa065c41.npz",
+      "bytes": 475809,
+      "sha256": "5382b884717a71723fcdde6b0d0f3c6bbff5d8f264b4a7cca0bf2499e29c8e1d"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_00a42ce8b170e706c79d75c9",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2656",
+        "source_episode_idx": 2656,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "056c6b97b71eaf7384cdbda5fce91fdaa3fb3680e1893a4da72ce0c90bc652b6",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 55,
+        "goal_raw_index": 80,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "00a42ce8b170e706c79d75c9f68ae745ddc8f059d57e92c190393d335232925b",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_00a42ce8b170e706c79d75c9.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_00a42ce8b170e706c79d75c9.npz",
+      "bytes": 480682,
+      "sha256": "2ccca74684f588ac05faab52b44c2b479c3317c9cfbcb7f20b3306fa41a282b9"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_00a96fa0a0e506ae6f8e9b38",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3196",
+        "source_episode_idx": 3196,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "4d84e23dd0fd12c3a2a15e16c0071bd2dacf2c627122ea7f27b60cf8bb297f64",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 13,
+        "goal_raw_index": 38,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "00a96fa0a0e506ae6f8e9b38af4a23325abc8bf2aef0c64b45921664f6b9f7e4",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_00a96fa0a0e506ae6f8e9b38.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_00a96fa0a0e506ae6f8e9b38.npz",
+      "bytes": 464544,
+      "sha256": "c4325add005a5f38c684f5c9515d45ab221ee751ecf04a3d730c4985ea5191fa"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_00b4080e9d9fba9f88a46f0f",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2446",
+        "source_episode_idx": 2446,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "70dcd1490b62f31d6c132ff903ec48caab14436b181778f1f6974a6128c7ce99",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 128,
+        "goal_raw_index": 153,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "00b4080e9d9fba9f88a46f0f6582d6a02bb18ba1337306775ae344e5c6e996ed",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_00b4080e9d9fba9f88a46f0f.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_00b4080e9d9fba9f88a46f0f.npz",
+      "bytes": 473235,
+      "sha256": "02662a7de76391d3212dc4da749ea279503834e5f77e8fff8f3a1c0986666b51"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_00ee41cc4048f8029f3574ac",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:1099",
+        "source_episode_idx": 1099,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "b2190b5af0f7d291ac9351050a4bac0bacf7de330c7593ef090a7f71089676a1",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 132,
+        "goal_raw_index": 157,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "00ee41cc4048f8029f3574ac4dec76f3c04e396a54dd5f226cb771e5a4aa1f01",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_00ee41cc4048f8029f3574ac.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_00ee41cc4048f8029f3574ac.npz",
+      "bytes": 476408,
+      "sha256": "605b1072cf49610673486f7e2f5938baa69b8b91dcf1ef0d100461a24132736a"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_012739a5d7520626277b5c75",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5986",
+        "source_episode_idx": 5986,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "3a7599dc3f41df3beab3ea8a3db5cb5a4b63b24a7b92dbbcd2c6cfbf8fe0c962",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 140,
+        "goal_raw_index": 165,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "012739a5d7520626277b5c752de27188aab8bcd1f3ee7adaf06e7158020852f8",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_012739a5d7520626277b5c75.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_012739a5d7520626277b5c75.npz",
+      "bytes": 471554,
+      "sha256": "a187f48c8172103dd49351d6eb7c46f012649ca334af08fdc2d218c420d92ed2"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_012f3c0db89c88083a9f2cf1",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:9692",
+        "source_episode_idx": 9692,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "0342399eb96ac4dd67e21a84956d35bb6e0f4e82c2c3531dcf4c6255790ae6ad",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 98,
+        "goal_raw_index": 123,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "012f3c0db89c88083a9f2cf17a60d9fa67794df6d1d6eb3b447275460e6e78de",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_012f3c0db89c88083a9f2cf1.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_012f3c0db89c88083a9f2cf1.npz",
+      "bytes": 464881,
+      "sha256": "88c7b45d0a9b4a3cc1babe054fd8825ee15fc8552373d89f8d0f3e0f2ae55903"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_013358ce55c8bfcc30cddf1a",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:4559",
+        "source_episode_idx": 4559,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "80b81c842e845e9acc89fca4e5e6629c3ae4da0f5751c78ead340a71b1ba402b",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 146,
+        "goal_raw_index": 171,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "013358ce55c8bfcc30cddf1a351deef38ef8e80d8e6d08ce0684649ff2ad1bcd",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_013358ce55c8bfcc30cddf1a.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_013358ce55c8bfcc30cddf1a.npz",
+      "bytes": 467393,
+      "sha256": "db29010622d8f9e7e73cbeb9c8aad7dcc1b5ee82eb60cc087344355a006f6e6e"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_016a4719c68524439b367ffe",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3307",
+        "source_episode_idx": 3307,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "37be6d32cab0c0a4953decaa337bfcbd9930999f41dc7ac3a4b979f8d516e50f",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 22,
+        "goal_raw_index": 47,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "016a4719c68524439b367ffe54e1f9a504854a64037cd8abb3ca8d0285a0f89d",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_016a4719c68524439b367ffe.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_016a4719c68524439b367ffe.npz",
+      "bytes": 471845,
+      "sha256": "3d726f0e606102bd28d191c2476b1e896d6dee01d37b3c6e7c40bd42917334ba"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_01715a0b914cbb58ebc52c88",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5848",
+        "source_episode_idx": 5848,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "127fce73b38200c1bae5e20524e254de9b97b8a955a428e4d9b38bc960f348d5",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 49,
+        "goal_raw_index": 74,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "01715a0b914cbb58ebc52c88aad00212e350f06f945001337194a5541781c2f9",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_01715a0b914cbb58ebc52c88.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_01715a0b914cbb58ebc52c88.npz",
+      "bytes": 470242,
+      "sha256": "10f586757e9dd8f36dc1edcdd73ff4ea9ae0c7a7279c1377c9b146f970ca2c4a"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0187f68f3f1641175dd551b4",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5847",
+        "source_episode_idx": 5847,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "f95376f504c41280296faaab981ce39211d1fe5a0cca9b4792d63e17f41f908d",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 147,
+        "goal_raw_index": 172,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0187f68f3f1641175dd551b4aaaba56992c9def802f0114d596c564a25766f6e",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0187f68f3f1641175dd551b4.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0187f68f3f1641175dd551b4.npz",
+      "bytes": 468474,
+      "sha256": "de1ae67461c9f3ae5336d2de2253c356b52f25012e2f97925871fd012509d8d5"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_018e81228b87a4ce4302673b",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:7574",
+        "source_episode_idx": 7574,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "cea891ba78bc9e20f9d61a51310457029fb4b20ad0bcb0df370ef02b203e620b",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 71,
+        "goal_raw_index": 96,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "018e81228b87a4ce4302673bc54fdf530cf611ad49c99947e3655f61761b92eb",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_018e81228b87a4ce4302673b.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_018e81228b87a4ce4302673b.npz",
+      "bytes": 475276,
+      "sha256": "d079d6b179428aecf1cebd3928ca72fbdefcc5c95ce7e2855e4abccaaaa03d12"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_01980c064b4b1113b25d3b44",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:9524",
+        "source_episode_idx": 9524,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "27f9a18f0b02121feea0769167f2811c3d096707d21372adc34c441d54a224d0",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 52,
+        "goal_raw_index": 77,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "01980c064b4b1113b25d3b446eb8412d57b496e03a8fc0090604c138f38cca84",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_01980c064b4b1113b25d3b44.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_01980c064b4b1113b25d3b44.npz",
+      "bytes": 472502,
+      "sha256": "37d3f16d6b1445d6b8fe7672baaa1f04bd0f63dbcb2bc48841687d07dd73b34b"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_01a1b33a003c3ca9f35bba62",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:7997",
+        "source_episode_idx": 7997,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "775f42f51a0d812b71365698a30c6d5df627a2afb0aef3bf378ede775679178f",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 98,
+        "goal_raw_index": 123,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "01a1b33a003c3ca9f35bba62efb6e1fbc2eb8d132bf3e9e3f825236c39a682ba",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_01a1b33a003c3ca9f35bba62.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_01a1b33a003c3ca9f35bba62.npz",
+      "bytes": 477744,
+      "sha256": "6d0a158541f8f1213443dd1ecbde2e964f2c96dd95f591047c13cab1305edd8a"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0227e37f9a1cbe1d116053c8",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3009",
+        "source_episode_idx": 3009,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "5c0061bdbd6b2c6b763c2f80acefb8833d08dee3ddc47e953dae2135d93f31a1",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 170,
+        "goal_raw_index": 195,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0227e37f9a1cbe1d116053c8a515728fd759f82a00de8927b3b2c11851701f2c",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0227e37f9a1cbe1d116053c8.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0227e37f9a1cbe1d116053c8.npz",
+      "bytes": 480863,
+      "sha256": "91df5092aba3f5fa7af1a3a3f652805508d513e34310ae1e6d1254119e23a753"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0232c4310adc0a23e63eca7a",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:1858",
+        "source_episode_idx": 1858,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "87c22117f67ce4b654362260e342d0a97c5afa292fba900d51bd80bf09293e42",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 147,
+        "goal_raw_index": 172,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0232c4310adc0a23e63eca7aa476cc86180a71cef71f1898b6894fac675f33ac",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0232c4310adc0a23e63eca7a.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0232c4310adc0a23e63eca7a.npz",
+      "bytes": 467717,
+      "sha256": "c41b097d5d9b548415f400ee50ad711cf2e18f965ef4185a24043eb0fb3c1b2e"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_02ba51e1e66bf605e136d477",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:8123",
+        "source_episode_idx": 8123,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "272b117c27f2e00de27fbba9144a9b1a86090cb38d857ded4e57fd9ba0819a4c",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 20,
+        "goal_raw_index": 45,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "02ba51e1e66bf605e136d4770e645240bd670fad6b1419d5d3aaab3ec3bfe80b",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_02ba51e1e66bf605e136d477.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_02ba51e1e66bf605e136d477.npz",
+      "bytes": 469618,
+      "sha256": "8b90638d930e194e421d7c828622be36333be934841c7b9d8e14ce7abcaf0a0d"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_02d79db19c5a0fa590b3d5b2",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:4046",
+        "source_episode_idx": 4046,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "8e22cf6e12fec38b0d99066008f282c3fd9351c0bde2a93a8ebf5d20f5e15a35",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 80,
+        "goal_raw_index": 105,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "02d79db19c5a0fa590b3d5b292804653d0c25d11cc197c7f3b0d27e9d13d1eec",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_02d79db19c5a0fa590b3d5b2.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_02d79db19c5a0fa590b3d5b2.npz",
+      "bytes": 478781,
+      "sha256": "914b2785ed300afdba4f0a5873d81b66d2f68201254a6d911827cbd26f31302f"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_02f2916ca02daedd59731c19",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2166",
+        "source_episode_idx": 2166,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "427461f1c8f3289c4b77bebed45351d9b0cf8d2240153715c2e0c05b6e0c2abc",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 0,
+        "goal_raw_index": 25,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "02f2916ca02daedd59731c196d963bac591a47abbb40057e243537b140505840",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_02f2916ca02daedd59731c19.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_02f2916ca02daedd59731c19.npz",
+      "bytes": 473400,
+      "sha256": "f92848e72f7f4ba87ee876d5b793d2863af60457e2e2e8e9c5d2a222bcafd0a8"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_02f7f95f1383c0162b85498c",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:1563",
+        "source_episode_idx": 1563,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "89f52dd25f2adc7b3522cabaf7e0082094bce0f635588096b54e2129d78a9730",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 101,
+        "goal_raw_index": 126,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "02f7f95f1383c0162b85498c36af806ccffdf069bb321bc40318cb61ae425003",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_02f7f95f1383c0162b85498c.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_02f7f95f1383c0162b85498c.npz",
+      "bytes": 469892,
+      "sha256": "1be29a33c4bb0f09975c29fc5cb14a948833b38f724a774443e3e9e5a3fc876d"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_031973879a14cfbd02aa0401",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:72",
+        "source_episode_idx": 72,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "3b7794a4521b93ce33870f59ac8debe6d9d8736b7443bdf31ad969ba35fe8f91",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 46,
+        "goal_raw_index": 71,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "031973879a14cfbd02aa040164f9cc741838f73f7636d3f34b1fe964d21ae56a",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_031973879a14cfbd02aa0401.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_031973879a14cfbd02aa0401.npz",
+      "bytes": 467278,
+      "sha256": "b71eec477dbada41c12a9b5f560a3fea6320971dedbeb0b86ad619d93ebb5a27"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_035470cd5740d8fd93e7e0d0",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3338",
+        "source_episode_idx": 3338,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "7abff890640b1789096645fb154fd0e53b5791738b9543ce00b2f66ee7e3d746",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 36,
+        "goal_raw_index": 61,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "035470cd5740d8fd93e7e0d0ce36ef3b18f55fdda4528b89862a7b0f9d342264",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_035470cd5740d8fd93e7e0d0.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_035470cd5740d8fd93e7e0d0.npz",
+      "bytes": 467098,
+      "sha256": "651f8f6f5b6380bbdf44c194c0d2c85ec9a2af546768c3521b5e4800502d5301"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_035706909b010fec1b714d75",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3972",
+        "source_episode_idx": 3972,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "479677829b647696ddece556de6732f59e7ee204868c4b70a8b55a00e910001a",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 10,
+        "goal_raw_index": 35,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "035706909b010fec1b714d7523959d36d984ab7340783daad549ed3e612ad88f",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_035706909b010fec1b714d75.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_035706909b010fec1b714d75.npz",
+      "bytes": 475967,
+      "sha256": "77f0257731c74078d0049028faadb059c6bfce419fb004c383e1eb0d37872dc9"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0364f1e5abab061bb9956551",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5038",
+        "source_episode_idx": 5038,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "9db84e34ca865a6511e330c48185b1332b8c7d85227209e5030520f2acf4dac4",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 164,
+        "goal_raw_index": 189,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0364f1e5abab061bb9956551861b3f4d08c57bb9e04392b7e0f05f169e09d125",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0364f1e5abab061bb9956551.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0364f1e5abab061bb9956551.npz",
+      "bytes": 481087,
+      "sha256": "cd973b02bdab8f37e767614173513affad155f166537f0eb90f355df9cecea1b"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_036e1d74212ef3d6a0614a12",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2289",
+        "source_episode_idx": 2289,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "eb2e371ab2d3ccaeef925062273d9414b491faab176872061844bf78de88e3b4",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 44,
+        "goal_raw_index": 69,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "036e1d74212ef3d6a0614a125424795de151e0eaab08061127a549043d98eb2a",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_036e1d74212ef3d6a0614a12.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_036e1d74212ef3d6a0614a12.npz",
+      "bytes": 475716,
+      "sha256": "4c941c8ebe8532b1cf43de87ffc24deedaab51f2618e1774d2cdc66eea8d2e90"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0398d4623a2729aec5b149b1",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:8593",
+        "source_episode_idx": 8593,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "76ce3b2fecd2eb890619ac4648ea2769f116af8ee196f1614ef8f09b43c83915",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 160,
+        "goal_raw_index": 185,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0398d4623a2729aec5b149b1cb80a6a2cc68b01004d6f04f3e5d82fc7e50d9c1",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0398d4623a2729aec5b149b1.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0398d4623a2729aec5b149b1.npz",
+      "bytes": 469812,
+      "sha256": "e0306449971008e3f440b24ea4a71f39e85841d29993c6c6caabfd8c09b804f2"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_03b400de0cc0d449379c5c81",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:6612",
+        "source_episode_idx": 6612,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "8132f0f6f04e34280f8e94bced0c0528add433cb2e7015d990ad14f95c6469d9",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 111,
+        "goal_raw_index": 136,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "03b400de0cc0d449379c5c81b41af03723d8b0bcb27f9c807869ef42ccac8dac",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_03b400de0cc0d449379c5c81.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_03b400de0cc0d449379c5c81.npz",
+      "bytes": 477425,
+      "sha256": "2cac9b2e406bbf2092e06cb3917febd494ee0382b7ae3048bc713a23904a7640"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_03cfc668a515c173c024bbe9",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5099",
+        "source_episode_idx": 5099,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "76f1d37e36f675c490f1826175f7a3aab998248dd43a21ab0e738d62b4368e95",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 116,
+        "goal_raw_index": 141,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "03cfc668a515c173c024bbe99884261882bd086995d7b04530afcbd191318ef2",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_03cfc668a515c173c024bbe9.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_03cfc668a515c173c024bbe9.npz",
+      "bytes": 471804,
+      "sha256": "c54e8cc3a116726d6bcc6d284c1a49e88c8e81ce500bcead9c18368cba41e6b1"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_03e7c5af30dd211154cc7805",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:854",
+        "source_episode_idx": 854,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "c3a8daa9a224709661f19ed1a3b8858c4464f797a40e7133ece721bbb650dfe5",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 57,
+        "goal_raw_index": 82,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "03e7c5af30dd211154cc7805a1f527bd6a99d9ab412999d93803deb5c4381e9b",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_03e7c5af30dd211154cc7805.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_03e7c5af30dd211154cc7805.npz",
+      "bytes": 470388,
+      "sha256": "f6e181d7761578a909eaac99426541ee829e56ededcc0f1778758392a18f74b7"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_040d94753eb0a86a14ef93fc",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:6791",
+        "source_episode_idx": 6791,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "638090b47bc355396b3be9b1f774513b01bf1d3df032a1b41950f92175e29803",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 157,
+        "goal_raw_index": 182,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "040d94753eb0a86a14ef93fcbe35379774435f86bbd0a383e7e2d9f48b397ab5",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_040d94753eb0a86a14ef93fc.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_040d94753eb0a86a14ef93fc.npz",
+      "bytes": 475434,
+      "sha256": "8a5d110821d372e44b4a3e671cc32c5abfac3d458e057f4922b2ff3affdf041c"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_042a9ab2a6844620b8f02603",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:8206",
+        "source_episode_idx": 8206,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "1078ac348e693cb2331dec4deeda057810be2bc575c1db8432823bba099ed298",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 169,
+        "goal_raw_index": 194,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "042a9ab2a6844620b8f026036e1f32cb4ebb3cac98cf42d8bf8cf5782d962415",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_042a9ab2a6844620b8f02603.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_042a9ab2a6844620b8f02603.npz",
+      "bytes": 481561,
+      "sha256": "1c246b891b552ee71e1185720a1e4a991c125f02e2b3a808bdac7c23303c7d45"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0430954ddf115f38d47ab856",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5383",
+        "source_episode_idx": 5383,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "4360b169acdba36659b4a4a289c237e62e9aeb4826afc56fa38d7b06c4f65ebf",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 99,
+        "goal_raw_index": 124,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0430954ddf115f38d47ab856f04e59f661880c76347745a74823393d3579ccf9",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0430954ddf115f38d47ab856.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0430954ddf115f38d47ab856.npz",
+      "bytes": 479341,
+      "sha256": "bed61a4d5042e8bcd9dd42fc9297d51fa6a5f1f8c182368e48cecdece8fad78f"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0465ab0d7b96d1a0cf3590d4",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:7522",
+        "source_episode_idx": 7522,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "c0ba090e4a5dec6c234704f2feade7be69f3f27b9e56b354301dfbc6d92d4243",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 158,
+        "goal_raw_index": 183,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0465ab0d7b96d1a0cf3590d47af352b3113965329f1fe14cd99cd045206e3e4a",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0465ab0d7b96d1a0cf3590d4.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0465ab0d7b96d1a0cf3590d4.npz",
+      "bytes": 474591,
+      "sha256": "9b34481e7af0352af7cc807bfb5c1fc41f47f6807fdc24e8c25078fcf37990e6"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0478aa089a5bd6ad78577cff",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2595",
+        "source_episode_idx": 2595,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "d4c731d28f1380236dfb04e5e3d5d793d6b93cd279e39843b8231eb838696528",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 153,
+        "goal_raw_index": 178,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0478aa089a5bd6ad78577cffc5f8fdabc188df9954050f37899124e6bf7109e7",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0478aa089a5bd6ad78577cff.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0478aa089a5bd6ad78577cff.npz",
+      "bytes": 471229,
+      "sha256": "c8ab1968d9187d6acce2ce3a013116ce3ff315ebeb39bd355ed1e6d13447a9b9"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_047e4cb1a18e5d6c96bf5594",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5697",
+        "source_episode_idx": 5697,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "52641c41197fbc28c39115ef7641c6378f5ded99dedbaee167f68ea9e1cd4950",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 11,
+        "goal_raw_index": 36,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "047e4cb1a18e5d6c96bf55946f1285ddad8728e4e10959e3bb3a91376a61a3cf",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_047e4cb1a18e5d6c96bf5594.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_047e4cb1a18e5d6c96bf5594.npz",
+      "bytes": 473846,
+      "sha256": "89af7d739492b27736cfdd1ee3dc820a96276bfe03d0d6372727edb01285de3a"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_04847e01aefac4afbc5bb48f",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:7421",
+        "source_episode_idx": 7421,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "bdd9f914ce538e343a1b306aea93ad132f68bd576769c3fdcd2b4486467d1dac",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 148,
+        "goal_raw_index": 173,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "04847e01aefac4afbc5bb48f75b72f3c61b9b50c08e188227ac5b390206de312",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_04847e01aefac4afbc5bb48f.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_04847e01aefac4afbc5bb48f.npz",
+      "bytes": 472278,
+      "sha256": "a59d67c8d40f404694907d76abc057fb4aa7c8c095890647200a96e783929b7b"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_04953263a03201733322ef5d",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2678",
+        "source_episode_idx": 2678,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "0732e7cf651599cff6e031381d8a2359defc3203cf2ee021c34fec0f6d38bb44",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 142,
+        "goal_raw_index": 167,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "04953263a03201733322ef5d66c24beb04d752bb26d10615d0836514269cb472",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_04953263a03201733322ef5d.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_04953263a03201733322ef5d.npz",
+      "bytes": 476927,
+      "sha256": "fab4af0895d1ff4ed0472c4dc20b00da796e6bd9885e0850b56e61c381076ec9"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_04ae5f60676b0c2e7fdc3379",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2430",
+        "source_episode_idx": 2430,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "234d746ef30be5545bbdb0ea41f40823ab3b7f14b0610f5d10fbe8dab06bb4f1",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 22,
+        "goal_raw_index": 47,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "04ae5f60676b0c2e7fdc33791569b8b99e6bd1fd1ed6cb80cad7700570f7cce3",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_04ae5f60676b0c2e7fdc3379.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_04ae5f60676b0c2e7fdc3379.npz",
+      "bytes": 465942,
+      "sha256": "37132b8546cb1edb149d76589e6941065c4c787433b3c0a3aca3e3a4017f7321"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0524ab653618ef9a8ac6d7c2",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:6899",
+        "source_episode_idx": 6899,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "efe9ae398ff4aab389cb020b752940ecac14ea3f45b8ec8ab2d509bff4bdee06",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 49,
+        "goal_raw_index": 74,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0524ab653618ef9a8ac6d7c2af5b8974d4da1efe04c5b3297fdf0a69b6a7a25e",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0524ab653618ef9a8ac6d7c2.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0524ab653618ef9a8ac6d7c2.npz",
+      "bytes": 473976,
+      "sha256": "51ad5df151734359c927af1e0e42b006db669a888b6f6960eb3447b5e8e0315c"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0585953bc2631a207abea720",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:1968",
+        "source_episode_idx": 1968,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "ccca495ed9a561cf4edd77471d7c3f5dbf4614c5380e19d19270c044295117ff",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 106,
+        "goal_raw_index": 131,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0585953bc2631a207abea7209af8066abd5c131baed524b2e764e977fd4650c7",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0585953bc2631a207abea720.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0585953bc2631a207abea720.npz",
+      "bytes": 479707,
+      "sha256": "a2bbb896e4ecdaf679297813a6ea181cc844b90d91ea728b95d700d3635d2f6c"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_05887bf66e01e4aa5ebcdc63",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:6659",
+        "source_episode_idx": 6659,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "14848d086d0573b6fb1e4604b6e255139c2f7639923fbb2aea84a6a171a9c817",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 19,
+        "goal_raw_index": 44,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "05887bf66e01e4aa5ebcdc63afb6d760a112224b090e26eeb16bef7cfa0ac27b",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_05887bf66e01e4aa5ebcdc63.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_05887bf66e01e4aa5ebcdc63.npz",
+      "bytes": 474689,
+      "sha256": "daa89dd3f67da897b60241531a2fe0c6671b101e371cda23fcb1ba49c4e233a5"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_05c7cf871753719a71934090",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:7853",
+        "source_episode_idx": 7853,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "777e76acfa1d75f55b71ffda52eb02608da55b97dcf9a1decda6cd4ce6e63382",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 126,
+        "goal_raw_index": 151,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "05c7cf871753719a719340902b919c0ba8dcb856c4e393a9ed6df7d466805d85",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_05c7cf871753719a71934090.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_05c7cf871753719a71934090.npz",
+      "bytes": 478725,
+      "sha256": "a7df04127283e8fbfa0e5c0b515d691b7b37e887d7ce13b25f7a976a048290bc"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_05f96b7fa047d99d15606039",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:1836",
+        "source_episode_idx": 1836,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "ecd025555e6455cfc2b0e50340b70b80b2a60d4fa3618fc00d32806cefc0b859",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 92,
+        "goal_raw_index": 117,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "05f96b7fa047d99d15606039dc1d0b5ebeb752305d7fff462764c4bac40c7519",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_05f96b7fa047d99d15606039.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_05f96b7fa047d99d15606039.npz",
+      "bytes": 482757,
+      "sha256": "d0c42912c87bcb52c7b42ade3196d3a84d7d4458d54822ec80ac1e6db24efbf7"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_06052f7aa968d2462fa28c1c",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:6655",
+        "source_episode_idx": 6655,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "24d89a35b1f4bcd114789e349867862bbcb7b86612fea674674bb22550c5cf96",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 127,
+        "goal_raw_index": 152,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "06052f7aa968d2462fa28c1c782d4b980551555eca4a2913ce4b90998d77f94c",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_06052f7aa968d2462fa28c1c.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_06052f7aa968d2462fa28c1c.npz",
+      "bytes": 478676,
+      "sha256": "99990c62672b1ef2afc11a8cf3444644f68f5a5e46d3570468b521c0fa2194d8"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_060c1cd9ec14201fb795e258",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5171",
+        "source_episode_idx": 5171,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "8358049eae69ed834ed6641d6d2e1781881fa88636ef6c270ae34da0f81800d3",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 166,
+        "goal_raw_index": 191,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "060c1cd9ec14201fb795e2584d6f0252758651faae618dd7350614242506b5d0",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_060c1cd9ec14201fb795e258.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_060c1cd9ec14201fb795e258.npz",
+      "bytes": 480321,
+      "sha256": "f3575237d1d889c2d770788da7af3448b9862a221363b5bc7a3a144749a1596b"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_060c5ca9e27d8a9c2ab8ffa7",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:9109",
+        "source_episode_idx": 9109,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "13f7a81f480f9fe4c20d7ae3e3615dc8620d018d3fb344bd6ead40cbf17ed285",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 174,
+        "goal_raw_index": 199,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "060c5ca9e27d8a9c2ab8ffa700fcb4d987d1f4a5f5e843092926b8a27282f556",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_060c5ca9e27d8a9c2ab8ffa7.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_060c5ca9e27d8a9c2ab8ffa7.npz",
+      "bytes": 464657,
+      "sha256": "ee6ba91c5964d79309c3e99fa844fe0ce82b5e2140af898e25abb08baadb653e"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_061b44f4460d46c92c21bd60",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:619",
+        "source_episode_idx": 619,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "507c3f94b289dd5ac85a8fb1f60e77379624eb377bae78f3c8d59c85a8b360af",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 78,
+        "goal_raw_index": 103,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "061b44f4460d46c92c21bd6035ed8f99b3a699cacb8fcd79e4ab9940937a3a0d",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_061b44f4460d46c92c21bd60.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_061b44f4460d46c92c21bd60.npz",
+      "bytes": 462661,
+      "sha256": "aad8818b366fdd45f1f7b3b6c314597d79b0147e0ab82310c605c883497b278c"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_064c97d468604035e3b82478",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:1957",
+        "source_episode_idx": 1957,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "e538b25a52c1030288756b6f296fb98a42160a5d087d3bcb480f560fe28c03eb",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 131,
+        "goal_raw_index": 156,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "064c97d468604035e3b8247893913856bc6c449df485f625642bc47eba9140f1",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_064c97d468604035e3b82478.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_064c97d468604035e3b82478.npz",
+      "bytes": 481250,
+      "sha256": "f6372a890f60a0c68ccc3d3f425388b0d058c7b8bd7f0018c2fab035808021d3"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0683c083fb4f536ca59b383b",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:4450",
+        "source_episode_idx": 4450,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "af47d1f31f9034f143f8ca1951603f67c5acd20b191b128376da4ce98f8da693",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 117,
+        "goal_raw_index": 142,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0683c083fb4f536ca59b383b30f5c727b98d12c2181f7ace03fea09fb63fb3c2",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0683c083fb4f536ca59b383b.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0683c083fb4f536ca59b383b.npz",
+      "bytes": 472716,
+      "sha256": "a453c64e4cca88a8bc97f8107c6a8be5471d7e913cc11c20fb57214decadf4b7"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_06be953a9b54ada9a23cd517",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:4411",
+        "source_episode_idx": 4411,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "d8bfb58e9762301ae7a09043a0543a5d603d390450bbb1588d3012664afb9063",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 37,
+        "goal_raw_index": 62,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "06be953a9b54ada9a23cd5178ee49e5966a6321e37fe7f1d56c5a090abcc333c",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_06be953a9b54ada9a23cd517.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_06be953a9b54ada9a23cd517.npz",
+      "bytes": 469243,
+      "sha256": "d3d8081d61d2184295f7e820844f2b9d4f4eb9929584ea962e5d07e4cdb9d8f1"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_06d214e4be4c852ade3b0753",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:8016",
+        "source_episode_idx": 8016,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "5b961913aa972375b1e2e67970726c3027150c57675eb6490ffcf02ab01fd108",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 55,
+        "goal_raw_index": 80,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "06d214e4be4c852ade3b0753651533a9ec2fe8380f19ed599584a3996251c157",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_06d214e4be4c852ade3b0753.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_06d214e4be4c852ade3b0753.npz",
+      "bytes": 473218,
+      "sha256": "66b561e36f37646bb5407142d96393fc6f8a4ad6f259efe840e57efb5bf619ec"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0708db7382fec5cd5e27b917",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:1095",
+        "source_episode_idx": 1095,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "0c4b9bec951cd9efb08baf8f466f792b1706ce78676bed938bcfd8087e1dcbfa",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 75,
+        "goal_raw_index": 100,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0708db7382fec5cd5e27b917b9449b8f970e6f315f731e6aaf0ca68e30cb3761",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0708db7382fec5cd5e27b917.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0708db7382fec5cd5e27b917.npz",
+      "bytes": 475449,
+      "sha256": "ad7a890fc03751507121687961d214e3403ae77942ee09334839ff8582e7662c"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_075a6f234556ef08118377af",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:789",
+        "source_episode_idx": 789,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "a640c0b5949fdfdbcecbd728dc0fdf04fbf00d37a37a910bfa364bfa66d076bf",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 108,
+        "goal_raw_index": 133,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "075a6f234556ef08118377af57f500fcb7f7693acdc6805526e95e1127979055",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_075a6f234556ef08118377af.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_075a6f234556ef08118377af.npz",
+      "bytes": 477930,
+      "sha256": "d6658200eba2cc1ab74b6e93fc311c606e84f04f49e40b0053bd3c6f095fb007"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_075bd534b9552763d515c3eb",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:9827",
+        "source_episode_idx": 9827,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "217a91c57008d6f14717d7aa3221f559624fde90f75134d0a1afaa9eb5994864",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 66,
+        "goal_raw_index": 91,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "075bd534b9552763d515c3eb75eeac7c85591c369f8b8d494fedc1495e089e26",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_075bd534b9552763d515c3eb.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_075bd534b9552763d515c3eb.npz",
+      "bytes": 472792,
+      "sha256": "9b1017554a5eec4eb1099e48dbacbdda7b9dfb31365da7f3b3a7570ee47f7283"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_076859ddea9b31c9e474be1f",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:9032",
+        "source_episode_idx": 9032,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "48f364b1fa00140018f5af4c9012aea24afa67567736b90864120e3aa5621278",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 57,
+        "goal_raw_index": 82,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "076859ddea9b31c9e474be1f1ee920d198f6269ccb228e01f4360db020cc8f1d",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_076859ddea9b31c9e474be1f.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_076859ddea9b31c9e474be1f.npz",
+      "bytes": 465577,
+      "sha256": "b5a99ed78532f363d8103da0648e8d72494aba6440f6b509ece37ea6ff94dc6f"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_077bf1092805855086e813a0",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:8250",
+        "source_episode_idx": 8250,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "f3a2b794036be76f0d49f4fa9644106f89bf84fb7a52ba109cdd58e274f4c57a",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 48,
+        "goal_raw_index": 73,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "077bf1092805855086e813a021010587af4feba46996c9fc6b2a302dd6f88763",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_077bf1092805855086e813a0.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_077bf1092805855086e813a0.npz",
+      "bytes": 474771,
+      "sha256": "25e447d543c26951e3a36e4ad36a42365674b4823b29aa1d606887d376d722c5"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_07ac7fa288ed9459791ef5a6",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:1835",
+        "source_episode_idx": 1835,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "cba8c7988a00ac3f2506c5aadc02c0541f07552c56a3d3072250554740b847c1",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 49,
+        "goal_raw_index": 74,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "07ac7fa288ed9459791ef5a62fdd49cfc2cf532caf735909b7cc1950734be6d9",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_07ac7fa288ed9459791ef5a6.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_07ac7fa288ed9459791ef5a6.npz",
+      "bytes": 469299,
+      "sha256": "34e0fcc458585cc92ccd8c8e4b10761f31a377d0ce96a77e19e93c49de29302d"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_07b6177c54e025dac3c825bd",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:7319",
+        "source_episode_idx": 7319,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "616d3eb21b43bb415efa7af36cdeee59c03e7109c9ac43a0dd8eab709fcf3ac7",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 19,
+        "goal_raw_index": 44,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "07b6177c54e025dac3c825bd33c0375d5a82a79efe4cb2a9b44e233690d94076",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_07b6177c54e025dac3c825bd.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_07b6177c54e025dac3c825bd.npz",
+      "bytes": 480385,
+      "sha256": "71fea61def23d6d37f5134ba1a917e7c8e9767cccc83a180275c02d77df5d8d8"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_07bd0cbb0d7b02997c27ee01",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:8652",
+        "source_episode_idx": 8652,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "ca86d9e13eedc16efb500d01fa547587dc269a6237820bc71f1045f6995b4c7a",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 155,
+        "goal_raw_index": 180,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "07bd0cbb0d7b02997c27ee016358b1d1d1409063492b034c04fae7ca1f778d24",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_07bd0cbb0d7b02997c27ee01.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_07bd0cbb0d7b02997c27ee01.npz",
+      "bytes": 462532,
+      "sha256": "6ccfd8091ae992f2fb8956c84f304037c115e372bf593086d1c7fad7a8a0c94b"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0815e263eedc67ee2c425459",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:76",
+        "source_episode_idx": 76,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "e995cbdaaf593a15f8936b8bd109e8221233d2d122512ffdc68689edf410f6fe",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 146,
+        "goal_raw_index": 171,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0815e263eedc67ee2c42545984dbf2ae3cc87be4f6f9f0a17aaeaafb3f9722a1",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0815e263eedc67ee2c425459.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0815e263eedc67ee2c425459.npz",
+      "bytes": 475123,
+      "sha256": "1930f82a2bfe37b35e5989bd8dd4ce1c2bf9646f65c162b4265d508815e211f3"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_08302444b613bd6d1b8ae0b6",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:9031",
+        "source_episode_idx": 9031,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "691f1ce03b06d7a2f784d789e070df8253766be42746c7d229609cb81902c553",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 83,
+        "goal_raw_index": 108,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "08302444b613bd6d1b8ae0b6f6073a4ab4b195d59497a1b4ef7c74dea7d31325",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_08302444b613bd6d1b8ae0b6.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_08302444b613bd6d1b8ae0b6.npz",
+      "bytes": 475997,
+      "sha256": "1850b5203d77ac1a0ddf46e38314ce9aac447bb758ba198ee2f0ce85c8aa826e"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_083f7d51a3033865a310f86e",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:8372",
+        "source_episode_idx": 8372,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "9d080845d0d5dbe806eb1c33159fc4db5b1f77302a2ad2924ffea0a8ce931b22",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 173,
+        "goal_raw_index": 198,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "083f7d51a3033865a310f86e7bc8d73a7d3815611be7d78c33f51a5013877bbb",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_083f7d51a3033865a310f86e.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_083f7d51a3033865a310f86e.npz",
+      "bytes": 486624,
+      "sha256": "f6eb68375e8eb1a4a2075ccd013713b90b67c35725b4f79c4ded853413af4155"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0868cf5888c663452c857e37",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2917",
+        "source_episode_idx": 2917,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "84941a71c2ae44ec34ce62381493fb8044d2e89ea9c8871e723d2142bccddfc3",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 48,
+        "goal_raw_index": 73,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0868cf5888c663452c857e37be8f81ee0c1531c4b978017871fa755cb1bc5069",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0868cf5888c663452c857e37.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0868cf5888c663452c857e37.npz",
+      "bytes": 473398,
+      "sha256": "ee7fbebf531996c04f68bd39bd3ccf02d4850c87ed4ed5ad730b1ae38424a4d3"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_087030d09c5a91e1f8c7464f",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:4581",
+        "source_episode_idx": 4581,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "eaffbd3aab1b1d7c3851edd643a2e281ca95d398179805b8d5d4aaa92461a34a",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 124,
+        "goal_raw_index": 149,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "087030d09c5a91e1f8c7464ffacc38d7d476660bc739bcf57a41d9df76a56598",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_087030d09c5a91e1f8c7464f.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_087030d09c5a91e1f8c7464f.npz",
+      "bytes": 472079,
+      "sha256": "b5f56f3bb070f8b18ed6e61d57cce41d9c88c2a22f32de0d0c38f02f6e672b70"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_08790a87418c8d8124e5f053",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2709",
+        "source_episode_idx": 2709,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "aa170aea9907500826a6b0f8f94b17aeafce468e9b3b7146102611c08bd8604f",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 43,
+        "goal_raw_index": 68,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "08790a87418c8d8124e5f053b8536b0c7738b6bc281266869d45772a2e040077",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_08790a87418c8d8124e5f053.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_08790a87418c8d8124e5f053.npz",
+      "bytes": 481278,
+      "sha256": "a9916a7f106887d1eb94ee0170485ee2ae7c73bbdd6f85b4bcdf810c564099dd"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_08a28e722bd3b5c00e26e70c",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:1481",
+        "source_episode_idx": 1481,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "691210a137415d48ed82f8b23b7fee5c0c7de97e83a43b0532395bab19214399",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 42,
+        "goal_raw_index": 67,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "08a28e722bd3b5c00e26e70c94bf466574020f4d83383fc6c8a536e0ce9d82a5",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_08a28e722bd3b5c00e26e70c.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_08a28e722bd3b5c00e26e70c.npz",
+      "bytes": 476829,
+      "sha256": "091609c877e02d97c41a552165a65042ef50e1fcbbedfd65d6c5dc0594176db2"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_08d21e0295de421cfe2c2c0f",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:4451",
+        "source_episode_idx": 4451,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "29e1593b646f18e243bba5c3854ab684bdd05c64865480d63bde0d4c0e585c6d",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 164,
+        "goal_raw_index": 189,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "08d21e0295de421cfe2c2c0f288665167dafba649c29d9298cbc943ade33f268",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_08d21e0295de421cfe2c2c0f.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_08d21e0295de421cfe2c2c0f.npz",
+      "bytes": 484600,
+      "sha256": "d6d05a192b4e788e88fe04a3c120d2dd404e2e9c632730f71d1af82ca68b2e4d"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_08d355387ce5572dba612460",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2009",
+        "source_episode_idx": 2009,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "a0f6adf6b8aed26d33b126fcd90f113e76531200f1fde7b4a90478b6db84a4f8",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 42,
+        "goal_raw_index": 67,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "08d355387ce5572dba61246094e450565bf6e11616611a04b2fef16dfefbbb43",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_08d355387ce5572dba612460.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_08d355387ce5572dba612460.npz",
+      "bytes": 472535,
+      "sha256": "e32215e5dcffb609e40272cf64faf9b292cecb27f91a3062c234d9bd20d4cbd7"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_08d416aa379373ea0d2a1eb0",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:494",
+        "source_episode_idx": 494,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "14137d12d13a2a279849191f45525a9764f25bd5234113b89be5a3f0e4232807",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 28,
+        "goal_raw_index": 53,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "08d416aa379373ea0d2a1eb04e484916f77362f05b99b47f52aa5a0696560606",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_08d416aa379373ea0d2a1eb0.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_08d416aa379373ea0d2a1eb0.npz",
+      "bytes": 472343,
+      "sha256": "548f2ee4cb0f3d1269a46d347cb0ec7701d6a3e77019f62ca8a50a8870af4ed0"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0906386eb7b55c92f596c491",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:118",
+        "source_episode_idx": 118,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "57e37a60397b407cae93bae895e66a89d35028d0de1632c9084ad1aae35dcb63",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 8,
+        "goal_raw_index": 33,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0906386eb7b55c92f596c4917f2bd9411b9c2671a6e0efa0f5758eda6d928c54",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0906386eb7b55c92f596c491.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0906386eb7b55c92f596c491.npz",
+      "bytes": 485050,
+      "sha256": "d3dcd530bf8e4cb703f7efcb0a22308240caf726b257ccaa0a4c6dbfca0c5eb6"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0950d527f02c5cb3434a2ce7",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2807",
+        "source_episode_idx": 2807,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "1f62feff274b22c0ca386aaa49ae3a9320fa0b098c9f0b37d94d0219163ce933",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 56,
+        "goal_raw_index": 81,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0950d527f02c5cb3434a2ce72184469adea3e896208ca3063227bfa7d4f16039",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0950d527f02c5cb3434a2ce7.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0950d527f02c5cb3434a2ce7.npz",
+      "bytes": 478544,
+      "sha256": "809aac29e3c5d1948315e9be70af36e2f69b11bf038105476440e2d7e02ae3d9"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_09566678125727a9752a0b01",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3612",
+        "source_episode_idx": 3612,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "39d6a4491b32e687e8a2816ec3c194b182a4db947659a7f3f2cc947289224a33",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 29,
+        "goal_raw_index": 54,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "09566678125727a9752a0b01227f6d4cc85a23724613da7f4aa2bc2190d68e0f",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_09566678125727a9752a0b01.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_09566678125727a9752a0b01.npz",
+      "bytes": 475839,
+      "sha256": "c0a7140ba982e76ce5e5056a812bd59d469c23fb8900326b895f7bde545c36de"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_095e15d8c97bd31a681f1bc6",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3430",
+        "source_episode_idx": 3430,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "ed4554f92da0ce3167e2d0bbfa0295bbcf8cbacd8a25e898eb0ab970705b6948",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 68,
+        "goal_raw_index": 93,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "095e15d8c97bd31a681f1bc68229ebf079ec89b3531cb3f473cbecd352c5c905",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_095e15d8c97bd31a681f1bc6.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_095e15d8c97bd31a681f1bc6.npz",
+      "bytes": 480192,
+      "sha256": "915b9101fdec0cb04b39ba6a4024604454d1927527148f80792f3aec853e0f61"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0977fa3c4e5e7f2ee456dcc4",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:6990",
+        "source_episode_idx": 6990,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "b9fe2fbc0306e44caea68dad8583f5aa33f2ee6fa4b8bda8582bd059914ca9e1",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 91,
+        "goal_raw_index": 116,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0977fa3c4e5e7f2ee456dcc4060a5149e54460e6ec432bf4f3c40043a68bc13a",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0977fa3c4e5e7f2ee456dcc4.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0977fa3c4e5e7f2ee456dcc4.npz",
+      "bytes": 479544,
+      "sha256": "984e228bb0f93e2b23f949511420142d3242a40e096c30e4e02725146ac05837"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_09b61e57a8d2ce7ea372776b",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3442",
+        "source_episode_idx": 3442,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "4b95e29343c83b5bc1572db67766749c8efa548111cb70fee349db9d9e1929b2",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 173,
+        "goal_raw_index": 198,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "09b61e57a8d2ce7ea372776b0cbd750754355ea8d2e6799912300dd0efc5cb2a",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_09b61e57a8d2ce7ea372776b.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_09b61e57a8d2ce7ea372776b.npz",
+      "bytes": 468960,
+      "sha256": "9148778d85abfb92e1600d5801849f6587fdbe9aadae0119c1adb496b2599725"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_09c0f89efc1ab04e741013e4",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2301",
+        "source_episode_idx": 2301,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "b2d047e8f02f4fd31067a6147a87773f1ce7170364a33f2b7c5feaeb6690fb9c",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 74,
+        "goal_raw_index": 99,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "09c0f89efc1ab04e741013e48b348bc83956a42188a99305e690b9a3daf1b6f1",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_09c0f89efc1ab04e741013e4.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_09c0f89efc1ab04e741013e4.npz",
+      "bytes": 466132,
+      "sha256": "177af12abde6b13f648a7064d04655071969e0f18762fd948562fa104e015745"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_09e9534ecc02c979ad68765c",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2861",
+        "source_episode_idx": 2861,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "77b91922e1ccdee58eb2e1565eb174f0d929074480952bd1d1c17d57f7b323a3",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 20,
+        "goal_raw_index": 45,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "09e9534ecc02c979ad68765ccf3b4e1467a030645d51e620900b0a8328861fb3",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_09e9534ecc02c979ad68765c.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_09e9534ecc02c979ad68765c.npz",
+      "bytes": 477586,
+      "sha256": "9a7c5f5e2616b198a58898e9d4ebc92dd5f2162f2c76e5085b160f371c737e1e"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_09eca6631a9733298aa4dd23",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:5098",
+        "source_episode_idx": 5098,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "71011b861193951ef38e85ec0ed10d76420304d385a3955425c8528bb494387b",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 56,
+        "goal_raw_index": 81,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "09eca6631a9733298aa4dd2341f782ddd84d3370f99b67bcd0f51e5bdebc1df3",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_09eca6631a9733298aa4dd23.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_09eca6631a9733298aa4dd23.npz",
+      "bytes": 475400,
+      "sha256": "cbdb2f1b2d77370fff9416f922c1f0772f2e6b4ebc74056a3ecf1538a1b8be60"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_09f0ba9e7de1160105c2a014",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2772",
+        "source_episode_idx": 2772,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "290c1b32ddce64033e3fc4544869a73957f128137cb4c4228a5418a03321ba8d",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 79,
+        "goal_raw_index": 104,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "09f0ba9e7de1160105c2a014185440e88e051ea5fc7c48f821fc5425ecbef17b",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_09f0ba9e7de1160105c2a014.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_09f0ba9e7de1160105c2a014.npz",
+      "bytes": 473885,
+      "sha256": "01e9d1e6a3c72d56cf00a1edcaf9fce521707f536a2ef16bc8febc06f93cf170"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0a356f2b21be8e0bda816fce",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:9803",
+        "source_episode_idx": 9803,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "218fe0df3ae815c6733fdf22ec5c7243df219e47029fe2430fa2b0f0f07677eb",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 154,
+        "goal_raw_index": 179,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0a356f2b21be8e0bda816fce0b497f1af1347752cbc9def9e5e04de8e21e3ad8",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0a356f2b21be8e0bda816fce.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0a356f2b21be8e0bda816fce.npz",
+      "bytes": 479839,
+      "sha256": "4d9104adb225b7560efda6ea43c2014def7baf6f94177096620a83cbafc28984"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0a493e8d655fbd79506e8706",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:1301",
+        "source_episode_idx": 1301,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "ecb1a85004b3bc9e239ae5d63a81d680b1b0a27de508e1b129013bf7d2d12855",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 108,
+        "goal_raw_index": 133,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0a493e8d655fbd79506e87064355d9445280f5fb72faaf69011e062c3f811206",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0a493e8d655fbd79506e8706.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0a493e8d655fbd79506e8706.npz",
+      "bytes": 476142,
+      "sha256": "314fec79f44bf39fbe8ee73290d659439314b6b33752c22ec6b28d097687b016"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0a4bb6699ec00f70d6a39661",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:398",
+        "source_episode_idx": 398,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "d2bdea69dbb54cb426fbee7fb10f389cbb0fa37d0c893655f9e951d7607a6f20",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 68,
+        "goal_raw_index": 93,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0a4bb6699ec00f70d6a3966197ea3b057abf275f89e9a902577b270c0faa6b06",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0a4bb6699ec00f70d6a39661.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0a4bb6699ec00f70d6a39661.npz",
+      "bytes": 479586,
+      "sha256": "0e0825c2899de46c0a760afe6c2d4caf241954b818ef4593fae623b693a10d71"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0a701b220f709dcc2eb1c227",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:9239",
+        "source_episode_idx": 9239,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "50f61a92ce6867f9a000ec4d7618e991eff555eac1b61e7a31f1990d49461694",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 159,
+        "goal_raw_index": 184,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0a701b220f709dcc2eb1c227d1b995e6025cec8604ea826244d1f7029b8b86b8",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0a701b220f709dcc2eb1c227.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0a701b220f709dcc2eb1c227.npz",
+      "bytes": 474535,
+      "sha256": "516d456745c72a27e7c36042e40c6d4bd21ce9a146af8ded19bd53255627acca"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0a92cb0f6e317eaad3af0001",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:7685",
+        "source_episode_idx": 7685,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "b2013e3d1a3136081b455519998e0a6c1487c5daefe831071eecff8018adcce9",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 123,
+        "goal_raw_index": 148,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0a92cb0f6e317eaad3af0001acd2ad19950c5227d636b453bbf20c2effaf786b",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0a92cb0f6e317eaad3af0001.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0a92cb0f6e317eaad3af0001.npz",
+      "bytes": 464986,
+      "sha256": "fe56d3b9f8c3359f178b8ac34e88ef87be0afb94d5e35b48edea1d3e87318d24"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0aad4407cd45b36fd2dfdde6",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3309",
+        "source_episode_idx": 3309,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "b608393a162feaf09ae7c40cd88a238ef0450af578f5ed4636412d2643e6ebed",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 49,
+        "goal_raw_index": 74,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0aad4407cd45b36fd2dfdde6034cb11384b62573d807a48b7f4f4ed72c7adf96",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0aad4407cd45b36fd2dfdde6.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0aad4407cd45b36fd2dfdde6.npz",
+      "bytes": 478862,
+      "sha256": "12d2ee73d8959a3974836a7341a13bf23494403c2e8457bb5aee4ea74dba10c5"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0abca3cfc78e350dc9327bfa",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:8094",
+        "source_episode_idx": 8094,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "11ef68f50ec4caeb00c6ffa1fbb3b61369c586677e95d3af2a9d9f0246484e0c",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 60,
+        "goal_raw_index": 85,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0abca3cfc78e350dc9327bfad285de5342e86f6796392825346785ffa7eb4e48",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0abca3cfc78e350dc9327bfa.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0abca3cfc78e350dc9327bfa.npz",
+      "bytes": 470039,
+      "sha256": "a89b449924f962a908ae264c8b35af606824664f5371f4cba619493ced39d159"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0ac41f54db9e05353c35dc14",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:4777",
+        "source_episode_idx": 4777,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "59528d160ba64bbc2b0fd5a65e3e5e86ada3cd29220bef7df0f65e09e27d6972",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 20,
+        "goal_raw_index": 45,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0ac41f54db9e05353c35dc1459d37ccdb1dab594fad5cdff2fa73669fe25521e",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0ac41f54db9e05353c35dc14.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0ac41f54db9e05353c35dc14.npz",
+      "bytes": 470394,
+      "sha256": "685573bf95bebef56a6d0c77f987e42a31d2983b3393c07ba8b6a2fcfe6272e4"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0ac49f6b4c65bc7535abdd9f",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:2865",
+        "source_episode_idx": 2865,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "46e80120e1eff4234615d8adbdb4311d19550f9b652a3c51a9aea7d230087923",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 142,
+        "goal_raw_index": 167,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0ac49f6b4c65bc7535abdd9fcba48ca032bff2ac7632d77c849b3b6cf33c0b59",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0ac49f6b4c65bc7535abdd9f.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0ac49f6b4c65bc7535abdd9f.npz",
+      "bytes": 475235,
+      "sha256": "ec6689d8b73241754c08ca94ad5aaf63ddf70a42840df2b9b777a0025f426042"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0ae9f97b2270da4d65521f67",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:6705",
+        "source_episode_idx": 6705,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "a7eb96d3acc8d2636f1097f3ba0720a4811369c41c0e13a737abc9311fef2bcf",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 136,
+        "goal_raw_index": 161,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0ae9f97b2270da4d65521f6756d2119636954c04fc67b55ade6795b79f03fcc8",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0ae9f97b2270da4d65521f67.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0ae9f97b2270da4d65521f67.npz",
+      "bytes": 478564,
+      "sha256": "862cfd9a80138302473a0d7e7d06a0e9af87a4a49a9157b225b96aa9f25944bd"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0b40958936db2dc0e8f79c7e",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:3703",
+        "source_episode_idx": 3703,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "028999a225e4f16af097d683194398cc4e8f28be5603ae8f8583477a9c1b475d",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 3,
+        "goal_raw_index": 28,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0b40958936db2dc0e8f79c7eaad66cb82cab0a98612d948d2d9ae665f3b81772",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0b40958936db2dc0e8f79c7e.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0b40958936db2dc0e8f79c7e.npz",
+      "bytes": 475126,
+      "sha256": "13d62126ee3f55109d67b0171d1f248a24af2fbef6b7f905bf966c4d0285b1bd"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0b6ebce3a7a0082c790adecc",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:6716",
+        "source_episode_idx": 6716,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "ed72ec4b94528679ff6a0b44794d3c8386a5881f84db5e5b985acaea9809a59a",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 4,
+        "goal_raw_index": 29,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0b6ebce3a7a0082c790adecc270ae4b7a56b50b6f8998b3728808ee82d0f9e39",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0b6ebce3a7a0082c790adecc.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0b6ebce3a7a0082c790adecc.npz",
+      "bytes": 476670,
+      "sha256": "5488ab071b6c0bb9a344df40d3369a067f6617027331ba8d60af7fba55eb952d"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0b81a5e8e598b9c94c35c119",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:6987",
+        "source_episode_idx": 6987,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "eb8262b21280ed96e97b5b985f5a3c5bb9c6de63af3fc4ac9a82d1b97cf872ca",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 145,
+        "goal_raw_index": 170,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0b81a5e8e598b9c94c35c11982a0a10d6972acdc68ad10d5f185d7622e8e677c",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0b81a5e8e598b9c94c35c119.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0b81a5e8e598b9c94c35c119.npz",
+      "bytes": 471161,
+      "sha256": "57d8bf1fa6ae44074aae0f626c5875f7866bfc4a9a0df2823512bd2c623b17f3"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0b87a53cbfc40f0cf484c838",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:886",
+        "source_episode_idx": 886,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "68aa3cb2d98b122616a73f4a1353094bd456c7c9592dae6823d4375260fb29f3",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 87,
+        "goal_raw_index": 112,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0b87a53cbfc40f0cf484c838b1559e1e3e39c8b671aeb4c155ff1bd7070809d7",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0b87a53cbfc40f0cf484c838.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0b87a53cbfc40f0cf484c838.npz",
+      "bytes": 459724,
+      "sha256": "38c9b0baca6afc1b588b993507cfe7e8a3e1b566e62506ac50b2c0be6693fd7f"
+    },
+    {
+      "case": {
+        "task": "reacher",
+        "case_id": "R8_reacher_0b8d24da17b42128de64586e",
+        "role": "EVAL",
+        "episode_id": "reacher:85a7dddfa1801302:9643",
+        "source_episode_idx": 9643,
+        "source_asset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+        "episode_sha256": "ec9a18f4a90b8b0d70bd00211497ecfb2a9ab92e3b1f960a21f9d5bf3bb8c246",
+        "family_id": null,
+        "length": 201,
+        "start_raw_index": 108,
+        "goal_raw_index": 133,
+        "goal_offset_raw": 25,
+        "source_seed": null,
+        "reset_seed": 0,
+        "requires_validated_reset_fallback": true,
+        "reset_metadata": {
+          "column_shapes": {
+            "qpos": [
+              2
+            ],
+            "qvel": [
+              2
+            ]
+          }
+        },
+        "selection_sha256": "0b8d24da17b42128de64586e8a164937d5a22d7bafd9d6e0748a4177bd6f7e52",
+        "selection_rule": "sha256(\"R8_FRESH/reacher/\"+episode_id)",
+        "construction_rule": "R3 case-start hash with target offset 25 raw",
+        "selection_used_model_outputs": false,
+        "reset_seed_validation_sha256": "8d7814bbe4df48052cf3c6262394d1fa67e11c262e962c263e52c78281baea35",
+        "reset_seed_provenance": "SOURCE_SEED_UNKNOWN_VALIDATED_FIXED_SEED0_NOT_RECOVERED"
+      },
+      "file": "R8_reacher_0b8d24da17b42128de64586e.npz",
+      "path": "/workspace/r8/assets/M2/reacher/R8_reacher_0b8d24da17b42128de64586e.npz",
+      "bytes": 468602,
+      "sha256": "cccdbe5bea8e86abdfe2e802ecc6405d31cfd5ff6a33cb1089f57d8ebe488aa1"
+    }
+  ]
+}

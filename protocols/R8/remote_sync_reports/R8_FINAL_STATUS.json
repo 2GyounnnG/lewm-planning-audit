@@ -1,0 +1,27 @@
+{
+  "version": "R8_FINAL_STATUS_V1",
+  "status": "COMPLETE_M1_M2_M3",
+  "m1": {
+    "U1": 2400,
+    "U2": 2400
+  },
+  "m2": {
+    "reacher": 1200,
+    "pusht": 1200,
+    "cube": 1200,
+    "tworoom": 1200,
+    "random_rows": {
+      "reacher": 300,
+      "pusht": 300,
+      "cube": 300,
+      "tworoom": 300
+    }
+  },
+  "m3": {
+    "REPEAT3": 1200,
+    "REAL2": 1200,
+    "PRED_PAST": 1200
+  },
+  "new_training": 0,
+  "automatic_destroy": false
+}

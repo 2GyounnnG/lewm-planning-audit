@@ -1,0 +1,12 @@
+{
+  "r3_source": "/Volumes/MyProj/r3_official_lewm_predictor_refit/recovery",
+  "remote": "/workspace/shared_data/r3",
+  "files": 5265,
+  "bytes": 704133500,
+  "six_refits": 6,
+  "excludes": [
+    "training cache",
+    "intermediate checkpoints",
+    "resume states"
+  ]
+}

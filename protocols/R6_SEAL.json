@@ -1,0 +1,90 @@
+{
+  "version": "R6_FINAL_SEAL_V1",
+  "status": "COMPLETE_PREREGISTERED_FRESH_CASE_REPLICATION",
+  "sealed_utc": "2026-10-03T22:56:46.641215+00:00",
+  "evidence_label": "PREREGISTERED_FRESH_CASE_REPLICATION",
+  "case_selection": {
+    "path": "/workspace/r6/ops/R6_CASE_SELECTION.json",
+    "bytes": 181229,
+    "sha256": "d4af1a42f64ad6b4ce86d6ef30ec6a959ca16dac759346b108c25e5bc0a45501"
+  },
+  "case_windows": {
+    "path": "/workspace/r6/reacher/assets/CASE_WINDOWS.json",
+    "bytes": 237688,
+    "sha256": "c5d4f50bcd9c47d3aa3ff950a8ffb91c707168bd013cb003e8f0f4a713de4e4e"
+  },
+  "formal_launch": {
+    "path": "/workspace/r6/ops/R6_FORMAL_LAUNCH.json",
+    "bytes": 1438,
+    "sha256": "28b69c036ac024dd16b6f7c4b72d7445d77d9a5b3a36170772ed1c8e2272a1a2"
+  },
+  "quiescence": {
+    "path": "/workspace/r6/ops/R6_QUIESCENCE.json",
+    "bytes": 290,
+    "sha256": "bd525915171fd9dce2baf8aa3d2a3c0c5344c817143031e927acbd25fefd8942"
+  },
+  "reports": {
+    "R6_RAW_VALUES.csv": {
+      "path": "/workspace/r6/reacher/reports/R6_RAW_VALUES.csv",
+      "bytes": 773127,
+      "sha256": "017f3d9fd2d9a85b93e47ab3cc950180288362dbd1e3ce8b59b2970d6744d7c6"
+    },
+    "R6_MAIN_TABLE.csv": {
+      "path": "/workspace/r6/reacher/reports/R6_MAIN_TABLE.csv",
+      "bytes": 1772,
+      "sha256": "bee98c6b251bfbbe7f89aa94afafc1139cfce6d77e1e584398ea8d58c304037f"
+    },
+    "R6_SECONDARY_TABLE.csv": {
+      "path": "/workspace/r6/reacher/reports/R6_SECONDARY_TABLE.csv",
+      "bytes": 1803,
+      "sha256": "95a6d6caddf52917db8d7020433706bd047f681c7b838386c3c103e6afd31c86"
+    },
+    "R6_FLIPS.csv": {
+      "path": "/workspace/r6/reacher/reports/R6_FLIPS.csv",
+      "bytes": 17000,
+      "sha256": "1d98eeb1f93329928e7692d30869b8c14a078510cbc5d6fc473335796731ad31"
+    },
+    "R6_STATS.json": {
+      "path": "/workspace/r6/reacher/reports/R6_STATS.json",
+      "bytes": 2114,
+      "sha256": "05fb65624084b46db7dba5a8d4ef1c4a3e8c6b34194b47ffa4228c8c7594f5d8"
+    },
+    "CONCLUSION_ZH.txt": {
+      "path": "/workspace/r6/reacher/reports/CONCLUSION_ZH.txt",
+      "bytes": 367,
+      "sha256": "cd0d93ddf79262917050eff98e9b1002c4fa4451cded9b0405995f239e2202f5"
+    }
+  },
+  "recovery_manifest": {
+    "path": "/workspace/r6/R6_RECOVERY_MANIFEST.json",
+    "bytes": 1702295,
+    "sha256": "6e1d84eca79ce77f686d2c432c7727a1a3bd8d9ef19a8ada6b549795f12b5ec3"
+  },
+  "case_count": 100,
+  "trajectory_count": 2400,
+  "formal_world_model_updates": 0,
+  "primary_endpoint": {
+    "definition": "case mean across 4 models and 3 streams of H_REAL3_REPLAN minus H_POLICY success",
+    "point_estimate": 0.13666666666666663,
+    "bootstrap": 5000,
+    "bootstrap_unit": "CASE",
+    "bootstrap_seed_rule": "int.from_bytes(SHA256(\"R6_CASE_BOOTSTRAP_20261004/reacher\")[:8],big)",
+    "bootstrap_seed_uint64": 2358986375419572309,
+    "bootstrap_indices_sha256": "7ac8216837ae30400798b4b0692c4477f445a119a18610d4f2fa9deb846fdb0e",
+    "ci95": [
+      0.10583333333333332,
+      0.1691666666666667
+    ],
+    "replication判定": "PASS_INTERVAL_LOWER_GT_ZERO"
+  },
+  "first_plan_pair_gate": {
+    "H_REAL3_rows": 1200,
+    "checked_equal": 1200,
+    "mismatches": 0
+  },
+  "R4_R5_jobs_interrupted": false,
+  "R4_R5_evidence_modified": false,
+  "automatic_destroy": false,
+  "automatic_rental": false,
+  "remote_originals_retained": true
+}

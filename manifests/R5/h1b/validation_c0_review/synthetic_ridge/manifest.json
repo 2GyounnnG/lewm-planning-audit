@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "rows": 53,
+  "fold_sizes": [
+    5,
+    7,
+    11,
+    13,
+    17
+  ]
+}

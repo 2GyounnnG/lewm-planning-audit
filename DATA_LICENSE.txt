@@ -1,0 +1,1 @@
+Data and tables in the Zenodo deposit are intended to be released under the Creative Commons Attribution 4.0 International license (CC BY 4.0). Code in this repository is under the MIT License.
