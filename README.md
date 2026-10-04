@@ -1,6 +1,6 @@
 # Better Predictors, Not Better Plans
 
-Code and sealed tables for **“Better Predictors, Not Better Plans: Auditing Planning Bottlenecks in a JEPA World Model.”** This repository is prepared as a private GitHub repository. Paper LaTeX source and PDFs, datasets, per-run trajectories, raw execution logs, checkpoints, and model weights are excluded. A Zenodo deposit is prepared separately; Reserved Zenodo DOI: `10.5281/zenodo.23134310`.
+Code and sealed tables for **“Better Predictors, Not Better Plans: Auditing Planning Bottlenecks in a JEPA World Model.”** This repository is prepared as a public GitHub repository. Paper LaTeX source and PDFs, datasets, per-run trajectories, raw execution logs, checkpoints, and model weights are excluded. A Zenodo deposit is prepared separately; Reserved Zenodo DOI: `10.5281/zenodo.23134310`.
 
 ## Contents
 
