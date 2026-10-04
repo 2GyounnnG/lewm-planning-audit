@@ -126,3 +126,17 @@
 - Numeric audit: 707 tokens, 699 matched; unmatched are the same layout and address values and the `-6` of a `\\cmidrule` range.
 - CLAIM_EVIDENCE.csv: 198 rows (10 R10 rows).
 - Hashes: `main.pdf` `1915cb58d309138b1cf647db5ced27781f286ea5306a41472619ac39fa0d02f4`; `supplementary.pdf` `7d708d6cf0e6cba4e6bb893fae9215b9dcab6e03aff4840c45800df1cf45a078`; `main.tex` `81dd5878e7b55158bc03547fe80bcfd53ed04f671e4b1d1e2d71ceafc9f64c40`; `CLAIM_EVIDENCE.csv` `27a3576d3144b4dc0bc9f4de3e65065f6fa2309d783084846b50318066f04d39`; `number_audit.json` `d7636c1bf825a4313d3c4bf4964d2fc06fa2d2514534d9da20f7bf8b2669d69b`; `evidence/r10/R10_MAIN_TABLE.csv` `fc8c2a3dbfbce4a494333193fca2549bc6922ad7f61bd6c874cc5db69f3aae04`; `figures/fig1_audit_overview.pdf` `74a85cfe99cbf55c7f3db1345be7e85bf157869d81f2c2024df10c6182a2bf1c`; `figures/fig4_history.pdf` `7c2b60199623f9ed80948e048bf60ff97adc99f0fd0da7e46385f7f49b42cbc5`; `figures/src/make_figs.py` `74cffe2e28e07ed73740c9e03c1350b97b3e47c4a17cd6235320887089cb5b2e`.
+
+
+## W8 build (2026-10-04)
+
+- Pages: `main.pdf` 36 (abstract 212 words and keywords on page 1); `supplementary.pdf` 9. No `\resizebox`; the only overfull box is the pre-existing 2.2 pt box on page 1 of each document. Flat build identical in text.
+- Numeric audit: 702 tokens, 693 matched; unmatched are layout values (incl. the 2.5 pt `\tabcolsep`), address values and the `-6` of a `\cmidrule` range.
+- Hashes: `main.pdf` `c6422d89cfc945560dfea48fa8a4a7e4beb21fb5421e5ddb336359a19a03d452`; `supplementary.pdf` `beadfb988a78276b26d12cfe178b3a853673e16877f6274cb598c5f884b01486`; `main.tex` `b11f8541cf887de075c443ab144aad422f7d7c9ab0bb0beee094c66869b1b725`; `refs.bib` `9424a805d0ad590aadd3deb81b7617cf2abd5aa013f8cd18a5efd56a9b7c62b6`; `CLAIM_EVIDENCE.csv` `27a3576d3144b4dc0bc9f4de3e65065f6fa2309d783084846b50318066f04d39`; `tables/table2_main.tex` `be26e1447fa3ae7939ac0118b26283fa2c17032e811ef89b73955af1c0be3be3`; `tables/table3_replanning.tex` `9ec0376159c9063e4a63f494c4ae90b6d6d546c9ff6d8d488ca5f22b17f39301`.
+
+
+## W9 build (2026-10-04)
+
+- Pages: `main.pdf` 36 (abstract 210 words and keywords on page 1); `supplementary.pdf` 9; flat build identical in text; numeric audit unchanged (702 tokens, 693 matched).
+- Hashes: `main.pdf` `69431ac9c68f742f8c01f59bf0db3650414d910d9d7a390ff29465c93a7c7b1b`; `supplementary.pdf` `beadfb988a78276b26d12cfe178b3a853673e16877f6274cb598c5f884b01486`; `main.tex` `3cf6d58a7fe9214201f1c0ce2fe41a4d5a420177e57666df6bf5e5bd28816f3f`; `refs.bib` `3c150adf8c4130686a6246b96bb4adc7c01aff37bd09303617f97dea8dbf2a05`.
+- After the title change: `main.pdf` `7c05e4afc8960bb23aa8ba9299ab2d35d3c2b42a47961ec005ecac2e85589749`; `supplementary.pdf` `106f618cbeab4b3ba7889563d6b87ce54c9e9eaa011457da26edae3fcadcbf01`; `main.tex` `a7e9b8e6b9d011ee32df2ed06aa4e67bb7466343e57a03188f0944bbef269909`; `refs.bib` `daeb98bd92fd88bb7ad698f786e4e24ff54fde81ef0033299557014ad438e0b8`. Page count 36; abstract and keywords on page 1.

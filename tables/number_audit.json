@@ -14,10 +14,10 @@
     "tables/table2_main.tex",
     "tables/table3_replanning.tex"
   ],
-  "numeric_tokens_total": 707,
-  "numeric_tokens_matched_to_claim_evidence": 699,
-  "numeric_tokens_unmatched": 8,
-  "matched_fraction": 0.9887,
+  "numeric_tokens_total": 702,
+  "numeric_tokens_matched_to_claim_evidence": 693,
+  "numeric_tokens_unmatched": 9,
+  "matched_fraction": 0.9872,
   "unmatched_occurrences": [
     {
       "file": "main.tex",
@@ -74,6 +74,13 @@
       "token": "-6",
       "normalized": "-6",
       "matched_claim_ids": []
+    },
+    {
+      "file": "tables/table3_replanning.tex",
+      "line": 6,
+      "token": "2.5",
+      "normalized": "2.5",
+      "matched_claim_ids": []
     }
   ],
   "unique_unmatched_tokens": [
@@ -81,6 +88,7 @@
     "0.07",
     "0.15",
     "0.21",
+    "2.5",
     "9500",
     "92093"
   ]

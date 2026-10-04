@@ -1,6 +1,6 @@
-# Better Predictors, Not Better Plans
+# Better Predictors, Not Necessarily Better Plans
 
-Code and archived evidence for **Better Predictors, Not Better Plans: Auditing Planning Bottlenecks in a JEPA World Model**, manuscript W7 (2026-10-04), software release **v1.1**. Repository: https://github.com/2GyounnnG/lewm-planning-audit. Reserved Zenodo DOI: **10.5281/zenodo.23134310**. Paper LaTeX/PDF, model weights, datasets and per-run trajectories are distributed separately or excluded from this repository.
+Code and archived evidence for **Better Predictors, Not Necessarily Better Plans: Auditing Planning Bottlenecks in a JEPA World Model**, manuscript W9 (2026-10-04), software release **v1.1**. Repository: https://github.com/2GyounnnG/lewm-planning-audit. Reserved Zenodo DOI: **10.5281/zenodo.23134310**. Paper LaTeX/PDF, model weights, datasets and per-run trajectories are distributed separately or excluded from this repository.
 
 ## Contents
 
@@ -38,3 +38,5 @@ The paper scripts preserve the original paper layout: run them from a working di
 ## Licenses and archive
 
 Audit code is MIT; data and tables are CC BY 4.0. Upstream components retain their applicable licenses. Zenodo DOI: `10.5281/zenodo.23134310`. The Zenodo upload remains a draft until the author publishes it. R9/PreJEPA results and weights are outside this release.
+
+The original `v1.1` tag is preserved. W9 title and manuscript-record corrections are follow-up commits on `main`; the refreshed `code_v1.1.zip` identifies its exact source commit in the release receipt.

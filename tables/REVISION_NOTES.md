@@ -170,3 +170,22 @@ W7-2. TwoRoom and Cube history (modules B, C): -0.4 [-1.1, +0.1] and -0.2 [-1.0,
 W7-3. Frame-action separation (module D): real frames with null actions -0.2 [-2.0, +1.6]; current-frame copies with real executed actions +11.6 [+8.5, +14.8]. Section 6.3 retitled "What the extra context supplies"; both arms are stated to be unpaired, off-distribution inputs that rank the components without isolating a mechanism. Limitations and Table 4 updated.
 W7-4. Same-machine controls: cross-machine first-plan drift of about 1e-6 led to complete same-machine single-frame controls for B, C and D (preregistered); documented in Section 3.3 and the Supplement.
 W7-5. Abstract rewritten to 210 words so that it and the keywords stay on page 1; highlights 3 and 4 replaced (12-16 points; actions carry the gain); cover letter contribution 2 updated; Fig. 4 enlarged to a 5.3-inch height with five new forest rows; Fig. 1 result chip updated.
+
+
+## W8: second external review of W7 (Claude, 2026-10-04)
+
+W8-1. Frame--action wording narrowed everywhere (abstract, Sections 1, 6.3, 8.1, 9, Table 4, highlights, cover letter): "the executed actions, not the past images, carry the gain" is replaced by "real past actions with the current frame repeated recover most of the gain; real past frames with null actions none", with the statement that both inputs are mismatched in different ways, that the comparison ranks components under these substitutions without isolating the role of past images in a paired history, and that the 2.1-point difference from the real-history gain is not an estimate of that role.
+W8-2. "At most a small gain" / "a few points at most" -> "a small gain in the pooled post hoc analysis"; "absence of a detectable predictor gain" (Section 8.3) qualified to the prespecified and preregistered comparisons; "gain nothing" (conclusion) -> "show no detectable gain"; Section 2 "holds the public model fixed" -> "holds the public encoder, planner configuration and candidate interface fixed"; reference to stable-worldmodel notes the library-option exception.
+W8-3. Tables 2 and 3 no longer use \resizebox (which set them at about 5 pt); they are typeset at \scriptsize (7 pt) with the stream column merged into the case-set column and abbreviated evidence labels defined in the captions.
+W8-4. Supplement: null actions are zeros in the planner's standardized action space (the dataset-mean raw action; for Reacher essentially zero torque); R10 preregistration times precede each module's raw-value table; the R10 instance (8 x RTX 4090) is named.
+W8-5. Title kept by the author (option A) after the second review also raised it; Section 4 states what the title summarizes. The abstract no longer mentions the probe result, to keep abstract and keywords on page 1 (212 words).
+
+
+## W9: third external review (of W8), small closing edits (Claude, 2026-10-04)
+
+W9-1. The remaining "none" statements for the null-action arm (abstract, Sections 1, 6.3, 8.1, 9) now read "no detectable gain" (the estimate is -0.2 [-2.0, +1.6], not an established zero); "recover most of the gain" is kept as a point-estimate description.
+W9-2. The pooled Reacher interval (95% CI 1.4-6.8) is back in the abstract; the abstract was trimmed elsewhere to 210 words so that abstract and keywords stay on page 1.
+W9-3. Reference swmdocs2026: "after the version used for the main experiments"; Section 2 planning paragraph: "holds one model family's encoder and baseline planner configuration fixed".
+W9-4. Title unchanged pending the author's decision; the reviewer's minimal proposal is "Better Predictors, Not Necessarily Better Plans".
+
+W9-5. Title changed by the author's decision to "Better Predictors, Not Necessarily Better Plans: Auditing Planning Bottlenecks in a JEPA World Model" (the third review's minimal proposal). Updated in main.tex, the supplement title, the Section 4 heading and Fig. 2 caption, the dataset reference, the title page, the cover letter and the submission README; the GitHub README, CITATION.cff and the Zenodo dataset title are to be updated by the publish task.

@@ -1,4 +1,4 @@
-# Source index — v1.1 / W7 (2026-10-04)
+# Source index — v1.1 / W9 (2026-10-04)
 
 R3–R8 and R8-FIX content is retained from the previous release. The following additions/updates are copied byte-for-byte from the author's local sources. No experiment or model inference was run during release preparation.
 
